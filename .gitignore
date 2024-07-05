@@ -1,1 +1,6 @@
 fonts
+/build
+__pycache__
+/build_scripts/*.ass
+.vscode/
+.env
