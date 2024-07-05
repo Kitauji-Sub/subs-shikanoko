@@ -7,10 +7,51 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: C:/Users/scree/Desktop/ep1.mkv
+Video File: C:/Users/scree/Desktop/ep1.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.875000
+Active Line: 13
+Video Position: 30341
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,
+Dialogue: 0,0:00:00.98,0:00:06.03,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:02:53.78,0:02:54.99,OnScreen,,50,0,70,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※女子高中生选美大赛
+Dialogue: 0,0:04:29.79,0:04:33.67,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体\b0\c&H1F2835&\3c&HF4F4F4&\fscx200\fscy200\bord4\pos(1002.28,94.86)}雄性
+Dialogue: 0,0:04:29.79,0:04:33.67,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体\b0\c&H1F2835&\3c&HF4F4F4&\fscx200\fscy200\bord4\pos(1633.14,449.15)}雄性
+Dialogue: 0,0:04:33.67,0:04:35.30,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体 Heavy\c&H000000&\3c&HFFFFFF&\fscx250\fscy250\bord1\pos(835.43,414.85)}不明生物
+Dialogue: 0,0:04:33.67,0:04:35.30,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体 Heavy\c&H000000&\3c&HFFFFFF&\fscx250\fscy250\bord1\pos(1656,412.58)}鹿女
+Dialogue: 0,0:10:51.46,0:10:54.97,OnScreen,,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx200\fscy200\pos(97.13,258.29)}奈良公园\N东大寺
+Dialogue: 0,0:10:54.97,0:10:58.47,OnScreen,,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}奈良公园\N兴福寺
+Dialogue: 0,0:14:19.84,0:14:21.84,OnScreen,,0,0,0,,{\fn思源黑体\b0\c&H0B0B0B&\3c&HF3F5F5&\bord3\fscx170\fscy170\pos(960,1050)}不可以在学校的走廊上奔跑
+Dialogue: 0,0:16:37.35,0:16:38.35,OnScreen,,0,50,70,,{\an9\fn思源黑体\fscx135\fscy135\b1\bord3}哐当 咣当 ※
+Dialogue: 0,0:16:50.86,0:16:51.87,OnScreen,,50,0,70,,{\fad(317,0)\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※ 鹿
+Dialogue: 0,0:20:24.45,0:20:30.46,OnScreen,,0,0,0,,{=17}{\fn悠哉字体\b0\c&H2A292C&\fax0.204292\fscx263.97\fscy192.39\frz24.4512\frx5.4916\fry-0.1107\org(694.85,228.89)\pos(684.07,267.37)}鹿
+Dialogue: 0,0:20:24.45,0:20:30.46,OnScreen,,0,0,0,,{=18}{\fn悠哉字体\b0\c&H2A292C&\fax0.186454\fscx285.90\fscy232.57\frz27.0603\frx5.0211\fry-0.1012\org(933.33,530.51)\pos(922.67,577.03)}主要是照顾鹿
+Dialogue: 0,0:21:05.45,0:21:06.95,OnScreen,,50,0,70,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※ 鹿社\N　快来吧！新成员
+
+[Aegisub Extradata]
+Data: 1,_aegi_perspective_ambient_plane,e832.29;405.81#7C893.03;405.81#7C893.03;485.81#7C657.08;699.86
+Data: 2,_aegi_perspective_ambient_plane,e832.29;405.81#7C893.03;405.81#7C1537.90;716.89#7C657.08;699.86
+Data: 5,_aegi_perspective_ambient_plane,e229.63;630.89#7C1272.35;70.54#7C1242.28;586.63#7C619.28;661.01
+Data: 6,_aegi_perspective_ambient_plane,e229.63;630.89#7C1272.35;70.54#7C1242.28;586.63#7C483.01;1030.74
+Data: 7,_aegi_perspective_ambient_plane,e232.06;633.33#7C1272.35;70.54#7C1242.28;586.63#7C483.01;1030.74
+Data: 8,_aegi_perspective_ambient_plane,e78.75;672.25#7C1272.35;70.54#7C1242.28;586.63#7C483.01;1030.74
+Data: 9,_aegi_perspective_ambient_plane,e78.75;672.25#7C1496.23;36.49#7C1242.28;586.63#7C483.01;1030.74
+Data: 10,_aegi_perspective_ambient_plane,e81.19;679.54#7C1496.23;36.49#7C1242.28;586.63#7C483.01;1030.74
+Data: 11,_aegi_perspective_ambient_plane,e81.19;679.54#7C1493.80;26.76#7C1242.28;586.63#7C483.01;1030.74
+Data: 12,_aegi_perspective_ambient_plane,e86.05;684.41#7C1493.80;26.76#7C1242.28;586.63#7C483.01;1030.74
+Data: 13,_aegi_perspective_ambient_plane,e86.05;684.41#7C1481.63;21.89#7C1242.28;586.63#7C483.01;1030.74
+Data: 14,_aegi_perspective_ambient_plane,e86.05;684.41#7C1481.63;21.89#7C1821.45;462.58#7C483.01;1030.74
+Data: 15,_aegi_perspective_ambient_plane,e86.05;684.41#7C1481.63;21.89#7C1894.45;377.45#7C483.01;1030.75
+Data: 16,_aegi_perspective_ambient_plane,e86.05;684.41#7C1481.62;21.89#7C1894.45;377.45#7C407.58;1244.80
+Data: 17,_aegi_perspective_ambient_plane,e86.05;684.41#7C1481.62;21.89#7C1913.92;392.04#7C407.58;1244.80
+Data: 18,_aegi_perspective_ambient_plane,e86.06;684.40#7C1481.62;21.89#7C1913.90;392.03#7C407.58;1244.76
