@@ -15,10 +15,10 @@ Audio File: C:/Users/scree/Desktop/ep1.mkv
 Video File: C:/Users/scree/Desktop/ep1.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.937500
-Scroll Position: 82
-Active Line: 88
-Video Position: 1337
+Video Zoom Percent: 0.812500
+Scroll Position: 132
+Active Line: 149
+Video Position: 1902
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -177,7 +177,7 @@ Dialogue: 0,0:01:18.01,0:01:19.18,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\p
 Dialogue: 0,0:01:18.20,0:01:19.18,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\pos(1655,573)}级
 Dialogue: 0,0:01:18.38,0:01:19.18,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\pos(256,300)}废
 Dialogue: 0,0:01:18.67,0:01:19.18,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\pos(266,573)}柴
-Comment: 0,0:01:19.29,0:01:21.85,OP,SINO1,0,0,0,kara,{\k10}す{\k10}ご{\k10}く{\k10}昔{\k10}か{\k10}ら{\k10}ジ{\k10}ャ{\k10}ポ{\k10}ン{\k10}に{\k10}生{\k10}息
+Comment: 0,0:01:19.29,0:01:21.85,OP,SINO1,0,0,0,kara,{\k10}す{\k10}ご{\k10}く{\k10}昔{\k10}か{\k10}ら{\k10}ジ{\k10}ャ{\k10}パ{\k10}ン{\k10}に{\k10}生{\k10}息
 Comment: 0,0:01:19.29,0:01:21.85,OP_CN,SINO1,0,0,0,kara,{\k10}很{\k10}久{\k10}很{\k10}久{\k10}以{\k10}前{\k10}开{\k10}始{\k10}就{\k10}能{\k10}够{\k10}在{\k10}日{\k10}本{\k10}看{\k10}见
 Dialogue: 0,0:01:21.96,0:01:24.52,OP,,0,0,0,manual,{\an5\move(150,-100,150,1010,0,5000)\t(\frz360,0,5000)}し
 Dialogue: 0,0:01:22.01,0:01:24.52,OP,,0,0,0,manual,{\an5\move(290,-100,290,1010,0,5000)\t(\frz360,0,5000)}か
