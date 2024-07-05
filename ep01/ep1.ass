@@ -9,6 +9,7 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Scroll Position: 376
+Active Line: 393
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -412,6 +413,6 @@ Comment: 0,0:21:47.63,0:21:51.68,SIKANOKO_Bottom,虎子,0,0,0,kara,啊真是的 
 Comment: 0,0:21:55.29,0:21:58.67,SIKANOKO_Bottom,馅子,0,0,0,kara,有害生物 不可饶恕…\Nおのれ 害獣…
 Comment: 0,0:21:58.67,0:22:00.31,SIKANOKO_Bottom,旁白,0,0,0,kara,吓 吓死宝宝啦\Nこ こわっ！
 Comment: 0,0:22:00.31,0:22:04.41,SIKANOKO_Bottom,旁白,0,0,0,kara,虽然不太明白为什么 但鹿社的战斗才刚刚开始\Nなんだか分からないが シカ部の戦いはこれからだ
-Comment: 0,0:00:47.03,0:00:47.03,Default,,0,0,0,import-shifted,../op.ass
-Comment: 0,0:22:04.97,0:22:04.97,Default,,0,0,0,import-shifted,../ed.ass
+Comment: 0,0:00:47.03,0:00:47.03,Default,,0,0,0,import-shifted,../op_sc.ass
+Comment: 0,0:22:04.97,0:22:04.97,Default,,0,0,0,import-shifted,../ed_sc.ass
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,import,screen/screen.ass
