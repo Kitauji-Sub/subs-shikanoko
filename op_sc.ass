@@ -15,7 +15,10 @@ Audio File: ncop.mp4
 Video File: ncop.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
+Video Zoom Percent: 0.437500
+Scroll Position: 171
+Active Line: 137
+Video Position: 650
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -50,10 +53,10 @@ Comment: 0,0:00:00.48,0:00:00.47,OP,,0,0,0,template char actor SINO2 style OP_CN
 Comment: 0,0:00:00.48,0:00:00.47,OP,,0,0,0,mixin char actor SINO2 style OP_CN,{\frz0\t(0,8000,\frz1080)}
 Dialogue: 0,0:00:00.48,0:00:00.52,OP,OP,0,0,0,,{\fscx1000\fscy1000\bord0\c&H345B85&\an8\pos(960,720)}ぬん
 Dialogue: 0,0:00:00.52,0:00:00.56,OP,OP,0,0,0,,{\fscx150\fscy150\bord0\c&H345B85&\pos(960,800)}ぬん
-Dialogue: 0,0:00:00.56,0:00:00.60,OP,OP,0,0,0,,{\bord0\c&H345B85&\pos(960,690)}ぬん
+Dialogue: 0,0:00:00.56,0:00:00.86,OP,OP,0,0,0,,{\bord0\c&H345B85&\pos(960,690)}ぬん
 Dialogue: 0,0:00:00.48,0:00:00.52,OP_CN,OP,0,0,0,,{\fscx1000\fscy1000\bord0\c&H345B85&\an8\pos(960,300)}噜
 Dialogue: 0,0:00:00.52,0:00:00.56,OP_CN,OP,0,0,0,,{\fscx150\fscy150\bord0\c&H345B85&\pos(960,610)}噜
-Dialogue: 0,0:00:00.56,0:00:00.60,OP_CN,OP,0,0,0,,{\bord0\c&H345B85&\pos(960,570)}噜
+Dialogue: 0,0:00:00.56,0:00:00.86,OP_CN,OP,0,0,0,,{\bord0\c&H345B85&\pos(960,570)}噜
 Comment: 0,0:00:00.86,0:00:03.20,OP,SINO1 noend,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k12}た{\k22}ん{\k14}た{\k51}ん
 Comment: 0,0:00:00.86,0:00:03.20,OP_CN,SINO1 noend,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
 Dialogue: 0,0:00:03.21,0:00:03.57,OP,,0,0,0,,{\c&H7C5EFE&\move(960,1050,-2600,1050)}し{\r}かのこのこのここしたんたん
@@ -162,7 +165,7 @@ Dialogue: 0,0:00:26.59,0:00:26.83,OP,,1400,0,0,manual,{\fn思源黑体 Heavy\c&H
 Dialogue: 0,0:00:25.79,0:00:26.58,OP_CN,,0,1400,0,manual,{\fn思源黑体 Heavy}看上去是
 Dialogue: 0,0:00:26.59,0:00:26.83,OP_CN,,0,1400,0,manual,{\fn思源黑体 Heavy\c&H0A0A0A&\3c&HF2F2F2&\alpha&H00&}看上去是
 Dialogue: 0,0:00:26.59,0:00:26.83,OP_CN,,1400,0,0,manual,{\fn思源黑体 Heavy\c&H0A0A0A&\3c&HF2F2F2&\alpha&H00&}个女孩子？
-Comment: 0,0:00:27.09,0:00:29.72,OP,SINO1,0,0,0,kara,{\k10}近{\k10}頃{\k10}う{\k10}る{\k10}さ{\k10}ぬ{\k10}な{\k10}か{\k10}な{\k10}か{\k10}キ{\k10}ワ{\k10}モ{\k10}ノ
+Comment: 0,0:00:27.09,0:00:29.72,OP,SINO1,0,0,0,kara,{\k10}近{\k10}頃{\k10}ウ{\k10}ワ{\k10}サ{\k10}の{\k10}な{\k10}か{\k10}な{\k10}か{\k10}キ{\k10}ワ{\k10}モ{\k10}ノ
 Comment: 0,0:00:27.09,0:00:29.72,OP_CN,SINO1,0,0,0,kara,{\k10}最{\k10}近{\k10}大{\k10}家{\k10}口{\k10}口{\k10}相{\k10}传{\k10} {\k10}话{\k10}题{\k10}中{\k10}心{\k10}风{\k10}云{\k10}人{\k10}物
 Comment: 0,0:00:29.73,0:00:30.97,OP,SINO1,0,0,0,kara,{\k10}お{\k10}手{\k10}並{\k10}み{\k10}い{\k10}か{\k10}ほ{\k10}ど
 Comment: 0,0:00:29.73,0:00:30.97,OP_CN,SINO1,0,0,0,kara,{\k10}你{\k10}的{\k10}本{\k10}事{\k10}究{\k10}竟{\k10}如{\k10}何
@@ -208,7 +211,7 @@ Comment: 0,0:00:38.79,0:00:40.11,OP,SINO1,0,0,0,kara,{\k10}カ{\k10}モ{\k10}シ
 Comment: 0,0:00:38.79,0:00:40.11,OP_CN,SINO1,0,0,0,kara,{\k10}羚{\k10}羊{\k10}它{\k10}们{\k10}是{\k10}？{\k10}牛{\k10}科{\k10}的
 Comment: 0,0:00:40.11,0:00:42.69,OP,SINO1,0,0,0,kara,{\k10}で{\k10}も{\k10}で{\k10}も{\k10}ま{\k10}と{\k10}め{\k10}て{\k10}偶{\k10}蹄{\k10}目
 Comment: 0,0:00:40.11,0:00:42.69,OP_CN,SINO1,0,0,0,kara,{\k10}不{\k10}过{\k10}它{\k10}们{\k10}全{\k10}部{\k10}都{\k10}是{\k10}偶{\k10}蹄{\k10}目
-Dialogue: 0,0:00:42.69,0:00:46.79,OP,,0,0,0,manual,{\fad(150,150)\bord0\3c&HFFFFFF&}ツノステップで踊ろう
+Dialogue: 0,0:00:42.69,0:00:46.79,OP,,0,0,0,manual,{\fad(150,150)\bord0\3c&HFFFFFF&}ヌンのステップで踊ろう
 Dialogue: 0,0:00:42.69,0:00:46.79,OP_CN,,0,0,0,manual,{\fad(150,150)\bord0\3c&HFFFFFF&}一起来跳鹿鹿舞步吧
 Dialogue: 0,0:00:48.21,0:00:50.45,OP,,0,0,0,manual,{\fad(150,0)\bord0\3c&HF0F0F0&\alpha&H00&\t(1524,2300,\bord20\blur10)}夜が明けるまで
 Dialogue: 0,0:00:48.21,0:00:50.45,OP_CN,,0,0,0,manual,{\fad(150,0)\bord0\3c&HF0F0F0&\alpha&H00&\t(1524,2300,\bord10\blur10)}直到明天太阳升起
@@ -234,7 +237,7 @@ Comment: 0,0:01:10.22,0:01:13.02,OP,SINO1,0,0,0,kara,{\k10}な{\k10}ん{\k10}で
 Comment: 0,0:01:10.22,0:01:13.02,OP_CN,SINO1,0,0,0,kara,{\k10}一{\k10}切{\k10}有{\k10}可{\k10}能{\k10} {\k10}打{\k10}破{\k10}所{\k10}有{\k10}的{\k10}规{\k10}则
 Comment: 0,0:01:13.03,0:01:15.35,OP,SINO1,0,0,0,kara,{\k10}君{\k10}の{\k10}笑{\k10}顔{\k10}で{\k10}元{\k10}気{\k10}満{\k10}タ{\k10}ン
 Comment: 0,0:01:13.03,0:01:15.35,OP_CN,SINO1,0,0,0,kara,{\k10}你{\k10}的{\k10}笑{\k10}容{\k10}总{\k10}能{\k10}让{\k10}我{\k10}充{\k10}满{\k10}活{\k10}力
-Comment: 0,0:01:15.36,0:01:18.20,OP,SINO1,0,0,0,kara,{\k10}も{\k10}し{\k10}か{\k10}し{\k10}て{\k10}運{\k10}命{\k10}の{\k10}ま{\k10}ま{\k10}マ{\k10}ギ{\k10}ア
+Comment: 0,0:01:15.36,0:01:18.20,OP,SINO1,0,0,0,kara,もしかして運命のままマイディア
 Comment: 0,0:01:15.36,0:01:18.20,OP_CN,SINO1,0,0,0,kara,{\k10}也{\k10}许{\k10}是{\k10}命{\k10}中{\k10}注{\k10}定{\k10}的{\k10}M{\k10}y{\k10} {\k10}M{\k10}y{\k10} {\k10}M{\k10}y{\k10} {\k10}D{\k10}e{\k10}e{\k10}r
 Comment: 0,0:01:18.21,0:01:20.68,OP,SINO1,0,0,0,kara,{\k10}心{\k10}の{\k10}ど{\k10}こ{\k10}か{\k10}で{\k10}こ{\k10}し{\k10}た{\k10}ん{\k10}た{\k10}ん
 Comment: 0,0:01:18.21,0:01:20.68,OP_CN,SINO1,0,0,0,kara,{\k10}内{\k10}心{\k10}中{\k10}的{\k10}某{\k10}个{\k10}地{\k10}方{\k10}虎{\k10}视{\k10}眈{\k10}眈
