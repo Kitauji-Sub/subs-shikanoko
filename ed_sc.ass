@@ -11,12 +11,13 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/ep1.mkv
-Video File: C:/Users/scree/Desktop/ep1.mkv
+Audio File: nced.mp4
+Video File: nced.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Video Position: 31768
+Video Zoom Percent: 0.250000
+Active Line: 12
+Video Position: 1752
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -25,30 +26,30 @@ Style: ED_CN,@MiSans,75,&H00345B85,&H000000FF,&H00F0F0F0,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:22:04.97,0:22:05.01,ED,,0,0,0,sync,
-Dialogue: 0,0:22:22.80,0:22:26.39,ED,ED,0,0,0,,{\frz270}わらわら集まるシカ
-Dialogue: 0,0:22:27.16,0:22:30.53,ED,ED,0,0,0,,{\frz270}どこから来るのかシカ
-Dialogue: 0,0:22:31.26,0:22:35.83,ED,ED,0,0,0,,{\frz270}シカ　シカ　シカしかいない
-Dialogue: 0,0:22:35.83,0:22:39.67,ED,ED,0,0,0,,{\frz270}そんなに美味しい鹿せんべい
-Dialogue: 0,0:22:39.80,0:22:44.59,ED,ED,0,0,0,,{\frz270}丸くてこんがり
-Dialogue: 0,0:22:44.70,0:22:49.00,ED,ED,0,0,0,,{\frz270}散らさないで
-Dialogue: 0,0:22:49.00,0:22:53.40,ED,ED,0,0,0,,{\frz270}どうしてそんなに
-Dialogue: 0,0:22:53.40,0:22:57.48,ED,ED,0,0,0,,{\frz270}欲しがるの
-Dialogue: 0,0:22:57.48,0:22:59.48,ED,ED,0,0,0,,{\frz270}しか　シカ　鹿！
-Dialogue: 0,0:22:59.86,0:23:03.21,ED,ED,0,0,0,,{\frz270}頭がいいのがシカ
-Dialogue: 0,0:23:04.24,0:23:07.60,ED,ED,0,0,0,,{\frz270}持ってるとバレるのなぜ
-Dialogue: 0,0:23:08.40,0:23:13.00,ED,ED,0,0,0,,{\frz270}シカ　シカ　シカしかいない！
-Dialogue: 0,0:23:13.00,0:23:16.99,ED,ED,0,0,0,,{\frz270}晴れても雨でもシカのため
-Dialogue: 0,0:22:22.80,0:22:26.39,ED_CN,ED,0,0,0,,{\frz270}小鹿小鹿全都聚过来啦
-Dialogue: 0,0:22:27.16,0:22:30.53,ED_CN,ED,0,0,0,,{\frz270}小鹿小鹿是从哪里来的
-Dialogue: 0,0:22:31.26,0:22:35.83,ED_CN,ED,0,0,0,,{\frz270}鹿鹿　鹿鹿　身边全是鹿鹿
-Dialogue: 0,0:22:35.83,0:22:39.67,ED_CN,ED,0,0,0,,{\frz270}鹿鹿仙贝就是有那么的好吃
-Dialogue: 0,0:22:39.80,0:22:44.59,ED_CN,ED,0,0,0,,{\frz270}圆圆滚滚　焦香酥脆
-Dialogue: 0,0:22:44.70,0:22:49.00,ED_CN,ED,0,0,0,,{\frz270}可别把它弄散
-Dialogue: 0,0:22:49.00,0:22:53.40,ED_CN,ED,0,0,0,,{\frz270}鹿鹿们　为什么
-Dialogue: 0,0:22:53.40,0:22:57.48,ED_CN,ED,0,0,0,,{\frz270}垂涎欲滴了
-Dialogue: 0,0:22:57.48,0:22:59.48,ED_CN,ED,0,0,0,,{\frz270}鹿鹿　鹿鹿　鹿鹿！
-Dialogue: 0,0:22:59.86,0:23:03.21,ED_CN,ED,0,0,0,,{\frz270}聪明绝顶说的就是鹿鹿
-Dialogue: 0,0:23:04.24,0:23:07.60,ED_CN,ED,0,0,0,,{\frz270}为什么带着仙贝就暴露
-Dialogue: 0,0:23:08.40,0:23:13.00,ED_CN,ED,0,0,0,,{\frz270}鹿鹿　鹿鹿　身边全是鹿鹿
-Dialogue: 0,0:23:13.00,0:23:16.99,ED_CN,ED,0,0,0,,{\frz270}无论日照还是雨淋都要喂鹿鹿
+Dialogue: 0,0:00:00.00,0:00:00.02,ED,,0,0,0,sync,
+Dialogue: 0,0:00:17.83,0:00:21.42,ED,ED,0,0,0,,{\frz270}わらわら集まるシカ
+Dialogue: 0,0:00:22.17,0:00:25.56,ED,ED,0,0,0,,{\frz270}どこから来るのかシカ
+Dialogue: 0,0:00:26.29,0:00:30.84,ED,ED,0,0,0,,{\frz270}シカ　シカ　シカしかいない
+Dialogue: 0,0:00:30.84,0:00:34.68,ED,ED,0,0,0,,{\frz270}そんなに美味しい鹿せんべい
+Dialogue: 0,0:00:34.68,0:00:39.60,ED,ED,0,0,0,,{\frz270}丸くてこんがり
+Dialogue: 0,0:00:39.60,0:00:43.94,ED,ED,0,0,0,,{\frz270}散らさないで
+Dialogue: 0,0:00:43.94,0:00:48.43,ED,ED,0,0,0,,{\frz270}どうしてそんなに
+Dialogue: 0,0:00:48.43,0:00:52.51,ED,ED,0,0,0,,{\frz270}欲しがるの
+Dialogue: 0,0:00:52.51,0:00:54.51,ED,ED,0,0,0,,{\frz270}しか　シカ　鹿！
+Dialogue: 0,0:00:54.87,0:00:58.24,ED,ED,0,0,0,,{\frz270}頭がいいのがシカ
+Dialogue: 0,0:00:59.21,0:01:02.63,ED,ED,0,0,0,,{\frz270}持ってるとバレるのなぜ
+Dialogue: 0,0:01:03.50,0:01:08.01,ED,ED,0,0,0,,{\frz270}シカ　シカ　シカしかいない！
+Dialogue: 0,0:01:08.01,0:01:12.02,ED,ED,0,0,0,,{\frz270}晴れても雨でもシカのため
+Dialogue: 0,0:00:17.83,0:00:21.42,ED_CN,ED,0,0,0,,{\frz270}小鹿小鹿全都聚过来啦
+Dialogue: 0,0:00:22.17,0:00:25.56,ED_CN,ED,0,0,0,,{\frz270}小鹿小鹿是从哪里来的
+Dialogue: 0,0:00:26.29,0:00:30.84,ED_CN,ED,0,0,0,,{\frz270}鹿鹿　鹿鹿　身边全是鹿鹿
+Dialogue: 0,0:00:30.84,0:00:34.68,ED_CN,ED,0,0,0,,{\frz270}鹿鹿仙贝就是有那么的好吃
+Dialogue: 0,0:00:34.68,0:00:39.60,ED_CN,ED,0,0,0,,{\frz270}圆圆滚滚　焦香酥脆
+Dialogue: 0,0:00:39.60,0:00:43.94,ED_CN,ED,0,0,0,,{\frz270}可别把它弄散
+Dialogue: 0,0:00:43.94,0:00:48.43,ED_CN,ED,0,0,0,,{\frz270}鹿鹿们　为什么
+Dialogue: 0,0:00:48.43,0:00:52.51,ED_CN,ED,0,0,0,,{\frz270}垂涎欲滴了
+Dialogue: 0,0:00:52.51,0:00:54.51,ED_CN,ED,0,0,0,,{\frz270}鹿鹿　鹿鹿　鹿鹿！
+Dialogue: 0,0:00:54.87,0:00:58.24,ED_CN,ED,0,0,0,,{\frz270}聪明绝顶说的就是鹿鹿
+Dialogue: 0,0:00:59.21,0:01:02.63,ED_CN,ED,0,0,0,,{\frz270}为什么带着仙贝就暴露
+Dialogue: 0,0:01:03.50,0:01:08.01,ED_CN,ED,0,0,0,,{\frz270}鹿鹿　鹿鹿　身边全是鹿鹿
+Dialogue: 0,0:01:08.01,0:01:12.02,ED_CN,ED,0,0,0,,{\frz270}无论日照还是雨淋都要喂鹿鹿
