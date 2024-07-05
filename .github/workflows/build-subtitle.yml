@@ -37,7 +37,7 @@ jobs:
       - name: Install custom fonts
         run: |
           wget https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip
-          unzip -q fonts_sc.zip -d Fonts/
+          unzip -q fonts.zip -d Fonts/
           sudo mv Fonts/* /usr/share/fonts/
           fc-cache -fv
       - name: Build substitles
