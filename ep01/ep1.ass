@@ -14,7 +14,8 @@ Video File: C:/Users/scree/Desktop/ep1.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.125000
-Active Line: 9
+Scroll Position: 348
+Active Line: 352
 Video Position: 3240
 
 [V4+ Styles]
@@ -132,7 +133,7 @@ Comment: 0,0:06:09.72,0:06:11.14,SIKANOKO_Bottom,虎子,0,0,0,kara,这又是为�
 Comment: 0,0:06:11.40,0:06:14.14,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,总而言之言而总之 谢谢你救了我\Nとにもかくにも助けてくれてありがとう
 Comment: 0,0:06:14.14,0:06:15.52,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,不良大姐姐\Nヤンキーのお姉さん
 Comment: 0,0:06:16.69,0:06:18.82,SIKANOKO_Bottom,虎子,0,0,0,kara,哎呀这种小事不用…\N別にこのくらいのことは…
-Comment: 0,0:06:18.82,0:06:20.44,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,不良大姐姐？\Nヤンキーのお姉さん？
+Comment: 0,0:06:18.82,0:06:20.44,SIKANOKO_Bottom,虎子,0,0,0,kara,不良大姐姐？\Nヤンキーのお姉さん？
 Comment: 0,0:06:20.77,0:06:23.53,SIKANOKO_Bottom,虎子,0,0,0,kara,哈？？你说谁是不良？\Nはぁ？？ヤンキーって誰が？
 Comment: 0,0:06:23.53,0:06:24.47,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,大姐姐你呀\Nお姉さんが
 Comment: 0,0:06:24.47,0:06:26.78,SIKANOKO_Bottom,虎子,0,0,0,kara,什 你你你你在说什么呢\Nは ななな何言ってんの
@@ -252,7 +253,7 @@ Comment: 0,0:12:51.47,0:12:53.64,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,闻着吃�
 Comment: 0,0:12:53.64,0:12:55.57,SIKANOKO_Bottom,虎子,0,0,0,kara,那这能算可食用吗 硬吃啊？\N無理して食べる感じのやつ？
 Comment: 0,0:12:56.20,0:12:58.74,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,都说到这份上了\Nそこまで言うなら
 Comment: 0,0:12:58.74,0:12:59.55,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,这是特别礼物哦\N特別だよ
-Comment: 0,0:12:59.55,0:13:00.80,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,都说了不需要啊\Nだから要らんって
+Comment: 0,0:12:59.55,0:13:00.80,SIKANOKO_Bottom,虎子,0,0,0,kara,都说了不需要啊\Nだから要らんって
 Comment: 0,0:13:01.08,0:13:03.53,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 虽然这话我来说有点那啥\Nつーか 私が言うのもあれだけど
 Comment: 0,0:13:03.53,0:13:06.06,SIKANOKO_Bottom,虎子,0,0,0,kara,但你已经是人设大崩塌了啊\Nもうそれアイデンティティー大崩壊だよ！
 Comment: 0,0:13:06.37,0:13:09.97,SIKANOKO_Bottom,虎子,0,0,0,kara,要是没有角 不就变成了个普通的女高中生了吗\N角なかったら それはもうただの女子高生じゃん！
@@ -261,12 +262,12 @@ Comment: 0,0:13:12.25,0:13:14.57,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,人设我�
 Comment: 0,0:13:14.76,0:13:17.00,SIKANOKO_Bottom,虎子,0,0,0,kara,太沉重了吧！而且现在就丢掉人设也太早了！\N重いし！キャラ捨てんのも早い！
 Comment: 0,0:13:17.00,0:13:18.42,SIKANOKO_Bottom,旁白,0,0,0,kara,现在才第一集哦\Nまだ第一話だぞ
 Comment: 0,0:13:18.67,0:13:21.37,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿仙贝也不行 鹿角也不行\N鹿せんべいもだめ 角もだめ
-Comment: 0,0:13:22.95,0:13:23.95,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,还能接回去啊\Nくっつくんだ
+Comment: 0,0:13:22.95,0:13:23.95,SIKANOKO_Bottom,虎子,0,0,0,kara,还能接回去啊\Nくっつくんだ
 Comment: 0,0:13:24.64,0:13:27.45,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,啊！难道大姐姐你想要的是…\Nはっ！もしやお姉さんの望みは
 Comment: 0,0:13:27.76,0:13:28.72,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我？\Nわたし
-Comment: 0,0:13:30.24,0:13:32.33,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,为什么话题一直都限定在鹿身上啊\Nなんでさっきから鹿縛りなの？
-Comment: 0,0:13:32.64,0:13:34.73,SIKANOKO_Bottom,虎子,0,0,0,kara,知道了啦 你吃就是了\N分かったよ 食べるといいよ
-Comment: 0,0:13:34.73,0:13:37.34,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我才不吃啊 而且这俩人谁啊\N食べないわよ ってかこの人たち誰
+Comment: 0,0:13:30.24,0:13:32.33,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么话题一直都限定在鹿身上啊\Nなんでさっきから鹿縛りなの？
+Comment: 0,0:13:32.64,0:13:34.73,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,知道了啦 你吃就是了\N分かったよ 食べるといいよ
+Comment: 0,0:13:34.73,0:13:37.34,SIKANOKO_Bottom,虎子,0,0,0,kara,我才不吃啊 而且这俩人谁啊\N食べないわよ ってかこの人たち誰
 Comment: 0,0:13:37.34,0:13:40.47,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,因为我已经没有别的东西可以给你了呀\Nだって私 他にあげられるものないよ
 Comment: 0,0:13:41.00,0:13:43.76,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你看 一分钱都没有\Nほら この通りお金も持ってないし
 Comment: 0,0:13:43.76,0:13:45.72,SIKANOKO_Bottom,虎子,0,0,0,kara,原来你身上还有鹿仙贝啊\N鹿せんべいまだあるの
@@ -278,7 +279,7 @@ Comment: 0,0:13:58.57,0:14:01.72,SIKANOKO_Bottom,学生,0,0,0,kara,鹿宝鹿宝 
 Comment: 0,0:14:01.72,0:14:03.74,SIKANOKO_Bottom,学生,0,0,0,kara,从早上开始就感觉你们关系很好呢\N朝から仲良さそうだったよね
 Comment: 0,0:14:04.99,0:14:06.48,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 鹿宝？\Nって のこたん？
 Comment: 0,0:14:09.09,0:14:10.76,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,是对我的爱称哦\N私の愛称だよ
-Comment: 0,0:14:10.76,0:14:11.83,SIKANOKO_Bottom,虎子,0,0,0,kara,可爱吧\Nかわいかろ
+Comment: 0,0:14:10.76,0:14:11.83,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,可爱吧\Nかわいかろ
 Comment: 0,0:14:12.23,0:14:13.24,SIKANOKO_Bottom,虎子,0,0,0,kara,什么鬼称呼\Nくそうぜぇ
 Comment: 0,0:14:13.64,0:14:16.66,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,其实我今天被电线卡住了 是这个不…\N実は今朝電柱に引っかかった私をこのヤ...
 Comment: 0,0:14:16.66,0:14:19.84,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子同学 我想起来了 老师刚刚叫你过去一趟\N鹿乃子さん そう言えば先生が呼んでましたよ
@@ -379,7 +380,7 @@ Comment: 0,0:19:38.81,0:19:40.12,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,社团活�
 Comment: 0,0:19:41.74,0:19:44.53,SIKANOKO_Bottom,老师,0,0,0,kara,而且还很聪明 感觉能拿个奖回来\N頭はいいからなんか賞とか取れそう
 Comment: 0,0:19:44.53,0:19:46.42,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,全国高中联赛！\Nインターハイ全国大会！
 Comment: 0,0:19:48.39,0:19:52.55,SIKANOKO_Bottom,老师,0,0,0,kara,鹿社有虎视同学加入的话 一定会大放异彩的\N虎視さんが入部してくれるならシカ部大活躍間違いなしね
-Comment: 0,0:19:52.98,0:19:54.29,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,包在我身上\N任せてください！
+Comment: 0,0:19:52.98,0:19:54.29,SIKANOKO_Bottom,虎子,0,0,0,kara,包在我身上\N任せてください！
 Comment: 0,0:19:54.52,0:19:56.43,SIKANOKO_Bottom,旁白,0,0,0,kara,虎宝真的太好搞定了\Nこしたんはチョロかった
 Comment: 0,0:19:56.74,0:19:59.72,SIKANOKO_Bottom,老师,0,0,0,kara,那鹿乃子同学 填一下社团申请表吧\Nじゃあ鹿乃子さん 部活届書いてね
 Comment: 0,0:19:59.72,0:20:00.34,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,好的噜\Nヌン
