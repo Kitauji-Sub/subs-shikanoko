@@ -14,7 +14,7 @@ Video File: C:/Users/scree/Desktop/ep1.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Active Line: 13
+Active Line: 3
 Video Position: 30341
 
 [V4+ Styles]
@@ -26,7 +26,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.98,0:00:06.03,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
 Dialogue: 0,0:02:53.78,0:02:54.99,OnScreen,,50,0,70,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※女子高中生选美大赛
 Dialogue: 0,0:04:29.79,0:04:33.67,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体\b0\c&H1F2835&\3c&HF4F4F4&\fscx200\fscy200\bord4\pos(1002.28,94.86)}雄性
-Dialogue: 0,0:04:29.79,0:04:33.67,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体\b0\c&H1F2835&\3c&HF4F4F4&\fscx200\fscy200\bord4\pos(1633.14,449.15)}雄性
+Dialogue: 0,0:04:29.79,0:04:33.67,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体\b0\c&H1F2835&\3c&HF4F4F4&\fscx200\fscy200\bord4\pos(1633.14,449.15)}雌性
 Dialogue: 0,0:04:33.67,0:04:35.30,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体 Heavy\c&H000000&\3c&HFFFFFF&\fscx250\fscy250\bord1\pos(835.43,414.85)}不明生物
 Dialogue: 0,0:04:33.67,0:04:35.30,OnScreen,,0,0,0,,{\fad(0,230)\fn思源黑体 Heavy\c&H000000&\3c&HFFFFFF&\fscx250\fscy250\bord1\pos(1656,412.58)}鹿女
 Dialogue: 0,0:10:51.46,0:10:54.97,OnScreen,,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx200\fscy200\pos(97.13,258.29)}奈良公园\N东大寺
