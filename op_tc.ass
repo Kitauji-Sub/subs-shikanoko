@@ -16,7 +16,8 @@ Video File: ncop.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.937500
-Active Line: 17
+Scroll Position: 161
+Active Line: 203
 Video Position: 12
 
 [V4+ Styles]
@@ -229,8 +230,8 @@ Comment: 0,0:01:02.05,0:01:04.84,OP_CN,SINO1,0,0,0,kara,{\k10}不{\k10}知{\k10}
 Comment: 0,0:01:04.96,0:01:07.93,OP,SINO1,0,0,0,kara,{\k15}ハ{\k0}チ{\k20}ャ{\k25}で{\k23}メ{\k0}チ{\k19}ャ{\k14}な{\k50}シ{\k14}カ{\k61}色{\k0}デ{\k0}イ{\k56}ズ
 Comment: 0,0:01:04.96,0:01:07.93,OP_CN,SINO1,0,0,0,kara,{\k10}荒{\k10}唐{\k10}又{\k10} {\k10}胡{\k10}鬧{\k10}的{\k10} {\k10}鹿{\k10}色{\k10}時{\k10}光{\k10}啊
 Dialogue: 1,0:01:08.36,0:01:10.01,OP,,0,0,0,soul,{\fad(518,0)\fnSource Han Serif\fscy120\bord0\c&H292B8F&}破天荒バッチカモン
-Dialogue: 0,0:01:08.36,0:01:10.01,OnScreen,,0,0,0,soul,{\an7\fad(518,0)\p1\c&H000000&\alpha&H5A&\blur20\pos(0,953)}m 0 0 l 1920 0 1920 100 0 100 0 0{\p0}
-Dialogue: 0,0:01:08.36,0:01:10.01,OnScreen,,0,0,0,soul,{\an7\fad(518,0)\p1\c&H000000&\alpha&H5A&\blur20\pos(0,37)}m 0 0 l 1920 0 1920 100 0 100 0 0{\p0}
+Dialogue: 0,0:01:08.36,0:01:10.01,OnScreen,,0,0,0,soul,{\an7\fad(518,0)\p1\c&H000000&\alpha&H5A&\blur20\pos(0,955)}m 0 0 l 1920 0 1920 100 0 100 0 0{\p0}
+Dialogue: 0,0:01:08.36,0:01:10.01,OnScreen,,0,0,0,soul,{\an7\fad(518,0)\p1\c&H000000&\alpha&H5A&\blur20\pos(0,22)}m 0 0 l 1920 0 1920 100 0 100 0 0{\p0}
 Dialogue: 1,0:01:08.36,0:01:10.01,OP_CN,,0,0,0,soul,{\fad(518,0)\fn思源宋体\fscy120\bord0\c&H292B8F&}破天荒全都來吧
 Comment: 0,0:01:10.22,0:01:13.02,OP,SINO1,0,0,0,kara,{\k0}な{\k33}ん{\k16}で{\k16}も{\k16}あ{\k48}り {\k0}ル{\k37}ー{\k15}ル{\k0}な{\k32}ん{\k35}て{\k13}な{\k19}し
 Comment: 0,0:01:10.22,0:01:13.02,OP_CN,SINO1,0,0,0,kara,{\k10}一{\k10}切{\k10}有{\k10}可{\k10}能{\k10} {\k10}打{\k10}破{\k10}所{\k10}有{\k10}的{\k10}規{\k10}則
