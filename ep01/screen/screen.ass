@@ -9,13 +9,13 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/ep1.mkv
-Video File: C:/Users/scree/Desktop/ep1.mkv
+Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 01 (1080p) [3B5309BF].mkv
+Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 01 (1080p) [3B5309BF].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Active Line: 3
-Video Position: 30341
+Active Line: 13
+Video Position: 30376
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -36,7 +36,7 @@ Dialogue: 0,0:16:37.35,0:16:38.35,OnScreen,,0,50,70,,{\an9\fn思源黑体\fscx13
 Dialogue: 0,0:16:50.86,0:16:51.87,OnScreen,,50,0,70,,{\fad(317,0)\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※ 鹿
 Dialogue: 0,0:20:24.45,0:20:30.46,OnScreen,,0,0,0,,{=17}{\fn悠哉字体\b0\c&H2A292C&\fax0.204292\fscx263.97\fscy192.39\frz24.4512\frx5.4916\fry-0.1107\org(694.85,228.89)\pos(684.07,267.37)}鹿
 Dialogue: 0,0:20:24.45,0:20:30.46,OnScreen,,0,0,0,,{=18}{\fn悠哉字体\b0\c&H2A292C&\fax0.186454\fscx285.90\fscy232.57\frz27.0603\frx5.0211\fry-0.1012\org(933.33,530.51)\pos(922.67,577.03)}主要是照顾鹿
-Dialogue: 0,0:21:05.45,0:21:06.95,OnScreen,,50,0,70,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※ 鹿社\N　快来吧！新成员
+Dialogue: 0,0:21:05.45,0:21:06.96,OnScreen,,50,0,70,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord3}※ 鹿社\N　快来吧！新成员
 
 [Aegisub Extradata]
 Data: 1,_aegi_perspective_ambient_plane,e832.29;405.81#7C893.03;405.81#7C893.03;485.81#7C657.08;699.86
