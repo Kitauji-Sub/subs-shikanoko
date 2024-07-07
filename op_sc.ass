@@ -15,10 +15,10 @@ Audio File: ncop.mp4
 Video File: ncop.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.687500
-Scroll Position: 132
-Active Line: 149
-Video Position: 2145
+Video Zoom Percent: 0.750000
+Scroll Position: 24
+Active Line: 29
+Video Position: 280
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -57,18 +57,18 @@ Dialogue: 0,0:00:00.56,0:00:00.86,OP,OP,0,0,0,,{\bord0\c&H345B85&\pos(960,690)}�
 Dialogue: 0,0:00:00.48,0:00:00.52,OP_CN,OP,0,0,0,,{\fscx1000\fscy1000\bord0\c&H345B85&\an8\pos(960,300)}噜
 Dialogue: 0,0:00:00.52,0:00:00.56,OP_CN,OP,0,0,0,,{\fscx150\fscy150\bord0\c&H345B85&\pos(960,610)}噜
 Dialogue: 0,0:00:00.56,0:00:00.86,OP_CN,OP,0,0,0,,{\bord0\c&H345B85&\pos(960,570)}噜
-Comment: 0,0:00:00.86,0:00:03.20,OP,SINO1 noend,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k0}た{\k34}ん{\k0}た{\k37}ん
-Comment: 0,0:00:00.86,0:00:03.20,OP_CN,SINO1 noend,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
-Dialogue: 0,0:00:03.21,0:00:03.57,OP,,0,0,0,,{\c&H7C5EFE&\move(960,1050,-2600,1050)}し{\r}かのこのこのここしたんたん
-Dialogue: 0,0:00:03.21,0:00:03.57,OP_CN,,0,0,0,,{\c&H7C5EFE&\move(960,30,-2600,30)}鹿{\r}乃子乃子乃子虎视眈眈
-Comment: 0,0:00:03.49,0:00:05.83,OP,SINO1 noend,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k0}た{\k34}ん{\k0}た{\k37}ん
-Comment: 0,0:00:03.49,0:00:05.83,OP_CN,SINO1 noend,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
-Dialogue: 0,0:00:05.84,0:00:06.20,OP,,0,0,0,,{\c&H31CAA9&\move(960,1050,960,-1700)}し{\r}かのこのこのここしたんたん
-Dialogue: 0,0:00:05.84,0:00:06.20,OP,,0,0,0,,{\c&H31CAA9&\move(960,30,960,-2720)}鹿{\r}乃子乃子乃子虎视眈眈
+Comment: 0,0:00:00.86,0:00:03.19,OP,SINO1 noend,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k0}た{\k34}ん{\k0}た{\k37}ん
+Comment: 0,0:00:00.86,0:00:03.19,OP_CN,SINO1 noend,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
+Dialogue: 0,0:00:03.19,0:00:03.57,OP,,0,0,0,,{\c&H7C5EFE&\move(960,1050,-2600,1050)}し{\r}かのこのこのここしたんたん
+Dialogue: 0,0:00:03.19,0:00:03.57,OP_CN,,0,0,0,,{\c&H7C5EFE&\move(960,30,-2600,30)}鹿{\r}乃子乃子乃子虎视眈眈
+Comment: 0,0:00:03.49,0:00:05.82,OP,SINO1 noend,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k0}た{\k34}ん{\k0}た{\k37}ん
+Comment: 0,0:00:03.49,0:00:05.82,OP_CN,SINO1 noend,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
+Dialogue: 0,0:00:05.82,0:00:06.19,OP,,0,0,0,,{\c&H31CAA9&\move(960,1050,960,-1700)}し{\r}かのこのこのここしたんたん
+Dialogue: 0,0:00:05.82,0:00:06.19,OP_CN,,0,0,0,,{\c&H31CAA9&\move(960,30,960,-2720)}鹿{\r}乃子乃子乃子虎视眈眈
 Comment: 0,0:00:05.94,0:00:08.45,OP,SINO1 noend,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k0}た{\k34}ん{\k0}た{\k54}ん
 Comment: 0,0:00:05.94,0:00:08.45,OP_CN,SINO1 noend,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
-Dialogue: 0,0:00:08.46,0:00:08.83,OP,,0,0,0,,{\c&HFC9CB3&\move(960,1050,4520,1050)}し{\r}かのこのこのここしたんたん
-Dialogue: 0,0:00:08.46,0:00:08.83,OP_CN,,0,0,0,,{\c&HFC9CB3&\move(960,30,4520,30)}鹿{\r}乃子乃子乃子虎视眈眈
+Dialogue: 0,0:00:08.45,0:00:08.82,OP,,0,0,0,,{\c&HFC9CB3&\move(960,1050,4520,1050)}し{\r}かのこのこのここしたんたん
+Dialogue: 0,0:00:08.45,0:00:08.82,OP_CN,,0,0,0,,{\c&HFC9CB3&\move(960,30,4520,30)}鹿{\r}乃子乃子乃子虎视眈眈
 Comment: 0,0:00:08.66,0:00:11.00,OP,SINO1,0,0,0,kara,{\k19}し{\k19}か{\k15}の{\k14}こ{\k16}の{\k18}こ{\k16}の{\k16}こ{\k14}こ{\k16}し{\k0}た{\k34}ん{\k0}た{\k37}ん
 Comment: 0,0:00:08.66,0:00:11.00,OP_CN,SINO1,0,0,0,kara,{\k32}鹿{\k18}乃{\k13}子{\k21}乃{\k14}子{\k18}乃{\k16}子{\k12}虎{\k18}视{\k34}眈{\k38}眈
 Dialogue: 1,0:00:03.27,0:00:03.31,OnScreen,,0,0,0,overlay,{\an5\fscx230\fscy230\fn思源黑体\b1\c&H000000&\pos(1498.46,944.67)}小心有鹿
@@ -177,7 +177,7 @@ Dialogue: 0,0:00:30.98,0:00:32.14,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\p
 Dialogue: 0,0:00:31.17,0:00:32.14,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\pos(1655,573)}级
 Dialogue: 0,0:00:31.35,0:00:32.14,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\pos(256,300)}废
 Dialogue: 0,0:00:31.64,0:00:32.14,OP_CN,,0,0,0,manual,{\fscx300\fscy300\bord15\pos(266,573)}柴
-Comment: 0,0:00:32.26,0:00:34.81,OP,SINO1,0,0,0,kara,{\k10}ス{\k16}ゴ{\k51}ク{\k0}ム{\k0}カ{\k26}シ{\k16}カ{\k16}ラ {\k0}ジ{\k27}ャ{\k0}パ{\k28}ン{\k18}ニ{\k0}セ{\k23}イ{\k0}ソ{\k24}ク
+Comment: 0,0:00:32.26,0:00:34.81,OP,SINO1,0,0,0,kara,{\k10}ス{\k16}ゴ{\k51}ク{\k0}ム{\k0}カ{\k26}シ{\k16}カ{\k16}ラ {\k0}ジ{\k21}ャ{\k0}パ{\k34}ン{\k18}ニ{\k0}セ{\k23}イ{\k0}ソ{\k24}ク
 Comment: 0,0:00:32.26,0:00:34.81,OP_CN,SINO1,0,0,0,kara,{\k10}很{\k10}久{\k10}很{\k10}久{\k10}以{\k10}前{\k10}开{\k10}始{\k10}就{\k10}能{\k10}够{\k10}在{\k10}日{\k10}本{\k10}看{\k10}见
 Dialogue: 0,0:00:34.93,0:00:37.48,OP,,0,0,0,manual,{\an5\move(150,-100,150,1010,0,5000)\t(\frz360,0,5000)}シ
 Dialogue: 0,0:00:34.98,0:00:37.48,OP,,0,0,0,manual,{\an5\move(290,-100,290,1010,0,5000)\t(\frz360,0,5000)}カ
@@ -215,7 +215,7 @@ Dialogue: 0,0:00:42.84,0:00:46.79,OP,,0,0,0,manual,{\fad(150,150)\bord0\3c&HFFFF
 Dialogue: 0,0:00:42.84,0:00:46.79,OP_CN,,0,0,0,manual,{\fad(150,150)\bord0\3c&HFFFFFF&}一起来跳鹿鹿舞步吧
 Dialogue: 0,0:00:48.21,0:00:50.45,OP,,0,0,0,manual,{\fad(150,0)\bord0\3c&HF0F0F0&\alpha&H00&\t(1524,2300,\bord20\blur10)}夜が明けるまで
 Dialogue: 0,0:00:48.21,0:00:50.45,OP_CN,,0,0,0,manual,{\fad(150,0)\bord0\3c&HF0F0F0&\alpha&H00&\t(1524,2300,\bord10\blur10)}直到明天太阳升起
-Comment: 0,0:00:50.73,0:00:51.56,OP,SINO1,0,0,0,kara,{\k0}わ{\k0}ん{\k29}・{\k0}つ{\k0}ー{\k25}・{\k0}す{\k0}り{\k0}ー{\k29}）
+Comment: 0,0:00:50.73,0:00:51.56,OP,SINO1,0,0,0,kara,{\k0}（{\k0}わ{\k0}ん{\k29}・{\k0}つ{\k0}ー{\k25}・{\k0}す{\k0}り{\k0}ー{\k29}）
 Comment: 0,0:00:50.73,0:00:51.56,OP_CN,SINO1,0,0,0,kara,{\k10}一{\k10} {\k10}二{\k10} {\k10}三
 Comment: 0,0:00:51.57,0:00:54.46,OP,SINO1,0,0,0,kara,{\k0}な{\k30}ん{\k16}ど{\k32}だ{\k0}っ{\k33}て{\k22}反{\k39}芻{\k19}し{\k34}て{\k0} {\k16}ぬ{\k16}ぬ{\k9}ぬ{\k23}ん
 Comment: 0,0:00:51.57,0:00:54.46,OP_CN,SINO1,0,0,0,kara,{\k10}让{\k10}人{\k10}无{\k10}数{\k10}次{\k10}反{\k10}复{\k10}回{\k10}味{\k10} {\k10}噜{\k10}噜{\k10}噜
@@ -825,7 +825,7 @@ Dialogue: 1,0:00:01.11,0:00:01.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1
 Dialogue: 1,0:00:01.15,0:00:01.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz-9.4199452416882\c&H7C5EFE&}し
 Dialogue: 1,0:00:01.19,0:00:01.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz-4.9997616653293\c&H7C5EFE&}し
 Dialogue: 1,0:00:01.23,0:00:01.26,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz3.0127963086102e-05\c&H7C5EFE&}し
-Dialogue: 2,0:00:01.26,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\c&H7C5EFE&}し
+Dialogue: 2,0:00:01.26,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\c&H7C5EFE&}し
 Dialogue: 1,0:00:01.05,0:00:01.11,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz-89.999942731042false}か
 Dialogue: 1,0:00:01.11,0:00:01.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz-13.146141324836false}か
 Dialogue: 1,0:00:01.15,0:00:01.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz5.9127570095783false}か
@@ -835,7 +835,7 @@ Dialogue: 1,0:00:01.27,0:00:01.31,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1
 Dialogue: 1,0:00:01.31,0:00:01.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz10.395486842495false}か
 Dialogue: 1,0:00:01.36,0:00:01.40,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz5.5903334366309false}か
 Dialogue: 1,0:00:01.40,0:00:01.45,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz-3.0127963086102e-05false}か
-Dialogue: 2,0:00:01.45,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)false}か
+Dialogue: 2,0:00:01.45,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)false}か
 Dialogue: 1,0:00:01.24,0:00:01.27,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz89.999942731042false}の
 Dialogue: 1,0:00:01.27,0:00:01.31,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz16.631004809526false}の
 Dialogue: 1,0:00:01.31,0:00:01.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-3.0333026497405false}の
@@ -846,7 +846,7 @@ Dialogue: 1,0:00:01.48,0:00:01.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1
 Dialogue: 1,0:00:01.52,0:00:01.56,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-9.4199452416882false}の
 Dialogue: 1,0:00:01.56,0:00:01.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-4.9997616653293false}の
 Dialogue: 1,0:00:01.61,0:00:01.64,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz3.0127963086102e-05false}の
-Dialogue: 2,0:00:01.64,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)false}の
+Dialogue: 2,0:00:01.64,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)false}の
 Dialogue: 1,0:00:01.39,0:00:01.44,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-89.999942731042false}こ
 Dialogue: 1,0:00:01.44,0:00:01.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-13.146141324836false}こ
 Dialogue: 1,0:00:01.48,0:00:01.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz5.9127570095783false}こ
@@ -856,7 +856,7 @@ Dialogue: 1,0:00:01.61,0:00:01.65,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1
 Dialogue: 1,0:00:01.65,0:00:01.69,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz10.395486842495false}こ
 Dialogue: 1,0:00:01.69,0:00:01.73,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz5.5903334366309false}こ
 Dialogue: 1,0:00:01.73,0:00:01.79,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-3.0127963086102e-05false}こ
-Dialogue: 2,0:00:01.79,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)false}こ
+Dialogue: 2,0:00:01.79,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)false}こ
 Dialogue: 1,0:00:01.53,0:00:01.56,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz89.999942731042false}の
 Dialogue: 1,0:00:01.56,0:00:01.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz16.631004809526false}の
 Dialogue: 1,0:00:01.61,0:00:01.65,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-3.0333026497405false}の
@@ -867,7 +867,7 @@ Dialogue: 1,0:00:01.77,0:00:01.81,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1
 Dialogue: 1,0:00:01.81,0:00:01.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-9.4199452416882false}の
 Dialogue: 1,0:00:01.86,0:00:01.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-4.9997616653293false}の
 Dialogue: 1,0:00:01.90,0:00:01.93,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz3.0127963086102e-05false}の
-Dialogue: 2,0:00:01.93,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)false}の
+Dialogue: 2,0:00:01.93,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)false}の
 Dialogue: 1,0:00:01.69,0:00:01.73,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-89.999942731042false}こ
 Dialogue: 1,0:00:01.73,0:00:01.77,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-16.631004809526false}こ
 Dialogue: 1,0:00:01.77,0:00:01.81,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz3.0333026497405false}こ
@@ -878,7 +878,7 @@ Dialogue: 1,0:00:01.94,0:00:01.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1
 Dialogue: 1,0:00:01.98,0:00:02.02,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz9.4199452416882false}こ
 Dialogue: 1,0:00:02.02,0:00:02.06,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz4.9997616653293false}こ
 Dialogue: 1,0:00:02.06,0:00:02.09,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-3.0127963086102e-05false}こ
-Dialogue: 2,0:00:02.09,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)false}こ
+Dialogue: 2,0:00:02.09,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)false}こ
 Dialogue: 1,0:00:01.87,0:00:01.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz89.999942731042false}の
 Dialogue: 1,0:00:01.90,0:00:01.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz16.631004809526false}の
 Dialogue: 1,0:00:01.94,0:00:01.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-3.0333026497405false}の
@@ -889,7 +889,7 @@ Dialogue: 1,0:00:02.11,0:00:02.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1
 Dialogue: 1,0:00:02.15,0:00:02.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-9.4199452416882false}の
 Dialogue: 1,0:00:02.19,0:00:02.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-4.9997616653293false}の
 Dialogue: 1,0:00:02.23,0:00:02.27,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz3.0127963086102e-05false}の
-Dialogue: 2,0:00:02.27,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)false}の
+Dialogue: 2,0:00:02.27,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)false}の
 Dialogue: 1,0:00:02.03,0:00:02.06,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-89.999942731042false}こ
 Dialogue: 1,0:00:02.06,0:00:02.11,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-16.631004809526false}こ
 Dialogue: 1,0:00:02.11,0:00:02.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz3.0333026497405false}こ
@@ -900,7 +900,7 @@ Dialogue: 1,0:00:02.27,0:00:02.31,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1
 Dialogue: 1,0:00:02.31,0:00:02.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz9.4199452416882false}こ
 Dialogue: 1,0:00:02.36,0:00:02.40,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz4.9997616653293false}こ
 Dialogue: 1,0:00:02.40,0:00:02.43,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-3.0127963086102e-05false}こ
-Dialogue: 2,0:00:02.43,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)false}こ
+Dialogue: 2,0:00:02.43,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)false}こ
 Dialogue: 1,0:00:02.19,0:00:02.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz89.999942731042false}こ
 Dialogue: 1,0:00:02.23,0:00:02.27,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz16.631004809526false}こ
 Dialogue: 1,0:00:02.27,0:00:02.31,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-3.0333026497405false}こ
@@ -911,7 +911,7 @@ Dialogue: 1,0:00:02.44,0:00:02.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,
 Dialogue: 1,0:00:02.48,0:00:02.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-9.4199452416882false}こ
 Dialogue: 1,0:00:02.52,0:00:02.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-4.9997616653293false}こ
 Dialogue: 1,0:00:02.57,0:00:02.59,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz3.0127963086102e-05false}こ
-Dialogue: 2,0:00:02.59,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)false}こ
+Dialogue: 2,0:00:02.59,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)false}こ
 Dialogue: 1,0:00:02.33,0:00:02.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-89.999942731042false}し
 Dialogue: 1,0:00:02.36,0:00:02.40,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-16.631004809526false}し
 Dialogue: 1,0:00:02.40,0:00:02.44,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz3.0333026497405false}し
@@ -922,7 +922,7 @@ Dialogue: 1,0:00:02.57,0:00:02.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,
 Dialogue: 1,0:00:02.61,0:00:02.65,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz9.4199452416882false}し
 Dialogue: 1,0:00:02.65,0:00:02.69,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz4.9997616653293false}し
 Dialogue: 1,0:00:02.69,0:00:02.73,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-3.0127963086102e-05false}し
-Dialogue: 2,0:00:02.73,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)false}し
+Dialogue: 2,0:00:02.73,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)false}し
 Dialogue: 1,0:00:02.49,0:00:02.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz89.999942731042false}た
 Dialogue: 1,0:00:02.52,0:00:02.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz16.631004809526false}た
 Dialogue: 1,0:00:02.57,0:00:02.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-3.0333026497405false}た
@@ -933,7 +933,7 @@ Dialogue: 1,0:00:02.73,0:00:02.77,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,
 Dialogue: 1,0:00:02.77,0:00:02.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-9.4199452416882false}た
 Dialogue: 1,0:00:02.82,0:00:02.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-4.9997616653293false}た
 Dialogue: 1,0:00:02.86,0:00:02.89,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz3.0127963086102e-05false}た
-Dialogue: 2,0:00:02.89,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)false}た
+Dialogue: 2,0:00:02.89,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)false}た
 Dialogue: 1,0:00:02.49,0:00:02.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-89.999942731042false}ん
 Dialogue: 1,0:00:02.52,0:00:02.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-16.631004809526false}ん
 Dialogue: 1,0:00:02.57,0:00:02.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz3.0333026497405false}ん
@@ -944,19 +944,19 @@ Dialogue: 1,0:00:02.73,0:00:02.77,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,
 Dialogue: 1,0:00:02.77,0:00:02.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz9.4199452416882false}ん
 Dialogue: 1,0:00:02.82,0:00:02.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz4.9997616653293false}ん
 Dialogue: 1,0:00:02.86,0:00:02.89,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-3.0127963086102e-05false}ん
-Dialogue: 2,0:00:02.89,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)false}ん
+Dialogue: 2,0:00:02.89,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)false}ん
 Dialogue: 1,0:00:02.83,0:00:02.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz89.999942731042false}た
 Dialogue: 1,0:00:02.86,0:00:02.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz-5.9127570095783false}た
 Dialogue: 1,0:00:02.90,0:00:02.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz-15.305965240886false}た
 Dialogue: 1,0:00:02.94,0:00:02.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz-10.395486842495false}た
 Dialogue: 1,0:00:02.98,0:00:03.03,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz3.0127963086102e-05false}た
-Dialogue: 2,0:00:03.03,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)false}た
+Dialogue: 2,0:00:03.03,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)false}た
 Dialogue: 1,0:00:02.83,0:00:02.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz-89.999942731042false}ん
 Dialogue: 1,0:00:02.86,0:00:02.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz5.9127570095783false}ん
 Dialogue: 1,0:00:02.90,0:00:02.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz15.305965240886false}ん
 Dialogue: 1,0:00:02.94,0:00:02.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz10.395486842495false}ん
 Dialogue: 1,0:00:02.98,0:00:03.03,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz-3.0127963086102e-05false}ん
-Dialogue: 2,0:00:03.03,0:00:03.20,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)false}ん
+Dialogue: 2,0:00:03.03,0:00:03.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)false}ん
 Dialogue: 1,0:00:00.86,0:00:00.90,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz89.999942731042\c&H7C5EFE&}鹿
 Dialogue: 1,0:00:00.90,0:00:00.94,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz16.631004809526\c&H7C5EFE&}鹿
 Dialogue: 1,0:00:00.94,0:00:00.98,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz-3.0333026497405\c&H7C5EFE&}鹿
@@ -967,7 +967,7 @@ Dialogue: 1,0:00:01.11,0:00:01.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\f
 Dialogue: 1,0:00:01.15,0:00:01.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz-9.4199452416882\c&H7C5EFE&}鹿
 Dialogue: 1,0:00:01.19,0:00:01.23,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz-4.9997616653293\c&H7C5EFE&}鹿
 Dialogue: 1,0:00:01.23,0:00:01.26,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz3.0127963086102e-05\c&H7C5EFE&}鹿
-Dialogue: 2,0:00:01.26,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\c&H7C5EFE&}鹿
+Dialogue: 2,0:00:01.26,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\c&H7C5EFE&}鹿
 Dialogue: 1,0:00:01.18,0:00:01.23,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz-89.999942731042false}乃
 Dialogue: 1,0:00:01.23,0:00:01.27,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz-13.146141324836false}乃
 Dialogue: 1,0:00:01.27,0:00:01.31,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz5.9127570095783false}乃
@@ -977,7 +977,7 @@ Dialogue: 1,0:00:01.40,0:00:01.44,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\f
 Dialogue: 1,0:00:01.44,0:00:01.48,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz10.395486842495false}乃
 Dialogue: 1,0:00:01.48,0:00:01.52,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz5.5903334366309false}乃
 Dialogue: 1,0:00:01.52,0:00:01.58,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz-3.0127963086102e-05false}乃
-Dialogue: 2,0:00:01.58,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)false}乃
+Dialogue: 2,0:00:01.58,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)false}乃
 Dialogue: 1,0:00:01.36,0:00:01.40,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz89.999942731042false}子
 Dialogue: 1,0:00:01.40,0:00:01.44,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz16.631004809526false}子
 Dialogue: 1,0:00:01.44,0:00:01.48,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz-3.0333026497405false}子
@@ -988,7 +988,7 @@ Dialogue: 1,0:00:01.61,0:00:01.65,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\f
 Dialogue: 1,0:00:01.65,0:00:01.69,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz-9.4199452416882false}子
 Dialogue: 1,0:00:01.69,0:00:01.73,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz-4.9997616653293false}子
 Dialogue: 1,0:00:01.73,0:00:01.76,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz3.0127963086102e-05false}子
-Dialogue: 2,0:00:01.76,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)false}子
+Dialogue: 2,0:00:01.76,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)false}子
 Dialogue: 1,0:00:01.49,0:00:01.52,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz-89.999942731042false}乃
 Dialogue: 1,0:00:01.52,0:00:01.56,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz-16.631004809526false}乃
 Dialogue: 1,0:00:01.56,0:00:01.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz3.0333026497405false}乃
@@ -999,7 +999,7 @@ Dialogue: 1,0:00:01.73,0:00:01.77,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\f
 Dialogue: 1,0:00:01.77,0:00:01.81,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz9.4199452416882false}乃
 Dialogue: 1,0:00:01.81,0:00:01.86,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz4.9997616653293false}乃
 Dialogue: 1,0:00:01.86,0:00:01.89,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz-3.0127963086102e-05false}乃
-Dialogue: 2,0:00:01.89,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)false}乃
+Dialogue: 2,0:00:01.89,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)false}乃
 Dialogue: 1,0:00:01.70,0:00:01.73,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz89.999942731042false}子
 Dialogue: 1,0:00:01.73,0:00:01.77,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz16.631004809526false}子
 Dialogue: 1,0:00:01.77,0:00:01.81,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz-3.0333026497405false}子
@@ -1010,7 +1010,7 @@ Dialogue: 1,0:00:01.94,0:00:01.98,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\f
 Dialogue: 1,0:00:01.98,0:00:02.02,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz-9.4199452416882false}子
 Dialogue: 1,0:00:02.02,0:00:02.06,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz-4.9997616653293false}子
 Dialogue: 1,0:00:02.06,0:00:02.10,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz3.0127963086102e-05false}子
-Dialogue: 2,0:00:02.10,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)false}子
+Dialogue: 2,0:00:02.10,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)false}子
 Dialogue: 1,0:00:01.84,0:00:01.90,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz-89.999942731042false}乃
 Dialogue: 1,0:00:01.90,0:00:01.94,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz-13.146141324836false}乃
 Dialogue: 1,0:00:01.94,0:00:01.98,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz5.9127570095783false}乃
@@ -1020,7 +1020,7 @@ Dialogue: 1,0:00:02.06,0:00:02.11,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\f
 Dialogue: 1,0:00:02.11,0:00:02.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz10.395486842495false}乃
 Dialogue: 1,0:00:02.15,0:00:02.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz5.5903334366309false}乃
 Dialogue: 1,0:00:02.19,0:00:02.24,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz-3.0127963086102e-05false}乃
-Dialogue: 2,0:00:02.24,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)false}乃
+Dialogue: 2,0:00:02.24,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)false}乃
 Dialogue: 1,0:00:02.02,0:00:02.06,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz89.999942731042false}子
 Dialogue: 1,0:00:02.06,0:00:02.11,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz16.631004809526false}子
 Dialogue: 1,0:00:02.11,0:00:02.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz-3.0333026497405false}子
@@ -1031,7 +1031,7 @@ Dialogue: 1,0:00:02.27,0:00:02.31,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\
 Dialogue: 1,0:00:02.31,0:00:02.36,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz-9.4199452416882false}子
 Dialogue: 1,0:00:02.36,0:00:02.40,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz-4.9997616653293false}子
 Dialogue: 1,0:00:02.40,0:00:02.42,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz3.0127963086102e-05false}子
-Dialogue: 2,0:00:02.42,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)false}子
+Dialogue: 2,0:00:02.42,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)false}子
 Dialogue: 1,0:00:02.18,0:00:02.23,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz-89.999942731042false}虎
 Dialogue: 1,0:00:02.23,0:00:02.27,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz-13.146141324836false}虎
 Dialogue: 1,0:00:02.27,0:00:02.31,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz5.9127570095783false}虎
@@ -1041,7 +1041,7 @@ Dialogue: 1,0:00:02.40,0:00:02.44,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\
 Dialogue: 1,0:00:02.44,0:00:02.48,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz10.395486842495false}虎
 Dialogue: 1,0:00:02.48,0:00:02.52,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz5.5903334366309false}虎
 Dialogue: 1,0:00:02.52,0:00:02.58,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz-3.0127963086102e-05false}虎
-Dialogue: 2,0:00:02.58,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)false}虎
+Dialogue: 2,0:00:02.58,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)false}虎
 Dialogue: 1,0:00:02.30,0:00:02.36,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz89.999942731042false}视
 Dialogue: 1,0:00:02.36,0:00:02.40,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz13.146141324836false}视
 Dialogue: 1,0:00:02.40,0:00:02.44,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz-5.9127570095783false}视
@@ -1051,19 +1051,19 @@ Dialogue: 1,0:00:02.52,0:00:02.57,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\
 Dialogue: 1,0:00:02.57,0:00:02.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz-10.395486842495false}视
 Dialogue: 1,0:00:02.61,0:00:02.65,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz-5.5903334366309false}视
 Dialogue: 1,0:00:02.65,0:00:02.70,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz3.0127963086102e-05false}视
-Dialogue: 2,0:00:02.70,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)false}视
+Dialogue: 2,0:00:02.70,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)false}视
 Dialogue: 1,0:00:02.48,0:00:02.52,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz-89.999942731042false}眈
 Dialogue: 1,0:00:02.52,0:00:02.57,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz5.9127570095783false}眈
 Dialogue: 1,0:00:02.57,0:00:02.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz15.305965240886false}眈
 Dialogue: 1,0:00:02.61,0:00:02.65,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz10.395486842495false}眈
 Dialogue: 1,0:00:02.65,0:00:02.68,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz-3.0127963086102e-05false}眈
-Dialogue: 2,0:00:02.68,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)false}眈
+Dialogue: 2,0:00:02.68,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)false}眈
 Dialogue: 1,0:00:02.82,0:00:02.86,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz89.999942731042false}眈
 Dialogue: 1,0:00:02.86,0:00:02.90,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz-5.9127570095783false}眈
 Dialogue: 1,0:00:02.90,0:00:02.94,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz-15.305965240886false}眈
 Dialogue: 1,0:00:02.94,0:00:02.98,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz-10.395486842495false}眈
 Dialogue: 1,0:00:02.98,0:00:03.02,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz3.0127963086102e-05false}眈
-Dialogue: 2,0:00:03.02,0:00:03.20,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)false}眈
+Dialogue: 2,0:00:03.02,0:00:03.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)false}眈
 Dialogue: 1,0:00:03.49,0:00:03.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz89.999942731042\c&H31CAA9&}し
 Dialogue: 1,0:00:03.52,0:00:03.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz16.631004809526\c&H31CAA9&}し
 Dialogue: 1,0:00:03.57,0:00:03.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz-3.0333026497405\c&H31CAA9&}し
@@ -1074,7 +1074,7 @@ Dialogue: 1,0:00:03.73,0:00:03.77,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1
 Dialogue: 1,0:00:03.77,0:00:03.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz-9.4199452416882\c&H31CAA9&}し
 Dialogue: 1,0:00:03.82,0:00:03.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz-4.9997616653293\c&H31CAA9&}し
 Dialogue: 1,0:00:03.86,0:00:03.89,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz3.0127963086102e-05\c&H31CAA9&}し
-Dialogue: 2,0:00:03.89,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\c&H31CAA9&}し
+Dialogue: 2,0:00:03.89,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\c&H31CAA9&}し
 Dialogue: 1,0:00:03.68,0:00:03.73,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz-89.999942731042false}か
 Dialogue: 1,0:00:03.73,0:00:03.77,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz-13.146141324836false}か
 Dialogue: 1,0:00:03.77,0:00:03.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz5.9127570095783false}か
@@ -1084,7 +1084,7 @@ Dialogue: 1,0:00:03.90,0:00:03.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1
 Dialogue: 1,0:00:03.94,0:00:03.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz10.395486842495false}か
 Dialogue: 1,0:00:03.98,0:00:04.03,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz5.5903334366309false}か
 Dialogue: 1,0:00:04.03,0:00:04.08,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)\frz-3.0127963086102e-05false}か
-Dialogue: 2,0:00:04.08,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)false}か
+Dialogue: 2,0:00:04.08,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(649.215625,1010)false}か
 Dialogue: 1,0:00:03.87,0:00:03.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz89.999942731042false}の
 Dialogue: 1,0:00:03.90,0:00:03.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz16.631004809526false}の
 Dialogue: 1,0:00:03.94,0:00:03.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-3.0333026497405false}の
@@ -1095,7 +1095,7 @@ Dialogue: 1,0:00:04.11,0:00:04.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1
 Dialogue: 1,0:00:04.15,0:00:04.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-9.4199452416882false}の
 Dialogue: 1,0:00:04.19,0:00:04.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-4.9997616653293false}の
 Dialogue: 1,0:00:04.23,0:00:04.27,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)\frz3.0127963086102e-05false}の
-Dialogue: 2,0:00:04.27,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)false}の
+Dialogue: 2,0:00:04.27,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(705.721875,1010)false}の
 Dialogue: 1,0:00:04.02,0:00:04.07,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-89.999942731042false}こ
 Dialogue: 1,0:00:04.07,0:00:04.11,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-13.146141324836false}こ
 Dialogue: 1,0:00:04.11,0:00:04.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz5.9127570095783false}こ
@@ -1105,7 +1105,7 @@ Dialogue: 1,0:00:04.23,0:00:04.28,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1
 Dialogue: 1,0:00:04.28,0:00:04.32,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz10.395486842495false}こ
 Dialogue: 1,0:00:04.32,0:00:04.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz5.5903334366309false}こ
 Dialogue: 1,0:00:04.36,0:00:04.42,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-3.0127963086102e-05false}こ
-Dialogue: 2,0:00:04.42,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)false}こ
+Dialogue: 2,0:00:04.42,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(762.228125,1010)false}こ
 Dialogue: 1,0:00:04.16,0:00:04.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz89.999942731042false}の
 Dialogue: 1,0:00:04.19,0:00:04.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz16.631004809526false}の
 Dialogue: 1,0:00:04.23,0:00:04.28,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-3.0333026497405false}の
@@ -1116,7 +1116,7 @@ Dialogue: 1,0:00:04.40,0:00:04.44,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1
 Dialogue: 1,0:00:04.44,0:00:04.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-9.4199452416882false}の
 Dialogue: 1,0:00:04.48,0:00:04.53,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-4.9997616653293false}の
 Dialogue: 1,0:00:04.53,0:00:04.56,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)\frz3.0127963086102e-05false}の
-Dialogue: 2,0:00:04.56,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)false}の
+Dialogue: 2,0:00:04.56,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(818.734375,1010)false}の
 Dialogue: 1,0:00:04.32,0:00:04.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-89.999942731042false}こ
 Dialogue: 1,0:00:04.36,0:00:04.40,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-16.631004809526false}こ
 Dialogue: 1,0:00:04.40,0:00:04.44,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz3.0333026497405false}こ
@@ -1127,7 +1127,7 @@ Dialogue: 1,0:00:04.57,0:00:04.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1
 Dialogue: 1,0:00:04.61,0:00:04.65,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz9.4199452416882false}こ
 Dialogue: 1,0:00:04.65,0:00:04.69,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz4.9997616653293false}こ
 Dialogue: 1,0:00:04.69,0:00:04.72,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-3.0127963086102e-05false}こ
-Dialogue: 2,0:00:04.72,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)false}こ
+Dialogue: 2,0:00:04.72,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(875.240625,1010)false}こ
 Dialogue: 1,0:00:04.50,0:00:04.53,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz89.999942731042false}の
 Dialogue: 1,0:00:04.53,0:00:04.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz16.631004809526false}の
 Dialogue: 1,0:00:04.57,0:00:04.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-3.0333026497405false}の
@@ -1138,7 +1138,7 @@ Dialogue: 1,0:00:04.73,0:00:04.78,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1
 Dialogue: 1,0:00:04.78,0:00:04.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-9.4199452416882false}の
 Dialogue: 1,0:00:04.82,0:00:04.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-4.9997616653293false}の
 Dialogue: 1,0:00:04.86,0:00:04.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)\frz3.0127963086102e-05false}の
-Dialogue: 2,0:00:04.90,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)false}の
+Dialogue: 2,0:00:04.90,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(931.746875,1010)false}の
 Dialogue: 1,0:00:04.66,0:00:04.69,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-89.999942731042false}こ
 Dialogue: 1,0:00:04.69,0:00:04.73,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-16.631004809526false}こ
 Dialogue: 1,0:00:04.73,0:00:04.78,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz3.0333026497405false}こ
@@ -1149,7 +1149,7 @@ Dialogue: 1,0:00:04.90,0:00:04.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1
 Dialogue: 1,0:00:04.94,0:00:04.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz9.4199452416882false}こ
 Dialogue: 1,0:00:04.98,0:00:05.03,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz4.9997616653293false}こ
 Dialogue: 1,0:00:05.03,0:00:05.06,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-3.0127963086102e-05false}こ
-Dialogue: 2,0:00:05.06,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)false}こ
+Dialogue: 2,0:00:05.06,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(988.253125,1010)false}こ
 Dialogue: 1,0:00:04.82,0:00:04.86,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz89.999942731042false}こ
 Dialogue: 1,0:00:04.86,0:00:04.90,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz16.631004809526false}こ
 Dialogue: 1,0:00:04.90,0:00:04.94,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-3.0333026497405false}こ
@@ -1160,7 +1160,7 @@ Dialogue: 1,0:00:05.07,0:00:05.11,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,
 Dialogue: 1,0:00:05.11,0:00:05.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-9.4199452416882false}こ
 Dialogue: 1,0:00:05.15,0:00:05.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-4.9997616653293false}こ
 Dialogue: 1,0:00:05.19,0:00:05.22,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz3.0127963086102e-05false}こ
-Dialogue: 2,0:00:05.22,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)false}こ
+Dialogue: 2,0:00:05.22,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1044.759375,1010)false}こ
 Dialogue: 1,0:00:04.96,0:00:04.98,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-89.999942731042false}し
 Dialogue: 1,0:00:04.98,0:00:05.03,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-16.631004809526false}し
 Dialogue: 1,0:00:05.03,0:00:05.07,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz3.0333026497405false}し
@@ -1171,7 +1171,7 @@ Dialogue: 1,0:00:05.19,0:00:05.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,
 Dialogue: 1,0:00:05.23,0:00:05.28,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz9.4199452416882false}し
 Dialogue: 1,0:00:05.28,0:00:05.32,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz4.9997616653293false}し
 Dialogue: 1,0:00:05.32,0:00:05.36,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-3.0127963086102e-05false}し
-Dialogue: 2,0:00:05.36,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)false}し
+Dialogue: 2,0:00:05.36,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1101.265625,1010)false}し
 Dialogue: 1,0:00:05.12,0:00:05.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz89.999942731042false}た
 Dialogue: 1,0:00:05.15,0:00:05.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz16.631004809526false}た
 Dialogue: 1,0:00:05.19,0:00:05.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-3.0333026497405false}た
@@ -1182,7 +1182,7 @@ Dialogue: 1,0:00:05.36,0:00:05.40,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,
 Dialogue: 1,0:00:05.40,0:00:05.44,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-9.4199452416882false}た
 Dialogue: 1,0:00:05.44,0:00:05.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-4.9997616653293false}た
 Dialogue: 1,0:00:05.48,0:00:05.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz3.0127963086102e-05false}た
-Dialogue: 2,0:00:05.52,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)false}た
+Dialogue: 2,0:00:05.52,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1157.771875,1010)false}た
 Dialogue: 1,0:00:05.12,0:00:05.15,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-89.999942731042false}ん
 Dialogue: 1,0:00:05.15,0:00:05.19,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-16.631004809526false}ん
 Dialogue: 1,0:00:05.19,0:00:05.23,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz3.0333026497405false}ん
@@ -1193,19 +1193,19 @@ Dialogue: 1,0:00:05.36,0:00:05.40,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,
 Dialogue: 1,0:00:05.40,0:00:05.44,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz9.4199452416882false}ん
 Dialogue: 1,0:00:05.44,0:00:05.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz4.9997616653293false}ん
 Dialogue: 1,0:00:05.48,0:00:05.52,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-3.0127963086102e-05false}ん
-Dialogue: 2,0:00:05.52,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)false}ん
+Dialogue: 2,0:00:05.52,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1214.278125,1010)false}ん
 Dialogue: 1,0:00:05.46,0:00:05.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz89.999942731042false}た
 Dialogue: 1,0:00:05.48,0:00:05.53,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz-5.9127570095783false}た
 Dialogue: 1,0:00:05.53,0:00:05.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz-15.305965240886false}た
 Dialogue: 1,0:00:05.57,0:00:05.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz-10.395486842495false}た
 Dialogue: 1,0:00:05.61,0:00:05.66,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)\frz3.0127963086102e-05false}た
-Dialogue: 2,0:00:05.66,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)false}た
+Dialogue: 2,0:00:05.66,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1270.784375,1010)false}た
 Dialogue: 1,0:00:05.46,0:00:05.48,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz-89.999942731042false}ん
 Dialogue: 1,0:00:05.48,0:00:05.53,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz5.9127570095783false}ん
 Dialogue: 1,0:00:05.53,0:00:05.57,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz15.305965240886false}ん
 Dialogue: 1,0:00:05.57,0:00:05.61,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz10.395486842495false}ん
 Dialogue: 1,0:00:05.61,0:00:05.66,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)\frz-3.0127963086102e-05false}ん
-Dialogue: 2,0:00:05.66,0:00:05.83,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)false}ん
+Dialogue: 2,0:00:05.66,0:00:05.82,OP,SINO1 noend,0,0,0,fx,{\an5\pos(1327.290625,1010)false}ん
 Dialogue: 1,0:00:03.49,0:00:03.52,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz89.999942731042\c&H31CAA9&}鹿
 Dialogue: 1,0:00:03.52,0:00:03.57,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz16.631004809526\c&H31CAA9&}鹿
 Dialogue: 1,0:00:03.57,0:00:03.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz-3.0333026497405\c&H31CAA9&}鹿
@@ -1216,7 +1216,7 @@ Dialogue: 1,0:00:03.73,0:00:03.77,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\f
 Dialogue: 1,0:00:03.77,0:00:03.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz-9.4199452416882\c&H31CAA9&}鹿
 Dialogue: 1,0:00:03.82,0:00:03.86,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz-4.9997616653293\c&H31CAA9&}鹿
 Dialogue: 1,0:00:03.86,0:00:03.89,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\frz3.0127963086102e-05\c&H31CAA9&}鹿
-Dialogue: 2,0:00:03.89,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\c&H31CAA9&}鹿
+Dialogue: 2,0:00:03.89,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(650,65)\c&H31CAA9&}鹿
 Dialogue: 1,0:00:03.81,0:00:03.86,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz-89.999942731042false}乃
 Dialogue: 1,0:00:03.86,0:00:03.90,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz-13.146141324836false}乃
 Dialogue: 1,0:00:03.90,0:00:03.94,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz5.9127570095783false}乃
@@ -1226,7 +1226,7 @@ Dialogue: 1,0:00:04.03,0:00:04.07,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\f
 Dialogue: 1,0:00:04.07,0:00:04.11,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz10.395486842495false}乃
 Dialogue: 1,0:00:04.11,0:00:04.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz5.5903334366309false}乃
 Dialogue: 1,0:00:04.15,0:00:04.21,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)\frz-3.0127963086102e-05false}乃
-Dialogue: 2,0:00:04.21,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)false}乃
+Dialogue: 2,0:00:04.21,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(712,65)false}乃
 Dialogue: 1,0:00:03.99,0:00:04.03,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz89.999942731042false}子
 Dialogue: 1,0:00:04.03,0:00:04.07,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz16.631004809526false}子
 Dialogue: 1,0:00:04.07,0:00:04.11,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz-3.0333026497405false}子
@@ -1237,7 +1237,7 @@ Dialogue: 1,0:00:04.23,0:00:04.28,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\f
 Dialogue: 1,0:00:04.28,0:00:04.32,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz-9.4199452416882false}子
 Dialogue: 1,0:00:04.32,0:00:04.36,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz-4.9997616653293false}子
 Dialogue: 1,0:00:04.36,0:00:04.39,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)\frz3.0127963086102e-05false}子
-Dialogue: 2,0:00:04.39,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)false}子
+Dialogue: 2,0:00:04.39,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(774,65)false}子
 Dialogue: 1,0:00:04.12,0:00:04.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz-89.999942731042false}乃
 Dialogue: 1,0:00:04.15,0:00:04.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz-16.631004809526false}乃
 Dialogue: 1,0:00:04.19,0:00:04.23,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz3.0333026497405false}乃
@@ -1248,7 +1248,7 @@ Dialogue: 1,0:00:04.36,0:00:04.40,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\f
 Dialogue: 1,0:00:04.40,0:00:04.44,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz9.4199452416882false}乃
 Dialogue: 1,0:00:04.44,0:00:04.48,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz4.9997616653293false}乃
 Dialogue: 1,0:00:04.48,0:00:04.52,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)\frz-3.0127963086102e-05false}乃
-Dialogue: 2,0:00:04.52,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)false}乃
+Dialogue: 2,0:00:04.52,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(836,65)false}乃
 Dialogue: 1,0:00:04.33,0:00:04.36,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz89.999942731042false}子
 Dialogue: 1,0:00:04.36,0:00:04.40,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz16.631004809526false}子
 Dialogue: 1,0:00:04.40,0:00:04.44,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz-3.0333026497405false}子
@@ -1259,7 +1259,7 @@ Dialogue: 1,0:00:04.57,0:00:04.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\f
 Dialogue: 1,0:00:04.61,0:00:04.65,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz-9.4199452416882false}子
 Dialogue: 1,0:00:04.65,0:00:04.69,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz-4.9997616653293false}子
 Dialogue: 1,0:00:04.69,0:00:04.73,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)\frz3.0127963086102e-05false}子
-Dialogue: 2,0:00:04.73,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)false}子
+Dialogue: 2,0:00:04.73,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(898,65)false}子
 Dialogue: 1,0:00:04.47,0:00:04.53,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz-89.999942731042false}乃
 Dialogue: 1,0:00:04.53,0:00:04.57,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz-13.146141324836false}乃
 Dialogue: 1,0:00:04.57,0:00:04.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz5.9127570095783false}乃
@@ -1269,7 +1269,7 @@ Dialogue: 1,0:00:04.69,0:00:04.73,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\f
 Dialogue: 1,0:00:04.73,0:00:04.78,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz10.395486842495false}乃
 Dialogue: 1,0:00:04.78,0:00:04.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz5.5903334366309false}乃
 Dialogue: 1,0:00:04.82,0:00:04.87,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)\frz-3.0127963086102e-05false}乃
-Dialogue: 2,0:00:04.87,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)false}乃
+Dialogue: 2,0:00:04.87,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(960,65)false}乃
 Dialogue: 1,0:00:04.65,0:00:04.69,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz89.999942731042false}子
 Dialogue: 1,0:00:04.69,0:00:04.73,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz16.631004809526false}子
 Dialogue: 1,0:00:04.73,0:00:04.78,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz-3.0333026497405false}子
@@ -1280,7 +1280,7 @@ Dialogue: 1,0:00:04.90,0:00:04.94,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\
 Dialogue: 1,0:00:04.94,0:00:04.98,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz-9.4199452416882false}子
 Dialogue: 1,0:00:04.98,0:00:05.03,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz-4.9997616653293false}子
 Dialogue: 1,0:00:05.03,0:00:05.05,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)\frz3.0127963086102e-05false}子
-Dialogue: 2,0:00:05.05,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)false}子
+Dialogue: 2,0:00:05.05,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1022,65)false}子
 Dialogue: 1,0:00:04.81,0:00:04.86,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz-89.999942731042false}虎
 Dialogue: 1,0:00:04.86,0:00:04.90,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz-13.146141324836false}虎
 Dialogue: 1,0:00:04.90,0:00:04.94,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz5.9127570095783false}虎
@@ -1290,7 +1290,7 @@ Dialogue: 1,0:00:05.03,0:00:05.07,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\
 Dialogue: 1,0:00:05.07,0:00:05.11,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz10.395486842495false}虎
 Dialogue: 1,0:00:05.11,0:00:05.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz5.5903334366309false}虎
 Dialogue: 1,0:00:05.15,0:00:05.21,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)\frz-3.0127963086102e-05false}虎
-Dialogue: 2,0:00:05.21,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)false}虎
+Dialogue: 2,0:00:05.21,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1084,65)false}虎
 Dialogue: 1,0:00:04.93,0:00:04.98,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz89.999942731042false}视
 Dialogue: 1,0:00:04.98,0:00:05.03,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz13.146141324836false}视
 Dialogue: 1,0:00:05.03,0:00:05.07,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz-5.9127570095783false}视
@@ -1300,19 +1300,19 @@ Dialogue: 1,0:00:05.15,0:00:05.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\
 Dialogue: 1,0:00:05.19,0:00:05.23,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz-10.395486842495false}视
 Dialogue: 1,0:00:05.23,0:00:05.28,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz-5.5903334366309false}视
 Dialogue: 1,0:00:05.28,0:00:05.33,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)\frz3.0127963086102e-05false}视
-Dialogue: 2,0:00:05.33,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)false}视
+Dialogue: 2,0:00:05.33,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1146,65)false}视
 Dialogue: 1,0:00:05.11,0:00:05.15,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz-89.999942731042false}眈
 Dialogue: 1,0:00:05.15,0:00:05.19,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz5.9127570095783false}眈
 Dialogue: 1,0:00:05.19,0:00:05.23,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz15.305965240886false}眈
 Dialogue: 1,0:00:05.23,0:00:05.28,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz10.395486842495false}眈
 Dialogue: 1,0:00:05.28,0:00:05.31,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)\frz-3.0127963086102e-05false}眈
-Dialogue: 2,0:00:05.31,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)false}眈
+Dialogue: 2,0:00:05.31,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1208,65)false}眈
 Dialogue: 1,0:00:05.45,0:00:05.48,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz89.999942731042false}眈
 Dialogue: 1,0:00:05.48,0:00:05.53,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz-5.9127570095783false}眈
 Dialogue: 1,0:00:05.53,0:00:05.57,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz-15.305965240886false}眈
 Dialogue: 1,0:00:05.57,0:00:05.61,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz-10.395486842495false}眈
 Dialogue: 1,0:00:05.61,0:00:05.65,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)\frz3.0127963086102e-05false}眈
-Dialogue: 2,0:00:05.65,0:00:05.83,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)false}眈
+Dialogue: 2,0:00:05.65,0:00:05.82,OP_CN,SINO1 noend,0,0,0,fx,{\an5\pos(1270,65)false}眈
 Dialogue: 1,0:00:05.94,0:00:05.99,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz89.999942731042\c&HFC9CB3&}し
 Dialogue: 1,0:00:05.99,0:00:06.03,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz16.631004809526\c&HFC9CB3&}し
 Dialogue: 1,0:00:06.03,0:00:06.07,OP,SINO1 noend,0,0,0,fx,{\an5\pos(592.709375,1010)\frz-3.0333026497405\c&HFC9CB3&}し
@@ -2523,26 +2523,28 @@ Dialogue: 1,0:00:33.89,0:00:33.93,OP,SINO1,0,0,0,fx,{\an5\pos(1024.9546875,1010)
 Dialogue: 1,0:00:33.93,0:00:33.97,OP,SINO1,0,0,0,fx,{\an5\pos(1024.9546875,1010)\frz4.9997616653293false}ャ
 Dialogue: 1,0:00:33.97,0:00:34.01,OP,SINO1,0,0,0,fx,{\an5\pos(1024.9546875,1010)\frz-3.0127963086102e-05false}ャ
 Dialogue: 2,0:00:34.01,0:00:34.81,OP,SINO1,0,0,0,fx,{\an5\pos(1024.9546875,1010)false}ャ
-Dialogue: 1,0:00:33.88,0:00:33.93,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz89.999942731042false}パ
-Dialogue: 1,0:00:33.93,0:00:33.97,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz13.146141324836false}パ
-Dialogue: 1,0:00:33.97,0:00:34.01,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-5.9127570095783false}パ
-Dialogue: 1,0:00:34.01,0:00:34.06,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-13.424945457348false}パ
-Dialogue: 1,0:00:34.06,0:00:34.10,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-15.305965240886false}パ
-Dialogue: 1,0:00:34.10,0:00:34.14,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-13.887246154698false}パ
-Dialogue: 1,0:00:34.14,0:00:34.18,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-10.395486842495false}パ
-Dialogue: 1,0:00:34.18,0:00:34.22,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-5.5903334366309false}パ
-Dialogue: 1,0:00:34.22,0:00:34.28,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz3.0127963086102e-05false}パ
-Dialogue: 2,0:00:34.28,0:00:34.81,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)false}パ
-Dialogue: 1,0:00:33.88,0:00:33.93,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz-89.999942731042false}ン
-Dialogue: 1,0:00:33.93,0:00:33.97,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz-13.146141324836false}ン
-Dialogue: 1,0:00:33.97,0:00:34.01,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz5.9127570095783false}ン
-Dialogue: 1,0:00:34.01,0:00:34.06,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz13.424945457348false}ン
-Dialogue: 1,0:00:34.06,0:00:34.10,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz15.305965240886false}ン
-Dialogue: 1,0:00:34.10,0:00:34.14,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz13.887246154698false}ン
-Dialogue: 1,0:00:34.14,0:00:34.18,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz10.395486842495false}ン
-Dialogue: 1,0:00:34.18,0:00:34.22,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz5.5903334366309false}ン
-Dialogue: 1,0:00:34.22,0:00:34.28,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz-3.0127963086102e-05false}ン
-Dialogue: 2,0:00:34.28,0:00:34.81,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)false}ン
+Dialogue: 1,0:00:33.82,0:00:33.85,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz89.999942731042false}パ
+Dialogue: 1,0:00:33.85,0:00:33.89,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz16.631004809526false}パ
+Dialogue: 1,0:00:33.89,0:00:33.93,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-3.0333026497405false}パ
+Dialogue: 1,0:00:33.93,0:00:33.97,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-11.719043586575false}パ
+Dialogue: 1,0:00:33.97,0:00:34.01,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-14.978104245068false}パ
+Dialogue: 1,0:00:34.01,0:00:34.06,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-14.99470436008false}パ
+Dialogue: 1,0:00:34.06,0:00:34.10,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-12.909647227265false}パ
+Dialogue: 1,0:00:34.10,0:00:34.14,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-9.4199452416882false}パ
+Dialogue: 1,0:00:34.14,0:00:34.18,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz-4.9997616653293false}パ
+Dialogue: 1,0:00:34.18,0:00:34.22,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)\frz3.0127963086102e-05false}パ
+Dialogue: 2,0:00:34.22,0:00:34.81,OP,SINO1,0,0,0,fx,{\an5\pos(1081.4609375,1010)false}パ
+Dialogue: 1,0:00:33.82,0:00:33.85,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz-89.999942731042false}ン
+Dialogue: 1,0:00:33.85,0:00:33.89,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz-16.631004809526false}ン
+Dialogue: 1,0:00:33.89,0:00:33.93,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz3.0333026497405false}ン
+Dialogue: 1,0:00:33.93,0:00:33.97,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz11.719043586575false}ン
+Dialogue: 1,0:00:33.97,0:00:34.01,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz14.978104245068false}ン
+Dialogue: 1,0:00:34.01,0:00:34.06,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz14.99470436008false}ン
+Dialogue: 1,0:00:34.06,0:00:34.10,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz12.909647227265false}ン
+Dialogue: 1,0:00:34.10,0:00:34.14,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz9.4199452416882false}ン
+Dialogue: 1,0:00:34.14,0:00:34.18,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz4.9997616653293false}ン
+Dialogue: 1,0:00:34.18,0:00:34.22,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)\frz-3.0127963086102e-05false}ン
+Dialogue: 2,0:00:34.22,0:00:34.81,OP,SINO1,0,0,0,fx,{\an5\pos(1137.9671875,1010)false}ン
 Dialogue: 1,0:00:34.16,0:00:34.22,OP,SINO1,0,0,0,fx,{\an5\pos(1194.4734375,1010)\frz89.999942731042false}ニ
 Dialogue: 1,0:00:34.22,0:00:34.26,OP,SINO1,0,0,0,fx,{\an5\pos(1194.4734375,1010)\frz13.146141324836false}ニ
 Dialogue: 1,0:00:34.26,0:00:34.31,OP,SINO1,0,0,0,fx,{\an5\pos(1194.4734375,1010)\frz-5.9127570095783false}ニ
@@ -3462,108 +3464,119 @@ Dialogue: 3,0:00:42.61,0:00:42.65,OP_CN,SINO1,0,0,0,fx,{false\frz-3.012796308610
 Dialogue: 3,0:00:42.65,0:00:42.68,OP_CN,SINO1,0,0,0,fx,{false\frz-89.999942731042\an5\pos(1208,65)}蹄
 Dialogue: 3,0:00:42.61,0:00:42.65,OP_CN,SINO1,0,0,0,fx,{false\frz-3.0127963086102e-05\an5\pos(1270,65)}目
 Dialogue: 3,0:00:42.65,0:00:42.68,OP_CN,SINO1,0,0,0,fx,{false\frz-89.999942731042\an5\pos(1270,65)}目
-Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz89.999942731042\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz13.146141324836\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-5.9127570095783\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-13.424945457348\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-15.305965240886\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-13.887246154698\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-10.395486842495\c&HFC9CB3&}わ
-Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz-5.5903334366309\c&HFC9CB3&}わ
-Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\frz3.0127963086102e-05\c&HFC9CB3&}わ
-Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(705.721875,1010)\c&HFC9CB3&}わ
-Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-89.999942731042false}ん
-Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-13.146141324836false}ん
-Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz5.9127570095783false}ん
-Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz13.424945457348false}ん
-Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz15.305965240886false}ん
-Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz13.887246154698false}ん
-Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz10.395486842495false}ん
-Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz5.5903334366309false}ん
-Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)\frz-3.0127963086102e-05false}ん
-Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(762.228125,1010)false}ん
-Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz89.999942731042false}・
-Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz13.146141324836false}・
-Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-5.9127570095783false}・
-Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-13.424945457348false}・
-Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-15.305965240886false}・
-Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-13.887246154698false}・
-Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-10.395486842495false}・
-Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz-5.5903334366309false}・
-Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)\frz3.0127963086102e-05false}・
-Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(818.734375,1010)false}・
-Dialogue: 1,0:00:51.02,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-89.999942731042false}つ
-Dialogue: 1,0:00:51.07,0:00:51.11,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-13.146141324836false}つ
-Dialogue: 1,0:00:51.11,0:00:51.16,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz5.9127570095783false}つ
-Dialogue: 1,0:00:51.16,0:00:51.20,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz13.424945457348false}つ
-Dialogue: 1,0:00:51.20,0:00:51.24,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz15.305965240886false}つ
-Dialogue: 1,0:00:51.24,0:00:51.28,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz13.887246154698false}つ
-Dialogue: 1,0:00:51.28,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz10.395486842495false}つ
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz5.5903334366309false}つ
-Dialogue: 1,0:00:51.36,0:00:51.42,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)\frz-3.0127963086102e-05false}つ
-Dialogue: 2,0:00:51.42,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(875.240625,1010)false}つ
-Dialogue: 1,0:00:51.02,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz89.999942731042false}ー
-Dialogue: 1,0:00:51.07,0:00:51.11,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz13.146141324836false}ー
-Dialogue: 1,0:00:51.11,0:00:51.16,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-5.9127570095783false}ー
-Dialogue: 1,0:00:51.16,0:00:51.20,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-13.424945457348false}ー
-Dialogue: 1,0:00:51.20,0:00:51.24,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-15.305965240886false}ー
-Dialogue: 1,0:00:51.24,0:00:51.28,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-13.887246154698false}ー
-Dialogue: 1,0:00:51.28,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-10.395486842495false}ー
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz-5.5903334366309false}ー
-Dialogue: 1,0:00:51.36,0:00:51.42,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)\frz3.0127963086102e-05false}ー
-Dialogue: 2,0:00:51.42,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(931.746875,1010)false}ー
-Dialogue: 1,0:00:51.02,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-89.999942731042false}・
-Dialogue: 1,0:00:51.07,0:00:51.11,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-13.146141324836false}・
-Dialogue: 1,0:00:51.11,0:00:51.16,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz5.9127570095783false}・
-Dialogue: 1,0:00:51.16,0:00:51.20,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz13.424945457348false}・
-Dialogue: 1,0:00:51.20,0:00:51.24,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz15.305965240886false}・
-Dialogue: 1,0:00:51.24,0:00:51.28,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz13.887246154698false}・
-Dialogue: 1,0:00:51.28,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz10.395486842495false}・
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz5.5903334366309false}・
-Dialogue: 1,0:00:51.36,0:00:51.42,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)\frz-3.0127963086102e-05false}・
-Dialogue: 2,0:00:51.42,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(988.253125,1010)false}・
-Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz89.999942731042false}す
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz13.146141324836false}す
-Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-5.9127570095783false}す
-Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-13.424945457348false}す
-Dialogue: 1,0:00:51.45,0:00:51.49,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-15.305965240886false}す
-Dialogue: 1,0:00:51.49,0:00:51.53,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-13.887246154698false}す
-Dialogue: 1,0:00:51.53,0:00:51.57,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-10.395486842495false}す
-Dialogue: 1,0:00:51.57,0:00:51.61,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz-5.5903334366309false}す
-Dialogue: 1,0:00:51.61,0:00:51.67,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)\frz3.0127963086102e-05false}す
-Dialogue: 2,0:00:51.67,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1044.759375,1010)false}す
-Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-89.999942731042false}り
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-13.146141324836false}り
-Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz5.9127570095783false}り
-Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz13.424945457348false}り
-Dialogue: 1,0:00:51.45,0:00:51.49,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz15.305965240886false}り
-Dialogue: 1,0:00:51.49,0:00:51.53,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz13.887246154698false}り
-Dialogue: 1,0:00:51.53,0:00:51.57,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz10.395486842495false}り
-Dialogue: 1,0:00:51.57,0:00:51.61,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz5.5903334366309false}り
-Dialogue: 1,0:00:51.61,0:00:51.67,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)\frz-3.0127963086102e-05false}り
-Dialogue: 2,0:00:51.67,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1101.265625,1010)false}り
-Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz89.999942731042false}ー
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-5.9127570095783false}ー
-Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-15.305965240886false}ー
-Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz-10.395486842495false}ー
-Dialogue: 1,0:00:51.45,0:00:51.47,OP,SINO1,0,0,0,fx,{\an5\pos(1157.771875,1010)\frz3.0127963086102e-05false}ー
-Dialogue: 2,0:00:51.47,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1157.771875,1010)false}ー
-Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-89.999942731042false}）
-Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz5.9127570095783false}）
-Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz15.305965240886false}）
-Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz10.395486842495false}）
-Dialogue: 1,0:00:51.45,0:00:51.47,OP,SINO1,0,0,0,fx,{\an5\pos(1214.278125,1010)\frz-3.0127963086102e-05false}）
-Dialogue: 2,0:00:51.47,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1214.278125,1010)false}）
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{\c&HFC9CB3&\frznan\an5\pos(705.721875,1010)}わ
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(762.228125,1010)}ん
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(818.734375,1010)}・
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(875.240625,1010)}つ
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(931.746875,1010)}ー
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(988.253125,1010)}・
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1044.759375,1010)}す
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1101.265625,1010)}り
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1157.771875,1010)}ー
-Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1214.278125,1010)}）
+Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz89.999942731042\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz13.146141324836\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz-5.9127570095783\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz-13.424945457348\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz-15.305965240886\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz-13.887246154698\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz-10.395486842495\c&HFC9CB3&}（
+Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz-5.5903334366309\c&HFC9CB3&}（
+Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\frz3.0127963086102e-05\c&HFC9CB3&}（
+Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(677.46875,1010)\c&HFC9CB3&}（
+Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz-89.999942731042false}わ
+Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz-13.146141324836false}わ
+Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz5.9127570095783false}わ
+Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz13.424945457348false}わ
+Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz15.305965240886false}わ
+Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz13.887246154698false}わ
+Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz10.395486842495false}わ
+Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz5.5903334366309false}わ
+Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)\frz-3.0127963086102e-05false}わ
+Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(733.975,1010)false}わ
+Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz89.999942731042false}ん
+Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz13.146141324836false}ん
+Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz-5.9127570095783false}ん
+Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz-13.424945457348false}ん
+Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz-15.305965240886false}ん
+Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz-13.887246154698false}ん
+Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz-10.395486842495false}ん
+Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz-5.5903334366309false}ん
+Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)\frz3.0127963086102e-05false}ん
+Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(790.48125,1010)false}ん
+Dialogue: 1,0:00:50.73,0:00:50.78,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz-89.999942731042false}・
+Dialogue: 1,0:00:50.78,0:00:50.82,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz-13.146141324836false}・
+Dialogue: 1,0:00:50.82,0:00:50.86,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz5.9127570095783false}・
+Dialogue: 1,0:00:50.86,0:00:50.91,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz13.424945457348false}・
+Dialogue: 1,0:00:50.91,0:00:50.95,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz15.305965240886false}・
+Dialogue: 1,0:00:50.95,0:00:50.99,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz13.887246154698false}・
+Dialogue: 1,0:00:50.99,0:00:51.03,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz10.395486842495false}・
+Dialogue: 1,0:00:51.03,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz5.5903334366309false}・
+Dialogue: 1,0:00:51.07,0:00:51.13,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)\frz-3.0127963086102e-05false}・
+Dialogue: 2,0:00:51.13,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(846.9875,1010)false}・
+Dialogue: 1,0:00:51.02,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz89.999942731042false}つ
+Dialogue: 1,0:00:51.07,0:00:51.11,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz13.146141324836false}つ
+Dialogue: 1,0:00:51.11,0:00:51.16,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz-5.9127570095783false}つ
+Dialogue: 1,0:00:51.16,0:00:51.20,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz-13.424945457348false}つ
+Dialogue: 1,0:00:51.20,0:00:51.24,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz-15.305965240886false}つ
+Dialogue: 1,0:00:51.24,0:00:51.28,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz-13.887246154698false}つ
+Dialogue: 1,0:00:51.28,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz-10.395486842495false}つ
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz-5.5903334366309false}つ
+Dialogue: 1,0:00:51.36,0:00:51.42,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)\frz3.0127963086102e-05false}つ
+Dialogue: 2,0:00:51.42,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(903.49375,1010)false}つ
+Dialogue: 1,0:00:51.02,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz-89.999942731042false}ー
+Dialogue: 1,0:00:51.07,0:00:51.11,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz-13.146141324836false}ー
+Dialogue: 1,0:00:51.11,0:00:51.16,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz5.9127570095783false}ー
+Dialogue: 1,0:00:51.16,0:00:51.20,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz13.424945457348false}ー
+Dialogue: 1,0:00:51.20,0:00:51.24,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz15.305965240886false}ー
+Dialogue: 1,0:00:51.24,0:00:51.28,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz13.887246154698false}ー
+Dialogue: 1,0:00:51.28,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz10.395486842495false}ー
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz5.5903334366309false}ー
+Dialogue: 1,0:00:51.36,0:00:51.42,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)\frz-3.0127963086102e-05false}ー
+Dialogue: 2,0:00:51.42,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(960,1010)false}ー
+Dialogue: 1,0:00:51.02,0:00:51.07,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz89.999942731042false}・
+Dialogue: 1,0:00:51.07,0:00:51.11,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz13.146141324836false}・
+Dialogue: 1,0:00:51.11,0:00:51.16,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz-5.9127570095783false}・
+Dialogue: 1,0:00:51.16,0:00:51.20,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz-13.424945457348false}・
+Dialogue: 1,0:00:51.20,0:00:51.24,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz-15.305965240886false}・
+Dialogue: 1,0:00:51.24,0:00:51.28,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz-13.887246154698false}・
+Dialogue: 1,0:00:51.28,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz-10.395486842495false}・
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz-5.5903334366309false}・
+Dialogue: 1,0:00:51.36,0:00:51.42,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)\frz3.0127963086102e-05false}・
+Dialogue: 2,0:00:51.42,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1016.50625,1010)false}・
+Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz-89.999942731042false}す
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz-13.146141324836false}す
+Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz5.9127570095783false}す
+Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz13.424945457348false}す
+Dialogue: 1,0:00:51.45,0:00:51.49,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz15.305965240886false}す
+Dialogue: 1,0:00:51.49,0:00:51.53,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz13.887246154698false}す
+Dialogue: 1,0:00:51.53,0:00:51.57,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz10.395486842495false}す
+Dialogue: 1,0:00:51.57,0:00:51.61,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz5.5903334366309false}す
+Dialogue: 1,0:00:51.61,0:00:51.67,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)\frz-3.0127963086102e-05false}す
+Dialogue: 2,0:00:51.67,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1073.0125,1010)false}す
+Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz89.999942731042false}り
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz13.146141324836false}り
+Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz-5.9127570095783false}り
+Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz-13.424945457348false}り
+Dialogue: 1,0:00:51.45,0:00:51.49,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz-15.305965240886false}り
+Dialogue: 1,0:00:51.49,0:00:51.53,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz-13.887246154698false}り
+Dialogue: 1,0:00:51.53,0:00:51.57,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz-10.395486842495false}り
+Dialogue: 1,0:00:51.57,0:00:51.61,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz-5.5903334366309false}り
+Dialogue: 1,0:00:51.61,0:00:51.67,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)\frz3.0127963086102e-05false}り
+Dialogue: 2,0:00:51.67,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1129.51875,1010)false}り
+Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1186.025,1010)\frz-89.999942731042false}ー
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1186.025,1010)\frz5.9127570095783false}ー
+Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1186.025,1010)\frz15.305965240886false}ー
+Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1186.025,1010)\frz10.395486842495false}ー
+Dialogue: 1,0:00:51.45,0:00:51.47,OP,SINO1,0,0,0,fx,{\an5\pos(1186.025,1010)\frz-3.0127963086102e-05false}ー
+Dialogue: 2,0:00:51.47,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1186.025,1010)false}ー
+Dialogue: 1,0:00:51.27,0:00:51.32,OP,SINO1,0,0,0,fx,{\an5\pos(1242.53125,1010)\frz89.999942731042false}）
+Dialogue: 1,0:00:51.32,0:00:51.36,OP,SINO1,0,0,0,fx,{\an5\pos(1242.53125,1010)\frz-5.9127570095783false}）
+Dialogue: 1,0:00:51.36,0:00:51.41,OP,SINO1,0,0,0,fx,{\an5\pos(1242.53125,1010)\frz-15.305965240886false}）
+Dialogue: 1,0:00:51.41,0:00:51.45,OP,SINO1,0,0,0,fx,{\an5\pos(1242.53125,1010)\frz-10.395486842495false}）
+Dialogue: 1,0:00:51.45,0:00:51.47,OP,SINO1,0,0,0,fx,{\an5\pos(1242.53125,1010)\frz3.0127963086102e-05false}）
+Dialogue: 2,0:00:51.47,0:00:51.56,OP,SINO1,0,0,0,fx,{\an5\pos(1242.53125,1010)false}）
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{\c&HFC9CB3&\frznan\an5\pos(677.46875,1010)}（
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(733.975,1010)}わ
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(790.48125,1010)}ん
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(846.9875,1010)}・
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(903.49375,1010)}つ
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(960,1010)}ー
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1016.50625,1010)}・
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1073.0125,1010)}す
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1129.51875,1010)}り
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1186.025,1010)}ー
+Dialogue: 3,0:00:51.56,0:00:51.63,OP,SINO1,0,0,0,fx,{false\frznan\an5\pos(1242.53125,1010)}）
 Dialogue: 1,0:00:50.73,0:00:50.78,OP_CN,SINO1,0,0,0,fx,{\an5\pos(876.75,65)\frz89.999942731042\c&HFC9CB3&}一
 Dialogue: 1,0:00:50.78,0:00:50.82,OP_CN,SINO1,0,0,0,fx,{\an5\pos(876.75,65)\frz13.146141324836\c&HFC9CB3&}一
 Dialogue: 1,0:00:50.82,0:00:50.86,OP_CN,SINO1,0,0,0,fx,{\an5\pos(876.75,65)\frz-5.9127570095783\c&HFC9CB3&}一
