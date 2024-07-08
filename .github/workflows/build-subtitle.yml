@@ -45,10 +45,6 @@ jobs:
       - name: Build substitles
         run: |
           python build_scripts/build.py
-      - name: Pack files
-        run: |
-          export now=$(date +"%Y%m%d%H%M")
-          zip -r -j sino_subs_${now}.zip build/output/*
       - name: Semantic Version
         uses: PaulHatch/semantic-version@v5.4.0
         id: semver
@@ -57,6 +53,9 @@ jobs:
           major_pattern: "(MAJOR)"
           minor_pattern: "feat:"
           bump_each_commit: true
+      - name: Pack files
+        run: |
+          zip -r -j sino_subs_${steps.semver.outputs.version}.zip build/output/*
       - name: Publish
         uses: "softprops/action-gh-release@v2"
         with:
