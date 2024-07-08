@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Setup Python Environment
         uses: actions/setup-python@v5
         with:
@@ -47,40 +49,23 @@ jobs:
         run: |
           export now=$(date +"%Y%m%d%H%M")
           zip -r -j sino_subs_${now}.zip build/output/*
-      - name: Delete latest release
-        uses: dev-drprasad/delete-tag-and-release@v1.0
+      - name: Semantic Version
+        uses: PaulHatch/semantic-version@v5.4.0
+        id: semver
         with:
-          tag_name: latest
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          delete_release: true
-      #   uses: actions/github-script@v7
-      #   with:
-      #     github-token: ${{secrets.GITHUB_TOKEN}}
-      #     script: |
-      #       const { owner, repo } = context.repo
-      #       try {
-      #           const response = await github.rest.repos.getReleaseByTag({ owner, repo, tag: 'latest' });
-      #           const releaseid = response.data.id;
-      #           await github.rest.repos.deleteRelease({ owner, repo, "release_id": releaseid });
-      #       } catch (error) {
-      #           console.log('Skip deleting release:', error);
-      #       }
-      #       try {
-      #           await github.rest.git.deleteRef({ owner, repo, ref: 'tags/latest' });
-      #       } catch (error) {
-      #           console.log('Skipp deleting tag:', error);
-      #       }
-      - name: Wait a sec
-        run: sleep 5
+          tag_prefix: "v"
+          major_pattern: "(MAJOR)"
+          minor_pattern: "feat:"
+          bump_each_commit: true
       - name: Publish
         uses: "softprops/action-gh-release@v2"
         with:
-          tag_name: "latest"
+          tag_name: ${{steps.semver.outputs.version_tag}}
           fail_on_unmatched_files: true
-          prerelease: true
+          prerelease: false
           draft: false
           generate_release_notes: false
-          name: "自动生成构建 Automatic CI Build"
+          name: ${{steps.semver.outputs.version}}
           files: |
             sino_subs_*.zip
       - name: Upload Artifacts
