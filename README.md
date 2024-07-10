@@ -4,7 +4,12 @@
 
 ## 下载字幕
 
-[![status badge main branch](https://github.com/Kitauji-Sub/subs-shikanoko/actions/workflows/build-subtitle.yml/badge.svg?branch=main)](https://github.com/Kitauji-Sub/subs-shikanoko/releases/tag/latest) ![GitHub last commit](https://img.shields.io/github/last-commit/Kitauji-Sub/subs-shikanoko?label=last%20update)
+[![status badge main branch](https://github.com/Kitauji-Sub/subs-shikanoko/actions/workflows/build-subtitle.yml/badge.svg?branch=main)](https://github.com/Kitauji-Sub/subs-shikanoko/releases/latest) ![GitHub Release](https://img.shields.io/github/v/release/Kitauji-Sub/subs-shikanoko)
+
+
+可前往 Releases 下载最新字幕文件：[Release](https://github.com/Kitauji-Sub/subs-shikanoko/releases/latest)
+
+可在此处下载所使用的字体：[字体](https://github.com/Kitauji-Sub/subs-shikanoko/releases/tag/typeface)
 
 
 <!-- |分支|说明|下载|
