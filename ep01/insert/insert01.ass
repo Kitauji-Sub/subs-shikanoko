@@ -1,0 +1,87 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: D:/Anime/Torrent/[KitaujiSub] Shikanoko Nokonoko Koshitantan [01][WebRip][HEVC_AAC][CHS_CHT_JP].mkv
+Video File: D:/Anime/Torrent/[KitaujiSub] Shikanoko Nokonoko Koshitantan [01][WebRip][HEVC_AAC][CHS_CHT_JP].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.875000
+Scroll Position: 39
+Active Line: 36
+Video Position: 25222
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Insert_CN,思源黑体 Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,85,1
+Style: Insert_JP,Source Han Sans Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code once,color_choice = {}
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code once,function GetTags(text)     local tagTable = {}     tagTable.pos, tagTable.fsc, tagTable.fr, tagTable.fa, tagTable.color, tagTable.alpha, tagTable.move = {}, {}, {}, {}, {}, {}, {}     tagTable.italics = text:match("\\i(%d)")     tagTable.bold = text:match("\\b(%d+)%p")     tagTable.underlined = text:match("\\u(%d)")     tagTable.striked = text:match("\\s(%d)")     tagTable.bord = text:match("\\bord(%d+%p*%d*)%p")     tagTable.shad = text:match("\\shad(%d+%p*%d*)%p")     tagTable.be = text:match("\\be(%d+)%p")     tagTable.blur = text:match("\\blur(%d+%p*%d*)%p")     tagTable.fs = text:match("\\fs(%d+)%p")     tagTable.fsc.x, tagTable.fsc.y = text:match("\\fscx(%d+%p*%d*)%p"), text:match("\\fscy(%d+%p*%d*)%p")     tagTable.fsp = text:match("\\fsp(%p*%d+%p*%d*)%p")     tagTable.fr.x, tagTable.fr.y, tagTable.fr.z = text:match("\\frx(%p*%d+%p*%d*)%p"), text:match("\\fry(%p*%d+%p*%d*)%p"), text:match("\\frz(%p*%d+%p*%d*)%p")     tagTable.fa.x, tagTable.fa.y = text:match("\\fax(%p*%d+%p*%d*)%p"), text:match("\\fay(%p*%d+%p*%d*)%p")     tagTable.color.primary = text:match("\\c(&H%w%w%w%w%w%w&)") and text:match("\\c(&H%w%w%w%w%w%w&)") or text:match("\\1c(&H%w%w%w%w%w%w&)")     tagTable.color.secondary = text:match("\\2c(&H%w%w%w%w%w%w&)")     tagTable.color.border = text:match("\\3c(&H%w%w%w%w%w%w&)")     tagTable.color.shadow = text:match("\\4c(&H%w%w%w%w%w%w&)")     tagTable.alpha = {}     tagTable.alpha.all, tagTable.alpha.primary, tagTable.alpha.secondary, tagTable.alpha.border, tagTable.alpha.shadow = text:match("\\alpha(&H%w%w)"), text:match("\\1a(&H%w%w)"), text:match("\\2a(&H%w%w)"), text:match("\\3a(&H%w%w)"), text:match("\\4a(&H%w%w)")     tagTable.an = text:match("\\an(%d)")     tagTable.a = text:match("\\a(%d)")     tagTable.pos.x, tagTable.pos.y = text:match("\\pos%p(%d+%.*%d*)%p(%d+%.*%d*)%p")     tagTable.move.x1, tagTable.move.y1, tagTable.move.x2, tagTable.move.y2,tagTable.move.t1,tagTable.move.t2 = text:match("\\move%p(%-*%d+%.*%d*)%p(%-*%d+%.*%d*)%p(%-*%d+%.*%d*)%p(%-*%d+%.*%d*)%p(%-*%d*%.*%d*)%p(%-*%d*%.*%d*)%p")     return tagTable end
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code once,function AddTags (Table, Tag) local new_table = {} for k,v in _G.ipairs(Table) do new_table[k] = Tag .. v end return new_table end
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code once,function AutoTagsList(Interval, Pause, List, Index)     local RESULT = ""     local ARGS = List     local count = math.ceil(line.duration / Interval)     for i = 1, count do         local LUCK = ARGS[(Index - i - 1) % #ARGS + 1]         RESULT = RESULT .. "\\t(" .. (i - 1) * Interval + Pause ..         "," .. i * Interval + Pause * (i - 1) .. ",\\" .. LUCK .. ")"     end     return RESULT end
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line,line_colors = {}; function generate_line_colors (choice) line_colors = {} for i=1,#orgline.chars do line_colors[i] = util.rand.item(choice) end for i=1,#orgline.chars do if (i % 2 == 0 and i < #orgline.chars) then line_colors[i] = colorlib.interp_lab(0.5,line_colors[i-1],line_colors[i+1]) end end return "" end;
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line,line_borders = {}; function generate_line_borders () line_borders = {} for i=1,#orgline.chars do line_borders[i] = 3 - ( (math.sin(math.rad(i * 30)) + 1) ) end return "" end;
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line actor everyone anystyle,generate_line_colors (color_choice)
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line anystyle,generate_line_borders()
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line anystyle,tag_table = GetTags(orgline.text)
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char actor everyone anystyle noblank,
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone anystyle noblank,{\3c&H345B85&}
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
+Comment: 0,0:00:42.97,0:00:44.12,Insert_JP,,0,0,0,kara,しか
+Comment: 0,0:00:42.97,0:00:44.12,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:00:44.12,0:00:46.76,Insert_JP,,0,0,0,kara,しか しか しか シカ
+Comment: 0,0:00:44.12,0:00:46.76,Insert_CN,,0,0,0,kara,鹿鹿 鹿鹿 鹿鹿 鹿—鹿
+Comment: 0,0:07:45.86,0:07:47.60,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:07:49.73,0:07:51.42,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:07:53.48,0:07:55.16,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:07:57.35,0:07:58.83,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:08:01.12,0:08:02.67,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:08:05.00,0:08:06.44,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:08:08.81,0:08:10.30,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:08:12.62,0:08:14.15,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:08:16.39,0:08:17.88,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:09:27.26,0:09:28.74,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:09:31.07,0:09:32.76,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:09:34.95,0:09:36.48,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:09:38.71,0:09:40.22,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:09:42.59,0:09:44.01,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:09:46.39,0:09:47.80,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:11:54.04,0:11:55.48,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:11:57.94,0:11:59.32,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:12:01.75,0:12:03.14,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:17:15.29,0:17:18.38,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:17:18.91,0:17:22.43,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:17:23.08,0:17:28.29,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:07:45.86,0:07:47.60,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:07:49.73,0:07:51.42,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:07:53.48,0:07:55.16,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:07:57.35,0:07:58.83,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:08:01.12,0:08:02.67,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:08:05.00,0:08:06.44,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:08:08.81,0:08:10.30,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:08:12.62,0:08:14.15,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:08:16.39,0:08:17.88,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:09:27.26,0:09:28.74,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:09:31.07,0:09:32.76,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:09:34.95,0:09:36.48,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:09:38.71,0:09:40.22,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:09:42.59,0:09:44.01,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:09:46.39,0:09:47.80,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:11:54.04,0:11:55.48,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:11:57.94,0:11:59.32,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:12:01.75,0:12:03.14,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:17:15.29,0:17:18.38,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:17:18.91,0:17:22.43,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:17:23.08,0:17:28.29,Insert_CN,,0,0,0,kara,鹿鹿
