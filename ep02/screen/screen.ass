@@ -8,13 +8,13 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/ep2.mkv
-Video File: C:/Users/scree/Desktop/ep2.mkv
+Audio File: C:/Users/scree/Desktop/sino_ep2/ep2.mkv
+Video File: C:/Users/scree/Desktop/sino_ep2/ep2.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.250000
 Active Line: 2
-Video Position: 19114
+Video Position: 5531
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -24,5 +24,105 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:04.32,0:00:09.32,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
 Dialogue: 0,0:03:36.61,0:03:38.36,OnScreen,,0,0,0,,{\fn思源黑体\fscx135\fscy135\b1\bord3\pos(1497.6,308)}※绝对不会原谅鹿
+Dialogue: 0,0:03:48.62,0:03:48.66,OnScreen,,0,0,0,,{=0}{\frz0\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(781,577)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.66,0:03:48.70,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(777.79,576.51)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.70,0:03:48.74,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(774.51,576.22)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.74,0:03:48.79,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(771.28,575.99)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.79,0:03:48.83,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(768,575.61)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.83,0:03:48.87,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(764.73,575.23)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.87,0:03:48.91,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(761.45,575.01)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.91,0:03:48.95,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(758.14,574.74)}绝对不会原谅鹿※
+Dialogue: 0,0:03:48.95,0:03:49.00,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(754.61,574.24)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.00,0:03:49.04,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(751.42,574)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.04,0:03:49.08,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(748.12,573.72)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.08,0:03:49.12,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(744.7,573.37)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.12,0:03:49.16,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(741.46,573.25)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.16,0:03:49.20,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(738.28,573.46)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.20,0:03:49.25,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(735.04,573.98)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.25,0:03:49.29,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(731.73,574.67)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.29,0:03:49.33,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(728.46,575.4)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.33,0:03:49.37,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(725.2,576.18)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.37,0:03:49.41,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(721.92,576.77)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.41,0:03:49.45,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(718.47,577.2)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.45,0:03:49.50,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(715.08,577.26)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.50,0:03:49.54,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(711.67,577.22)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.54,0:03:49.58,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(708.31,576.84)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.58,0:03:49.62,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(704.83,576.19)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.62,0:03:49.66,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(701.51,575.25)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.66,0:03:49.70,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(698.18,574.7)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.70,0:03:49.75,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(694.77,574.21)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.75,0:03:49.79,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(691.44,574.08)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.79,0:03:49.83,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(688.04,574.12)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.83,0:03:49.87,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(684.57,574.6)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.87,0:03:49.91,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(681.31,575.14)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.91,0:03:49.95,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(677.85,576.05)}绝对不会原谅鹿※
+Dialogue: 0,0:03:49.95,0:03:50.00,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(674.48,576.85)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.00,0:03:50.04,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(670.98,577.69)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.04,0:03:50.08,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(667.45,578.43)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.08,0:03:50.12,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(663.99,578.71)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.12,0:03:50.16,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(660.7,578.7)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.16,0:03:50.20,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(657.34,578.46)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.20,0:03:50.25,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(654.04,577.82)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.25,0:03:50.29,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(650.89,577.35)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.29,0:03:50.33,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(647.74,576.73)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.33,0:03:50.37,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(644.69,576.26)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.37,0:03:50.41,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(641.49,576.05)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.41,0:03:50.46,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(638.21,575.94)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.46,0:03:50.50,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(634.98,576.01)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.50,0:03:50.54,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(631.74,576.25)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.54,0:03:50.58,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(628.5,576.53)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.58,0:03:50.62,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(625.01,577.25)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.62,0:03:50.66,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(621.76,578.06)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.66,0:03:50.71,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(618.42,579.28)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.71,0:03:50.75,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(614.98,580.68)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.75,0:03:50.79,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(611.7,581.98)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.79,0:03:50.83,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(608.44,583.02)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.83,0:03:50.87,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(605.01,583.63)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.87,0:03:50.91,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(601.83,583.75)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.91,0:03:50.96,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(598.76,583.65)}绝对不会原谅鹿※
+Dialogue: 0,0:03:50.96,0:03:51.00,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(595.67,583.05)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.00,0:03:51.04,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(592.6,582.11)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.04,0:03:51.08,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(589.39,581.03)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.08,0:03:51.12,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(586.25,579.85)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.12,0:03:51.16,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(583.01,578.6)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.16,0:03:51.21,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(579.6,577.08)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.21,0:03:51.25,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(576.25,575.6)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.25,0:03:51.29,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(572.74,574.37)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.29,0:03:51.33,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(569.29,573.52)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.33,0:03:51.37,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(565.74,573.11)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.37,0:03:51.41,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(562.33,573.13)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.41,0:03:51.46,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(558.74,573.64)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.46,0:03:51.50,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(555.25,574.64)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.50,0:03:51.54,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(551.77,575.85)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.54,0:03:51.58,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(548.46,577.15)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.58,0:03:51.62,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(544.99,578.37)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.62,0:03:51.66,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(541.7,579.36)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.66,0:03:51.71,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(538.47,580.4)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.71,0:03:51.75,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(535.26,581.4)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.75,0:03:51.79,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(531.99,582.35)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.79,0:03:51.83,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(528.88,582.8)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.83,0:03:51.87,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(525.69,583.03)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.87,0:03:51.91,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(522.64,582.79)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.91,0:03:51.96,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(519.4,582.29)}绝对不会原谅鹿※
+Dialogue: 0,0:03:51.96,0:03:52.00,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(516.23,581.48)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.00,0:03:52.04,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(512.92,580.54)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.04,0:03:52.08,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(509.66,579.69)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.08,0:03:52.12,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(506.3,578.84)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.12,0:03:52.17,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(502.92,578.47)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.17,0:03:52.21,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(499.5,578.33)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.21,0:03:52.25,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(496.03,578.18)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.25,0:03:52.29,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(492.65,578.3)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.29,0:03:52.33,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(489.4,578.59)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.33,0:03:52.37,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(486.12,578.75)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.37,0:03:52.42,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(482.8,579.18)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.42,0:03:52.46,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(479.55,579.65)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.46,0:03:52.50,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(476.16,579.93)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.50,0:03:52.54,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(472.81,580.16)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.54,0:03:52.58,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(469.46,580.16)}绝对不会原谅鹿※
+Dialogue: 0,0:03:52.58,0:03:52.62,OnScreen,,0,0,0,,{=0}{\frz-360\alpha&H00&\an9\fn思源黑体\fscx135\fscy135\b1\bord3\pos(465.82,580.16)}绝对不会原谅鹿※
 Dialogue: 0,0:13:08.52,0:13:12.02,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}宫岛 大鸟居
 Dialogue: 0,0:13:12.02,0:13:15.52,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}宫岛 严岛神社
+Dialogue: 0,0:21:59.84,0:22:01.76,OnScreen,,0,0,0,,{\fn思源黑体\b0\c&H0B0B0B&\3c&HF3F5F5&\bord3\fscx170\fscy170\pos(960,1050)}第二天
+
+[Aegisub Extradata]
+Data: 0,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RB<DF=8':OZI#>ZLK1[<O2Z,W48&RG=W.Y-4-V8&RG=W.Z-4-V8&RC-6R=9G^S:$.=8("P=SAX/$%M.4=X+8XHOZXFL\HEO)XEP*LFDJ`IM)8JO<`CA,MC,#*V>7FE)DIC.'1T:'.D-D)N.G9T/#UU.7-W,7)Y-71N971R.T!Z.G:B.W6F)HU
