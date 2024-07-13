@@ -2,6 +2,8 @@
 
 该仓库存放以`北宇治字幕组`名义制作的TV动画《鹿乃子乃子乃子虎视眈眈》 字幕。
 
+![ShikaNoko](https://github.com/user-attachments/assets/c6d67091-5acd-471c-867a-de0b8e458e4c)
+
 ## 下载字幕
 
 [![status badge main branch](https://github.com/Kitauji-Sub/subs-shikanoko/actions/workflows/build-subtitle.yml/badge.svg?branch=main)](https://github.com/Kitauji-Sub/subs-shikanoko/releases/latest) ![GitHub Release](https://img.shields.io/github/v/release/Kitauji-Sub/subs-shikanoko)
