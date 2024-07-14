@@ -7,12 +7,15 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Last Style Storage: Default
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: SIKANOKO_Bottom,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H28345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,2,10,10,25,1
+Style: SIKANOKO_Bottom,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H14345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,2,10,10,25,1
 Style: note,筑紫A丸 SC,50,&H00F0F0F0,&H000000FF,&H00345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,4,0,7,50,10,70,1
 Style: LLM,思源黑体,65,&H0071EAC9,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,1,50,10,160,1
-Style: SIKANOKO_Top,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H28345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,8,10,10,15,1
+Style: SIKANOKO_Top,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H14345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,8,10,10,15,1
 Style: TITLE,獅尾圓體SC-Black,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
 Style: STF,筑紫A丸 SC,50,&H00FFFFFF,&H000000FF,&H00345B85,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,10,10,30,1
 
