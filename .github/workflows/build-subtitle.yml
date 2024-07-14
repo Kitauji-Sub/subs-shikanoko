@@ -10,8 +10,8 @@ on:
       - 'README.md'
 
 env:
-      PYTHONUNBUFFERED: "1"
-      WINEDEBUG: "-all"
+  PYTHONUNBUFFERED: "1"
+  WINEDEBUG: "-all"
 
 jobs:
   Build-CI-Versions:
@@ -21,30 +21,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Setup Python Environment
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install wine64
-          pip install --user git+https://github.com/FichteForks/Myaamori-Aegisub-Scripts.git@pr/fix-style-deduplication#subdirectory=scripts/sub-digest
-          pip install requests
-          winecfg
-      - name: Download Aegisub-cli
-        run: |
-          wget https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip
-          unzip -q aegisub-cli.zip -d aegisub-cli/
-      - name: Install custom fonts
-        run: |
-          wget https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip
-          unzip -q fonts.zip -d Fonts/
-          sudo mv Fonts/* /usr/share/fonts/
-          fc-cache -fv
-      - name: Build substitles
-        run: |
-          python build_scripts/build.py
       - name: Semantic Version
         uses: PaulHatch/semantic-version@v5.4.0
         id: semver
@@ -53,21 +29,71 @@ jobs:
           major_pattern: "(MAJOR)"
           minor_pattern: "feat:"
           bump_each_commit: true
+          bump_each_commit_patch_pattern: "(PATCH)"
+      - name: Check if version exists
+        id: version_check
+        run: |
+          if [ $(git tag -l "${{ steps.semver.outputs.version_tag }}") ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Setup Python Environment
+        if: steps.version_check.outputs.skip == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          sudo apt-get update
+          sudo apt-get install wine64
+          pip install --user git+https://github.com/FichteForks/Myaamori-Aegisub-Scripts.git@pr/fix-style-deduplication#subdirectory=scripts/sub-digest
+          pip install requests
+          winecfg
+      - name: Download Aegisub-cli
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          wget https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip
+          unzip -q aegisub-cli.zip -d aegisub-cli/
+      - name: Install custom fonts
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          wget https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip
+          unzip -q fonts.zip -d Fonts/
+          sudo mv Fonts/* /usr/share/fonts/
+          fc-cache -fv
+      - name: Build substitles
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          python build_scripts/build.py
       - name: Pack files
+        if: steps.version_check.outputs.skip == 'false'
         run: |
           zip -r -j sino_subs_${{steps.semver.outputs.version}}.zip build/output/*
+      - name: Generate a changelog
+        if: steps.version_check.outputs.skip == 'false'
+        uses: orhun/git-cliff-action@v3
+        with:
+          config: cliff.toml
+          args: --verbose
+        env:
+          OUTPUT: CHANGELOG.md
+          GITHUB_REPO: ${{ github.repository }}
       - name: Publish
+        if: steps.version_check.outputs.skip == 'false'
         uses: "softprops/action-gh-release@v2"
         with:
           tag_name: ${{steps.semver.outputs.version_tag}}
           fail_on_unmatched_files: true
           prerelease: false
           draft: false
-          generate_release_notes: false
+          body_path: CHANGELOG.md
           name: ${{steps.semver.outputs.version}}
           files: |
             sino_subs_*.zip
       - name: Upload Artifacts
+        if: steps.version_check.outputs.skip == 'false'
         uses: actions/upload-artifact@v4
         with:
           name: sino_subs_built
