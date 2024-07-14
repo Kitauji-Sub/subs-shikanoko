@@ -9,14 +9,13 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 01 (1080p) [3B5309BF].mkv
-Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 01 (1080p) [3B5309BF].mkv
+Audio File: D:/Anime/Torrent/[KitaujiSub] Shikanoko Nokonoko Koshitantan [01][WebRip][HEVC_AAC][CHS_CHT_JP].mkv
+Video File: D:/Anime/Torrent/[KitaujiSub] Shikanoko Nokonoko Koshitantan [01][WebRip][HEVC_AAC][CHS_CHT_JP].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Scroll Position: 378
-Active Line: 395
-Video Position: 31768
+Active Line: 14
+Video Position: 17433
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -40,8 +39,10 @@ Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line,{\pos(!line.left + gr
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====STF=====
 Dialogue: 0,0:02:15.12,0:02:16.99,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
-Comment: 0,0:00:05.40,0:00:09.45,note,旁白,0,0,0,kara,新选组为幕府时期负责维持治安，\N协助幕府的浪人组织。\N照片背景中是新选组副长土方岁三之像，\N同时也是故事的舞台——日野市的著名文化地标。
-Comment: 0,0:12:07.08,0:12:10.08,note,虎子,0,0,0,kara,新加坡的著名喷水雕塑。
+Comment: 0,0:00:02.14,0:00:05.40,note,旁白,0,0,90,kara,本作故事发生在日野市，\N照片上为日野市的高幡不动尊金刚寺，\N是供奉不动明王本尊的关东三大寺院之一，\N同时还是新选组副长土方岁三的菩提寺。
+Comment: 0,0:00:05.40,0:00:09.45,note,旁白,0,0,0,kara,新选组为幕府时期负责维持治安，\N协助幕府的浪人组织。\N照片背景为寺中所立土方岁三铜像。
+Comment: 0,0:00:10.74,0:00:15.50,note,,0,0,0,kara,画面上开行的是多摩都市单轨电车。\N多摩单轨线路为跨座式单轨系统，\N连接东京都和多摩市，南北纵贯多摩地区中部。\N众多ACG作品曾取材于此，如《魔禁》系列，《街角魔族》等。
+Comment: 0,0:12:07.08,0:12:10.08,note,虎子,0,0,0,kara,鱼尾狮：一种虚构的鱼身狮头的动物，\N是新加坡的标志性形象。
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 0,0:02:16.99,0:02:22.00,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord5\c&H359CF2&\3c&H0366FE&}女孩遇见鹿
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
