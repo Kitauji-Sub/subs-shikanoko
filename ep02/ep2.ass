@@ -8,13 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/sino_ep2/ep2.mkv
-Video File: C:/Users/scree/Desktop/sino_ep2/ep2.mkv
+Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 02 (1080p) [7A292AD1].mkv
+Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 02 (1080p) [7A292AD1].mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Active Line: 11
-Video Position: 15982
+Video Zoom Percent: 0.875000
+Scroll Position: 111
+Active Line: 128
+Video Position: 11260
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -54,7 +55,7 @@ Comment: 0,0:02:12.18,0:02:14.60,SIKANOKO_Bottom,旁白,0,0,0,kara,她叫虎视�
 Comment: 0,0:02:14.60,0:02:16.53,SIKANOKO_Bottom,旁白,0,0,0,kara,以前其实是个不良少女\N実は元ヤンキーである
 Comment: 0,0:02:17.01,0:02:21.66,SIKANOKO_Bottom,旁白,0,0,0,kara,她在升入高中的同时隐瞒了这段历史 树立了一个好学生的形象\N高校デビューと同時にそれを隠し 優等生の地位を築き上げ
 Comment: 0,0:02:21.66,0:02:26.36,SIKANOKO_Bottom,旁白,0,0,0,kara,现在正兼任着班长与学生会长\N今や生徒会長及び学級委員長も務めている彼女だが
-Comment: 0,0:02:26.70,0:02:31.59,SIKANOKO_Bottom,旁白,0,0,0,kara,但她的过去被一位转学而来的鹿（？） 也就是鹿乃子乃子看穿\N転校してきた一人のシカ（？） 鹿乃子のこにそれを見破られ
+Comment: 0,0:02:26.70,0:02:31.59,SIKANOKO_Bottom,旁白,0,0,0,kara,但她的过去被一位转学而来的鹿(?) 也就是鹿乃子乃子看穿\N転校してきた一人のシカ（？） 鹿乃子のこにそれを見破られ
 Comment: 0,0:02:31.59,0:02:35.84,SIKANOKO_Bottom,旁白,0,0,0,kara,是处女的事实也被看穿 加上她自己本身又超好搞定\N更に処女だと見破られ それとは関係なくとてもチョロかったので
 Comment: 0,0:02:36.04,0:02:39.76,SIKANOKO_Bottom,旁白,0,0,0,kara,所以最后就当上了一个莫名其妙的社团 鹿社的社长\N謎の部活 シカ部の部長をするはめになってしまった
 Comment: 0,0:02:39.76,0:02:43.07,SIKANOKO_Bottom,旁白,0,0,0,kara,而今天 她也不情不愿地走在参加社团活动的路上\Nそして 今日もイヤイヤ部活に
@@ -485,7 +486,7 @@ Comment: 0,0:21:23.26,0:21:24.10,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,当然可�
 Comment: 0,0:21:24.10,0:21:24.72,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
 Comment: 0,0:21:25.61,0:21:28.90,SIKANOKO_Bottom,馅子,0,0,0,kara,今后姐姐也请你多多关照了 鹿宝\Nこれからもお姉ちゃんをよろしく頼むわ のこたん
 Comment: 0,0:21:29.23,0:21:30.73,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,交给我吧 虎馅\N任せて こしあん
-Comment: 0,0:21:39.94,0:21:42.23,SIKANOKO_Bottom,同学,0,0,0,kara,鹿宝 虎馅\Nのこたん こしあん
+Comment: 0,0:21:39.94,0:21:42.13,SIKANOKO_Bottom,同学,0,0,0,kara,鹿宝 虎馅\Nのこたん こしあん
 Comment: 0,0:21:42.23,0:21:44.49,SIKANOKO_Bottom,同学,0,0,0,kara,鹿宝 虎馅\Nのこたん こしあん
 Comment: 0,0:21:44.49,0:21:46.52,SIKANOKO_Top,同学,0,0,0,kara,鹿宝 虎馅\Nのこたん こしあん
 Comment: 0,0:21:46.74,0:21:48.84,SIKANOKO_Top,同学,0,0,0,kara,鹿宝 虎馅\Nのこたん こしあん
@@ -497,7 +498,7 @@ Comment: 0,0:21:55.73,0:21:57.94,SIKANOKO_Bottom,虎子,0,0,0,kara,从明天开�
 Comment: 0,0:21:57.94,0:21:59.31,SIKANOKO_Bottom,虎子,0,0,0,kara,每天都带胸罩好了\Nブラをつけよう
 Comment: 0,0:22:02.35,0:22:03.64,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,今天是白色的\N今日はシロ
 Comment: 0,0:22:03.64,0:22:04.52,SIKANOKO_Bottom,虎子,0,0,0,kara,你会透视啊？\N透視？
-Comment: 0,0:00:29.02,0:00:29.02,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_sc.ass
+Comment: 0,0:00:29.03,0:00:29.03,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_sc.ass
 Comment: 0,0:22:05.03,0:22:05.03,SIKANOKO_Bottom,,0,0,0,import-shifted,../ed_sc.ass
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,import,insert/insert01.ass
 Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,import,screen/screen.ass
