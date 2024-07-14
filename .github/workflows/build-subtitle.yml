@@ -71,6 +71,11 @@ jobs:
         if: steps.version_check.outputs.skip == 'false'
         run: |
           zip -r -j sino_subs_${{steps.semver.outputs.version}}.zip build/output/*
+      - name: Push the tag to Github
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          git tag ${{ steps.semver.outputs.version_tag }}
+          git push origin ${{ steps.semver.outputs.version_tag }}
       - name: Generate a changelog
         if: steps.version_check.outputs.skip == 'false'
         uses: orhun/git-cliff-action@v3
