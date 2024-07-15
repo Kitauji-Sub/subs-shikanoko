@@ -47,6 +47,8 @@ commit_preprocessors = [
   # Check spelling of the commit with https://github.com/crate-ci/typos
   # If the spelling is incorrect, it will be automatically fixed.
   #{ pattern = '.*', replace_command = 'typos --write-changes -' },
+  # remove semver patterns such as (MAJOR) and (PATCH)
+  { pattern = '\(MAJOR\)|\(MINOR\)|\(PATCH\)', replace = "" },
 ]
 # regex for parsing and grouping commits
 commit_parsers = [
