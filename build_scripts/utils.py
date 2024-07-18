@@ -106,7 +106,7 @@ def traverse_files(folder_path):
                     continue
 
                 cleanup_ass_file(input_file, output_file)
-                traditionalize_ass(output_file, output_tc_file, user_protect_replace='悠哉字体')
+                traditionalize_ass(output_file, output_tc_file, user_protect_replace='悠哉字体\n仓耳周珂正大榜书')
 
 def merge_files(input_file, output_file):
     with open(input_file, encoding='utf-8-sig', mode='r') as f:
