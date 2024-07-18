@@ -4,6 +4,6 @@ __pycache__
 /build_scripts/*.ass
 .vscode/
 .env
-ncop.mp4
-nced.mp4
+*.mp4
 sika.tfml
+*pre.ass
