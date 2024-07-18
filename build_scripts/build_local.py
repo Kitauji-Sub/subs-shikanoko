@@ -3,8 +3,8 @@ import subprocess
 from utils import FileManager, SubtitleProcessor
 
 def main():
-    work_folder = os.environ.get('GITHUB_WORKSPACE')
-    # work_folder = os.getcwd()
+    # work_folder = os.environ.get('GITHUB_WORKSPACE')
+    work_folder = os.getcwd()
     build_dir = os.path.join(work_folder, 'build')
 
     FileManager.traverse_files(work_folder)
