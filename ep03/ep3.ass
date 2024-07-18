@@ -13,9 +13,10 @@ Audio File: C:/Users/scree/Desktop/sino_ep3/ep3.mkv
 Video File: C:/Users/scree/Desktop/sino_ep3/ep3.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Active Line: 9
-Video Position: 2781
+Video Zoom Percent: 0.750000
+Scroll Position: 331
+Active Line: 357
+Video Position: 31770
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -160,10 +161,10 @@ Comment: 0,0:10:25.20,0:10:27.20,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,真的很�
 Comment: 0,0:10:27.64,0:10:29.77,SIKANOKO_Bottom,虎子,0,0,0,kara,那是当然了\Nあったぼうよ
 Comment: 0,0:10:29.77,0:10:30.48,SIKANOKO_Bottom,虎子,0,300,0,kara,嗯？\Nん?
 Comment: 0,0:10:29.77,0:10:30.48,SIKANOKO_Bottom,鹿乃子,300,0,0,kara,嗯？\Nん?
-Comment: 0,0:10:34.81,0:10:37.19,SIKANOKO_Bottom,旁白,0,0,0,kara,诶 这 没事吧？\Nえ ちょっ 大丈夫？
-Comment: 0,0:10:37.19,0:10:40.49,SIKANOKO_Bottom,旁白,0,0,0,kara,怎么会倒在这个地方？发生什么了？身体不舒服？\Nなんでこんなところに？どうしたの？具合悪い?
-Comment: 0,0:10:40.49,0:10:43.84,SIKANOKO_Bottom,旁白,0,0,0,kara,要带她去医务室吗？还是说叫救护车？\N保健室に連れて行きましょうか?それとも救急車?
-Comment: 0,0:10:43.84,0:10:46.64,SIKANOKO_Bottom,旁白,0,0,0,kara,不对 警察？自卫队？\Nいや 警察?自衛隊?
+Comment: 0,0:10:34.81,0:10:37.19,SIKANOKO_Bottom,虎子,0,0,0,kara,诶 这 没事吧？\Nえ ちょっ 大丈夫？
+Comment: 0,0:10:37.19,0:10:40.49,SIKANOKO_Bottom,虎子,0,0,0,kara,怎么会倒在这个地方？发生什么了？身体不舒服？\Nなんでこんなところに？どうしたの？具合悪い?
+Comment: 0,0:10:40.49,0:10:43.84,SIKANOKO_Bottom,虎子,0,0,0,kara,要带她去医务室吗？还是说叫救护车？\N保健室に連れて行きましょうか?それとも救急車?
+Comment: 0,0:10:43.84,0:10:46.64,SIKANOKO_Bottom,虎子,0,0,0,kara,不对 警察？自卫队？\Nいや 警察?自衛隊?
 Comment: 0,0:10:47.26,0:10:48.36,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜…？\Nぬん…？
 Comment: 0,0:10:59.29,0:11:03.60,SIKANOKO_Bottom,马车芽,0,0,0,kara,这里太暖和了 马车芽我竟然不知不觉就睡着了\N馬車芽としたことがあったかくてついつい寝てしまいました
 Comment: 0,0:11:03.84,0:11:05.69,SIKANOKO_Bottom,虎子,0,0,0,kara,是 是这样啊\Nそ そうだったの
@@ -363,7 +364,7 @@ Comment: 0,0:21:03.18,0:21:04.76,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么说�
 Comment: 0,0:21:04.76,0:21:06.63,SIKANOKO_Bottom,虎子,0,0,0,kara,而且我也没说过这种话啊！\N言ってねえよべつに!
 Comment: 0,0:21:07.48,0:21:08.46,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
 Comment: 0,0:21:08.46,0:21:09.21,SIKANOKO_Bottom,马车芽,0,0,0,kara,哈\Nはあ
-Comment: 0,0:21:09.96,0:21:12.44,SIKANOKO_Bottom,虎子,0,0,0,kara,你们两个 不对 你们两头\N2人とも いえ2匹とも
+Comment: 0,0:21:09.96,0:21:12.44,SIKANOKO_Bottom,馅子,0,0,0,kara,你们两个 不对 你们两头\N2人とも いえ2匹とも
 Comment: 0,0:21:14.03,0:21:17.92,SIKANOKO_Bottom,馅子,0,0,0,kara,你们是完全不了解照顾人的姐姐的吧\Nお世話係であるお姉ちゃんのこと何も分かってないわね
 Comment: 0,0:21:17.92,0:21:23.14,SIKANOKO_Bottom,馅子,0,0,0,kara,两头刚进城的乡巴鹿怎么可能比得过在姐姐身边陪伴了15年的我呢\Nぽっと出の2匹より15年連れ添った私の方がいいに決まってるじゃない
 Comment: 0,0:21:23.65,0:21:25.31,SIKANOKO_Bottom,馅子,0,0,0,kara,没错 也就是说\Nそう つまり
