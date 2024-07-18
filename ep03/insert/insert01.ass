@@ -7,6 +7,11 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Scroll Position: 6
+Active Line: 14
+Video Position: 4242
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Insert_CN,思源黑体 Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,85,1
@@ -28,4 +33,17 @@ Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
-Dialogue: 0,0:00:00.00,0:00:02.00,Insert_JP,,0,0,0,,
+Comment: 0,0:02:49.72,0:02:51.20,Insert_JP,BGM,0,0,0,kara,シカ
+Comment: 0,0:02:53.40,0:02:54.97,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:02:57.31,0:02:58.71,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:03:01.06,0:03:02.59,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:02:49.72,0:02:51.20,Insert_CN,BGM,0,0,0,kara,鹿鹿
+Comment: 0,0:02:53.40,0:02:54.97,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:02:57.31,0:02:58.71,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:03:01.06,0:03:02.59,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:03:26.77,0:03:30.27,Insert_JP,BGM,0,0,0,kara,シカ
+Comment: 0,0:03:30.75,0:03:34.20,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:03:34.82,0:03:40.19,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:03:26.77,0:03:30.27,Insert_CN,BGM,0,0,0,kara,鹿鹿
+Comment: 0,0:03:30.75,0:03:34.20,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:03:34.82,0:03:40.19,Insert_CN,,0,0,0,kara,鹿鹿

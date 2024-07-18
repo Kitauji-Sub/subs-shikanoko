@@ -7,10 +7,110 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/ep3.mkv
+Video File: C:/Users/scree/Desktop/ep3.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Scroll Position: 27
+Active Line: 31
+Video Position: 22680
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:05.00,OnScreen,,0,0,0,,
+Dialogue: 0,0:00:04.19,0:00:09.20,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 1,0:00:14.66,0:00:16.04,OnScreen,,0,0,0,,{\an5\c&H222C38&\fscx240\fscy240\pos(260.75,168.7)\b0}1号机位
+Dialogue: 1,0:00:16.04,0:00:17.41,OnScreen,,0,0,0,,{\an5\c&H222C38&\fscx240\fscy240\b0\pos(1631.12,840.89)}2号机位
+Dialogue: 1,0:00:16.04,0:00:17.41,OnScreen,,0,0,0,,{=7}{\an7\fn@仓耳周珂正大榜书\b0\c&H1A149A&\fax0.042646\fscx184.93\fscy174.76\frz-91.8854\frx-0.9495\fry-1.8094\org(1785.77,384.89)\pos(1692.4,429.6)\blur1}鹿仙贝
+Dialogue: 1,0:00:17.41,0:00:18.79,OnScreen,,0,0,0,,{\an5\c&H222C38&\fscx240\fscy240\b0\pos(268.19,177.53)}3号机位
+Dialogue: 1,0:00:18.79,0:00:22.79,OnScreen,,0,0,0,,{\an5\c&H222C38&\fscx240\fscy240\b0\pos(1635,835.97)}4号机位
+Dialogue: 0,0:00:14.66,0:00:16.04,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\clip(141.33,124.44,383.11,229.33)\c&HF7F7F7&}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:16.04,0:00:17.41,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&HF7F7F7&\clip(1503.11,792.89,1764.44,896)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:17.41,0:00:18.79,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&HF7F7F7&\clip(141.33,124.44,404.44,240)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:18.79,0:00:22.79,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&HF7F7F7&\clip(1503.11,787.56,1771.56,894.22)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:02:08.78,0:02:12.53,OnScreen,,0,0,0,,{=19}{\an7\fn悠哉字体\fax0.000001\fscx261.16\fscy241.98\frz-3.9474\frx3.8542\fry1.9809\org(-157.44,913.39)\pos(1648.59,-79.94)\c&H58433B&}鹿社\N快来吧！新成员
+Dialogue: 0,0:09:48.53,0:09:52.03,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
+Dialogue: 0,0:09:52.03,0:09:55.53,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
+Dialogue: 0,0:15:17.77,0:15:20.77,OnScreen,eyecatch3,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}御番所山上看到的金华山
+Dialogue: 1,0:15:39.00,0:15:42.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(1777.22,247.89)}鹿乃子乃子\N高三
+Dialogue: 1,0:15:39.00,0:15:42.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(221,339)}职责…鹿
+Dialogue: 0,0:15:39.00,0:15:42.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(1540.44,228.44,1812.44,758.22)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:39.00,0:15:42.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(105.78,267.56,230.22,788.44)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:15:42.50,0:15:46.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(1811.22,323.89)}虎视馅子\N高一
+Dialogue: 1,0:15:42.50,0:15:46.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(439,151)}职责…\N据她所说是负责\N照顾姐姐
+Dialogue: 0,0:15:42.50,0:15:46.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(1581.33,310.22,1823.11,745.78)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:42.50,0:15:46.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(82.67,137.78,468.44,914.67)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:42.29,0:15:42.33,OnScreen,,0,0,0,,{=31}{\fscy100\frz0\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(781,843)}↖馅
+Dialogue: 0,0:15:42.33,0:15:42.71,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(781,843)}↖馅
+Dialogue: 0,0:15:42.71,0:15:45.04,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(781.01,842.99)}↖馅
+Dialogue: 0,0:15:45.04,0:15:45.17,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(799.69,822.56)}↖馅
+Dialogue: 0,0:15:45.17,0:15:45.29,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(805.92,809.54)}↖馅
+Dialogue: 0,0:15:45.29,0:15:45.54,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(810.35,799.28)}↖馅
+Dialogue: 0,0:15:45.54,0:15:45.59,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(810.36,799.27)}↖馅
+Dialogue: 0,0:15:45.59,0:15:45.71,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(810.36,799.26)}↖馅
+Dialogue: 0,0:15:45.71,0:15:45.92,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(810.36,799.27)}↖馅
+Dialogue: 0,0:15:45.92,0:15:46.13,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(810.36,799.28)}↖馅
+Dialogue: 0,0:15:46.13,0:15:46.30,OnScreen,,0,0,0,,{=31}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(810.35,799.28)}↖馅
+Dialogue: 0,0:15:42.29,0:15:42.33,OnScreen,,0,0,0,,{=32}{\fscy100\frz0\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1301,841)}虎视↗
+Dialogue: 0,0:15:42.33,0:15:45.04,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1301,841)}虎视↗
+Dialogue: 0,0:15:45.04,0:15:45.09,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1288.59,816.21)}虎视↗
+Dialogue: 0,0:15:45.09,0:15:45.13,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1288.6,816.19)}虎视↗
+Dialogue: 0,0:15:45.13,0:15:45.17,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1288.59,816.19)}虎视↗
+Dialogue: 0,0:15:45.17,0:15:45.29,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1286.11,796.45)}虎视↗
+Dialogue: 0,0:15:45.29,0:15:45.34,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.17,786.43)}虎视↗
+Dialogue: 0,0:15:45.34,0:15:45.38,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.17,786.42)}虎视↗
+Dialogue: 0,0:15:45.38,0:15:45.42,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.18,786.42)}虎视↗
+Dialogue: 0,0:15:45.42,0:15:45.46,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.17,786.42)}虎视↗
+Dialogue: 0,0:15:45.46,0:15:45.50,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.18,786.43)}虎视↗
+Dialogue: 0,0:15:45.50,0:15:46.00,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.18,786.42)}虎视↗
+Dialogue: 0,0:15:46.00,0:15:46.30,OnScreen,,0,0,0,,{=32}{\fscy100\frz-360\fscx100\alpha&H00&\fn悠哉字体\c&H2F2A64&\pos(1281.17,786.42)}虎视↗
+Dialogue: 1,0:15:46.55,0:15:50.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(1811.22,283.89)}马车芽芽芽\N高一
+Dialogue: 1,0:15:46.55,0:15:50.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(349,163)}职责…\N人类以上鹿鹿未满
+Dialogue: 0,0:15:46.55,0:15:50.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(1586.67,264,1824.89,800.89)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:46.55,0:15:50.30,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(111.11,152,368.89,895.11)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:15:53.56,0:15:56.81,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(1779.22,289.89)}虎视虎子\N高三
+Dialogue: 1,0:15:53.56,0:15:56.81,OnScreen,,0,0,0,,{\alpha&HFF&\t(1000,1200,\alpha&H00&)\fn@Misans\b0\frz270\an7\c&H222933&\fscx275\fscy275\pos(379,239)}职责…社长\N负责照顾鹿
+Dialogue: 0,0:15:53.56,0:15:56.81,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(1545.78,255.11,1812.44,688.89)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:53.56,0:15:56.81,OnScreen,,0,0,0,,{\alpha&HFF&\t(600,800,\alpha&H00&)\an7\pos(0,0)\p1\c&HF6F6F6&\clip(143.11,226.67,418.67,873.78)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:59.56,0:16:00.69,OnScreen,,0,0,0,,{\fn仓耳周珂正大榜书\b0\c&H020301&\fscx200\fscy200\frz23.06\pos(991,517)}鹿社会议！
+Dialogue: 0,0:16:00.69,0:16:00.77,OnScreen,,0,0,0,,{\fn仓耳周珂正大榜书\b0\c&H020301&\fscx200\fscy200\frz23.06\pos(991,517)\iclip(m 843.61 485.78 b 879.51 566.42 919.94 606.56 930.18 617.37 l 953.97 643.05 995.84 622.76 957.79 422.4 1069.42 393.84 b 1079.25 459.62 1107.16 553.16 1123.96 593.59 l 1165.83 565.68 1164.56 395.73 1247.02 380.51 1282.54 625.3 943.83 719.15 803.01 629.1)}鹿社会议！
+Dialogue: 1,0:20:13.44,0:20:19.45,OnScreen,,0,0,0,,{=28}{\fn仓耳周珂正大榜书\b0\c&H292E38&\fscx353.46\fscy375.80\frz-14.7411\frx-1.0341\fry0.2666\org(1129.64,498.02)\pos(871.64,504.16)}鹿鹿的命\N也是命
+Dialogue: 0,0:20:13.44,0:20:19.45,OnScreen,,0,0,0,,{=28}{\p1\c&HF0F0F0&\clip(m 669.34 9.78 l 1183.11 136 1101.33 548.44 573.34 409.77)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e1805.77;337.92#7C1805.77;525.80#7C1725.77;525.80#7C1728.40;271.27
+Data: 1,_aegi_perspective_ambient_plane,e1829.45;268.64#7C1805.77;525.80#7C1725.77;525.80#7C1728.40;271.27
+Data: 2,_aegi_perspective_ambient_plane,e1829.45;268.64#7C1814.54;658.22#7C1725.77;525.80#7C1728.40;271.27
+Data: 3,_aegi_perspective_ambient_plane,e1829.45;268.64#7C1814.54;658.22#7C1717.00;656.47#7C1728.40;271.27
+Data: 4,_aegi_perspective_ambient_plane,e1829.45;268.64#7C1814.54;658.22#7C1717.98;655.73#7C1728.40;271.27
+Data: 5,_aegi_perspective_ambient_plane,e1829.45;268.64#7C1815.53;657.24#7C1717.98;655.73#7C1728.40;271.27
+Data: 6,_aegi_perspective_ambient_plane,e1828.96;268.88#7C1815.53;657.23#7C1717.98;655.72#7C1728.40;271.26
+Data: 7,_aegi_perspective_ambient_plane,e1828.96;268.88#7C1815.53;657.23#7C1717.98;655.72#7C1729.13;271.26
+Data: 8,_aegi_perspective_ambient_plane,e382.04;154.67#7C1150.40;432.00#7C1150.40;592.00#7C725.16;592.00
+Data: 9,_aegi_perspective_ambient_plane,e382.04;154.67#7C1441.96;314.67#7C1150.40;592.00#7C725.16;592.00
+Data: 10,_aegi_perspective_ambient_plane,e382.04;154.67#7C1441.96;314.67#7C1569.96;833.78#7C725.16;592.00
+Data: 11,_aegi_perspective_ambient_plane,e382.04;154.67#7C1441.96;314.67#7C1569.96;833.78#7C422.93;814.22
+Data: 12,_aegi_perspective_ambient_plane,e382.04;154.67#7C1441.96;314.67#7C1641.07;913.78#7C422.93;814.22
+Data: 13,_aegi_perspective_ambient_plane,e382.04;154.67#7C1438.31;314.11#7C1641.07;913.78#7C422.93;814.22
+Data: 14,_aegi_perspective_ambient_plane,e382.04;154.67#7C1438.31;314.11#7C1637.89;911.87#7C422.92;814.22
+Data: 15,_aegi_perspective_ambient_plane,e382.04;154.67#7C1438.31;314.11#7C1637.89;911.87#7C422.72;810.57
+Data: 16,_aegi_perspective_ambient_plane,e380.78;156.44#7C1438.32;314.11#7C1637.89;911.87#7C422.72;810.57
+Data: 17,_aegi_perspective_ambient_plane,e380.78;156.44#7C1438.32;314.12#7C1637.89;911.87#7C422.71;810.57
+Data: 18,_aegi_perspective_ambient_plane,e380.80;156.45#7C1438.32;314.12#7C1637.89;911.87#7C422.75;810.57
+Data: 19,_aegi_perspective_ambient_plane,e380.79;156.45#7C1438.32;314.12#7C1637.89;911.87#7C422.74;810.57
+Data: 20,_aegi_perspective_ambient_plane,e631.71;-28.05#7C1131.12;241.33#7C1131.12;321.33#7C684.00;321.33
+Data: 21,_aegi_perspective_ambient_plane,e631.71;-28.05#7C1292.93;158.44#7C1131.12;321.33#7C684.00;321.33
+Data: 22,_aegi_perspective_ambient_plane,e631.71;-28.05#7C1292.93;158.44#7C1212.03;587.75#7C684.00;321.33
+Data: 23,_aegi_perspective_ambient_plane,e631.71;-28.05#7C1292.93;158.45#7C1212.03;587.75#7C526.14;412.11
+Data: 24,_aegi_perspective_ambient_plane,e626.30;-23.99#7C1292.93;158.45#7C1212.03;587.75#7C526.14;412.11
+Data: 25,_aegi_perspective_ambient_plane,e626.30;-23.99#7C1292.93;159.08#7C1212.03;587.75#7C526.14;412.11
+Data: 26,_aegi_perspective_ambient_plane,e626.30;-23.99#7C1292.93;159.08#7C1179.77;582.84#7C526.14;412.11
+Data: 27,_aegi_perspective_ambient_plane,e626.30;-23.99#7C1292.93;159.08#7C1179.77;582.66#7C526.14;412.11
+Data: 28,_aegi_perspective_ambient_plane,e626.30;-23.99#7C1292.93;159.08#7C1179.77;582.66#7C526.13;412.11
+Data: 31,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG<O;#I/74C?7NF_3^EVR=9S:)-E9S149U*FR=='^T+$=Y-3QY.$-J@?+'FOGGB3)M)H6V;71C/C)Z9W*B.49R-#VD/$*E,41V.7)N/4!V/#UZ-4ES/$AU9W6E.D%C@1
+Data: 32,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG<O;#I/74C?7NF_3^EVR=9S:)-E9S149U*FR=='^T+$%T-$%M/$1R+8XIG9\IJY<CBJ=C,#*V>7FE)DIC:$9W-W)Q94%N.T!Z9SUU-$=V,7)U:D5N-D1V.D!S-$9X-')R)HU
