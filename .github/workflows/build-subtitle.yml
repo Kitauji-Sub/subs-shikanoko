@@ -39,12 +39,10 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
       - name: Setup Python Environment
-        if: steps.version_check.outputs.skip == 'false'
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       - name: Install dependencies
-        if: steps.version_check.outputs.skip == 'false'
         run: |
           sudo apt-get update
           sudo apt-get install wine64
@@ -52,23 +50,19 @@ jobs:
           pip install requests
           winecfg
       - name: Download Aegisub-cli
-        if: steps.version_check.outputs.skip == 'false'
         run: |
           wget https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip
           unzip -q aegisub-cli.zip -d aegisub-cli/
       - name: Install custom fonts
-        if: steps.version_check.outputs.skip == 'false'
         run: |
           wget https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip
           unzip -q fonts.zip -d Fonts/
           sudo mv Fonts/* /usr/share/fonts/
           fc-cache -fv
       - name: Build substitles
-        if: steps.version_check.outputs.skip == 'false'
         run: |
           python build_scripts/build.py
       - name: Pack files
-        if: steps.version_check.outputs.skip == 'false'
         run: |
           zip -r -j sino_subs_${{steps.semver.outputs.version}}.zip build/output/*
       - name: Push the tag to Github
@@ -98,7 +92,6 @@ jobs:
           files: |
             sino_subs_*.zip
       - name: Upload Artifacts
-        if: steps.version_check.outputs.skip == 'false'
         uses: actions/upload-artifact@v4
         with:
           name: sino_subs_built
