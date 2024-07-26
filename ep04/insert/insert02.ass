@@ -1,0 +1,46 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: C:/Users/scree/Desktop/ep4.mkv
+Video File: C:/Users/scree/Desktop/ep4.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Active Line: 5
+Video Position: 26156
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Insert_karaoke,獅尾圓體SC-Bold,90,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1.1,0,1,5,3,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:18:06.98,0:18:08.98,Insert_karaoke,,0,0,0,code line,s_start, s_end = ln.line.buffers(0,0)
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,template line,!relayer(3)!{\clip(!line.left - 8!,0,!line.right + 8!,1080)\t(!s_start!,!s_end!,\clip(!line.right + 8!,0,!line.right+line.width + 16!,1080))}
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,template line,!relayer(2)!{\3c&HFFFFFF&\4c&HFFFFFF&\c&H0065FF&\bord5\shad3}
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,mixin line layer 2 noactor no-out,{\fad(0,520)\t(!line.duration-520!,!line.duration!,\shad0)}
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,mixin line layer 3 noactor no-out,!retime("line",0,-520)!
+Dialogue: 0,0:18:07.94,0:18:10.40,Insert_karaoke,,0,0,0,,{\pos(960,310)\shad0\3c&H2F63B2&\bord10\blur8}「成为家人吧、就在日野市里」
+Comment: 0,0:18:10.40,0:18:16.22,Insert_karaoke,歌,0,0,0,kara,{\fad(607,5320)}与伙伴们走散了的鹿鹿仙贝
+Comment: 0,0:18:16.37,0:18:21.83,Insert_karaoke,歌,0,0,0,kara,{\fad(100,4688)}迷失在街头的鹿鹿仙贝
+Comment: 0,0:18:21.87,0:18:25.17,Insert_karaoke,no-out,0,0,0,kara,{\fad(148,2984)}就让我将已冻得发抖的
+Comment: 0,0:18:25.17,0:18:29.42,Insert_karaoke,歌,0,0,0,kara,{\fad(184,2645)}你抱在怀中回家吧
+Comment: 0,0:18:29.71,0:18:33.43,Insert_karaoke,歌,0,0,0,kara,{\fad(24,1483)}就在那夜
+Comment: 0,0:18:34.72,0:18:39.68,Insert_karaoke,歌,0,0,0,kara,{\fad(19,4315)}一头和小小一捆的、鹿鹿和鹿鹿仙贝
+Comment: 0,0:18:40.47,0:18:45.81,Insert_karaoke,歌,0,0,0,kara,{\fad(191,3778)}互帮着 互助着 坚不可摧的联结它
+Comment: 0,0:18:45.85,0:18:48.36,Insert_karaoke,no-out,0,0,0,kara,{\fad(275,1693)}在心中萌发
+Comment: 0,0:18:48.36,0:18:53.07,Insert_karaoke,歌,0,0,0,kara,{\fad(184,3562)}我们似乎真的成了一个家
+Comment: 0,0:18:53.61,0:18:59.12,Insert_karaoke,no-out,0,0,0,kara,{\fad(189,4235)}但是我感觉到了你那寂寞的眼神
+Comment: 0,0:18:59.12,0:19:01.87,Insert_karaoke,no-out,0,0,0,kara,{\fad(185,2187)}其实我也早就已发觉
+Comment: 0,0:19:01.87,0:19:04.62,Insert_karaoke,no-out,0,0,0,kara,{\fad(21,2231)}你待在日野是不行的
+Comment: 0,0:19:04.62,0:19:07.38,Insert_karaoke,no-out,0,0,0,kara,{\fad(107,1775)}奈良的鹿鹿们
+Comment: 0,0:19:07.38,0:19:08.88,Insert_karaoke,no-out,0,0,0,kara,{\fad(100,767)}都正在
+Comment: 0,0:19:08.88,0:19:13.80,Insert_karaoke,歌,0,0,0,kara,{\fad(18,1603)}呼唤你回家呢
