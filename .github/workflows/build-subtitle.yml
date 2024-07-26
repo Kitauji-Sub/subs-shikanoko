@@ -47,7 +47,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install wine64
           pip install --user git+https://github.com/FichteForks/Myaamori-Aegisub-Scripts.git@pr/fix-style-deduplication#subdirectory=scripts/sub-digest
-          pip install requests
+          pip install requests urllib3
           winecfg
       - name: Download Aegisub-cli
         run: |
@@ -61,7 +61,7 @@ jobs:
           fc-cache -fv
       - name: Build substitles
         run: |
-          python build_scripts/build.py
+          python build_scripts/build.py ${{ github.workspace }}
       - name: Pack files
         run: |
           zip -r -j sino_subs_${{steps.semver.outputs.version}}.zip build/output/*

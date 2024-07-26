@@ -3,10 +3,28 @@ import shutil
 import json
 import requests
 from requests.exceptions import RequestException
-from requests.adapters import HTTPAdapter, Retry
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 import ass
 import subdigest
 import config
+
+class CallbackRetry(Retry):
+    def __init__(self, *args, **kwargs):
+        self._callback = kwargs.pop('callback', None)
+        super(CallbackRetry, self).__init__(*args, **kwargs)
+    def new(self, **kw):
+        # pass along the subclass additional information when creating
+        # a new instance.
+        kw['callback'] = self._callback
+        return super(CallbackRetry, self).new(**kw)
+    def increment(self, method, url, *args, **kwargs):
+        if self._callback:
+            try:
+                self._callback(url)
+            except Exception:
+                print('Callback raised an exception, ignoring')
+        return super(CallbackRetry, self).increment(method, url, *args, **kwargs)
 
 class SubtitleProcessor:
     def __init__(self, input_file, output_file):
@@ -28,7 +46,39 @@ class SubtitleProcessor:
             with open(self.output_file, encoding='utf-8-sig', mode='w+') as f_out:
                 subs.dump_file(f_out)
 
-    def traditionalize_text(self, input_text, user_pre_replace="", user_protect_replace="", timeout=10, max_tries=3):
+    def traditionalize_text(self, input_text, user_pre_replace="", user_protect_replace="", timeout=10, max_tries=5):
+        def retry_callback(url):
+            print(f"Retrying for {url}...")
+
+        def create_session(retries=3, backoff_factor=1, status_forcelist=[500, 502, 504, 429]):
+            session = requests.Session()
+            retry = CallbackRetry(
+                total=retries,
+                backoff_factor=backoff_factor,
+                status_forcelist=status_forcelist,
+                respect_retry_after_header=True,
+                callback=retry_callback
+            )
+
+            adapter = HTTPAdapter(max_retries=retry)
+            session.mount("https://", adapter)
+            return session
+
+        def send_request(url, data, timeout, max_tries):
+            session = create_session(retries=max_tries)
+            try:
+                response = session.post(url, data=data, timeout=timeout)
+                response.raise_for_status()
+                result = response.json()
+                if "data" in result and "text" in result["data"]:
+                    return result["data"]["text"]
+                else:
+                    raise Exception("Error: Unexpected response format")
+            except RequestException as e:
+                print(f"Request failed: {e}")
+
+            raise Exception("Error: Maximum number of tries exceeded")
+
         url = "https://api.zhconvert.org/convert"
         data = {
             "text": input_text,
@@ -37,22 +87,7 @@ class SubtitleProcessor:
             "userProtectReplace": user_protect_replace
         }
 
-        retry_strategy = Retry(total=max_tries, backoff_factor=0.3)
-        adapter = HTTPAdapter(max_retries=retry_strategy)
-        session = requests.Session()
-        session.mount("https://", adapter)
-        try:
-            response = session.post(url, data=data, timeout=timeout)
-            response.raise_for_status()
-            result = response.json()
-            if "data" in result and "text" in result["data"]:
-                return result["data"]["text"]
-            else:
-                raise Exception("Error: Unexpected response format")
-        except RequestException as e:
-            print(f"Request failed: {e}")
-
-        raise Exception("Error: Maximum number of tries exceeded")
+        return send_request(url, data, timeout, max_tries)
 
     def traditionalize_ass(self, user_pre_replace="", user_protect_replace=""):
         with open(self.input_file, encoding='utf-8-sig', mode='r') as f:

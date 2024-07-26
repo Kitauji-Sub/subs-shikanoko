@@ -1,10 +1,9 @@
 import os
 import subprocess
+import argparse
 from utils import FileManager, SubtitleProcessor
 
-def main():
-    work_folder = os.environ.get('GITHUB_WORKSPACE')
-    # work_folder = os.getcwd()
+def main(work_folder):
     build_dir = os.path.join(work_folder, 'build')
 
     FileManager.traverse_files(work_folder)
@@ -31,4 +30,8 @@ def main():
                     print(f"Merged {file}")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("work_folder", help="Specify the work folder")
+    args = parser.parse_args()
+
+    main(args.work_folder)
