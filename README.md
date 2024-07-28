@@ -63,13 +63,36 @@ epxx → 主目录
 
 `insert`下的文件应该仅包含插入曲部分，其它子文件也应各司其职。`epxx_sc.ass`为主文件，包含`import`语句。其它文件应使用 `Merge Scripts` 经由`import`语句导入到主文件中，最后导出发布文件。
 
-### 手动合并
+### 修改字幕
+
+应对每个分集下的各个子文件进行修改。在增删主文件对话行时，应注意保持特效栏文本为`kara`。
+
+修改完成后，进行字幕文件的构建。
+
+#### Github Actions构建
+
+1. [Fork](https://github.com/Kitauji-Sub/subs-shikanoko/fork)本仓库
+2. commit后提交到仓库
+3. 在Actions选项卡下查看workflow run，在Artifacts中下载sino_subs_built
+
+> [!NOTE]
+> 如果在commit message中加入[PATCH]则会使版本号第三位增加，并把构建出的字幕文件发布到release。
+
+#### 本地构建
 
 1. 克隆本仓库到本地
-2. 使用[zhconvert.org](zhconvert.org)将**每个文件**均进行繁化。对于主文件，还需更改import语句中的文件名。将繁化后的文件命名为`*_tc.ass`
-3. 修改对应样式为繁体样式，对应样式可以在_tc.ass的主文件中找到
-4. 使用`The0x539's templater`将模板应用到`insert`文件夹中的文件并保存，注意该脚本与aegisub自带的auto4模板运行器不完全兼容
-5. 依次打开各个主文件，使用`Merge Scripts`的`Import all external files`导入子文件；`Generate release candidate`生成发布文件
+2. 下载[Aegisub cli](https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip)，解压到仓库根目录/aegisub-cli/下
+3. 下载[字体](https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip)，安装或使用FontLoader类工具临时加载
+4. 安装依赖库
+```
+pip install --user git+https://github.com/FichteForks/Myaamori-Aegisub-Scripts.git@pr/fix-style-deduplication#subdirectory=scripts/sub-digest
+pip install requests urllib3
+```
+5. 运行Python脚本
+```
+python build_scripts/build.py <path>/<to>/<work_dir>
+```
+6. 在`builds/output`下查看输出的字幕文件
 
 ## 声明
 
