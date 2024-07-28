@@ -99,12 +99,15 @@ class SubtitleProcessor:
             for i in range(0, len(temp_texts_names), 50):
                 print(f"Traditionalizing line {i} to {i+50}...")
                 slice = temp_texts_names[i:i+50]
+                # replace fonts before submitting to zhconvert
+                for item in slice:
+                    item[0] = self.replace_fonts(item[0], config.font_replacements)
                 slice = json.dumps(slice, ensure_ascii=False)
                 traditionalized_slice = self.traditionalize_text(slice, user_pre_replace, user_protect_replace)
                 texts_and_names += json.loads(traditionalized_slice)
 
             for i, (text, name) in enumerate(texts_and_names):
-                doc.events[i].text = self.replace_fonts(text, config.font_replacements)
+                doc.events[i].text = text
                 doc.events[i].name = name
                 if doc.events[i].effect.startswith("import"):
                     doc.events[i].text = doc.events[i].text.replace(".ass", "_tc.ass").replace("_sc_tc.ass", "_tc.ass")
