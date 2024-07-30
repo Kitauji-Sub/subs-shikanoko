@@ -17,7 +17,10 @@ def main(work_folder):
                 # run templates
                 if not file.startswith("op"):
                     print(f"Running templates on {input_path}")
-                    subprocess.run(["wine", f"{work_folder}/aegisub-cli/aegisub-cli.exe", "--automation", f"{work_folder}/aegisub-cli/automation/autoload/0x.KaraTemplater.moon", input_path, input_path, "0x539's Templater"])
+                    if os.name == 'nt':  # Windows
+                        subprocess.run([f"{work_folder}/aegisub-cli/aegisub-cli.exe", "--automation", f"{work_folder}/aegisub-cli/automation/autoload/0x.KaraTemplater.moon", input_path, input_path, "0x539's Templater"])
+                    else:
+                        subprocess.run(["wine", f"{work_folder}/aegisub-cli/aegisub-cli.exe", "--automation", f"{work_folder}/aegisub-cli/automation/autoload/0x.KaraTemplater.moon", input_path, input_path, "0x539's Templater"])
 
     for root, dirs, files in os.walk(build_dir):
         for file in files:

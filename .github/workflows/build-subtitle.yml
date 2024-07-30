@@ -15,7 +15,7 @@ env:
 
 jobs:
   Build-CI-Versions:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,6 +32,7 @@ jobs:
           bump_each_commit_patch_pattern: "(PATCH)"
       - name: Check if version exists
         id: version_check
+        shell: bash
         run: |
           if [ $(git tag -l "${{ steps.semver.outputs.version_tag }}") ]; then
             echo "skip=true" >> $GITHUB_OUTPUT
@@ -44,27 +45,53 @@ jobs:
           python-version: '3.10'
       - name: Install dependencies
         run: |
-          sudo apt-get update
-          sudo apt-get install wine64
           pip install --user git+https://github.com/FichteForks/Myaamori-Aegisub-Scripts.git@pr/fix-style-deduplication#subdirectory=scripts/sub-digest
           pip install requests urllib3
-          winecfg
       - name: Download Aegisub-cli
         run: |
-          wget https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip
-          unzip -q aegisub-cli.zip -d aegisub-cli/
+          Invoke-WebRequest -Uri "https://github.com/scrpr/aegisub-cli/releases/download/disable_unique_path/aegisub-cli.zip" -OutFile "aegisub-cli.zip"
+          Expand-Archive -Path "aegisub-cli.zip" -DestinationPath "aegisub-cli" -Force
       - name: Install custom fonts
         run: |
-          wget https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip
-          unzip -q fonts.zip -d Fonts/
-          sudo mv Fonts/* /usr/share/fonts/
-          fc-cache -fv
+          Invoke-WebRequest -Uri "https://github.com/Kitauji-Sub/subs-shikanoko/releases/download/typeface/fonts.zip" -OutFile "fonts.zip"
+          Expand-Archive -Path "fonts.zip" -DestinationPath "Fonts" -Force
+          $fontSourceFolder = "Fonts\"
+          $SystemFontsPath = "C:\Windows\Fonts\"
+          
+          foreach($FontFile in Get-ChildItem $fontSourceFolder -Include '*.ttf','*.ttc','*.otf' -recurse ) {
+            $targetPath = Join-Path $SystemFontsPath $FontFile.Name
+          
+              if(![System.IO.Path]::IsPathRooted($fontSourceFolder)){
+                  $fontSourceFolder = $FontFile.Directory.FullName
+              }
+            if(Test-Path -Path $targetPath){
+              $FontFile.Name + " already installed"
+            }
+            else {
+              "Installing font " + $FontFile.Name
+              
+              #Extract Font information for Reqistry 
+              $ShellFolder = (New-Object -COMObject Shell.Application).Namespace($fontSourceFolder)
+              $ShellFile = $ShellFolder.ParseName($FontFile.name)
+              $ShellFileType = $ShellFolder.GetDetailsOf($ShellFile, 2)
+          
+              #Set the $FontType Variable
+              If ($ShellFileType -Like '*TrueType font file*') {$FontType = '(TrueType)'}
+                
+              #Update Registry and copy font to font directory
+              $RegName = $ShellFolder.GetDetailsOf($ShellFile, 21) + ' ' + $FontType
+              $null = New-ItemProperty -Name $RegName -Path "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Fonts" -PropertyType string -Value $FontFile.name -Force
+              Copy-item $FontFile.FullName -Destination $SystemFontsPath
+              "Done"
+            }
+          }
       - name: Build substitles
         run: |
           python build_scripts/build.py ${{ github.workspace }}
       - name: Pack files
         run: |
-          zip -r -j sino_subs_${{steps.semver.outputs.version}}.zip build/output/*
+          $version = "${{steps.semver.outputs.version_tag}}"
+          Compress-Archive -Path "build/output/*" -DestinationPath "sino_subs_$version.zip" -Force
       - name: Push the tag to Github
         if: steps.version_check.outputs.skip == 'false'
         run: |
