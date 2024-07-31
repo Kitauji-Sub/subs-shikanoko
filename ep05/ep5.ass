@@ -1,0 +1,485 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: C:/Users/scree/Desktop/[Ioroid] Shikanoko Nokonoko Koshitantan - 05 [ABEMA WEB-DL 1080p AVC AAC].mkv
+Video File: C:/Users/scree/Desktop/[Ioroid] Shikanoko Nokonoko Koshitantan - 05 [ABEMA WEB-DL 1080p AVC AAC].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Scroll Position: 355
+Active Line: 19
+Video Position: 421
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SIKANOKO_Bottom,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H14345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,2,10,10,25,1
+Style: note,筑紫A丸 SC,50,&H00F0F0F0,&H000000FF,&H00345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,4,0,7,50,10,70,1
+Style: LLM,思源黑体,65,&H0071EAC9,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,1,50,10,160,1
+Style: SIKANOKO_Top,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H14345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,8,10,10,15,1
+Style: TITLE,獅尾圓體SC-Black,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: STF,筑紫A丸 SC,50,&H00FFFFFF,&H000000FF,&H00345B85,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code once anystyle,force_single_language = false
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,colors,0,0,0,code once anystyle,charactor_color = {     ["鹿乃子"] = "&H3361FF&",     ["虎子"] = "&H0094AA&",     ["馅子"] = "&HE56CB4&",     ["马车芽"] = "&H4DB477&",     ["根子"] = "&H7D5BDB&",     ["绢"] = "&HC182DC&",     ["千春"] = "&HAE6238&",} function search_for_color(input_text)     for k, v in _G.pairs(charactor_color) do         if string.find(input_text, k) then             return v         end     end     return "&H345B85&" end function name_color(color)     return colorlib.interp_xyz(0.5, "&H345B85&", color) end
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,utility,0,0,0,code once anystyle,function string:split(delimiter)     local result = {}     local from = 1     local delim_from, delim_to = string.find(self, delimiter, from, true)     while delim_from do         if (delim_from ~= 1) then             table.insert(result, string.sub(self, from, delim_from-1))         end         from = delim_to + 1         delim_from, delim_to = string.find(self, delimiter, from, true)     end     if (from <= #self) then table.insert(result, string.sub(self, from)) end     return result end
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,global settings,0,0,0,code once anystyle,_zh_jp_gap = 42.5; _zh_jp_gap_top=53.5; graphic_height_bottom = 30; graphic_height_top = 25; tc_fontname = "獅尾圓體-Bold"; if force_single_language then _zh_jp_gap = 0 _zh_jp_gap_top = 0 end;
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code line anystyle,start_time = orgline.start_time end_time = orgline.end_time align = orgline.styleref.align line_text = orgline.text_stripped:split("\\N")  line_text_tags = orgline.text:split("\\N") line_width = _G.aegisub.text_extents(orgline.styleref, line_text[1] and line_text[1] or "") line_left = (meta.res_x - orgline.eff_margin_l - orgline.eff_margin_r - line_width) / 2 + orgline.eff_margin_l zh_jp_gap = line_text[2] and _zh_jp_gap or 0 zh_jp_gap_top = line_text[2] and _zh_jp_gap_top or 0
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,text,0,0,0,template line style SIKANOKO_Top notext,!maxloop("zhjp",2)!!relayer(10-loopctx.state.zhjp)!!(zh_jp_gap == 0 and loopctx.state.zhjp == 2) and skip() or ""!{\pos(!line.center!,!line.styleref.align == 2 and (loopctx.state.zhjp == 1 and line.bottom - zh_jp_gap or line.bottom) or (loopctx.state.zhjp == 1 and line.top + zh_jp_gap_top or line.top)!)\bord!loopctx.state.zhjp == 1 and 5.2 or 3.64!\fscx!loopctx.state.zhjp == 1 and 100 or 70!\fscy!loopctx.state.zhjp == 1 and 100 or 70!\fn!loopctx.state.zhjp == 1 and line.styleref.fontname or "FOT-TsukuARdGothic Std E"!\3c!name_color(search_for_color(line.actor))!}!loopctx.state.zhjp == 1 and line_text_tags[loopctx.state.zhjp] or line_text[loopctx.state.zhjp]!
+Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,code once,graphic_width = 50
+Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line notext,{\an7\1c&H345B84&\1a&H00&\3c&HF0F0F0&\3a&H00&\bord4.5\shad0\p1\fry180\fscx200\fscy200\pos(!line.left + graphic_width - 18!,!line.top!)}m 1.4 0 l 1.4 0 1 0.3 b 0 1.7 -0.4 5.6 0.6 8.9 b 1.7 12.6 5.1 17.8 11.2 21.6 l 11.9 22.1 b 16.2 24.8 20.7 27.5 27.1 27.5 b 31.8 27.5 35 26.3 35 25.1 l 35 25.1 33.1 24.4 b 32.6 24.2 32 24.1 31.4 23.9 b 31.1 23.8 30.8 23.7 30.5 23.6 l 30.5 23.6 27 21.8 25.4 19.6 b 24.9 18.7 24.5 17.9 24.2 17.3 b 23.5 15.6 23.1 14.9 21.8 14.3 l 21.8 14.3 21.5 16.1 b 21.5 16.3 21.4 16.6 21.4 16.9 b 21.1 18.9 20.2 19.4 19.5 19.5 b 16.7 19.6 14.7 12.8 14.5 12.1 l 14.5 12.1 13.6 8.2 13.5 7.4 b 13.1 4.8 12.9 4.4 12.5 4.4 b 11.7 4.4 11 4.4 11 7.6 l 11 7.6 11.2 9.8 b 11.4 11.2 11.6 12.3 10.9 13.2 l 10.9 13.2 9.4 13.8 b 6.3 13.8 4.3 5.7 4.1 4.8 b 3.2 0.9 2.7 0 1.4 0 {\p0}
+Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line,{\pos(!line.left + graphic_width!,!line.top + 5!)}
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====STF=====
+Dialogue: 0,0:01:57.10,0:01:59.02,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
+Dialogue: 0,0:01:59.02,0:02:04.02,TITLE,TITLE,0,0,0,,{\pos(1030,690)\fscx200\fscy200\bord5\c&H89D9FD&\3c&H3E83EE&}抓住那家伙的把柄！！
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
+Dialogue: 0,0:00:01.49,0:00:04.20,SIKANOKO_Bottom,旁白,0,0,0,,\N元ヤン猫かぶり優等生こしたんは
+Dialogue: 0,0:00:04.20,0:00:07.70,SIKANOKO_Bottom,旁白,0,0,0,,\N優等生ぶりを示すためにしばしば早起きである
+Dialogue: 0,0:00:08.20,0:00:12.04,SIKANOKO_Bottom,虎子,0,0,0,,\N誰かが褒めに見せかけたディスりをしている気がする
+Dialogue: 0,0:00:12.44,0:00:17.08,SIKANOKO_Bottom,虎子,0,0,0,,\Nいやいや 最近ちょっと変人しか女にペースを狂わされていただけで
+Dialogue: 0,0:00:17.55,0:00:22.90,SIKANOKO_Bottom,虎子,0,0,0,,\N落ち着けば こういう爽やかな朝が似合う セイフ・虎視虎子さんなのさ
+Dialogue: 0,0:00:27.75,0:00:28.66,SIKANOKO_Bottom,虎子&鹿乃子,0,0,0,,\N手紙?
+Dialogue: 0,0:00:29.03,0:00:29.03,SIKANOKO_Bottom,OP,0,0,0,,
+Dialogue: 0,0:02:04.21,0:02:05.92,SIKANOKO_Bottom,虎子,0,0,0,,\N缺
+Dialogue: 0,0:02:06.13,0:02:06.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nのつ
+Dialogue: 0,0:02:06.79,0:02:08.92,SIKANOKO_Bottom,虎子,0,0,0,,\Nなんでこんな早くにいるんだよ
+Dialogue: 0,0:02:08.92,0:02:11.27,SIKANOKO_Bottom,虎子,0,0,0,,\Nお前いつも遅刻ギリギリだろうが
+Dialogue: 0,0:02:11.43,0:02:14.81,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N寝てたんだけど寝返り打ってたら学校についてた
+Dialogue: 0,0:02:14.90,0:02:16.16,SIKANOKO_Bottom,虎子,0,0,0,,\Nどんな寝相
+Dialogue: 0,0:02:16.32,0:02:17.58,SIKANOKO_Bottom,旁白,0,0,0,,\Nこんな寝相
+Dialogue: 0,0:02:18.35,0:02:23.41,SIKANOKO_Bottom,虎子,0,0,0,,\Nそれにしても 日の一のヤンキーだったこの私が背後を取られるとは
+Dialogue: 0,0:02:23.72,0:02:26.44,SIKANOKO_Bottom,虎子,0,0,0,,\Nこちとら命の取り合いしてたっつーのに
+Dialogue: 0,0:02:26.72,0:02:29.74,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N命の取り合いだったら 私もいつもしてるよ
+Dialogue: 0,0:03:00.57,0:03:01.83,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nのーつ
+Dialogue: 0,0:03:03.15,0:03:03.79,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nぬん
+Dialogue: 0,0:03:08.05,0:03:10.58,SIKANOKO_Bottom,虎子,0,0,0,,\N嘘つけ!どこの脱走兵だよ
+Dialogue: 0,0:03:10.97,0:03:13.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N下駄箱に手紙ってこれ
+Dialogue: 0,0:03:14.29,0:03:15.84,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nラブレターンなのでは?
+Dialogue: 0,0:03:16.07,0:03:17.80,SIKANOKO_Bottom,虎子,0,0,0,,\Nラ ラ…
+Dialogue: 0,0:03:19.61,0:03:22.12,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nにゅん もしかしてもらうの初めて?
+Dialogue: 0,0:03:22.12,0:03:23.75,SIKANOKO_Bottom,虎子,0,0,0,,\Nそ そんなわけ
+Dialogue: 0,0:03:23.75,0:03:26.13,SIKANOKO_Bottom,虎子,0,0,0,,\N私くらいの美少女になっちゃうと
+Dialogue: 0,0:03:26.13,0:03:28.82,SIKANOKO_Bottom,虎子,0,0,0,,\N高嶺の花すぎてって 思ってるのかもな
+Dialogue: 0,0:03:28.82,0:03:32.32,SIKANOKO_Bottom,虎子,0,0,0,,\Nあでも そろそろ来てもおかしくない頃合いかなーっとは
+Dialogue: 0,0:03:32.46,0:03:33.74,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N缺
+Dialogue: 0,0:03:33.74,0:03:35.06,SIKANOKO_Bottom,虎子,0,0,0,,\Nなんだ よその目
+Dialogue: 0,0:03:35.16,0:03:38.38,SIKANOKO_Bottom,虎子,0,0,0,,\Nそういうお前はもらったことあるのかよ ラブレター!
+Dialogue: 0,0:03:38.95,0:03:39.45,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nない!
+Dialogue: 0,0:03:39.64,0:03:40.57,SIKANOKO_Bottom,虎子,0,0,0,,\Nないんかい!
+Dialogue: 0,0:03:41.10,0:03:44.37,SIKANOKO_Bottom,虎子,0,0,0,,\Nじゃあ何なんだ その自信満々な態度は
+Dialogue: 0,0:03:44.73,0:03:45.87,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nないけど
+Dialogue: 0,0:03:46.42,0:03:48.98,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N今まさに私のげた箱からも
+Dialogue: 0,0:03:50.45,0:03:52.69,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nラブレターの気配を感じる
+Dialogue: 0,0:03:52.69,0:03:53.35,SIKANOKO_Bottom,虎子,0,0,0,,\Nなっ
+Dialogue: 0,0:03:54.65,0:03:56.53,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nこの角がそう告げてるんや
+Dialogue: 0,0:03:56.76,0:03:58.67,SIKANOKO_Bottom,虎子,0,0,0,,\Nにわかには信じ難い
+Dialogue: 0,0:03:59.40,0:04:00.16,SIKANOKO_Bottom,虎子,0,0,0,,\Nだが
+Dialogue: 0,0:04:00.62,0:04:03.02,SIKANOKO_Bottom,虎子,0,0,0,,\Nついこないだあんなこともあったし
+Dialogue: 0,0:04:03.41,0:04:04.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nいざ!
+Dialogue: 0,0:04:04.68,0:04:06.17,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nオープン!
+Dialogue: 0,0:04:07.79,0:04:08.53,SIKANOKO_Bottom,虎子,0,0,0,,\Nないじゃん
+Dialogue: 0,0:04:08.53,0:04:09.80,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nうわ
+Dialogue: 0,0:04:09.80,0:04:11.86,SIKANOKO_Bottom,虎子,0,0,0,,\Nめっちゃショック受けとる!
+Dialogue: 0,0:04:12.12,0:04:14.68,SIKANOKO_Bottom,虎子,0,0,0,,\Nい いや 気にすんなって
+Dialogue: 0,0:04:14.68,0:04:18.10,SIKANOKO_Bottom,虎子,0,0,0,,\Nこういうのはほら ご縁っていうか タイミングだから
+Dialogue: 0,0:04:19.13,0:04:19.89,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N缺
+Dialogue: 0,0:04:19.89,0:04:20.41,SIKANOKO_Bottom,虎子,0,0,0,,\N缺
+Dialogue: 0,0:04:20.64,0:04:24.75,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nシーモン!きっと今ごろテレビ局と配信会社と講談社に
+Dialogue: 0,0:04:24.75,0:04:28.34,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N山ほど私宛てのファンレターやメールが届いてるはずだし
+Dialogue: 0,0:04:28.34,0:04:30.06,SIKANOKO_Bottom,虎子,0,0,0,,\Nな なんの話
+Dialogue: 0,0:04:30.06,0:04:32.30,SIKANOKO_Bottom,旁白,0,0,0,,\Nよければ送ってあげてください
+Dialogue: 0,0:04:32.84,0:04:36.37,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nで こしたんはそのラブレターの人と付き合うの?
+Dialogue: 0,0:04:36.37,0:04:38.47,SIKANOKO_Bottom,虎子,0,0,0,,\Nえっ?付き合う?
+Dialogue: 0,0:04:38.47,0:04:41.53,SIKANOKO_Bottom,虎子,0,0,0,,\Nいや まだラブレターって決まったわけじゃん
+Dialogue: 0,0:04:41.53,0:04:44.69,SIKANOKO_Bottom,虎子,0,0,0,,\Nそ それに 急につつつつきあうとか言われても
+Dialogue: 0,0:04:44.98,0:04:47.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N何おもっちゃろいこと言ってんねん
+Dialogue: 0,0:04:47.02,0:04:50.03,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nおう!こしたんはそうやって逃げてればいいが
+Dialogue: 0,0:04:50.03,0:04:52.69,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nラブレターを書いた人の気持ちはどうなる
+Dialogue: 0,0:04:52.84,0:04:55.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nちゃんと考えてから答えを出すべきじゃないのか
+Dialogue: 0,0:04:56.11,0:04:57.56,SIKANOKO_Bottom,虎子,0,0,0,,\Nせ 正論?
+Dialogue: 0,0:04:59.20,0:05:02.17,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N時間をかけて 真剣に向き合って
+Dialogue: 0,0:05:02.63,0:05:04.91,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nもしこしたんも相手に引かれたなら
+Dialogue: 0,0:05:05.32,0:05:06.58,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nその時はさ
+Dialogue: 0,0:05:07.22,0:05:10.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,\Nわたしの分も恋愛してよね
+Dialogue: 0,0:05:10.56,0:05:11.77,SIKANOKO_Bottom,虎子,0,0,0,,\N鹿の子
+Dialogue: 0,0:05:12.46,0:05:16.20,SIKANOKO_Bottom,虎子,0,0,0,,\Nそうよね 向こうは真剣に考えてくれてるんだもの
+Dialogue: 0,0:05:16.55,0:05:19.48,SIKANOKO_Bottom,虎子,0,0,0,,\Nわたしもちゃんと向き合って 考えなきゃ
+Dialogue: 0,0:05:21.85,0:05:23.80,SIKANOKO_Bottom,虎子,0,0,0,,\Nクソが!
+Dialogue: 0,0:05:27.24,0:05:28.78,SIKANOKO_Bottom,虎子,0,0,0,,\Nなんか言えよ!
+Dialogue: 0,0:05:28.78,0:05:31.72,SIKANOKO_Bottom,虎子,0,0,0,,\Nケンカくれメンチ切って売りやがれクソが!
+Dialogue: 0,0:05:31.72,0:05:35.73,SIKANOKO_Bottom,虎子,0,0,0,,\Nいや別に 本気でラブレターとか思ってなかったけど マジで
+Dialogue: 0,0:05:37.03,0:05:39.22,SIKANOKO_Bottom,虎子,0,0,0,,\Nだから 何か言えっての!
+Dialogue: 0,0:05:42.74,0:05:46.06,SIKANOKO_Bottom,路人,0,0,0,,\Nよく来たわね 日野の猛獣 虎視虎子
+Dialogue: 0,0:05:46.29,0:05:49.26,SIKANOKO_Bottom,,0,0,0,,\Nこんな朝っぱらからご苦労なこったな
+Dialogue: 0,0:05:49.26,0:05:52.46,SIKANOKO_Bottom,,0,0,0,,\N手紙 ラブレターみたいでドキドキしたでしょ
+Dialogue: 0,0:05:53.88,0:05:57.33,SIKANOKO_Bottom,,0,0,0,,\Nそれにしても随分ちんけなペットを飼い始めたのね
+Dialogue: 0,0:05:57.33,0:05:58.17,SIKANOKO_Bottom,,0,0,0,,\Nペット?
+Dialogue: 0,0:05:58.44,0:05:58.93,SIKANOKO_Bottom,,0,0,0,,\Nん?
+Dialogue: 0,0:05:59.45,0:06:00.71,SIKANOKO_Bottom,,0,0,0,,\Nにゅん
+Dialogue: 0,0:06:00.71,0:06:02.06,SIKANOKO_Bottom,,0,0,0,,\Nお前のことだよ
+Dialogue: 0,0:06:02.06,0:06:04.07,SIKANOKO_Bottom,,0,0,0,,\Nって何でお前ついてきてんだよ!
+Dialogue: 0,0:06:04.36,0:06:07.20,SIKANOKO_Bottom,,0,0,0,,\N何でもいいけど今日ここであんたを潰して
+Dialogue: 0,0:06:07.20,0:06:10.67,SIKANOKO_Bottom,,0,0,0,,\N日の一強えヤンキーの座は私がいただくから
+Dialogue: 0,0:06:10.77,0:06:14.26,SIKANOKO_Bottom,,0,0,0,,\Nごめんなさい あいにく今はカタギの人間なの
+Dialogue: 0,0:06:14.45,0:06:17.65,SIKANOKO_Bottom,,0,0,0,,\Nでも このあとつきまとわれても迷惑だし
+Dialogue: 0,0:06:18.03,0:06:19.64,SIKANOKO_Bottom,,0,0,0,,\Nとっとと終わらせるぞ
+Dialogue: 0,0:06:20.64,0:06:21.80,SIKANOKO_Bottom,,0,0,0,,\Nぬん ぬぬん
+Dialogue: 0,0:06:21.99,0:06:24.57,SIKANOKO_Bottom,,0,0,0,,\Nいや なんでお前が戦う気満々だよ
+Dialogue: 0,0:06:22.79,0:06:24.92,SIKANOKO_Bottom,,0,0,0,,\Nぬんぬん ぬぬぬん
+Dialogue: 0,0:06:24.92,0:06:27.36,SIKANOKO_Bottom,,0,0,0,,\Nシカ部仲間として助け立ち致す
+Dialogue: 0,0:06:27.79,0:06:28.60,SIKANOKO_Bottom,,0,0,0,,\Nさ来い
+Dialogue: 0,0:06:28.60,0:06:29.97,SIKANOKO_Bottom,,0,0,0,,\Nいらねえから!
+Dialogue: 0,0:06:30.20,0:06:32.89,SIKANOKO_Bottom,,0,0,0,,\Nこしたん 私が誰か忘れたの
+Dialogue: 0,0:06:33.01,0:06:33.53,SIKANOKO_Bottom,,0,0,0,,\Nえっ?
+Dialogue: 0,0:06:34.28,0:06:36.60,SIKANOKO_Bottom,,0,0,0,,\Nわたしは鹿と人のハイブリストス
+Dialogue: 0,0:06:37.12,0:06:40.18,SIKANOKO_Bottom,,0,0,0,,\Nいうなればそう 霊長類最強の
+Dialogue: 0,0:06:41.28,0:06:41.85,SIKANOKO_Bottom,,0,0,0,,\Nシカ?
+Dialogue: 0,0:06:42.01,0:06:44.09,SIKANOKO_Bottom,,0,0,0,,\Nいやなんか弱そうだけど
+Dialogue: 0,0:06:44.09,0:06:47.73,SIKANOKO_Bottom,,0,0,0,,\Nとりあえず 吉田沙保里を倒してから出直して欲しい
+Dialogue: 0,0:06:48.28,0:06:52.18,SIKANOKO_Bottom,,0,0,0,,\Nフッ 飲みやがって その余裕も今のちよ
+Dialogue: 0,0:07:02.20,0:07:03.31,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:07:04.68,0:07:06.79,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:07:07.77,0:07:08.32,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:07:15.27,0:07:18.49,SIKANOKO_Bottom,,0,0,0,,\Nチッ エゴの持ったヤツらと3対1
+Dialogue: 0,0:07:18.49,0:07:20.78,SIKANOKO_Bottom,,0,0,0,,\Nステコロじゃちょっときついか
+Dialogue: 0,0:07:23.84,0:07:25.80,SIKANOKO_Bottom,,0,0,0,,\Nこしたん これを使って!
+Dialogue: 0,0:07:27.77,0:07:31.77,SIKANOKO_Bottom,,0,0,0,,\Nぬっ 使えるかこんなもん!
+Dialogue: 0,0:07:40.52,0:07:53.90,SIKANOKO_Bottom,BGM,0,0,0,,
+Dialogue: 0,0:07:54.95,0:07:58.31,SIKANOKO_Bottom,,0,0,0,,\N体育館を爆破とは さすが元ヤンこしたん
+Dialogue: 0,0:07:58.31,0:08:01.24,SIKANOKO_Bottom,,0,0,0,,\Nお前のせいだろ ってかお前も吹っ飛んでんじゃん!
+Dialogue: 0,0:08:05.19,0:08:07.72,SIKANOKO_Bottom,,0,0,0,,\Nいいかげんな逆アニメでよかった
+Dialogue: 0,0:08:07.72,0:08:10.54,SIKANOKO_Bottom,eyecatch,0,0,0,,
+Dialogue: 0,0:08:14.36,0:08:16.50,SIKANOKO_Bottom,,0,0,0,,\Nヤツが転校してきて以来
+Dialogue: 0,0:08:17.17,0:08:19.72,SIKANOKO_Bottom,,0,0,0,,\Nずっと私ばかり振り回されている
+Dialogue: 0,0:08:20.69,0:08:22.86,SIKANOKO_Bottom,,0,0,0,,\Nそしてとうとう新聞沙汰
+Dialogue: 0,0:08:23.20,0:08:25.21,SIKANOKO_Bottom,,0,0,0,,\Nこうなったら見つけるしかない
+Dialogue: 0,0:08:25.72,0:08:27.15,SIKANOKO_Bottom,,0,0,0,,\Nヤツの弱みを
+Dialogue: 0,0:08:28.05,0:08:33.16,SIKANOKO_Bottom,,0,0,0,,\Nとまあ 部活のない放課後のあいつの行動を探ろうと尾行しているわけだが
+Dialogue: 0,0:08:33.48,0:08:35.06,SIKANOKO_Bottom,,0,0,0,,\Nなんにもしねえ
+Dialogue: 0,0:08:36.07,0:08:38.70,SIKANOKO_Bottom,,0,0,0,,\Nもう1時間もあそこにすわってるぞ
+Dialogue: 0,0:08:39.22,0:08:41.51,SIKANOKO_Bottom,,0,0,0,,\N待ち合わせ?暇つぶし?
+Dialogue: 0,0:08:41.71,0:08:42.79,SIKANOKO_Bottom,,0,0,0,,\N一体何を
+Dialogue: 0,0:08:44.04,0:08:45.24,SIKANOKO_Bottom,,0,0,0,,\Nあいつもしや
+Dialogue: 0,0:08:45.85,0:08:47.86,SIKANOKO_Bottom,,0,0,0,,\N家が ないのか
+Dialogue: 0,0:08:53.80,0:08:55.89,SIKANOKO_Bottom,,0,0,0,,\Nお腹 空いたな
+Dialogue: 0,0:08:56.28,0:08:57.39,SIKANOKO_Bottom,,0,0,0,,\Nビンゴじゃない
+Dialogue: 0,0:08:57.69,0:09:00.36,SIKANOKO_Bottom,,0,0,0,,\N家どころか食い物を買う金もないってか
+Dialogue: 0,0:09:01.24,0:09:02.95,SIKANOKO_Bottom,,0,0,0,,\Nおやつでも食べるか
+Dialogue: 0,0:09:03.80,0:09:07.68,SIKANOKO_Bottom,,0,0,0,,\N無味無臭で硬いって言ってた角しか食うもんがないのか?
+Dialogue: 0,0:09:07.95,0:09:09.78,SIKANOKO_Bottom,,0,0,0,,\Nさすがに気の毒だな
+Dialogue: 0,0:09:10.19,0:09:12.89,SIKANOKO_Bottom,,0,0,0,,\Nしょうがねえ 飯でもおごってやるか
+Dialogue: 0,0:09:14.51,0:09:16.64,SIKANOKO_Bottom,,0,0,0,,
+Dialogue: 0,0:09:17.39,0:09:17.97,SIKANOKO_Bottom,,0,0,0,,\Nうまい
+Dialogue: 0,0:09:17.97,0:09:18.99,SIKANOKO_Bottom,,0,0,0,,\Nバカな!
+Dialogue: 0,0:09:19.09,0:09:20.25,SIKANOKO_Bottom,,0,0,0,,\Nバナナです
+Dialogue: 0,0:09:20.78,0:09:22.67,SIKANOKO_Bottom,,0,0,0,,\Nお 落ち着けわたし
+Dialogue: 0,0:09:22.90,0:09:24.91,SIKANOKO_Bottom,,0,0,0,,\N尾行はまだ始まったばかりだ
+Dialogue: 0,0:09:25.33,0:09:26.79,SIKANOKO_Bottom,,0,0,0,,\Nヤツを泳がせて
+Dialogue: 0,0:09:27.02,0:09:28.04,SIKANOKO_Bottom,,0,0,0,,\Nもうない
+Dialogue: 0,0:09:28.28,0:09:30.33,SIKANOKO_Bottom,,0,0,0,,\N確実に弱みをつかむんだ
+Dialogue: 0,0:09:31.24,0:09:32.85,SIKANOKO_Bottom,,0,0,0,,\Nそろそろ行くか
+Dialogue: 0,0:09:35.84,0:09:37.19,SIKANOKO_Bottom,,0,0,0,,\Nおっ 帰るか
+Dialogue: 0,0:09:37.40,0:09:40.73,SIKANOKO_Bottom,,0,0,0,,\Nそうだよな さすがに家くらいはあるよな
+Dialogue: 0,0:09:51.45,0:09:53.32,SIKANOKO_Bottom,,0,0,0,,\N角田さん のつ
+Dialogue: 0,0:09:53.60,0:09:54.33,SIKANOKO_Bottom,,0,0,0,,\Nのつ
+Dialogue: 0,0:09:55.84,0:09:56.36,SIKANOKO_Bottom,,0,0,0,,\Nぬん
+Dialogue: 0,0:09:56.84,0:09:59.11,SIKANOKO_Bottom,,0,0,0,,\Nおいおいまさかここが家なの?
+Dialogue: 0,0:09:59.24,0:10:00.48,SIKANOKO_Bottom,,0,0,0,,\N角田と同郷?
+Dialogue: 0,0:10:00.85,0:10:01.97,SIKANOKO_Bottom,,0,0,0,,\Nにしても
+Dialogue: 0,0:10:02.33,0:10:04.50,SIKANOKO_Bottom,,0,0,0,,\N人 いや鹿?
+Dialogue: 0,0:10:04.50,0:10:06.31,SIKANOKO_Bottom,,0,0,0,,\N鹿の展示なのこれ
+Dialogue: 0,0:10:06.31,0:10:10.20,SIKANOKO_Bottom,,0,0,0,,\N何この意味不明な展示 正気化肥の動物園!
+Dialogue: 0,0:10:10.92,0:10:12.60,SIKANOKO_Bottom,,0,0,0,,\Nわあ 鹿だ
+Dialogue: 0,0:10:13.10,0:10:14.35,SIKANOKO_Bottom,,0,0,0,,\Nかわいいね
+Dialogue: 0,0:10:14.63,0:10:16.53,SIKANOKO_Bottom,,0,0,0,,\Nようこそ ひな動物園へ
+Dialogue: 0,0:10:16.53,0:10:17.71,SIKANOKO_Bottom,,0,0,0,,\Nしゃべった
+Dialogue: 0,0:10:17.71,0:10:18.86,SIKANOKO_Bottom,,0,0,0,,\Nかしこーい
+Dialogue: 0,0:10:18.86,0:10:20.87,SIKANOKO_Bottom,,0,0,0,,\Nふつうにしゃべっていいのかよ
+Dialogue: 0,0:10:21.87,0:10:24.14,SIKANOKO_Bottom,,0,0,0,,\Nここでは鹿の展示をしてるよ
+Dialogue: 0,0:10:24.14,0:10:25.80,SIKANOKO_Bottom,,0,0,0,,\Nおいおい 立っちゃったよ
+Dialogue: 0,0:10:25.80,0:10:26.93,SIKANOKO_Bottom,,0,0,0,,\N立った
+Dialogue: 0,0:10:26.93,0:10:28.43,SIKANOKO_Bottom,,0,0,0,,\N鹿すごーい
+Dialogue: 0,0:10:28.43,0:10:30.06,SIKANOKO_Bottom,,0,0,0,,\N鹿って一体…
+Dialogue: 0,0:10:30.06,0:10:32.05,SIKANOKO_Bottom,,0,0,0,,\N崩れゆく鹿の概念
+Dialogue: 0,0:10:32.27,0:10:35.77,SIKANOKO_Bottom,,0,0,0,,\N鹿コーナーでは鹿の餌やり体験ができるよ
+Dialogue: 0,0:10:35.77,0:10:37.30,SIKANOKO_Bottom,,0,0,0,,\Nやってみたい
+Dialogue: 0,0:10:37.30,0:10:38.31,SIKANOKO_Bottom,,0,0,0,,\Nやろうやろう
+Dialogue: 0,0:10:38.45,0:10:39.88,SIKANOKO_Bottom,,0,0,0,,\N1人300円です
+Dialogue: 0,0:10:39.88,0:10:41.99,SIKANOKO_Bottom,,0,0,0,,\Nいや お前が貸し出すんのかい!
+Dialogue: 0,0:10:44.23,0:10:44.69,SIKANOKO_Bottom,,0,0,0,,\Nはい
+Dialogue: 0,0:10:45.26,0:10:48.76,SIKANOKO_Bottom,,0,0,0,,\Nうわあ 鹿せんべい初めて見た
+Dialogue: 0,0:10:48.76,0:10:50.84,SIKANOKO_Bottom,,0,0,0,,\Nどの子にあげようかな
+Dialogue: 0,0:10:51.20,0:10:53.14,SIKANOKO_Bottom,,0,0,0,,\Nあ 子供の鹿かな
+Dialogue: 0,0:10:53.53,0:10:54.72,SIKANOKO_Bottom,,0,0,0,,\Nほら おいで
+Dialogue: 0,0:10:55.00,0:10:56.50,SIKANOKO_Bottom,,0,0,0,,\N鹿せんべいだよ
+Dialogue: 0,0:10:56.82,0:10:59.16,SIKANOKO_Bottom,,0,0,0,,\Nはい あん
+Dialogue: 0,0:10:59.84,0:11:01.21,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:11:01.46,0:11:02.79,SIKANOKO_Bottom,,0,0,0,,\N何よこの鹿
+Dialogue: 0,0:11:02.79,0:11:04.87,SIKANOKO_Bottom,,0,0,0,,\N離しなさいよ
+Dialogue: 0,0:11:04.12,0:11:06.22,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:11:06.22,0:11:09.42,SIKANOKO_Bottom,,0,0,0,,\N自分で餌を売って自分で食べるってなんだよ
+Dialogue: 0,0:11:09.42,0:11:11.25,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:11:11.25,0:11:12.25,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:11:09.81,0:11:13.19,SIKANOKO_Bottom,,0,0,0,,\N弱みどころか謎がどんどん深まっていく
+Dialogue: 0,0:11:13.19,0:11:14.01,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:11:14.74,0:11:17.94,SIKANOKO_Bottom,,0,0,0,,\Nなんで誰もあいつが展示されてることに突っ込まないわけ?
+Dialogue: 0,0:11:17.94,0:11:19.59,SIKANOKO_Bottom,,0,0,0,,\N私がおかしいか?
+Dialogue: 0,0:11:19.82,0:11:22.24,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:11:22.58,0:11:27.93,SIKANOKO_Bottom,,0,0,0,,\Nただいまより 日野動物園名物 鹿の大名行列が始まります
+Dialogue: 0,0:11:28.25,0:11:30.31,SIKANOKO_Bottom,,0,0,0,,\N通路を空けてお待ちください
+Dialogue: 0,0:11:30.31,0:11:32.34,SIKANOKO_Bottom,,0,0,0,,\N鹿の大名行列!?
+Dialogue: 0,0:11:40.66,0:11:42.31,SIKANOKO_Bottom,,0,0,0,,\Nなんか乗っ取る
+Dialogue: 0,0:11:42.44,0:11:47.31,SIKANOKO_Bottom,,0,0,0,,\Nな 何これ?こういうのってもっと小さい動物がやるんじゃないの?
+Dialogue: 0,0:11:47.50,0:11:50.95,SIKANOKO_Bottom,,0,0,0,,\Nなんという愛らしさと立派な角じゃ
+Dialogue: 0,0:11:51.41,0:11:53.85,SIKANOKO_Bottom,,0,0,0,,\N鹿が心を開いておる
+Dialogue: 0,0:11:54.12,0:11:55.15,SIKANOKO_Bottom,,0,0,0,,\N急にどれ
+Dialogue: 0,0:11:55.31,0:11:56.76,SIKANOKO_Bottom,,0,0,0,,\Nみなされ
+Dialogue: 0,0:11:56.76,0:11:57.37,SIKANOKO_Bottom,,0,0,0,,\Nえっ?
+Dialogue: 0,0:11:58.54,0:11:59.84,SIKANOKO_Bottom,,0,0,0,,\N今度は何!?
+Dialogue: 0,0:12:04.60,0:12:06.29,SIKANOKO_Bottom,,0,0,0,,\N何このイリュージョン!
+Dialogue: 0,0:12:07.68,0:12:09.26,SIKANOKO_Bottom,,0,0,0,,\Nしっかりウケてるし!
+Dialogue: 0,0:12:09.56,0:12:13.05,SIKANOKO_Bottom,,0,0,0,,\N鹿姉さま セーラー服を着ているの
+Dialogue: 0,0:12:13.05,0:12:14.65,SIKANOKO_Bottom,,0,0,0,,\N鹿姉さまって何?
+Dialogue: 0,0:12:14.65,0:12:17.74,SIKANOKO_Bottom,,0,0,0,,\Nまるで鹿の草原を歩いているみたい
+Dialogue: 0,0:12:17.88,0:12:19.54,SIKANOKO_Bottom,,0,0,0,,\N鹿の草原とは?
+Dialogue: 0,0:12:19.93,0:12:25.05,SIKANOKO_Bottom,,0,0,0,,\Nその者 聖羅服を纏いで鹿野野に降り立つべし
+Dialogue: 0,0:12:25.64,0:12:28.30,SIKANOKO_Bottom,,0,0,0,,\N古き言いつたえはまことであった
+Dialogue: 0,0:12:28.55,0:12:31.08,SIKANOKO_Bottom,,0,0,0,,\Nそんなふりここまで1個もなかったけど
+Dialogue: 0,0:12:31.50,0:12:33.07,SIKANOKO_Bottom,,0,0,0,,\Nあれ こうしたんだ
+Dialogue: 0,0:12:33.07,0:12:33.71,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:12:34.04,0:12:36.02,SIKANOKO_Bottom,,0,0,0,,\Nこんなところで何してんの?
+Dialogue: 0,0:12:36.80,0:12:38.49,SIKANOKO_Bottom,,0,0,0,,\N変な格好
+Dialogue: 0,0:12:39.48,0:12:42.81,SIKANOKO_Bottom,,0,0,0,,\Nいや別に暇だから ブラブラしてただけっつーか
+Dialogue: 0,0:12:42.81,0:12:45.53,SIKANOKO_Bottom,,0,0,0,,\Nたまには動物園もいいかなみたいな
+Dialogue: 0,0:12:45.76,0:12:46.70,SIKANOKO_Bottom,,0,0,0,,\Nふん
+Dialogue: 0,0:12:46.70,0:12:48.20,SIKANOKO_Bottom,,0,0,0,,\Nな なんだよ
+Dialogue: 0,0:12:48.62,0:12:50.74,SIKANOKO_Bottom,,0,0,0,,\Nあっこしたんもしかして
+Dialogue: 0,0:12:51.73,0:12:53.08,SIKANOKO_Bottom,,0,0,0,,\N私の
+Dialogue: 0,0:12:53.08,0:12:53.69,SIKANOKO_Bottom,,0,0,0,,\Nファン?
+Dialogue: 0,0:12:53.69,0:12:54.74,SIKANOKO_Bottom,,0,0,0,,\N図に乗れないよ
+Dialogue: 0,0:12:55.32,0:12:59.68,SIKANOKO_Bottom,,0,0,0,,\N本日は日野動物園にお越しいただきありがとうございます
+Dialogue: 0,0:13:00.12,0:13:03.25,SIKANOKO_Bottom,,0,0,0,,\N当園は午後5時にお待ちしております
+Dialogue: 0,0:13:03.77,0:13:06.93,SIKANOKO_Bottom,,0,0,0,,\Nまたのお越しを心よりお待ちしております
+Dialogue: 0,0:13:07.15,0:13:08.53,SIKANOKO_Bottom,,0,0,0,,\Nこつかれ様でした
+Dialogue: 0,0:13:08.78,0:13:12.09,SIKANOKO_Bottom,,0,0,0,,\Nいや 今日もバイトたいへんだったなぁ
+Dialogue: 0,0:13:12.20,0:13:12.87,SIKANOKO_Bottom,,0,0,0,,\Nバイト?
+Dialogue: 0,0:13:13.55,0:13:15.89,SIKANOKO_Bottom,,0,0,0,,\Nここに住んでるわけじゃなかったのか
+Dialogue: 0,0:13:17.49,0:13:20.59,SIKANOKO_Bottom,,0,0,0,,\N頑張ったご褒美に今日は食べ行って帰ろうっと
+Dialogue: 0,0:13:20.59,0:13:22.56,SIKANOKO_Bottom,,0,0,0,,\Nはあ?お前金あんの?
+Dialogue: 0,0:13:22.93,0:13:24.16,SIKANOKO_Bottom,,0,0,0,,\Nえっ?あるよ
+Dialogue: 0,0:13:26.40,0:13:28.34,SIKANOKO_Bottom,,0,0,0,,\N何そのエッグいい札束!
+Dialogue: 0,0:13:28.60,0:13:31.31,SIKANOKO_Bottom,,0,0,0,,\Nだったら公園で寂しそうにしてんじゃねえよ
+Dialogue: 0,0:13:31.64,0:13:33.26,SIKANOKO_Bottom,,0,0,0,,\N何怒ってるの?
+Dialogue: 0,0:13:33.37,0:13:34.79,SIKANOKO_Bottom,,0,0,0,,\N怒ってねえよ!
+Dialogue: 0,0:13:34.95,0:13:35.84,SIKANOKO_Bottom,,0,0,0,,\Nねえねえ
+Dialogue: 0,0:13:36.30,0:13:38.04,SIKANOKO_Bottom,,0,0,0,,\Nこしたんもいっしょに食べよう。
+Dialogue: 0,0:13:38.20,0:13:40.91,SIKANOKO_Bottom,,0,0,0,,\Nはあ!?だ 誰がてめえなんかと!
+Dialogue: 0,0:13:45.14,0:13:45.58,SIKANOKO_Bottom,,0,0,0,,\Nん?
+Dialogue: 0,0:13:46.26,0:13:47.08,SIKANOKO_Bottom,,0,0,0,,\Nうまっ!
+Dialogue: 0,0:13:47.08,0:13:48.25,SIKANOKO_Bottom,,0,0,0,,\Nシカ
+Dialogue: 0,0:13:48.59,0:13:51.98,SIKANOKO_Bottom,,0,0,0,,\Nでしょ?ここのトピーウマウマなんだから
+Dialogue: 0,0:13:54.74,0:13:55.72,SIKANOKO_Bottom,,0,0,0,,\Nうま
+Dialogue: 0,0:13:55.72,0:13:56.87,SIKANOKO_Bottom,,0,0,0,,\Nシカ
+Dialogue: 0,0:14:02.93,0:14:08.02,SIKANOKO_Bottom,,0,0,0,,\N学校帰りに買い食いという青春っぽいイベントを初体験したこしたんは
+Dialogue: 0,0:14:08.59,0:14:10.24,SIKANOKO_Bottom,,0,0,0,,\Nじゃまた明日
+Dialogue: 0,0:14:11.08,0:14:12.02,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:14:14.29,0:14:19.36,SIKANOKO_Bottom,,0,0,0,,\Nのこたんへのさらなる尾行をすっかり忘れ 笑顔で帰途についたのであった
+Dialogue: 0,0:14:19.84,0:14:22.20,SIKANOKO_Bottom,,0,0,0,,\N相変わらずのチョロさであった
+Dialogue: 0,0:14:22.81,0:14:29.42,SIKANOKO_Bottom,eyecatch,0,0,0,,
+Dialogue: 0,0:14:31.06,0:14:32.30,SIKANOKO_Bottom,,0,0,0,,
+Dialogue: 0,0:14:33.14,0:14:35.82,SIKANOKO_Bottom,,0,0,0,,\N猫山田根子 生徒会副会長
+Dialogue: 0,0:14:35.82,0:14:37.96,SIKANOKO_Bottom,,0,0,0,,\N身長132cm
+Dialogue: 0,0:14:38.42,0:14:42.65,SIKANOKO_Bottom,,0,0,0,,\N実は彼女はシカ部廃部とこしたんの失脚をもくろんでいる
+Dialogue: 0,0:14:43.11,0:14:46.31,SIKANOKO_Bottom,,0,0,0,,\N会長は今担任によばれてここにはいないはず
+Dialogue: 0,0:14:46.70,0:14:47.84,SIKANOKO_Bottom,,0,0,0,,\N今のうちに
+Dialogue: 0,0:14:48.50,0:14:52.78,SIKANOKO_Bottom,,0,0,0,,\Nこのわたしが 生徒会長となり 学校一のマドンナとなるために
+Dialogue: 0,0:14:52.78,0:14:54.42,SIKANOKO_Bottom,,0,0,0,,\N今日こそつかんでやるわ
+Dialogue: 0,0:14:54.72,0:14:56.59,SIKANOKO_Bottom,,0,0,0,,\N会長の弱みを
+Dialogue: 0,0:14:59.18,0:14:59.79,SIKANOKO_Bottom,,0,0,0,,\Nのつ
+Dialogue: 0,0:15:02.92,0:15:04.66,SIKANOKO_Bottom,,0,0,0,,\Nび びっくりした
+Dialogue: 0,0:15:04.78,0:15:06.22,SIKANOKO_Bottom,,0,0,0,,\Nおどかさないでよ
+Dialogue: 0,0:15:06.44,0:15:08.64,SIKANOKO_Bottom,,0,0,0,,\Nそれはこっちのセリフだよ
+Dialogue: 0,0:15:08.64,0:15:10.38,SIKANOKO_Bottom,,0,0,0,,\Nこんなとこで何してたの?
+Dialogue: 0,0:15:10.61,0:15:12.84,SIKANOKO_Bottom,,0,0,0,,\Nえっ?そ それは
+Dialogue: 0,0:15:13.01,0:15:13.62,SIKANOKO_Bottom,,0,0,0,,\Nえっと
+Dialogue: 0,0:15:13.62,0:15:14.10,SIKANOKO_Bottom,,0,0,0,,\Nあっ
+Dialogue: 0,0:15:14.10,0:15:14.90,SIKANOKO_Bottom,,0,0,0,,\Nにゃに?
+Dialogue: 0,0:15:15.52,0:15:16.57,SIKANOKO_Bottom,,0,0,0,,\Nもしかして
+Dialogue: 0,0:15:17.64,0:15:18.84,SIKANOKO_Bottom,,0,0,0,,\N入部希望
+Dialogue: 0,0:15:20.09,0:15:20.64,SIKANOKO_Bottom,,0,0,0,,\Nは?
+Dialogue: 0,0:15:21.14,0:15:22.12,SIKANOKO_Bottom,,0,0,0,,\Nえっ いあ
+Dialogue: 0,0:15:22.12,0:15:25.12,SIKANOKO_Bottom,,0,0,0,,\Nなんだ そういうことなら早く言ってよ
+Dialogue: 0,0:15:25.12,0:15:26.45,SIKANOKO_Bottom,,0,0,0,,\N今そっち行くね
+Dialogue: 0,0:15:27.31,0:15:29.71,SIKANOKO_Bottom,,0,0,0,,\Nよし 今のうちに逃げて
+Dialogue: 0,0:15:28.82,0:15:29.71,SIKANOKO_Bottom,,0,0,0,,\Nお待たせ!
+Dialogue: 0,0:15:31.25,0:15:32.83,SIKANOKO_Bottom,,0,0,0,,\Nようこそシカ部へ!
+Dialogue: 0,0:15:34.05,0:15:36.91,SIKANOKO_Bottom,,0,0,0,,\Nめちゃくちゃ浮かれポンチなやつ来たー!
+Dialogue: 0,0:15:38.99,0:15:43.19,SIKANOKO_Bottom,,0,0,0,,\Nいや シカ部に新たな入部希望者だなんてうれしいなあ
+Dialogue: 0,0:15:43.49,0:15:44.93,SIKANOKO_Bottom,,0,0,0,,\Nどうしてシカ部に?
+Dialogue: 0,0:15:44.93,0:15:47.97,SIKANOKO_Bottom,,0,0,0,,\Nやっぱこれからの時代鹿だと思うんだよね
+Dialogue: 0,0:15:44.93,0:15:46.35,SIKANOKO_Bottom,,0,0,0,,\N补
+Dialogue: 0,0:15:48.23,0:15:49.81,SIKANOKO_Bottom,,0,0,0,,\Nやっぱ鹿に憧れて
+Dialogue: 0,0:15:49.81,0:15:51.31,SIKANOKO_Bottom,,0,0,0,,\N鹿いいよね
+Dialogue: 0,0:15:51.31,0:15:53.81,SIKANOKO_Bottom,,0,0,0,,\N鹿のどこが好き?やっぱ角
+Dialogue: 0,0:15:51.31,0:15:51.99,SIKANOKO_Bottom,,0,0,0,,\Nよっ
+Dialogue: 0,0:15:53.79,0:15:55.67,SIKANOKO_Bottom,,0,0,0,,\Nあっ鹿しんべい食べる
+Dialogue: 0,0:15:55.99,0:15:58.31,SIKANOKO_Bottom,,0,0,0,,\Nち ちがいニャス
+Dialogue: 0,0:15:58.31,0:15:59.05,SIKANOKO_Bottom,,0,0,0,,\Nニャス
+Dialogue: 0,0:15:59.05,0:15:59.77,SIKANOKO_Bottom,,0,0,0,,\Nニャス
+Dialogue: 0,0:15:59.77,0:16:00.43,SIKANOKO_Bottom,,0,0,0,,\Nニャス
+Dialogue: 0,0:16:00.43,0:16:00.99,SIKANOKO_Bottom,,0,0,0,,\Nニャス
+Dialogue: 0,0:16:01.25,0:16:01.81,SIKANOKO_Bottom,,0,0,0,,\Nぬん
+Dialogue: 0,0:16:01.99,0:16:03.23,SIKANOKO_Bottom,,0,0,0,,\Nちがうって何が?
+Dialogue: 0,0:16:03.47,0:16:06.93,SIKANOKO_Bottom,,0,0,0,,\Nわ わたし別に入部希望じゃなくて
+Dialogue: 0,0:16:07.23,0:16:09.09,SIKANOKO_Bottom,,0,0,0,,\Nその そう
+Dialogue: 0,0:16:09.09,0:16:11.19,SIKANOKO_Bottom,,0,0,0,,\Nたまたま通りかかっただけというか
+Dialogue: 0,0:16:11.45,0:16:14.77,SIKANOKO_Bottom,,0,0,0,,\Nだから申し訳ないんですけど 入部はちょっと
+Dialogue: 0,0:16:14.97,0:16:16.75,SIKANOKO_Bottom,,0,0,0,,\Nジャン
+Dialogue: 0,0:16:17.13,0:16:17.67,SIKANOKO_Bottom,,0,0,0,,\Nえっ
+Dialogue: 0,0:16:18.17,0:16:22.49,SIKANOKO_Bottom,,0,0,0,,\Nそっか 全部わたしの早とちりだったってわけか
+Dialogue: 0,0:16:22.73,0:16:24.59,SIKANOKO_Bottom,,0,0,0,,\Nめちゃめちゃショック受けてる
+Dialogue: 0,0:16:25.29,0:16:28.21,SIKANOKO_Bottom,,0,0,0,,\Nごめん 乳房脂肪は少ないから
+Dialogue: 0,0:16:28.21,0:16:29.45,SIKANOKO_Bottom,,0,0,0,,\Nついうれしくて
+Dialogue: 0,0:16:30.07,0:16:34.17,SIKANOKO_Bottom,,0,0,0,,\N調子こいて こんなあかれポンチな格好までして
+Dialogue: 0,0:16:34.67,0:16:36.83,SIKANOKO_Bottom,,0,0,0,,\Nわらえるかれちくしゅ
+Dialogue: 0,0:16:37.39,0:16:39.71,SIKANOKO_Bottom,,0,0,0,,\Nざ ざい悪感ハンパな
+Dialogue: 0,0:16:40.49,0:16:41.79,SIKANOKO_Bottom,,0,0,0,,\Nあっそうだ
+Dialogue: 0,0:16:41.79,0:16:45.21,SIKANOKO_Bottom,,0,0,0,,\Nせっかくだから体験入部とかしてみようかなー
+Dialogue: 0,0:16:45.37,0:16:49.03,SIKANOKO_Bottom,,0,0,0,,\Nまあ 何か会長の情報もつかめるかもしれないし
+Dialogue: 0,0:16:49.85,0:16:50.75,SIKANOKO_Bottom,,0,0,0,,\N本当?
+Dialogue: 0,0:16:51.13,0:16:54.07,SIKANOKO_Bottom,,0,0,0,,\Nこいつ単純そうだから手ごまにできるかもだし
+Dialogue: 0,0:16:54.51,0:16:55.93,SIKANOKO_Bottom,,0,0,0,,\Nじゃあ自己紹介
+Dialogue: 0,0:16:57.03,0:17:00.05,SIKANOKO_Bottom,,0,0,0,,
+Dialogue: 0,0:17:00.47,0:17:02.75,SIKANOKO_Bottom,,0,0,0,,\N猫山田根子 3年生よ
+Dialogue: 0,0:17:03.37,0:17:05.37,SIKANOKO_Bottom,,0,0,0,,\Nよろしくね　鹿山田さん
+Dialogue: 0,0:17:05.37,0:17:07.55,SIKANOKO_Bottom,,0,0,0,,\Nナチュラルに鹿にしないでくれない
+Dialogue: 0,0:17:07.91,0:17:10.69,SIKANOKO_Bottom,,0,0,0,,\Nたぶんフルネームは 鹿山田志佳です
+Dialogue: 0,0:17:11.35,0:17:15.09,SIKANOKO_Bottom,,0,0,0,,\Nさて それじゃあいつものシカレン始めるぞ
+Dialogue: 0,0:17:15.47,0:17:18.85,SIKANOKO_Bottom,,0,0,0,,\Nせっかくだから鹿山田さんも一緒にシカレンやってね
+Dialogue: 0,0:17:19.33,0:17:20.73,SIKANOKO_Bottom,,0,0,0,,\Nシカレンって何
+Dialogue: 0,0:17:20.73,0:17:23.61,SIKANOKO_Bottom,,0,0,0,,\N鹿山田のほうはもううけ入れたようだ
+Dialogue: 0,0:17:24.05,0:17:26.77,SIKANOKO_Bottom,,0,0,0,,\Nその前にまず部員紹介します
+Dialogue: 0,0:17:27.27,0:17:29.81,SIKANOKO_Bottom,,0,0,0,,\Nこっちが我がシカ部二匹目の鹿
+Dialogue: 0,0:17:29.81,0:17:30.83,SIKANOKO_Bottom,,0,0,0,,\Nバシャメだ
+Dialogue: 0,0:17:30.83,0:17:32.39,SIKANOKO_Bottom,,0,0,0,,\Nバシャメメメです
+Dialogue: 0,0:17:32.57,0:17:37.69,SIKANOKO_Bottom,,0,0,0,,\Nシカ部所属の鹿見習い一以上鹿見満の新一年生です
+Dialogue: 0,0:17:37.69,0:17:38.43,SIKANOKO_Bottom,,0,0,0,,\Nアム
+Dialogue: 0,0:17:39.03,0:17:41.21,SIKANOKO_Bottom,,0,0,0,,\Nなんで米食ってんの この人
+Dialogue: 0,0:17:42.13,0:17:44.81,SIKANOKO_Bottom,,0,0,0,,\Nあと 早く田んぼ作りたいです
+Dialogue: 0,0:17:45.05,0:17:46.19,SIKANOKO_Bottom,,0,0,0,,\N誰に言ってんの?
+Dialogue: 0,0:17:46.71,0:17:49.31,SIKANOKO_Bottom,,0,0,0,,\Nわ 私は三年生だから先輩ね
+Dialogue: 0,0:17:49.31,0:17:50.15,SIKANOKO_Bottom,,0,0,0,,\Nよろしく
+Dialogue: 0,0:17:50.51,0:17:52.29,SIKANOKO_Bottom,,0,0,0,,\Nよろしくおねがいします
+Dialogue: 0,0:17:52.87,0:17:55.87,SIKANOKO_Bottom,,0,0,0,,\Nでも鹿としては馬車寝の方が先輩なので
+Dialogue: 0,0:17:55.87,0:17:58.37,SIKANOKO_Bottom,,0,0,0,,\Nそこんとこ履き違えないでください
+Dialogue: 0,0:17:58.37,0:18:00.69,SIKANOKO_Bottom,,0,0,0,,\Nえっ あっ はい
+Dialogue: 0,0:18:01.71,0:18:02.45,SIKANOKO_Bottom,,0,0,0,,\Nさせん
+Dialogue: 0,0:18:02.67,0:18:06.93,SIKANOKO_Bottom,,0,0,0,,\N郷に入っては郷に従え シカ部に行っては鹿に従え
+Dialogue: 0,0:18:07.45,0:18:09.23,SIKANOKO_Bottom,,0,0,0,,\Nこっちが3びき目の鹿
+Dialogue: 0,0:18:09.45,0:18:10.31,SIKANOKO_Bottom,,0,0,0,,\Nあんこだ
+Dialogue: 0,0:18:10.77,0:18:13.41,SIKANOKO_Bottom,,0,0,0,,\Nあなたに鹿呼ばわりされるいわれはないわ
+Dialogue: 0,0:18:13.61,0:18:16.09,SIKANOKO_Bottom,,0,0,0,,\Nぬん?でも前鹿だって
+Dialogue: 0,0:18:16.43,0:18:19.59,SIKANOKO_Bottom,,0,0,0,,\Nわたしを鹿と呼んでいいのはお姉ちゃんだけ
+Dialogue: 0,0:18:19.59,0:18:22.15,SIKANOKO_Bottom,,0,0,0,,\Nわたしはお姉ちゃん専用の鹿なのよ
+Dialogue: 0,0:18:22.55,0:18:25.91,SIKANOKO_Bottom,,0,0,0,,\Nえっとあなた 生徒会長の妹さんよね
+Dialogue: 0,0:18:26.21,0:18:27.17,SIKANOKO_Bottom,,0,0,0,,\Nそうですわ
+Dialogue: 0,0:18:27.77,0:18:29.97,SIKANOKO_Bottom,,0,0,0,,\N生徒会長専用の鹿って?
+Dialogue: 0,0:18:30.23,0:18:31.87,SIKANOKO_Bottom,,0,0,0,,\N言葉のとおりですが
+Dialogue: 0,0:18:32.27,0:18:33.61,SIKANOKO_Bottom,,0,0,0,,\N何か問題でも?
+Dialogue: 0,0:18:34.07,0:18:35.55,SIKANOKO_Bottom,,0,0,0,,\Nあっ いえ
+Dialogue: 0,0:18:35.85,0:18:37.25,SIKANOKO_Bottom,,0,0,0,,\N問題ないです
+Dialogue: 0,0:18:37.73,0:18:38.55,SIKANOKO_Bottom,,0,0,0,,\N全然
+Dialogue: 0,0:18:39.69,0:18:42.03,SIKANOKO_Bottom,,0,0,0,,\Nじゃあそろそろ鹿練始めるよ
+Dialogue: 0,0:18:43.25,0:18:44.15,SIKANOKO_Bottom,,0,0,0,,\Nまずは
+Dialogue: 0,0:18:44.81,0:18:45.35,SIKANOKO_Bottom,,0,0,0,,\Nほい
+Dialogue: 0,0:18:45.81,0:18:46.37,SIKANOKO_Bottom,,0,0,0,,\Nん?
+Dialogue: 0,0:18:48.33,0:18:49.91,SIKANOKO_Bottom,,0,0,0,,\Nえっと
+Dialogue: 0,0:18:49.91,0:18:52.93,SIKANOKO_Bottom,,0,0,0,,\Nこれは鹿せんべい ですよね
+Dialogue: 0,0:18:53.27,0:18:54.35,SIKANOKO_Bottom,,0,0,0,,\Nこれが何か?
+Dialogue: 0,0:18:57.35,0:18:58.35,SIKANOKO_Bottom,,0,0,0,,\N痛った!
+Dialogue: 0,0:18:58.35,0:18:59.69,SIKANOKO_Bottom,,0,0,0,,\N何すんのよ!
+Dialogue: 0,0:18:59.69,0:19:00.85,SIKANOKO_Bottom,,0,0,0,,\N鹿山田
+Dialogue: 0,0:19:01.31,0:19:03.37,SIKANOKO_Bottom,,0,0,0,,\Nお前それでも鹿志坊か
+Dialogue: 0,0:19:03.59,0:19:05.83,SIKANOKO_Bottom,,0,0,0,,\Nいや そんなこと言われても
+Dialogue: 0,0:19:06.07,0:19:09.81,SIKANOKO_Bottom,,0,0,0,,\Nただ鹿せんべを差し出されただけで何も言われてないし
+Dialogue: 0,0:19:10.53,0:19:14.43,SIKANOKO_Bottom,,0,0,0,,\N真主め 先輩鹿として手本を見せて
+Dialogue: 0,0:19:13.76,0:19:15.40,SIKANOKO_Bottom,,0,0,0,,\Nよっしゃ
+Dialogue: 0,0:19:16.37,0:19:18.13,SIKANOKO_Bottom,,0,0,0,,\Nええー
+Dialogue: 0,0:19:18.13,0:19:22.35,SIKANOKO_Bottom,,0,0,0,,\N鹿タルモの鹿せんべいを見つけたら即座に食すべし
+Dialogue: 0,0:19:22.35,0:19:23.53,SIKANOKO_Bottom,,0,0,0,,\N鹿の基本だ
+Dialogue: 0,0:19:24.15,0:19:26.73,SIKANOKO_Bottom,,0,0,0,,\Nこれはその反射神経をきたえる訓練
+Dialogue: 0,0:19:27.07,0:19:29.61,SIKANOKO_Bottom,,0,0,0,,\N次からは戦場のつもりでかかってきな
+Dialogue: 0,0:19:29.83,0:19:31.41,SIKANOKO_Bottom,,0,0,0,,\Nイ イエサ
+Dialogue: 0,0:19:31.41,0:19:34.83,SIKANOKO_Bottom,,0,0,0,,\N一生戦地に赴くことがないことを祈ります
+Dialogue: 0,0:19:35.35,0:19:36.55,SIKANOKO_Bottom,,0,0,0,,\N次あんこ
+Dialogue: 0,0:19:37.05,0:19:40.13,SIKANOKO_Bottom,,0,0,0,,\N私はお姉ちゃんの鹿せんべいしか食べないわ
+Dialogue: 0,0:19:40.35,0:19:42.77,SIKANOKO_Bottom,,0,0,0,,\Nで なんでお姉ちゃん来てないの?
+Dialogue: 0,0:19:43.03,0:19:46.79,SIKANOKO_Bottom,,0,0,0,,\Nこしたんなら なんか担任に呼び出されてたから来れないかも
+Dialogue: 0,0:19:46.79,0:19:48.93,SIKANOKO_Bottom,,0,0,0,,\Nそういうことは早く言いなさいよ
+Dialogue: 0,0:19:49.01,0:19:51.79,SIKANOKO_Bottom,,0,0,0,,\N今ならお姉ちゃんの部屋忍び込み放題
+Dialogue: 0,0:19:52.13,0:19:54.31,SIKANOKO_Bottom,,0,0,0,,\Nあんなことやこんなこと
+Dialogue: 0,0:19:54.31,0:19:56.33,SIKANOKO_Bottom,,0,0,0,,\Nやり放題ということじゃない!
+Dialogue: 0,0:19:56.65,0:19:59.45,SIKANOKO_Bottom,,0,0,0,,\Nえっ 練習真っ最中に帰るの
+Dialogue: 0,0:19:59.45,0:20:00.81,SIKANOKO_Bottom,,0,0,0,,\N自由すぎじゃない?
+Dialogue: 0,0:20:01.23,0:20:02.71,SIKANOKO_Bottom,,0,0,0,,\N次 ツノレン
+Dialogue: 0,0:20:02.71,0:20:03.57,SIKANOKO_Bottom,,0,0,0,,\Nツノレン?
+Dialogue: 0,0:20:03.93,0:20:07.47,SIKANOKO_Bottom,,0,0,0,,\N鹿たるもの ツノを自在に生やしなくてはならない
+Dialogue: 0,0:20:07.47,0:20:08.85,SIKANOKO_Bottom,,0,0,0,,\Nこんなふうに
+Dialogue: 0,0:20:08.85,0:20:11.65,SIKANOKO_Bottom,,0,0,0,,\N鹿の中でも特殊な技術じゃないそれ
+Dialogue: 0,0:20:11.81,0:20:15.91,SIKANOKO_Bottom,,0,0,0,,\Nのこたん先輩 新人にツノレンはまだ早いのでは?
+Dialogue: 0,0:20:15.91,0:20:18.09,SIKANOKO_Bottom,,0,0,0,,\Nいやおまえも新人だろうが!
+Dialogue: 0,0:20:18.39,0:20:20.99,SIKANOKO_Bottom,,0,0,0,,\N馬車見 お前の言いたいことは分かる
+Dialogue: 0,0:20:21.45,0:20:24.13,SIKANOKO_Bottom,,0,0,0,,\Nだがな さっき一目見て分かったんだよ
+Dialogue: 0,0:20:24.31,0:20:24.85,SIKANOKO_Bottom,,0,0,0,,\Nん?
+Dialogue: 0,0:20:25.41,0:20:26.37,SIKANOKO_Bottom,,0,0,0,,\Nこいつには
+Dialogue: 0,0:20:27.23,0:20:28.79,SIKANOKO_Bottom,,0,0,0,,\N鹿の才能がある
+Dialogue: 0,0:20:29.17,0:20:29.75,SIKANOKO_Bottom,,0,0,0,,\Nってね
+Dialogue: 0,0:20:30.01,0:20:30.87,SIKANOKO_Bottom,,0,0,0,,\Nはっ
+Dialogue: 0,0:20:31.25,0:20:32.61,SIKANOKO_Bottom,,0,0,0,,\Nさあ訓練だ
+Dialogue: 0,0:20:32.99,0:20:34.53,SIKANOKO_Bottom,,0,0,0,,\Nは はい
+Dialogue: 0,0:20:36.05,0:20:38.45,SIKANOKO_Bottom,,0,0,0,,\N目をつむり イメージしてみて
+Dialogue: 0,0:20:39.17,0:20:41.19,SIKANOKO_Bottom,,0,0,0,,\Nツノがのびていく姿を
+Dialogue: 0,0:20:41.69,0:20:43.13,SIKANOKO_Bottom,,0,0,0,,\Nツノがのびる
+Dialogue: 0,0:20:43.41,0:20:45.55,SIKANOKO_Bottom,,0,0,0,,\Nそうそう リラックスして
+Dialogue: 0,0:20:45.55,0:20:47.51,SIKANOKO_Bottom,,0,0,0,,\Nツノがのびるイメージ
+Dialogue: 0,0:20:47.51,0:20:49.23,SIKANOKO_Bottom,,0,0,0,,\Nツノがのびるイメージ
+Dialogue: 0,0:20:55.31,0:20:57.99,SIKANOKO_Bottom,,0,0,0,,\Nって結局あんたの角が伸びるんかい!
+Dialogue: 0,0:20:57.99,0:21:00.33,SIKANOKO_Bottom,,0,0,0,,\Nこ こんな新人がなぜ
+Dialogue: 0,0:21:00.33,0:21:00.77,SIKANOKO_Bottom,,0,0,0,,\Nえっ?
+Dialogue: 0,0:21:00.77,0:21:02.29,SIKANOKO_Bottom,,0,0,0,,\Nすごいぞ鹿山田
+Dialogue: 0,0:21:02.29,0:21:04.29,SIKANOKO_Bottom,,0,0,0,,\Nまさかここまでの逸材とは
+Dialogue: 0,0:21:04.29,0:21:05.79,SIKANOKO_Bottom,,0,0,0,,\Nこれで正解なの?
+Dialogue: 0,0:21:05.79,0:21:09.03,SIKANOKO_Bottom,,0,0,0,,\Nここまで伸ばせるやつは 私も見たことがないぞ
+Dialogue: 0,0:21:09.53,0:21:11.61,SIKANOKO_Bottom,,0,0,0,,\Nぐ うらやましい
+Dialogue: 0,0:21:12.31,0:21:16.23,SIKANOKO_Bottom,,0,0,0,,\Nもしかして私 本当に鹿の才能があるのかも
+Dialogue: 0,0:21:16.55,0:21:19.89,SIKANOKO_Bottom,,0,0,0,,\N根子ちゃんもこしたん同様 なかなかにちょろかった
+Dialogue: 0,0:21:21.09,0:21:22.89,SIKANOKO_Bottom,,0,0,0,,\N今日の部活は以上だ
+Dialogue: 0,0:21:23.31,0:21:25.33,SIKANOKO_Bottom,,0,0,0,,\Nよく頑張ったな 鹿山田
+Dialogue: 0,0:21:26.43,0:21:28.17,SIKANOKO_Bottom,,0,0,0,,\Nお前にこれを授けよう
+Dialogue: 0,0:21:28.61,0:21:29.35,SIKANOKO_Bottom,,0,0,0,,\Nおめでとう
+Dialogue: 0,0:21:29.75,0:21:31.73,SIKANOKO_Bottom,,0,0,0,,\Nこれでお前も立派な鹿だ
+Dialogue: 0,0:21:32.31,0:21:33.21,SIKANOKO_Bottom,,0,0,0,,\N教官
+Dialogue: 0,0:21:33.41,0:21:36.05,SIKANOKO_Bottom,,0,0,0,,\Nくやしいけど見事な鹿ですね
+Dialogue: 0,0:21:39.11,0:21:40.49,SIKANOKO_Bottom,,0,0,0,,\Nやった
+Dialogue: 0,0:21:40.49,0:21:42.61,SIKANOKO_Bottom,,0,0,0,,\Nシカ部最高!
+Dialogue: 0,0:21:43.41,0:21:45.15,SIKANOKO_Bottom,,0,0,0,,\Nにゃんにゃんにゃん にゃんにゃん
+Dialogue: 0,0:21:45.15,0:21:46.73,SIKANOKO_Bottom,,0,0,0,,\Nにゃんにゃんにゃん にゃんにゃん
+Dialogue: 0,0:21:46.73,0:21:48.55,SIKANOKO_Bottom,,0,0,0,,\Nにゃん にゃん にゃん にゃん
+Dialogue: 0,0:21:48.89,0:21:49.71,SIKANOKO_Bottom,,0,0,0,,\Nはっ!
+Dialogue: 0,0:21:49.71,0:21:53.73,SIKANOKO_Bottom,,0,0,0,,\Nって今日もまた 何も虎視虎子の弱みを見つけられなかった
+Dialogue: 0,0:21:55.45,0:21:57.79,SIKANOKO_Bottom,,0,0,0,,\Nニャオ!
+Dialogue: 0,0:21:57.79,0:21:59.19,SIKANOKO_Bottom,,0,0,0,,\Nがんばれネコちゃん
+Dialogue: 0,0:21:59.19,0:22:02.33,SIKANOKO_Bottom,,0,0,0,,\N今日の経験はいつか役に立つ日が来るかもしれないし
+Dialogue: 0,0:22:02.33,0:22:03.87,SIKANOKO_Bottom,,0,0,0,,\N来ないかもしれない!
+Dialogue: 0,0:22:05.05,0:22:05.10,SIKANOKO_Bottom,ED,0,0,0,,
