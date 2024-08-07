@@ -8,7 +8,13 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Active Line: 1
+Audio File: C:/Users/scree/Desktop/ep5.mkv
+Video File: C:/Users/scree/Desktop/ep5.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Active Line: 12
+Video Position: 11692
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -16,8 +22,55 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 0,0:00:00.00,0:00:05.00,OnScreen,,0,0,0,,
+Dialogue: 0,0:00:00.48,0:00:05.49,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:02:31.80,0:02:34.18,OnScreen,,0,0,0,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord2\c&H37382D&\3c&HF0FEFB&\pos(1713.15,992)}※ 猎友会
+Dialogue: 1,0:05:19.88,0:05:21.63,OnScreen,,0,0,0,,{=7}{\fn仓耳周珂正大榜书\c&H151B28&\fax-0.021774\fscx1192.46\fscy1916.91\frz9.3741\frx-0.1435\fry0.0716\org(960.15,501.59)\pos(965.34,884.98)\clip(m 342.91 218.3 l 1110.28 102.17 1142.97 85.22 1198.18 76.98 1261.33 73.14 1447.56 55.31 1505.15 385.41 1521.48 417.89 1467.48 419.75 b 1451.97 405.2 1431.41 403.82 1425.14 426.85 1419.89 449.63 1433.73 477.63 1445.11 496.4 1457.68 519.74 1483.36 538.68 1493.4 544.64 1506.16 552.57 1531.51 573 1536.97 586.45 1541.46 593.62 1547.77 598.2 1551.12 602.11 l 1552.04 625.78 1551.23 649.56 1570.62 760.69 810.1 912.8 609.04 946.32 535.95 930.56 453.88 944.03)}决斗书
+Dialogue: 0,0:05:19.88,0:05:21.63,OnScreen,,0,0,0,,{=7}{\an7\pos(0,0)\p1\c&HD3D3D7&\clip(m 342.91 218.3 l 1110.28 102.17 1142.97 85.22 1198.18 76.98 1261.33 73.14 1447.56 55.31 1505.15 385.41 1521.48 417.89 1467.48 419.75 b 1451.97 405.2 1431.41 403.82 1425.14 426.85 1419.89 449.63 1433.73 477.63 1445.11 496.4 1457.68 519.74 1483.36 538.68 1493.4 544.64 1506.16 552.57 1531.51 573 1536.97 586.45 1541.46 593.62 1547.77 598.2 1551.12 602.11 l 1552.04 625.78 1551.23 649.56 1570.62 760.69 810.1 912.8 609.04 946.32 535.95 930.56 453.88 944.03)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=19}{\fax0.001677\fscx383.54\fscy439.61\frz15.4939\frx0.0458\fry-0.0222\org(718.96,284.21)\pos(718.83,372.14)\c&HFCFCFD&\be2}日野南高中发生爆炸事故
+Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=30}{\c&010101&\b0\fax0.002338\fscx73.61\fscy78.12\frz15.4978\frx0.0459\fry-0.0224\org(962.69,76.55)\pos(962.66,92.17)}日野日报社
+Dialogue: 0,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=19}{\an7\pos(0,0)\p1\clip(m 134.67 372 l 1268 54.67 1321.34 220 164 534.67)\c&H000000&}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=28}{\fn@MiSans\b1\an1\fax-0.000470\fscx315.39\fscy309.15\frz-74.4612\frx0.0086\fry0.0255\org(1428.39,636.79)\pos(1047.79,698.62)\c&H010101&}奇迹般地无人伤亡
+Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=33}{\fn@MiSans\b1\an1\c&H010101&\fax-0.000875\fscx115.24\fscy113.87\frz-74.4597\frx0.0094\fry0.0250\org(1630.1,317.96)\pos(1560.58,340.74)\3c&HFFFFFF&\bord2}日野日报
+Dialogue: 0,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=19}{\an7\pos(0,0)\p1\c&HEAE9EB&\clip(m 1253.72 276.57 l 1388.58 230.86 1626.28 1035.43 1484.58 1076.57)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,日野日报
+Dialogue: 1,0:08:07.63,0:08:10.64,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(47.42,263.15)}新潟县弥彦山\N全景展望塔
+Dialogue: 1,0:08:07.63,0:08:10.64,OnScreen,eyecatch,0,0,0,,{\an9\c&HE8D296&\3c&H3E3A30&\bord2\frz6.093\pos(1261.82,1010.91)}骑自行车来的 ※
+Dialogue: 0,0:08:27.32,0:08:28.86,OnScreen,,0,0,0,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord2\move(186,428,-200,428,0,1218.75)}※ 鹿骨公园
+Dialogue: 0,0:11:03.81,0:11:05.94,OnScreen,,0,0,0,,{\fn思源黑体\b0\c&H0B0B0B&\3c&HF3F5F5&\bord3\fscx170\fscy170\pos(960,1040)}光吃香蕉不够啦
+Dialogue: 1,0:14:22.55,0:14:26.05,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(37.42,333.15)}新潟县\N弥彦神社\N鹿苑
+Dialogue: 0,0:14:26.05,0:14:29.56,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(51.24,291.12)}新潟县弥彦山\N弥彦神社
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e339.62;212.00#7C1059.24;424.57#7C1059.24;504.57#7C867.62;504.57
+Data: 1,_aegi_perspective_ambient_plane,e339.62;212.00#7C1468.39;29.14#7C1059.24;504.57#7C867.62;504.57
+Data: 2,_aegi_perspective_ambient_plane,e339.62;212.00#7C1468.39;29.14#7C1580.39;788.00#7C867.62;504.57
+Data: 3,_aegi_perspective_ambient_plane,e339.62;212.00#7C1468.39;29.14#7C1580.39;788.00#7C458.47;973.14
+Data: 4,_aegi_perspective_ambient_plane,e339.30;213.92#7C1468.39;29.14#7C1580.39;788.00#7C458.47;973.14
+Data: 5,_aegi_perspective_ambient_plane,e339.30;213.92#7C1468.92;28.61#7C1580.39;788.00#7C458.47;973.14
+Data: 6,_aegi_perspective_ambient_plane,e339.30;213.92#7C1468.91;28.61#7C1579.77;786.77#7C458.47;973.14
+Data: 7,_aegi_perspective_ambient_plane,e339.30;213.92#7C1468.91;28.61#7C1579.77;786.77#7C457.86;973.14
+Data: 9,_aegi_perspective_ambient_plane,e309.00;292.63#7C1028.88;252.00#7C1028.88;332.00#7C421.13;332.00
+Data: 10,_aegi_perspective_ambient_plane,e309.00;292.63#7C1028.88;252.00#7C1028.88;332.00#7C133.49;567.67
+Data: 11,_aegi_perspective_ambient_plane,e81.49;362.52#7C1028.88;252.00#7C1028.88;332.00#7C133.49;567.67
+Data: 12,_aegi_perspective_ambient_plane,e79.42;362.11#7C1028.88;252.00#7C1028.88;332.00#7C133.50;567.66
+Data: 13,_aegi_perspective_ambient_plane,e79.40;362.11#7C1028.88;252.01#7C1028.88;332.00#7C135.13;566.41
+Data: 14,_aegi_perspective_ambient_plane,e78.58;362.11#7C1028.88;252.01#7C1028.88;332.00#7C135.14;566.41
+Data: 15,_aegi_perspective_ambient_plane,e78.60;362.11#7C1235.67;60.26#7C1028.88;332.00#7C135.15;566.41
+Data: 16,_aegi_perspective_ambient_plane,e78.60;362.11#7C1235.67;60.26#7C1361.59;229.20#7C135.15;566.41
+Data: 17,_aegi_perspective_ambient_plane,e78.59;362.11#7C1235.66;60.27#7C1357.96;227.51#7C135.15;566.41
+Data: 18,_aegi_perspective_ambient_plane,e78.60;362.11#7C1300.65;23.28#7C1357.97;227.51#7C135.16;566.40
+Data: 19,_aegi_perspective_ambient_plane,e78.59;362.11#7C1300.64;23.28#7C1357.96;227.51#7C135.15;566.41
+Data: 20,_aegi_perspective_ambient_plane,e1270.00;332.31#7C1270.00;815.06#7C1190.00;815.06#7C364.86;563.17
+Data: 21,_aegi_perspective_ambient_plane,e1242.57;318.60#7C1270.00;815.06#7C1190.00;815.06#7C364.86;563.17
+Data: 22,_aegi_perspective_ambient_plane,e1242.57;318.60#7C1270.00;815.06#7C522.57;1135.06#7C364.86;563.17
+Data: 23,_aegi_perspective_ambient_plane,e1242.57;318.60#7C1402.57;879.07#7C522.57;1135.06#7C364.85;563.16
+Data: 24,_aegi_perspective_ambient_plane,e1242.57;318.60#7C1399.62;876.36#7C522.57;1135.06#7C364.85;563.16
+Data: 25,_aegi_perspective_ambient_plane,e1244.74;319.32#7C1399.62;876.36#7C522.57;1135.06#7C364.86;563.16
+Data: 26,_aegi_perspective_ambient_plane,e1244.74;319.32#7C1399.63;876.36#7C522.57;1135.06#7C361.78;563.87
+Data: 27,_aegi_perspective_ambient_plane,e1244.74;319.32#7C1399.62;876.36#7C521.30;1132.83#7C361.78;563.87
+Data: 28,_aegi_perspective_ambient_plane,e1244.74;319.32#7C1399.62;876.36#7C516.84;1121.69#7C361.78;563.87
+Data: 29,_aegi_perspective_ambient_plane,e78.60;362.11#7C1300.64;23.28#7C1357.96;227.51#7C135.16;566.41
+Data: 30,_aegi_perspective_ambient_plane,e78.62;362.10#7C1300.64;23.28#7C1357.96;227.51#7C135.19;566.39
+Data: 31,_aegi_perspective_ambient_plane,e1244.74;319.32#7C1399.62;876.36#7C516.81;1121.69#7C361.76;563.87
+Data: 32,_aegi_perspective_ambient_plane,e1244.74;319.32#7C1399.62;876.36#7C516.80;1121.69#7C361.75;563.88
+Data: 33,_aegi_perspective_ambient_plane,e1244.73;319.32#7C1399.62;876.37#7C516.76;1121.71#7C361.72;563.88
