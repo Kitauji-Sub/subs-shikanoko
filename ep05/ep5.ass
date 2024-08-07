@@ -9,14 +9,11 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/ep5.mkv
-Video File: C:/Users/scree/Desktop/ep5.mkv
 Keyframes File: C:/Users/scree/Desktop/ep5_keyframes.txt
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 441
-Active Line: 456
+Active Line: 21
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -50,8 +47,7 @@ Dialogue: 0,0:01:59.02,0:02:04.02,TITLE,TITLE,0,0,0,,{\pos(1030,690)\fscx200\fsc
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
 Comment: 0,0:00:01.49,0:00:04.20,SIKANOKO_Bottom,旁白,0,0,150,kara,隐藏本性装作好学生的原不良少女虎宝\N元ヤン猫かぶり優等生こしたんは
 Comment: 0,0:00:04.20,0:00:07.70,SIKANOKO_Bottom,旁白,0,0,150,,为了展现好学生的一面 经常早起去学校\N優等生ぶりを示すためにしばしば早起きである
-Dialogue: 9,0:00:04.20,0:00:07.70,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,887.5,960,1012.5,1305,1805)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345B85&}为了展现好学生的一面 经常早起去学校
-Dialogue: 8,0:00:04.20,0:00:07.70,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,930,960,1055,1305,1805)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H345B85&}優等生ぶりを示すためにしばしば早起きである
+Dialogue: 9,0:00:04.20,0:00:07.70,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,930,960,1055,1305,1805)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345B85&}为了展现好学生的一面 经常早起去学校
 Comment: 0,0:00:08.20,0:00:11.74,SIKANOKO_Bottom,虎子,0,0,0,kara,总感觉有人表面看上去在夸我 其实是在说我坏话\N誰かが褒めに見せかけたディスりをしている気がする
 Comment: 0,0:00:12.44,0:00:17.25,SIKANOKO_Bottom,虎子,0,0,0,kara,不对不对 最近只是有点被怪人鹿女打乱节奏了而已\Nいやいや 最近ちょっと変人鹿女にペースを狂わされていただけで
 Comment: 0,0:00:17.55,0:00:23.00,SIKANOKO_Bottom,虎子,0,0,0,kara,消停下来之后 清秀的虎视虎子也就回到属于她的清爽早晨啦\N落ち着けば こういう爽やかな朝が似合う 清楚な虎視虎子さんなのさ
