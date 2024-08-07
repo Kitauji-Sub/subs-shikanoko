@@ -13,7 +13,7 @@ Video File: C:/Users/scree/Desktop/ep5.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
-Active Line: 12
+Active Line: 10
 Video Position: 11692
 
 [V4+ Styles]
@@ -32,7 +32,6 @@ Dialogue: 0,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=19}{\an7\pos(0,0)\p1\clip(m
 Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=28}{\fn@MiSans\b1\an1\fax-0.000470\fscx315.39\fscy309.15\frz-74.4612\frx0.0086\fry0.0255\org(1428.39,636.79)\pos(1047.79,698.62)\c&H010101&}奇迹般地无人伤亡
 Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=33}{\fn@MiSans\b1\an1\c&H010101&\fax-0.000875\fscx115.24\fscy113.87\frz-74.4597\frx0.0094\fry0.0250\org(1630.1,317.96)\pos(1560.58,340.74)\3c&HFFFFFF&\bord2}日野日报
 Dialogue: 0,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,{=19}{\an7\pos(0,0)\p1\c&HEAE9EB&\clip(m 1253.72 276.57 l 1388.58 230.86 1626.28 1035.43 1484.58 1076.57)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 1,0:08:02.88,0:08:04.63,OnScreen,,0,0,0,,日野日报
 Dialogue: 1,0:08:07.63,0:08:10.64,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(47.42,263.15)}新潟县弥彦山\N全景展望塔
 Dialogue: 1,0:08:07.63,0:08:10.64,OnScreen,eyecatch,0,0,0,,{\an9\c&HE8D296&\3c&H3E3A30&\bord2\frz6.093\pos(1261.82,1010.91)}骑自行车来的 ※
 Dialogue: 0,0:08:27.32,0:08:28.86,OnScreen,,0,0,0,,{\an7\fn思源黑体\fscx135\fscy135\b1\bord2\move(186,428,-200,428,0,1218.75)}※ 鹿骨公园
