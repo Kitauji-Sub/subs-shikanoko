@@ -39,6 +39,15 @@ jobs:
           else
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
+      - name: Tag
+        if: steps.version_check.outputs.skip == 'false'
+        run: |
+          git tag ${{ steps.semver.outputs.version_tag }}
+      - name: Install git-cliff
+        uses: taiki-e/install-action@git-cliff
+      - name: Generate a changelog
+        if: steps.version_check.outputs.skip == 'false'
+        run: git-cliff --verbose --latest -c cliff.toml -o CHANGELOG.md --github-repo ${{ github.repository }}
       - name: Setup Python Environment
         uses: actions/setup-python@v5
         with:
@@ -92,20 +101,6 @@ jobs:
         run: |
           $version = "${{steps.semver.outputs.version_tag}}"
           Compress-Archive -Path "build/output/*" -DestinationPath "sino_subs_$version.zip" -Force
-      - name: Push the tag to Github
-        if: steps.version_check.outputs.skip == 'false'
-        run: |
-          git tag ${{ steps.semver.outputs.version_tag }}
-          git push origin ${{ steps.semver.outputs.version_tag }}
-      - name: Generate a changelog
-        if: steps.version_check.outputs.skip == 'false'
-        uses: orhun/git-cliff-action@v3
-        with:
-          config: cliff.toml
-          args: --verbose --latest
-        env:
-          OUTPUT: CHANGELOG.md
-          GITHUB_REPO: ${{ github.repository }}
       - name: Publish
         if: steps.version_check.outputs.skip == 'false'
         uses: "softprops/action-gh-release@v2"
