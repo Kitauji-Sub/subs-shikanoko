@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'main'
+      - 'single_language'
     paths-ignore:
       - '.github/**'
       - 'README.md'
@@ -34,20 +34,16 @@ jobs:
         id: version_check
         shell: bash
         run: |
-          if [ $(git tag -l "${{ steps.semver.outputs.version_tag }}") ]; then
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "skip=false" >> $GITHUB_OUTPUT
-          fi
-      - name: Tag
-        if: steps.version_check.outputs.skip == 'false'
-        run: |
-          git tag ${{ steps.semver.outputs.version_tag }}
-      - name: Install git-cliff
-        uses: taiki-e/install-action@git-cliff
-      - name: Generate a changelog
-        if: steps.version_check.outputs.skip == 'false'
-        run: git-cliff --verbose --latest -c cliff.toml -o CHANGELOG.md --github-repo ${{ github.repository }}
+          echo "skip=false" >> $GITHUB_OUTPUT
+      # - name: Tag
+      #   if: steps.version_check.outputs.skip == 'false'
+      #   run: |
+      #     git tag ${{ steps.semver.outputs.version_tag }}
+      # - name: Install git-cliff
+      #   uses: taiki-e/install-action@git-cliff
+      # - name: Generate a changelog
+      #   if: steps.version_check.outputs.skip == 'false'
+      #   run: git-cliff --verbose --latest -c cliff.toml -o CHANGELOG.md --github-repo ${{ github.repository }}
       - name: Setup Python Environment
         uses: actions/setup-python@v5
         with:
@@ -100,7 +96,7 @@ jobs:
       - name: Pack files
         run: |
           $version = "${{steps.semver.outputs.version_tag}}"
-          Compress-Archive -Path "build/output/*" -DestinationPath "sino_subs_$version.zip" -Force
+          Compress-Archive -Path "build/output/*" -DestinationPath "sino_subs_${version}_mono.zip" -Force
       - name: Publish
         if: steps.version_check.outputs.skip == 'false'
         uses: "softprops/action-gh-release@v2"
@@ -109,8 +105,6 @@ jobs:
           fail_on_unmatched_files: true
           prerelease: false
           draft: false
-          body_path: CHANGELOG.md
-          name: ${{steps.semver.outputs.version}}
           files: |
             sino_subs_*.zip
       - name: Upload Artifacts
