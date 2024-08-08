@@ -1,0 +1,23 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Active Line: 1
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:00.00,0:00:05.00,OnScreen,,0,0,0,,
