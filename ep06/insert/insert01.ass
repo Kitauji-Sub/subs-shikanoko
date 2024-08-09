@@ -7,6 +7,15 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/ep6.mkv
+Video File: C:/Users/scree/Desktop/ep6.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Scroll Position: 6
+Active Line: 15
+Video Position: 5339
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Insert_CN,思源黑体 Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,85,1
@@ -28,4 +37,16 @@ Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
-Dialogue: 0,0:00:00.00,0:00:02.00,Insert_JP,,0,0,0,,
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin line anystyle,!relayer(7)!
+Comment: 0,0:03:41.83,0:03:45.51,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:03:45.75,0:03:49.11,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:03:49.81,0:03:55.40,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:13:34.89,0:13:38.36,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:13:39.07,0:13:42.59,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:13:43.11,0:13:48.92,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:03:41.83,0:03:45.51,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:03:45.75,0:03:49.11,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:03:49.81,0:03:55.40,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:13:34.89,0:13:38.36,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:13:39.07,0:13:42.59,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:13:43.11,0:13:48.92,Insert_CN,,0,0,0,kara,鹿鹿
