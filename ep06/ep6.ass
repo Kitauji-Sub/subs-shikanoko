@@ -11,12 +11,13 @@ PlayResY: 1080
 Last Style Storage: Default
 Audio File: C:/Users/scree/Desktop/ep6.mkv
 Video File: C:/Users/scree/Desktop/ep6.mkv
+Keyframes File: C:/Users/scree/Desktop/ep6_keyframes.txt
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Scroll Position: 445
-Active Line: 446
-Video Position: 31704
+Scroll Position: 495
+Active Line: 508
+Video Position: 31545
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -39,15 +40,19 @@ Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,code once,graphic_width = 50
 Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line notext,{\an7\1c&H345B84&\1a&H00&\3c&HF0F0F0&\3a&H00&\bord4.5\shad0\p1\fry180\fscx200\fscy200\pos(!line.left + graphic_width - 18!,!line.top!)}m 1.4 0 l 1.4 0 1 0.3 b 0 1.7 -0.4 5.6 0.6 8.9 b 1.7 12.6 5.1 17.8 11.2 21.6 l 11.9 22.1 b 16.2 24.8 20.7 27.5 27.1 27.5 b 31.8 27.5 35 26.3 35 25.1 l 35 25.1 33.1 24.4 b 32.6 24.2 32 24.1 31.4 23.9 b 31.1 23.8 30.8 23.7 30.5 23.6 l 30.5 23.6 27 21.8 25.4 19.6 b 24.9 18.7 24.5 17.9 24.2 17.3 b 23.5 15.6 23.1 14.9 21.8 14.3 l 21.8 14.3 21.5 16.1 b 21.5 16.3 21.4 16.6 21.4 16.9 b 21.1 18.9 20.2 19.4 19.5 19.5 b 16.7 19.6 14.7 12.8 14.5 12.1 l 14.5 12.1 13.6 8.2 13.5 7.4 b 13.1 4.8 12.9 4.4 12.5 4.4 b 11.7 4.4 11 4.4 11 7.6 l 11 7.6 11.2 9.8 b 11.4 11.2 11.6 12.3 10.9 13.2 l 10.9 13.2 9.4 13.8 b 6.3 13.8 4.3 5.7 4.1 4.8 b 3.2 0.9 2.7 0 1.4 0 {\p0}
 Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line,{\pos(!line.left + graphic_width!,!line.top + 5!)}
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====STF=====
-Dialogue: 0,0:01:55.09,0:01:57.01,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
+Dialogue: 0,0:01:55.09,0:01:57.01,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：御崎辉 {\c&HFC9CB3&}后{\r}期：Scrpr
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
 Dialogue: 0,0:09:18.50,0:09:24.50,note,,0,0,0,,尺八是起源于唐朝的古代乐器。\N特雷门琴是世界上第一个电子乐器，不需要人直接接触即可演奏。\N巫毒鼓是非洲的伊博族人所用的祭祀乐器。
-Dialogue: 0,0:09:24.67,0:09:31.38,note,,0,0,0,,呼呼塞拉是南非足球迷用于助威的大喇叭，\N最早起源于用非洲羚羊的角制成的一种用来驱赶狒狒的发声工具。
+Dialogue: 0,0:09:24.50,0:09:26.32,note,,0,0,0,,呼呼塞拉是南非足球迷用于助威的大喇叭，\N最早起源于用非洲羚羊的角制成的一种用来驱赶狒狒的发声工具。
 Dialogue: 0,0:12:33.00,0:12:37.91,note,马车芽,0,0,0,,铁腕DASH：1995年开始播出的一档综艺节目，\N其中的DASH村企划有开辟田地，种植果蔬的内容。
 Dialogue: 0,0:12:38.40,0:12:39.53,note,,0,0,0,,出自综艺「铁腕DASH」中城岛茂说出的名言「外行乖乖闭嘴！」
 Dialogue: 0,0:13:20.49,0:13:23.12,note,鹿乃子,0,0,0,,化用英美两国军人19世纪开始唱的军歌歌词，\N同时也是麦克阿瑟在西点军校的告别演讲中所说过的句子\N「老兵永不死，只是凋零去（Old soldiers never die, they just fade away）」
 Dialogue: 0,0:18:04.28,0:18:05.54,note,鹿乃子,0,0,0,,字面意思为“槌之子”，又称野槌蛇、土龙，是传说中生活在日本的一种生物，\N虽多有目击例，但其存在性未被证实。\N是后藤一里的形态之一。
 Dialogue: 0,0:14:40.25,0:14:43.50,note,旁白,0,0,0,,迪○尼的小鹿斑比
+Dialogue: 0,0:03:10.88,0:03:12.21,note,鹿乃子,0,0,0,,煤炉 (Mercari)：二手交易平台，日本闲鱼
+Dialogue: 0,0:14:37.83,0:14:39.69,note,旁白,0,0,0,,鹿の子（かのこ）即鹿の子斑（かのこまだら），是日本对梅花鹿身上斑点的称呼\N日本鹿均为梅花鹿
+Dialogue: 0,0:14:47.66,0:14:51.02,note,馅子,0,0,0,,《小鹿斑比》原作小说出版于1923年，已于2022年进入公有领域\N但是，迪○尼改编的同名电影（1942）仍在版权保护期内
+Dialogue: 0,0:16:10.60,0:16:15.19,note,虎子,0,0,0,,B-Part: 因为电视台需要插广告，\N日本动画每集一般分为2部分。\N1/2部分对应A/B-Part。
 Dialogue: 0,0:00:27.02,0:00:27.02,SIKANOKO_Bottom,,0,0,0,OP,
 Dialogue: 0,0:03:41.83,0:03:55.38,SIKANOKO_Bottom,,0,0,0,BGM,
 Dialogue: 0,0:13:34.89,0:13:48.86,SIKANOKO_Bottom,,0,0,0,BGM,
@@ -55,404 +60,465 @@ Dialogue: 0,0:22:05.07,0:22:05.07,SIKANOKO_Bottom,,0,0,0,ED,
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 0,0:01:57.01,0:02:02.02,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord5\c&HAF6237&\3c&HFEDBC7&}夏鹿祭
 Comment: 0,0:22:02.28,0:22:04.40,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
-Dialogue: 0,0:00:00.76,0:00:04.64,SIKANOKO_Bottom,旁白,0,0,0,,各位一直观看鹿乃子乃子乃子虎视眈眈的观众\Nいつもしかのこのこのここしたんたんをご覧の皆様
-Dialogue: 0,0:00:04.64,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,0,,向你致以衷心的感谢\Nまことにありがとうございます
-Dialogue: 0,0:00:06.86,0:00:13.35,SIKANOKO_Bottom,旁白,0,0,0,,虽然我们在鹿保护团体的抗议中瑟瑟发抖 不过节目的播出还是平稳地即将过半\N鹿愛護団体からの抗議にビクビクする中 無事放送も折り返し地点を迎えました
+Comment: 0,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,衷心感谢一直以来观看《鹿乃子乃子乃子虎视眈眈》的各位观众\Nいつもしかのこのこのここしたんたんをご覧の皆様まことにありがとうございます
+Dialogue: 9,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,887.5,960,1012.5,4787,5287)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345B85&}衷心感谢一直以来观看《鹿乃子乃子乃子虎视眈眈》的各位观众
+Dialogue: 8,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,930,960,1055,4787,5287)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H345B85&}いつもしかのこのこのここしたんたんをご覧の皆様まことにありがとうございます
+Comment: 0,0:00:06.86,0:00:10.07,SIKANOKO_Bottom,旁白,0,0,0,kara,虽然我们在鹿保团体的抗议中瑟瑟发抖\N鹿愛護団体からの抗議にビクビクする中
+Dialogue: 0,0:00:10.07,0:00:13.65,SIKANOKO_Bottom,旁白,0,0,0,,但是节目的播出还是平稳地迎来过半\N無事放送も折り返し地点を迎えました
 Dialogue: 0,0:00:13.65,0:00:17.62,SIKANOKO_Bottom,旁白,0,0,0,,本集是特别篇 在平时的日常之上\Nそこで今回は 特別編として通常の話に加え
-Dialogue: 0,0:00:17.62,0:00:21.14,SIKANOKO_Bottom,旁白,0,0,0,,还加入了18段迷你小故事\N18本立てのミニエピソード集をお送りします
-Dialogue: 0,0:00:21.49,0:00:24.87,SIKANOKO_Bottom,旁白,0,0,0,,哎呀 竟然有18段 看到就是赚到呀\Nいやー 18本立てとかお得ですね
-Dialogue: 0,0:00:25.37,0:00:26.67,SIKANOKO_Bottom,鹿乃子,0,0,0,,乃们准备好了吗\N始まるのつ
+Dialogue: 0,0:00:17.62,0:00:21.14,SIKANOKO_Bottom,旁白,0,0,0,,还加入了18篇迷你小故事\N18本立てのミニエピソード集をお送りします
+Dialogue: 0,0:00:21.49,0:00:24.96,SIKANOKO_Bottom,旁白,0,0,0,,哎呀 竟然有18篇 看到就是赚到呀\Nいやー 18本立てとかお得ですね
+Dialogue: 0,0:00:25.37,0:00:26.67,SIKANOKO_Bottom,鹿乃子,0,0,0,,要开始了噜\N始まるのつ
 Dialogue: 0,0:02:05.42,0:02:06.79,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝 虎宝\Nこしたん こしたん
-Dialogue: 0,0:02:06.79,0:02:07.38,SIKANOKO_Bottom,虎子,0,0,0,,嗯？\Nうん?
-Dialogue: 0,0:02:07.56,0:02:10.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,看好 我现在要用超能力了哦\N今から超能力使うから見てて
-Dialogue: 0,0:02:10.54,0:02:11.18,SIKANOKO_Bottom,虎子,0,0,0,,嗯\Nうん
-Dialogue: 0,0:02:13.60,0:02:15.86,SIKANOKO_Bottom,鹿乃子,0,0,0,,咕噜噜噜噜噜噜\Nくぬぬぬぬぬぬぬぬん
-Dialogue: 0,0:02:16.02,0:02:18.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,咕噜噜噜噜噜噜噜噜噜\Nくぬぬぬぬぬぬぬぬぬぬぬん
-Dialogue: 0,0:02:18.97,0:02:24.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,咕噜噜噜噜噜噜噜噜噜噜噜噜…\Nくぬぬぬぬぬぬぬぬぬぬぬぬぬぬん…
+Dialogue: 0,0:02:06.79,0:02:07.27,SIKANOKO_Bottom,虎子,0,0,0,,嗯？\Nうん?
+Dialogue: 0,0:02:07.56,0:02:10.03,SIKANOKO_Bottom,鹿乃子,0,0,0,,看好了 我现在要用超能力了哦\N今から超能力使うから見てて
+Dialogue: 0,0:02:10.54,0:02:11.18,SIKANOKO_Bottom,虎子,0,0,0,,哦\Nうん
+Dialogue: 0,0:02:13.60,0:02:16.02,SIKANOKO_Top,鹿乃子,0,0,0,,咕噜噜噜噜噜噜\Nくぬぬぬぬぬぬぬぬん
+Dialogue: 0,0:02:16.02,0:02:18.81,SIKANOKO_Top,鹿乃子,0,0,0,,咕噜噜噜噜噜噜噜噜噜\Nくぬぬぬぬぬぬぬぬぬぬぬん
+Dialogue: 0,0:02:18.81,0:02:24.28,SIKANOKO_Top,鹿乃子,0,0,0,,咕噜噜噜噜噜噜噜噜噜噜噜噜…\Nくぬぬぬぬぬぬぬぬぬぬぬぬぬぬん…
 Dialogue: 0,0:02:21.12,0:02:24.28,SIKANOKO_Bottom,虎子,0,0,0,,勺子发光了？难道说她来真的？\N光り出した?まさかほんとうに?
-Dialogue: 0,0:02:24.28,0:02:24.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜！\Nぬん
-Dialogue: 0,0:02:26.24,0:02:27.43,SIKANOKO_Bottom,虎子,0,0,0,,是那个啊\Nそっちかい
-Dialogue: 0,0:02:32.78,0:02:34.49,SIKANOKO_Bottom,虎子,0,0,0,,想喝点咖啡啥的\Nコーヒーでも飲みてぇ
+Dialogue: 0,0:02:24.28,0:02:24.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜！\Nぬん
+Dialogue: 0,0:02:26.24,0:02:27.43,SIKANOKO_Bottom,虎子,0,0,0,,是你那边啊\Nそっちかい
+Dialogue: 0,0:02:32.78,0:02:34.30,SIKANOKO_Bottom,虎子,0,0,0,,想喝点咖啡啥的\Nコーヒーでも飲みてぇ
 Dialogue: 0,0:02:34.49,0:02:35.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,要喝吗\N飲む?
-Dialogue: 0,0:02:35.22,0:02:35.96,SIKANOKO_Bottom,虎子,0,0,0,,你有？\Nあんの?
-Dialogue: 0,0:02:46.13,0:02:47.06,SIKANOKO_Bottom,虎子,0,0,0,,还是算了\Nやっぱいい
-Dialogue: 0,0:02:48.55,0:02:50.13,SIKANOKO_Bottom,鹿乃子,0,0,0,,我吃我吃我吃我吃\Nムシャムシャムシャムシャ
-Dialogue: 0,0:02:50.13,0:02:50.84,SIKANOKO_Bottom,鹿乃子,0,0,0,,我吃\Nムシャ
+Dialogue: 0,0:02:35.22,0:02:36.05,SIKANOKO_Bottom,虎子,0,0,0,,你有？\Nあんの?
+Dialogue: 0,0:02:46.05,0:02:47.06,SIKANOKO_Bottom,虎子,0,0,0,,还是算了\Nやっぱいい
+Dialogue: 0,0:02:48.55,0:02:50.13,SIKANOKO_Bottom,鹿乃子,0,300,0,,我吃我吃我吃我吃\Nムシャムシャムシャムシャ
+Dialogue: 0,0:02:50.13,0:02:50.78,SIKANOKO_Bottom,鹿乃子,0,300,0,,我吃\Nムシャ
 Dialogue: 0,0:02:51.06,0:02:52.85,SIKANOKO_Bottom,虎子,0,0,0,,鹿仙贝要花钱\N鹿せんべい代
-Dialogue: 0,0:02:52.85,0:02:56.21,SIKANOKO_Bottom,虎子,0,0,0,,修理被馅子和鹿乃子弄坏的东西要花钱\N餡子と鹿乃子に破壊された物質修繕費
-Dialogue: 0,0:02:56.44,0:02:58.84,SIKANOKO_Bottom,虎子,0,0,0,,虎视虎子王争夺战也要花钱\N虎視虎子王決定戦経費
-Dialogue: 0,0:02:59.34,0:03:02.03,SIKANOKO_Bottom,虎子,0,0,0,,哇啊 部费根本不够！\Nうわー 部費が足りん!
-Dialogue: 0,0:03:02.03,0:03:06.33,SIKANOKO_Bottom,虎子,0,0,0,,而且啊！怎么那个争夺战也要鹿社报销啊 气死我了！\Nつーか!あの決定戦もシカ部持ちかよ ちくしょー!
-Dialogue: 0,0:03:07.18,0:03:07.98,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝\Nこしたん
-Dialogue: 0,0:03:08.27,0:03:08.89,SIKANOKO_Bottom,虎子,0,0,0,,嗯？\Nん？
-Dialogue: 0,0:03:10.88,0:03:12.21,SIKANOKO_Bottom,鹿乃子,0,0,0,,去甜鱼上\Nメルカリで
+Dialogue: 0,0:02:52.85,0:02:56.44,SIKANOKO_Bottom,虎子,0,0,0,,修理被馅子和鹿乃子弄坏的东西要花钱\N餡子と鹿乃子に破壊された物質修繕費
+Dialogue: 0,0:02:56.44,0:02:59.03,SIKANOKO_Bottom,虎子,0,0,0,,虎视虎子王争夺战也要花钱\N虎視虎子王決定戦経費
+Dialogue: 0,0:02:59.34,0:03:02.03,SIKANOKO_Bottom,虎子,0,0,0,,啊 部费根本不够！\Nうわー 部費が足りん!
+Dialogue: 0,0:03:02.03,0:03:06.04,SIKANOKO_Bottom,虎子,0,0,0,,而且啊！怎么那个争夺战也要鹿社报销啊 气死我了！\Nつーか!あの決定戦もシカ部持ちかよ ちくしょー!
+Dialogue: 0,0:03:07.13,0:03:07.79,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝\Nこしたん
+Dialogue: 0,0:03:08.27,0:03:09.00,SIKANOKO_Bottom,虎子,0,0,0,,嗯？\Nん？
+Dialogue: 0,0:03:10.88,0:03:12.21,SIKANOKO_Bottom,鹿乃子,0,0,0,,去煤炉上\Nメルカリで
 Dialogue: 0,0:03:12.21,0:03:12.66,SIKANOKO_Bottom,鹿乃子,0,0,0,,卖了吧？\N売る？
-Dialogue: 0,0:03:26.54,0:03:27.43,SIKANOKO_Bottom,虎子,0,0,0,,卖出去了！\N売れた!
+Dialogue: 0,0:03:26.54,0:03:27.56,SIKANOKO_Bottom,虎子,0,0,0,,卖出去了！\N売れた!
 Dialogue: 0,0:03:27.56,0:03:28.71,SIKANOKO_Bottom,虎子,0,0,0,,有部费咯！\N部費ゲット!
-Dialogue: 0,0:03:30.68,0:03:31.25,SIKANOKO_Bottom,鹿乃子,0,0,0,,我乃\Nのつ
-Dialogue: 0,0:03:33.30,0:03:33.88,SIKANOKO_Bottom,鹿乃子,0,0,0,,我乃\Nのつ
+Dialogue: 0,0:03:30.68,0:03:31.25,SIKANOKO_Bottom,鹿乃子,0,800,0,,我乃\Nのつ
+Dialogue: 0,0:03:33.30,0:03:33.88,SIKANOKO_Bottom,鹿乃子,800,0,0,,我乃\Nのつ
 Dialogue: 0,0:03:35.11,0:03:36.34,SIKANOKO_Bottom,虎子,0,0,0,,这什么原理？\Nどういう原理?
-Dialogue: 0,0:03:53.74,0:03:56.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,不是说21世纪是鹿的世纪吗\N時代はシカなんじゃなかったの
-Dialogue: 0,0:03:56.48,0:03:58.03,SIKANOKO_Bottom,旁白,0,0,0,,期待转生中\N来世に期待
-Dialogue: 0,0:04:02.06,0:04:05.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,要是鹿社也出个抱枕的枕套就好啦\Nシカ部で抱き枕カバーとか出したらいいと思うんだよね
-Dialogue: 0,0:04:05.81,0:04:07.29,SIKANOKO_Bottom,虎子,0,0,0,,怎么突然说这个\Nどうした急に
-Dialogue: 0,0:04:07.59,0:04:08.62,SIKANOKO_Bottom,鹿乃子,0,0,0,,看\Nとう
-Dialogue: 0,0:04:08.62,0:04:10.54,SIKANOKO_Bottom,鹿乃子,0,0,0,,我试作了一份\N試しに作ってみたんだけど
-Dialogue: 0,0:04:10.63,0:04:12.59,SIKANOKO_Bottom,虎子,0,0,0,,你就是行动力之神本尊？\N行動力の化身か?
-Dialogue: 0,0:04:12.59,0:04:14.10,SIKANOKO_Bottom,虎子,0,0,0,,呃 还长角了啊\Nつか 角ついてる
-Dialogue: 0,0:04:14.10,0:04:15.59,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝 你睡下去试试看\Nこしたん 寝てみて
-Dialogue: 0,0:04:17.87,0:04:19.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,怎么样？怎么样？\Nどう?どう?
+Dialogue: 0,0:03:53.74,0:03:56.01,SIKANOKO_Bottom,鹿乃子,0,0,0,,不是说21世纪是鹿的世纪吗\N時代はシカなんじゃなかったの
+Dialogue: 0,0:03:56.48,0:03:58.03,SIKANOKO_Bottom,旁白,0,0,0,,下辈子好运\N来世に期待
+Dialogue: 0,0:04:02.06,0:04:05.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,要是鹿社也出个抱枕枕套就好啦\Nシカ部で抱き枕カバーとか出したらいいと思うんだよね
+Dialogue: 0,0:04:05.64,0:04:07.14,SIKANOKO_Bottom,虎子,0,0,0,,怎么突然说这个\Nどうした急に
+Dialogue: 0,0:04:07.64,0:04:08.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,看\Nとう
+Dialogue: 0,0:04:08.62,0:04:10.63,SIKANOKO_Bottom,鹿乃子,0,0,0,,我还做了份样品\N試しに作ってみたんだけど
+Dialogue: 0,0:04:10.63,0:04:12.59,SIKANOKO_Bottom,虎子,0,0,0,,你就是行动力之神本尊吗？\N行動力の化身か?
+Dialogue: 0,0:04:12.59,0:04:14.03,SIKANOKO_Bottom,虎子,0,0,0,,而且 还长角了啊\Nつか 角ついてる
+Dialogue: 0,0:04:14.03,0:04:15.78,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝 你睡下去试试看\Nこしたん 寝てみて
+Dialogue: 0,0:04:17.78,0:04:19.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,怎么样？怎么样？\Nどう?どう?
 Dialogue: 0,0:04:19.27,0:04:20.75,SIKANOKO_Bottom,虎子,0,0,0,,角好碍事\N角邪魔
-Dialogue: 0,0:04:22.20,0:04:23.15,SIKANOKO_Bottom,鹿乃子,0,0,0,,那么\Nそれじゃあ
-Dialogue: 0,0:04:23.27,0:04:24.87,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿社的T恤怎么样\Nシカ部のTシャツは
-Dialogue: 0,0:04:25.92,0:04:27.75,SIKANOKO_Bottom,虎子,0,0,0,,好吧 T恤感觉还行\Nまあ そんくらいなら
-Dialogue: 0,0:04:28.12,0:04:29.48,SIKANOKO_Bottom,鹿乃子,0,0,0,,\N
+Dialogue: 0,0:04:22.20,0:04:23.03,SIKANOKO_Bottom,鹿乃子,0,800,0,,那么\Nそれじゃあ
+Dialogue: 0,0:04:23.27,0:04:24.79,SIKANOKO_Bottom,鹿乃子,0,800,0,,鹿社的T恤怎么样\Nシカ部のTシャツは
+Dialogue: 0,0:04:25.92,0:04:27.79,SIKANOKO_Bottom,虎子,0,0,0,,好吧 T恤感觉还行\Nまあ そんくらいなら
 Dialogue: 0,0:04:30.20,0:04:31.02,SIKANOKO_Bottom,虎子,0,0,0,,做好了\N出来た
-Dialogue: 0,0:04:31.02,0:04:33.08,SIKANOKO_Bottom,虎子,0,0,0,,行动力之神再度降临\Nふたたびの行動力の化身
-Dialogue: 0,0:04:33.32,0:04:35.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,赶紧穿上试试看！\N早速着るぞ!
+Dialogue: 0,0:04:31.02,0:04:33.13,SIKANOKO_Bottom,虎子,0,0,0,,行动力之神再度降临\Nふたたびの行動力の化身
+Dialogue: 0,0:04:33.32,0:04:34.88,SIKANOKO_Bottom,鹿乃子,0,0,0,,赶紧穿上试试看！\N早速着るぞ!
 Dialogue: 0,0:04:41.37,0:04:45.24,SIKANOKO_Bottom,鹿乃子,0,0,0,,你掉的是这个金角 还是这个银角？\Nあなたが落としたのは金の角ですか?銀の角ですか?
-Dialogue: 0,0:04:45.69,0:04:46.74,SIKANOKO_Bottom,虎子,0,0,0,,这又是玩哪出？\N急に何?
-Dialogue: 0,0:04:46.92,0:04:50.61,SIKANOKO_Bottom,鹿乃子,0,0,0,,你掉的是这个金角 还是这个银角？\Nあなたが落としたのは金の角ですか?銀の角ですか?
-Dialogue: 0,0:04:50.70,0:04:53.80,SIKANOKO_Bottom,虎子,0,0,0,,这是必须得选一个 否则对话就卡死了是吧\Nこれ 答えないと進まないやつじゃん
+Dialogue: 0,0:04:45.69,0:04:46.64,SIKANOKO_Bottom,虎子,0,0,0,,这又是玩哪出？\N急に何?
+Dialogue: 0,0:04:46.92,0:04:50.52,SIKANOKO_Bottom,鹿乃子,0,0,0,,你掉的是这个金角 还是这个银角？\Nあなたが落としたのは金の角ですか?銀の角ですか?
+Dialogue: 0,0:04:50.52,0:04:53.77,SIKANOKO_Bottom,虎子,0,0,0,,这是必须得选一个 否则对话就卡死了是吧\Nこれ 答えないと進まないやつじゃん
 Dialogue: 0,0:04:54.19,0:04:57.24,SIKANOKO_Bottom,虎子,0,0,0,,都不是我掉的啊\N別にどっちも落としてないけど
-Dialogue: 0,0:04:57.67,0:04:59.70,SIKANOKO_Bottom,鹿乃子,0,0,0,,为了奖励诚实的虎宝\N正直者のこしたんには
-Dialogue: 0,0:04:59.70,0:05:01.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,给你这个游戏专用RGB发光角\Nゲーミングツノをあげよう
+Dialogue: 0,0:04:57.67,0:04:59.57,SIKANOKO_Bottom,鹿乃子,0,0,0,,为了奖励诚实的虎宝\N正直者のこしたんには
+Dialogue: 0,0:04:59.57,0:05:01.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,给你这个游戏专用RGB发光角\Nゲーミングツノをあげよう
 Dialogue: 0,0:05:01.28,0:05:02.70,SIKANOKO_Bottom,虎子,0,0,0,,游戏专用RGB发光角？\Nゲーミングツノ?
 Dialogue: 0,0:05:03.00,0:05:05.35,SIKANOKO_Bottom,虎子,0,0,0,,呃 我的眼睛！\Nって!目が!
 Dialogue: 0,0:05:05.35,0:05:08.36,SIKANOKO_Bottom,虎子,0,0,0,,我的眼睛！呃啊！\N目が！ギア!
 Dialogue: 0,0:05:13.96,0:05:14.42,SIKANOKO_Bottom,虎子,0,0,0,,嗯？\Nん?
-Dialogue: 0,0:05:23.20,0:05:25.01,SIKANOKO_Bottom,虎子,0,0,0,,啊 这不是吸管！\Nあっ ストローじゃねえ!
+Dialogue: 0,0:05:23.20,0:05:24.85,SIKANOKO_Top,虎子,0,0,0,,啊 这不是吸管！\Nあっ ストローじゃねえ!
 Dialogue: 0,0:05:25.16,0:05:26.52,SIKANOKO_Bottom,虎子,0,0,0,,是角啊这个！\Nツノだこれ!
 Dialogue: 0,0:05:27.91,0:05:28.55,SIKANOKO_Bottom,鹿乃子,0,0,0,,尽在角握\Nツノ
-Dialogue: 0,0:05:31.25,0:05:34.40,SIKANOKO_Bottom,虎子,0,0,0,,馅子你已经很有高中生的样子了呢\N餡子ってばすっかり高校生らしくなって
-Dialogue: 0,0:05:35.77,0:05:39.24,SIKANOKO_Bottom,虎子,0,0,0,,虽然初中的校服也很适合你 不过水手服也很棒呀\N中学の制服も似合ってたけど セーラー服もいいな
+Dialogue: 0,0:05:31.25,0:05:34.23,SIKANOKO_Bottom,虎子,0,0,0,,馅子你已经很有高中生的样子了呢\N餡子ってばすっかり高校生らしくなって
+Dialogue: 0,0:05:35.77,0:05:39.11,SIKANOKO_Bottom,虎子,0,0,0,,虽然初中的校服也很适合你 不过水手服也很棒呀\N中学の制服も似合ってたけど セーラー服もいいな
 Dialogue: 0,0:05:39.63,0:05:40.20,SIKANOKO_Bottom,馅子,0,0,0,,呀~\Nキャン
-Dialogue: 0,0:05:41.24,0:05:42.74,SIKANOKO_Bottom,馅子,0,0,0,,和姐姐穿一样的\Nお姉ちゃんとおそろい
-Dialogue: 0,0:05:42.74,0:05:45.35,SIKANOKO_Bottom,馅子,0,0,0,,和所有女生都是一样的啦\Nわたし以外ともおそろいだけどな
+Dialogue: 0,0:05:41.24,0:05:42.61,SIKANOKO_Bottom,馅子,0,0,0,,和姐姐穿一样的\Nお姉ちゃんとおそろい
+Dialogue: 0,0:05:42.61,0:05:45.35,SIKANOKO_Bottom,馅子,0,0,0,,和所有女生都是一样的啦\Nわたし以外ともおそろいだけどな
 Dialogue: 0,0:05:46.63,0:05:49.00,SIKANOKO_Bottom,虎子,0,0,0,,但你的衣服感觉有点大呀\Nでもちょっと大きいなそれ
-Dialogue: 0,0:05:49.26,0:05:51.40,SIKANOKO_Bottom,虎子,0,0,0,,是没有选合适的尺码吗？\Nぴったりのサイズにしなかったのか?
-Dialogue: 0,0:05:51.79,0:05:54.63,SIKANOKO_Bottom,馅子,0,0,0,,这个 是姐姐的旧衣服\Nこれ お姉ちゃんのおさがりだから
-Dialogue: 0,0:05:54.84,0:05:56.91,SIKANOKO_Bottom,虎子,0,0,0,,这样呀 是我的\Nへえ わたしの
-Dialogue: 0,0:06:02.33,0:06:03.89,SIKANOKO_Bottom,马车芽,0,0,0,,嗯哈 马马好评\Nんわー うま
+Dialogue: 0,0:05:49.26,0:05:51.50,SIKANOKO_Bottom,虎子,0,0,0,,是没有选合适的尺码吗？\Nぴったりのサイズにしなかったのか?
+Dialogue: 0,0:05:51.79,0:05:54.75,SIKANOKO_Bottom,馅子,0,0,0,,这个 是姐姐的旧衣服\Nこれ お姉ちゃんのおさがりだから
+Dialogue: 0,0:05:54.75,0:05:56.91,SIKANOKO_Bottom,虎子,0,0,0,,这样呀 是我的\Nへえ わたしの
+Dialogue: 0,0:06:02.38,0:06:03.89,SIKANOKO_Bottom,马车芽,0,0,0,,嗯哈 马马好评\Nんわー うま
 Dialogue: 0,0:06:06.49,0:06:07.06,SIKANOKO_Bottom,马车芽,0,0,0,,神马？\Nうま?
 Dialogue: 0,0:06:14.20,0:06:14.76,SIKANOKO_Bottom,马车芽,0,0,0,,马马好评\Nうま!
 Dialogue: 0,0:06:14.76,0:06:15.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿鹿好评\Nシカ!
 Dialogue: 0,0:06:15.28,0:06:15.74,SIKANOKO_Bottom,马车芽,0,0,0,,马马好评\Nうま!
 Dialogue: 0,0:06:15.74,0:06:16.26,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿鹿好评\Nシカ!
 Dialogue: 0,0:06:16.26,0:06:16.74,SIKANOKO_Bottom,马车芽,0,0,0,,马马好评\Nうま!
-Dialogue: 0,0:06:16.74,0:06:17.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿鹿好评\Nシカ!
-Dialogue: 0,0:06:19.33,0:06:25.15,SIKANOKO_Bottom,鹿乃子,0,0,0,,电视机前的各位观众 又到了每周的鹿鹿商店时间啦\Nテレビをご覧のみなさま 今週ものつのつショッピングのお時間がやってまいりました
+Dialogue: 0,0:06:16.74,0:06:17.20,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿鹿好评\Nシカ!
+Dialogue: 0,0:06:19.33,0:06:25.07,SIKANOKO_Bottom,鹿乃子,0,0,0,,电视机前的各位观众 又到了每周的鹿鹿商店时间啦\Nテレビをご覧のみなさま 今週ものつのつショッピングのお時間がやってまいりました
 Dialogue: 0,0:06:25.50,0:06:27.46,SIKANOKO_Bottom,鹿乃子,0,0,0,,今天为大家带来的是\N今回ご紹介したいのは
 Dialogue: 0,0:06:27.46,0:06:28.24,SIKANOKO_Bottom,鹿乃子,0,0,0,,这个\Nこちら
-Dialogue: 0,0:06:29.24,0:06:31.03,SIKANOKO_Bottom,鹿乃子,0,0,0,,角型印章盒\N角型印鑑ケースです
-Dialogue: 0,0:06:31.32,0:06:33.16,SIKANOKO_Bottom,馅子,0,0,0,,现在很流行呢\N今 流行ってますよね
+Dialogue: 0,0:06:29.24,0:06:31.08,SIKANOKO_Bottom,鹿乃子,0,0,0,,角型印章盒\N角型印鑑ケースです
+Dialogue: 0,0:06:31.32,0:06:33.25,SIKANOKO_Bottom,馅子,0,0,0,,现在很流行呢\N今 流行ってますよね
 Dialogue: 0,0:06:33.25,0:06:35.33,SIKANOKO_Bottom,馅子,0,0,0,,我正好也想要一个\Nちょうど欲しかったんですよ
-Dialogue: 0,0:06:35.74,0:06:39.05,SIKANOKO_Bottom,鹿乃子,0,0,0,,平时含税需要花29800日元\N通常税込29800円のところ
-Dialogue: 0,0:06:39.32,0:06:41.20,SIKANOKO_Bottom,鹿乃子,0,0,0,,但今天给家人们送福利\N今回に限り なんと
-Dialogue: 0,0:06:41.20,0:06:42.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,竟然只要298！\N298！
-Dialogue: 0,0:06:42.36,0:06:45.61,SIKANOKO_Bottom,鹿乃子,0,0,0,,打一折 2980日元！\N90%オフの2980円!
-Dialogue: 0,0:06:45.95,0:06:49.08,SIKANOKO_Bottom,馅子,0,0,0,,2980日元？真的吗？\N2,980円?本当に?
-Dialogue: 0,0:06:49.32,0:06:51.92,SIKANOKO_Bottom,鹿乃子,0,0,0,,而且一次买三个可以享受全国包邮哦\Nさらに3個セットなら送料無料
-Dialogue: 0,0:06:52.10,0:06:57.16,SIKANOKO_Bottom,鹿乃子,0,0,0,,现在购买 还会附赠角角玩偶 角角美容液和角角木雕\N今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 0,0:06:57.31,0:06:58.55,SIKANOKO_Bottom,馅子,0,0,0,,太赚啦\Nお得
-Dialogue: 0,0:07:03.17,0:07:05.66,SIKANOKO_Bottom,根子,0,0,0,,不需要啊 什么角型印章盒\Nいいや 角型印鑑ケースって
-Dialogue: 0,0:07:11.26,0:07:13.25,SIKANOKO_Bottom,绢,0,0,0,,千春 感觉你今天很开心呀\N千春 嬉しそうだね
+Dialogue: 0,0:06:35.74,0:06:39.21,SIKANOKO_Top,鹿乃子,0,0,0,,平时含税需要花29800日元\N通常税込29800円のところ
+Dialogue: 0,0:06:39.21,0:06:41.20,SIKANOKO_Top,鹿乃子,0,0,0,,但今天给家人们送福利\N今回に限り なんと
+Dialogue: 0,0:06:41.20,0:06:42.36,SIKANOKO_Top,鹿乃子,0,0,0,,竟然只要298！\N298！
+Dialogue: 0,0:06:42.36,0:06:45.72,SIKANOKO_Top,鹿乃子,0,0,0,,打1折之后只要2980日元！\N90%オフの2980円!
+Dialogue: 0,0:06:45.95,0:06:48.97,SIKANOKO_Bottom,馅子,0,0,0,,2980日元？真的吗？\N2,980円?本当に?
+Dialogue: 0,0:06:49.32,0:06:51.72,SIKANOKO_Top,鹿乃子,0,0,0,,而且一次买三个可以享受全国包邮哦\Nさらに3個セットなら送料無料
+Comment: 0,0:06:52.10,0:06:57.36,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,现在下单还赠送角角玩偶 角角美容液和角角木雕\N今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 9,0:06:52.09,0:06:56.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(960,1012.5)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.14,0:06:56.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(961.05,1011.07)\bord5.19\fscx99.82\fscy99.82\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.18,0:06:56.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(964.72,1007.23)\bord5.16\fscx99.29\fscy99.29\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.22,0:06:56.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(970.56,1001.17)\bord5.12\fscx98.44\fscy98.44\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.27,0:06:56.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(978.29,993.2)\bord5.06\fscx97.32\fscy97.32\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.31,0:06:56.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(987.62,983.58)\bord4.99\fscx95.97\fscy95.97\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.35,0:06:56.39,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(998.24,972.67)\bord4.91\fscx94.44\fscy94.44\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.39,0:06:56.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1009.86,960.74)\bord4.82\fscx92.76\fscy92.76\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.43,0:06:56.47,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1022.22,948.07)\bord4.73\fscx90.97\fscy90.97\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.47,0:06:56.52,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1035.05,934.92)\bord4.63\fscx89.12\fscy89.12\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.52,0:06:56.56,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1048.14,921.52)\bord4.54\fscx87.24\fscy87.24\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.56,0:06:56.60,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1061.28,908.07)\bord4.44\fscx85.34\fscy85.34\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.60,0:06:56.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1074.36,894.78)\bord4.34\fscx83.46\fscy83.46\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.64,0:06:56.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1087.18,881.76)\bord4.24\fscx81.62\fscy81.62\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.68,0:06:56.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1099.62,869.12)\bord4.15\fscx79.83\fscy79.83\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.72,0:06:56.77,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1111.6,856.98)\bord4.06\fscx78.11\fscy78.11\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.77,0:06:56.81,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1123,845.4)\bord3.98\fscx76.48\fscy76.48\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.81,0:06:56.85,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1133.79,834.44)\bord3.9\fscx74.93\fscy74.93\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.85,0:06:56.89,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1143.9,824.17)\bord3.82\fscx73.47\fscy73.47\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.89,0:06:56.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1153.29,814.63)\bord3.75\fscx72.13\fscy72.13\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.93,0:06:56.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1161.94,805.86)\bord3.69\fscx70.88\fscy70.88\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.97,0:06:57.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1169.8,797.88)\bord3.63\fscx69.75\fscy69.75\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.02,0:06:57.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1176.85,790.71)\bord3.57\fscx68.74\fscy68.74\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.06,0:06:57.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1183.08,784.4)\bord3.53\fscx67.85\fscy67.85\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.10,0:06:57.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1188.45,778.94)\bord3.49\fscx67.08\fscy67.08\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.14,0:06:57.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1192.93,774.39)\bord3.45\fscx66.43\fscy66.43\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.18,0:06:57.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1196.5,770.77)\bord3.43\fscx65.92\fscy65.92\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.22,0:06:57.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1199.11,768.12)\bord3.41\fscx65.55\fscy65.55\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.27,0:06:57.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1200.71,766.5)\bord3.4\fscx65.32\fscy65.32\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.31,0:06:57.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1201.27,765.93)\bord3.39\fscx65.24\fscy65.24\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 8,0:06:52.09,0:06:56.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(960,1055)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.14,0:06:56.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(961.05,1053.5)\bord3.63\fscx69.88\fscy69.88\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.18,0:06:56.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(964.72,1049.43)\bord3.61\fscx69.5\fscy69.5\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.22,0:06:56.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(970.56,1043.01)\bord3.58\fscx68.91\fscy68.91\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.27,0:06:56.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(978.29,1034.56)\bord3.54\fscx68.13\fscy68.13\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.31,0:06:56.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(987.62,1024.37)\bord3.49\fscx67.18\fscy67.18\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.35,0:06:56.39,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(998.24,1012.81)\bord3.44\fscx66.11\fscy66.11\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.39,0:06:56.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1009.86,1000.16)\bord3.38\fscx64.93\fscy64.93\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.43,0:06:56.47,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1022.22,986.74)\bord3.31\fscx63.68\fscy63.68\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.47,0:06:56.52,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1035.05,972.8)\bord3.24\fscx62.39\fscy62.39\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.52,0:06:56.56,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1048.14,958.59)\bord3.18\fscx61.06\fscy61.06\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.56,0:06:56.60,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1061.28,944.34)\bord3.11\fscx59.74\fscy59.74\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.60,0:06:56.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1074.36,930.25)\bord3.04\fscx58.42\fscy58.42\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.64,0:06:56.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1087.18,916.45)\bord2.97\fscx57.13\fscy57.13\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.68,0:06:56.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1099.62,903.05)\bord2.91\fscx55.88\fscy55.88\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.72,0:06:56.77,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1111.6,890.17)\bord2.84\fscx54.68\fscy54.68\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.77,0:06:56.81,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1123,877.9)\bord2.78\fscx53.53\fscy53.53\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.81,0:06:56.85,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1133.79,866.29)\bord2.73\fscx52.45\fscy52.45\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.85,0:06:56.89,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1143.9,855.4)\bord2.67\fscx51.43\fscy51.43\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.89,0:06:56.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1153.29,845.29)\bord2.63\fscx50.49\fscy50.49\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.93,0:06:56.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1161.94,835.99)\bord2.58\fscx49.62\fscy49.62\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:56.97,0:06:57.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1169.8,827.52)\bord2.54\fscx48.83\fscy48.83\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.02,0:06:57.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1176.85,819.93)\bord2.5\fscx48.12\fscy48.12\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.06,0:06:57.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1183.08,813.23)\bord2.47\fscx47.49\fscy47.49\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.10,0:06:57.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1188.45,807.45)\bord2.44\fscx46.95\fscy46.95\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.14,0:06:57.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1192.93,802.62)\bord2.42\fscx46.5\fscy46.5\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.18,0:06:57.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1196.5,798.79)\bord2.4\fscx46.14\fscy46.14\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.22,0:06:57.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1199.11,795.98)\bord2.39\fscx45.88\fscy45.88\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.27,0:06:57.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1200.71,794.26)\bord2.38\fscx45.72\fscy45.72\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 8,0:06:57.31,0:06:57.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1201.27,793.65)\bord2.37\fscx45.67\fscy45.67\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Comment: 0,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,kara,太赚啦\Nお得
+Dialogue: 9,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,,{\pos(1201.27,765.93)\bord3.39\fscx65.24\fscy65.24\fn筑紫A丸 SC\3c&HAB649F&}太赚啦
+Dialogue: 8,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,,{\pos(1201.27,793.65)\bord2.37\fscx45.67\fscy45.67\fnFOT-TsukuARdGothic Std E\3c&HAB649F&}お得
+Dialogue: 0,0:07:03.17,0:07:05.66,SIKANOKO_Bottom,根子,0,0,0,,不是 认真的吗 什么角型印章盒\Nいいや 角型印鑑ケースって
+Dialogue: 0,0:07:11.26,0:07:13.40,SIKANOKO_Bottom,绢,0,0,0,,千春 感觉你今天很开心呀\N千春 嬉しそうだね
 Dialogue: 0,0:07:13.40,0:07:14.39,SIKANOKO_Bottom,绢,0,0,0,,那是什么？\Nそれ何?
 Dialogue: 0,0:07:14.68,0:07:16.51,SIKANOKO_Bottom,千春,0,0,0,,角型印章盒\N角型印鑑ケース
-Dialogue: 0,0:07:16.86,0:07:19.83,SIKANOKO_Bottom,绢,0,0,0,,角型印章盒？好好看呀\N角型印鑑ケース?素敵だね
-Dialogue: 0,0:07:22.14,0:07:23.07,SIKANOKO_Bottom,千春,0,0,0,,还有\N他にも
-Dialogue: 0,0:07:23.07,0:07:24.79,SIKANOKO_Bottom,千春,0,0,0,,角角玩偶\N角のぬいぐるみとか
-Dialogue: 0,0:07:24.79,0:07:26.48,SIKANOKO_Bottom,千春,0,0,0,,角角美容液\N角美容液とか
-Dialogue: 0,0:07:26.48,0:07:28.06,SIKANOKO_Bottom,千春,0,0,0,,角角木雕这些\N木彫りの角とか
-Dialogue: 0,0:07:29.16,0:07:31.07,SIKANOKO_Bottom,绢,0,0,0,,好可爱的玩偶\Nぬいぐるみかわいい
-Dialogue: 0,0:07:33.32,0:07:35.00,SIKANOKO_Bottom,千春,0,0,0,,也送你一个\Nきぬにも1つあげる
+Dialogue: 0,0:07:16.86,0:07:19.63,SIKANOKO_Bottom,绢,0,0,0,,角型印章盒？好好看呀\N角型印鑑ケース?素敵だね
+Dialogue: 0,0:07:22.14,0:07:23.07,SIKANOKO_Bottom,千春,0,300,0,,还有\N他にも
+Dialogue: 0,0:07:23.07,0:07:24.79,SIKANOKO_Bottom,千春,0,300,0,,角角玩偶\N角のぬいぐるみとか
+Dialogue: 0,0:07:24.79,0:07:26.48,SIKANOKO_Bottom,千春,0,300,0,,角角美容液\N角美容液とか
+Dialogue: 0,0:07:26.48,0:07:27.97,SIKANOKO_Bottom,千春,0,300,0,,角角木雕这些\N木彫りの角とか
+Dialogue: 0,0:07:29.16,0:07:30.55,SIKANOKO_Bottom,绢,0,0,0,,好可爱的玩偶\Nぬいぐるみかわいい
+Dialogue: 0,0:07:33.32,0:07:34.89,SIKANOKO_Bottom,千春,0,0,0,,也送你一个\Nきぬにも1つあげる
 Dialogue: 0,0:07:35.24,0:07:36.86,SIKANOKO_Bottom,绢,0,0,0,,诶 可以吗\Nうえ いいの
 Dialogue: 0,0:07:36.86,0:07:39.69,SIKANOKO_Bottom,绢,0,0,0,,像我这样什么事都做不好的发小\Nわたしみたいなダメダメな幼なじみに
 Dialogue: 0,0:07:40.08,0:07:42.96,SIKANOKO_Bottom,绢,0,0,0,,呜呜呜 千春\Nううう 千春
-Dialogue: 0,0:07:42.96,0:07:43.88,SIKANOKO_Bottom,千春,0,0,0,,乖乖\Nどうどう
-Dialogue: 0,0:07:43.88,0:07:46.44,SIKANOKO_Bottom,千春,0,0,0,,小绢你一直在关照我\Nきぬにはいつもお世話になってる
-Dialogue: 0,0:07:50.41,0:07:52.42,SIKANOKO_Bottom,根子,0,0,0,,角型印章盒\N角型印鑑ケース
-Dialogue: 0,0:07:52.86,0:07:54.75,SIKANOKO_Bottom,根子,0,0,0,,现在真的很流行吗？\N本当に流行ってんのかな?
-Dialogue: 0,0:07:55.35,0:07:58.25,SIKANOKO_Bottom,根子,0,0,0,,不对不对 那种东西又用不上\Nいやいや 別に使わんでしょうあんな
-Dialogue: 0,0:07:58.53,0:08:00.38,SIKANOKO_Bottom,根子,0,0,0,,但是全国包邮啊\Nでも送料無料か
-Dialogue: 0,0:08:00.61,0:08:02.57,SIKANOKO_Bottom,根子,0,0,0,,还打一折\N90%オフ
-Dialogue: 0,0:08:02.94,0:08:05.73,SIKANOKO_Bottom,根子,0,0,0,,还送玩偶 木雕和美容液\Nぬいぐるみと木ぼりと美容液付き
+Dialogue: 0,0:07:42.96,0:07:43.65,SIKANOKO_Bottom,千春,0,0,0,,乖乖\Nどうどう
+Dialogue: 0,0:07:43.88,0:07:46.65,SIKANOKO_Bottom,千春,0,0,0,,小绢你一直在关照我\Nきぬにはいつもお世話になってる
+Dialogue: 0,0:07:50.41,0:07:52.54,SIKANOKO_Bottom,根子,0,1200,0,,角型印章盒\N角型印鑑ケース
+Dialogue: 0,0:07:52.86,0:07:54.91,SIKANOKO_Bottom,根子,0,0,0,,现在真的很流行吗？\N本当に流行ってんのかな?
+Dialogue: 0,0:07:55.35,0:07:58.53,SIKANOKO_Bottom,根子,0,0,0,,不对不对 那种东西又用不上\Nいやいや 別に使わんでしょうあんな
+Dialogue: 0,0:07:58.53,0:08:00.42,SIKANOKO_Bottom,根子,0,0,0,,但是全国包邮啊\Nでも送料無料か
+Dialogue: 0,0:08:00.61,0:08:02.57,SIKANOKO_Bottom,根子,0,0,0,,还打了1折…\N90%オフ
+Dialogue: 0,0:08:02.94,0:08:05.95,SIKANOKO_Bottom,根子,0,0,0,,还送玩偶 木雕和美容液…\Nぬいぐるみと木ぼりと美容液付き
 Dialogue: 0,0:08:05.95,0:08:07.16,SIKANOKO_Bottom,根子,0,0,0,,只要298…\N298
 Dialogue: 0,0:08:07.65,0:08:09.27,SIKANOKO_Bottom,根子,0,0,0,,这也 太赚了吧\Nお得 では
 Dialogue: 0,0:08:10.25,0:08:11.17,SIKANOKO_Bottom,旁白,0,0,0,,下单\N買った
 Dialogue: 0,0:08:13.96,0:08:14.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜\Nぬん
-Dialogue: 0,0:08:14.68,0:08:15.88,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜噜噜\Nぬぬぬぬん
+Dialogue: 0,0:08:14.68,0:08:15.78,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜噜噜\Nぬぬぬぬん
 Dialogue: 0,0:08:15.88,0:08:17.63,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜噜噜\Nぬぬぬぬん
-Dialogue: 0,0:08:17.77,0:08:18.46,SIKANOKO_Bottom,虎子,0,0,0,,哦\Nおっ
-Dialogue: 0,0:08:18.46,0:08:20.33,SIKANOKO_Bottom,虎子,0,0,0,,是猫猫 好可爱\N猫だ かわいい
+Dialogue: 0,0:08:17.63,0:08:18.46,SIKANOKO_Bottom,虎子,0,0,0,,哦\Nおっ
+Dialogue: 0,0:08:18.46,0:08:20.19,SIKANOKO_Bottom,虎子,0,0,0,,是猫猫 好可爱\N猫だ かわいい
 Dialogue: 0,0:08:20.47,0:08:22.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,难道不是鹿更可爱吗？\N鹿の方がかわいいが?
-Dialogue: 0,0:08:22.43,0:08:24.12,SIKANOKO_Bottom,虎子,0,0,0,,你跟猫较什么劲啊\N猫と張り合うなよ
-Dialogue: 0,0:08:26.23,0:08:28.03,SIKANOKO_Bottom,虎子,0,0,0,,哇 这风好强\Nうわ風 強っ
-Dialogue: 0,0:08:28.03,0:08:30.02,SIKANOKO_Bottom,马车芽,0,0,0,,难道不是马车芽更强吗？\N馬車芽の方が強いですが
+Dialogue: 0,0:08:22.43,0:08:23.94,SIKANOKO_Bottom,虎子,0,0,0,,你跟猫较什么劲啊\N猫と張り合うなよ
+Dialogue: 0,0:08:26.23,0:08:27.92,SIKANOKO_Bottom,虎子,0,0,0,,哇 这风好强\Nうわ風 強っ
+Dialogue: 0,0:08:27.92,0:08:30.02,SIKANOKO_Bottom,马车芽,0,0,0,,难道不是马车芽更强吗？\N馬車芽の方が強いですが
 Dialogue: 0,0:08:30.02,0:08:32.12,SIKANOKO_Bottom,虎子,0,0,0,,你又是在和什么较劲啊\Nお前は何と張り合ってんの
 Dialogue: 0,0:08:37.09,0:08:39.37,SIKANOKO_Bottom,馅子,0,0,0,,姐姐 我给你送茶来了\Nお姉ちゃん お茶入れてきたわ
-Dialogue: 0,0:08:39.65,0:08:41.34,SIKANOKO_Bottom,虎子,0,0,0,,啊 谢谢\Nああ ありがとう
+Dialogue: 0,0:08:39.65,0:08:41.50,SIKANOKO_Bottom,虎子,0,0,0,,啊 谢谢\Nああ ありがとう
 Dialogue: 0,0:08:43.42,0:08:45.54,SIKANOKO_Bottom,馅子,0,0,0,,姐姐 我给你送点心来了\Nお姉ちゃん おやつ持ってきたわ
-Dialogue: 0,0:08:45.84,0:08:47.39,SIKANOKO_Bottom,虎子,0,0,0,,嗯 谢谢\Nうん ありがとう
-Dialogue: 0,0:08:48.95,0:08:51.56,SIKANOKO_Bottom,馅子,0,0,0,,姐姐 我给你续杯续好了\Nお姉ちゃん お茶のおかわり持ってきたわ
-Dialogue: 0,0:08:51.56,0:08:52.51,SIKANOKO_Bottom,虎子,0,0,0,,\N
+Dialogue: 0,0:08:45.84,0:08:47.51,SIKANOKO_Bottom,虎子,0,0,0,,嗯 谢谢\Nうん ありがとう
+Dialogue: 0,0:08:48.95,0:08:51.56,SIKANOKO_Bottom,馅子,0,0,0,,姐姐 茶给你续好了\Nお姉ちゃん お茶のおかわり持ってきたわ
 Dialogue: 0,0:08:54.16,0:08:54.84,SIKANOKO_Bottom,馅子,0,0,0,,姐姐\Nお姉ちゃん
 Dialogue: 0,0:08:54.84,0:08:56.93,SIKANOKO_Bottom,虎子,0,0,0,,能让我一个人待会儿吗？\Nちょっと一人にさせてくんない?
-Dialogue: 0,0:09:01.52,0:09:02.50,SIKANOKO_Bottom,马车芽,0,0,0,,嗯哈\Nんは
+Dialogue: 0,0:09:01.48,0:09:02.61,SIKANOKO_Bottom,马车芽,0,0,0,,嗯哈\Nんは
 Dialogue: 0,0:09:04.95,0:09:06.85,SIKANOKO_Bottom,鹿乃子,0,0,0,,新人 向前辈行礼\N新人 先輩に挨拶
 Dialogue: 0,0:09:07.32,0:09:08.15,SIKANOKO_Bottom,马车芽,0,0,0,,乃好\Nのつ
-Dialogue: 0,0:09:10.94,0:09:12.58,SIKANOKO_Bottom,鹿乃子,0,0,0,,我们组乐队吧\Nバンドやろうぜ!
-Dialogue: 0,0:09:12.58,0:09:15.46,SIKANOKO_Bottom,虎子,0,0,0,,你这是深夜动画看多了？\N深夜アニメにでも影響されたの?
+Dialogue: 0,0:09:10.94,0:09:12.36,SIKANOKO_Bottom,鹿乃子,0,0,0,,我们组乐队吧\Nバンドやろうぜ!
+Dialogue: 0,0:09:12.36,0:09:14.99,SIKANOKO_Bottom,虎子,0,0,0,,你这是深夜动画看多了？\N深夜アニメにでも影響されたの?
 Dialogue: 0,0:09:15.46,0:09:18.46,SIKANOKO_Bottom,鹿乃子,0,0,0,,总之 我把乐器都带来了\Nというわけで 楽器を集めてきました
-Dialogue: 0,0:09:19.92,0:09:21.48,SIKANOKO_Bottom,虎子,0,0,0,,什么组合啊这是\Nどんなラインナップ
-Dialogue: 0,0:09:21.66,0:09:24.47,SIKANOKO_Bottom,虎子,0,0,0,,完全想象不出这些东西能演奏出什么旋律！\N奏でられるメロディーがまるで想像つかん!
-Dialogue: 0,0:09:24.68,0:09:26.32,SIKANOKO_Bottom,馅子,0,0,0,,那我就负责呼呼塞拉\Nじゃあわたしブブゼラ
-Dialogue: 0,0:09:27.72,0:09:28.70,SIKANOKO_Bottom,鹿乃子,0,0,0,,录取！\N採用!
+Dialogue: 0,0:09:19.92,0:09:21.66,SIKANOKO_Bottom,虎子,0,0,0,,什么组合啊这是\Nどんなラインナップ
+Dialogue: 0,0:09:21.66,0:09:24.50,SIKANOKO_Bottom,虎子,0,0,0,,完全想象不出这些东西能演奏出什么旋律！\N奏でられるメロディーがまるで想像つかん!
+Dialogue: 0,0:09:24.50,0:09:26.32,SIKANOKO_Bottom,馅子,0,0,0,,那我就负责呼呼塞拉\Nじゃあわたしブブゼラ
+Dialogue: 0,0:09:27.72,0:09:28.79,SIKANOKO_Bottom,鹿乃子,0,0,0,,录取！\N採用!
 Dialogue: 0,0:09:28.79,0:09:30.14,SIKANOKO_Bottom,虎子,0,0,0,,什么叫「那我就」啊\Nじゃあって何
-Dialogue: 0,0:09:30.14,0:09:31.56,SIKANOKO_Bottom,虎子,0,0,0,,编制里没这玩意儿啊\Nラインナップにないが!
-Dialogue: 0,0:09:31.56,0:09:33.57,SIKANOKO_Bottom,马车芽,0,0,0,,马车芽会吹口哨\N馬車芽口笛吹けます
+Dialogue: 0,0:09:30.14,0:09:31.38,SIKANOKO_Bottom,虎子,0,0,0,,编制里没这玩意儿啊\Nラインナップにないが!
+Dialogue: 0,0:09:31.38,0:09:33.57,SIKANOKO_Bottom,马车芽,0,0,0,,马车芽会吹口哨\N馬車芽口笛吹けます
 Dialogue: 0,0:09:36.01,0:09:37.08,SIKANOKO_Bottom,鹿乃子,0,0,0,,录取！\N採用!
-Dialogue: 0,0:09:37.20,0:09:40.08,SIKANOKO_Bottom,虎子,0,0,0,,乐队歌里哪有地方吹口哨啊？\Nバンドサウンドに口笛入れる余地なくない?
-Dialogue: 0,0:09:40.24,0:09:41.32,SIKANOKO_Bottom,虎子,0,0,0,,而且也没吹出来啊！\Nふけてねえし!
+Dialogue: 0,0:09:37.08,0:09:40.24,SIKANOKO_Bottom,虎子,0,0,0,,乐队里哪有负责吹口哨的职位啊？\Nバンドサウンドに口笛入れる余地なくない?
+Dialogue: 0,0:09:40.24,0:09:41.35,SIKANOKO_Bottom,虎子,0,0,0,,而且也没吹出来啊！\Nふけてねえし!
 Dialogue: 0,0:09:41.56,0:09:43.16,SIKANOKO_Bottom,鹿乃子,0,0,0,,那我就担任主唱\Nじゃあ わたしボーカル
-Dialogue: 0,0:09:43.26,0:09:44.24,SIKANOKO_Bottom,虎子,0,0,0,,狡猾！\Nずっる！
-Dialogue: 0,0:09:44.42,0:09:45.47,SIKANOKO_Bottom,旁白,0,0,0,,虎宝\Nこしたん
-Dialogue: 0,0:09:45.75,0:09:48.97,SIKANOKO_Bottom,旁白,0,0,0,,负责巫毒鼓 特雷门琴 尺八\Nウドゥ・ドラム　テルミン　尺八
-Dialogue: 0,0:09:57.09,0:09:59.78,SIKANOKO_Bottom,旁白,0,0,0,,今年 日野市终于迎来了夏天\Nついに 日野市にも夏が来た
+Dialogue: 0,0:09:43.16,0:09:44.15,SIKANOKO_Bottom,虎子,0,0,0,,狡猾！\Nずっる！
+Dialogue: 0,0:09:44.42,0:09:45.75,SIKANOKO_Bottom,旁白,0,0,0,,虎宝\Nこしたん
+Dialogue: 0,0:09:45.75,0:09:48.97,SIKANOKO_Bottom,旁白,0,0,0,,负责巫毒鼓 特雷门琴 尺八\Nウドゥ・ドラム テルミン 尺八
+Dialogue: 0,0:09:57.09,0:09:59.78,SIKANOKO_Bottom,旁白,0,0,0,,日野市 终于迎来了夏天\Nついに 日野市にも夏が来た
 Dialogue: 0,0:10:02.05,0:10:04.77,SIKANOKO_Bottom,根子,0,0,0,,没想到日野市也会有夏天呀\Nまさか日野市にも夏が来るなんてね
-Dialogue: 0,0:10:04.77,0:10:05.68,SIKANOKO_Bottom,根子,0,0,0,,姐姐\Nお姉ちゃん
+Dialogue: 0,0:10:04.77,0:10:05.63,SIKANOKO_Bottom,根子,0,0,0,,姐姐\Nお姉ちゃん
 Dialogue: 0,0:10:05.93,0:10:08.58,SIKANOKO_Bottom,虎子,0,0,0,,我说 日野市也是有夏天的好吧\Nいや 日野市にだって夏は来るよ
-Dialogue: 0,0:10:08.86,0:10:14.11,SIKANOKO_Bottom,虎子,0,0,0,,馅子和旁白你们俩 是不是把日野市当成荒无人烟的魔物家园了？\N餡子もナレーションも 日野市を人智の及ばぬ人外魔境だとか思ってない?
-Dialogue: 0,0:10:14.37,0:10:17.36,SIKANOKO_Bottom,旁白,0,0,0,,因为原作里已经有超过三年没见过夏天了嘛\N原作は3年以上夏が来なかったので
-Dialogue: 0,0:10:17.52,0:10:20.44,SIKANOKO_Bottom,馅子,0,0,0,,那个暂且不提 夏季校服也好可爱呀\Nそれはともかく 夏服もいいわよね
+Dialogue: 0,0:10:08.86,0:10:14.37,SIKANOKO_Bottom,虎子,0,0,0,,馅子和旁白你们俩 是不是把日野市当成荒无人烟的魔物家园了？\N餡子もナレーションも 日野市を人智の及ばぬ人外魔境だとか思ってない?
+Dialogue: 0,0:10:14.37,0:10:17.30,SIKANOKO_Bottom,旁白,0,0,0,,因为原作连载三年多都没见到夏天嘛\N原作は3年以上夏が来なかったので
+Dialogue: 0,0:10:17.52,0:10:20.31,SIKANOKO_Bottom,馅子,0,0,0,,那个暂且不提 夏季校服也好可爱呀\Nそれはともかく 夏服もいいわよね
 Dialogue: 0,0:10:20.56,0:10:21.57,SIKANOKO_Bottom,虎子,0,0,0,,是啊\Nそうだな
 Dialogue: 0,0:10:21.57,0:10:24.68,SIKANOKO_Bottom,虎子,0,0,0,,平时看惯了的校服 一变成短袖\N見慣れた制服も 半袖になったりすると
 Dialogue: 0,0:10:24.68,0:10:27.24,SIKANOKO_Bottom,虎子,0,0,0,,就感觉很清爽 很养眼呢\Nなんかさわやかで 目の保養になる
-Dialogue: 0,0:10:27.24,0:10:28.19,SIKANOKO_Bottom,虎子,0,0,0,,开玩笑啦\Nなんてな
-Dialogue: 0,0:10:28.31,0:10:29.50,SIKANOKO_Bottom,馅子,0,0,0,,是呀\Nそうね
+Dialogue: 0,0:10:27.24,0:10:28.07,SIKANOKO_Bottom,虎子,0,0,0,,开玩笑啦\Nなんてな
+Dialogue: 0,0:10:28.31,0:10:29.32,SIKANOKO_Bottom,馅子,0,0,0,,是呀\Nそうね
 Dialogue: 0,0:10:30.85,0:10:34.84,SIKANOKO_Bottom,馅子,0,0,0,,姐姐穿短袖之后裸露在外面的上臂线条\Nお姉ちゃんの半袖でむき出しになった二の腕のラインとか
-Dialogue: 0,0:10:35.40,0:10:39.30,SIKANOKO_Bottom,馅子,0,0,0,,还有可以从宽松袖口观赏到的魅惑腋下\Nゆるい袖口から観賞できる魅惑のわきの下とか
-Dialogue: 0,0:10:39.62,0:10:42.32,SIKANOKO_Bottom,馅子,0,0,0,,想看哪里看哪里 太棒了\N見放題なんて 最高
-Dialogue: 0,0:10:42.50,0:10:44.06,SIKANOKO_Bottom,虎子,0,0,0,,你都在关注些什么地方啊\Nどこ見てんだお前は
-Dialogue: 0,0:10:44.19,0:10:45.98,SIKANOKO_Bottom,馅子,0,0,0,,哼哼 当然是\Nフフッ もちろん
-Dialogue: 0,0:10:46.37,0:10:49.20,SIKANOKO_Bottom,馅子,0,0,0,,透过薄薄的夏季校服看到的若隐若现的\N薄手の夏服の背中から透けて見える
-Dialogue: 0,0:10:49.73,0:10:51.28,SIKANOKO_Bottom,馅子,0,0,0,,纯白色的胸罩带子啊！\N純白のブラ紐よ!
-Dialogue: 0,0:10:51.44,0:10:52.54,SIKANOKO_Bottom,虎子,0,0,0,,诶 恐怖\Nえっ怖っ
-Dialogue: 0,0:10:52.61,0:10:54.91,SIKANOKO_Bottom,馅子,0,0,0,,姐姐真是的 还害羞了呀\Nお姉ちゃんってば　照れちゃって
+Dialogue: 0,0:10:35.40,0:10:39.33,SIKANOKO_Bottom,馅子,0,0,0,,还有可以从宽松袖口观赏到的魅惑腋下\Nゆるい袖口から観賞できる魅惑のわきの下とか
+Dialogue: 0,0:10:39.62,0:10:42.25,SIKANOKO_Bottom,馅子,0,0,0,,想看哪里看哪里 太棒了\N見放題なんて 最高
+Dialogue: 0,0:10:42.50,0:10:44.19,SIKANOKO_Bottom,虎子,0,0,0,,你看的都是些什么地方啊\Nどこ見てんだお前は
+Dialogue: 0,0:10:44.19,0:10:45.96,SIKANOKO_Bottom,馅子,0,0,0,,哼哼 当然是\Nフフッ もちろん
+Dialogue: 0,0:10:46.37,0:10:49.34,SIKANOKO_Bottom,馅子,0,0,0,,透过薄薄的夏季校服看到的若隐若现的\N薄手の夏服の背中から透けて見える
+Dialogue: 0,0:10:49.73,0:10:51.34,SIKANOKO_Bottom,馅子,0,0,0,,纯白色的胸罩带子啊！\N純白のブラ紐よ!
+Dialogue: 0,0:10:51.34,0:10:52.46,SIKANOKO_Bottom,虎子,0,0,0,,有点吓人了吧\Nえっ怖っ
+Dialogue: 0,0:10:52.46,0:10:54.91,SIKANOKO_Bottom,馅子,0,0,0,,姐姐真是的 还害羞了呀\Nお姉ちゃんってば 照れちゃって
 Dialogue: 0,0:10:54.91,0:10:55.96,SIKANOKO_Bottom,馅子,0,0,0,,可爱死了！\Nかわいい!
-Dialogue: 0,0:10:55.96,0:10:58.52,SIKANOKO_Bottom,虎子,0,0,0,,不要带着怪物的眼神接近我！\Nケダモノの目をして近づくんじゃねえ!
+Dialogue: 0,0:10:55.96,0:10:58.68,SIKANOKO_Bottom,虎子,0,0,0,,不要带着野兽般的目光接近我！\Nケダモノの目をして近づくんじゃねえ!
 Dialogue: 0,0:10:58.68,0:11:01.00,SIKANOKO_Bottom,同学,0,0,0,,啊 是虎视同学和她妹妹\Nあっ こしさんと妹さんよ
 Dialogue: 0,0:11:01.95,0:11:03.83,SIKANOKO_Bottom,同学,0,0,0,,一大清早就关系超好的样子呢\N朝から仲がいいのね
-Dialogue: 0,0:11:03.83,0:11:05.73,SIKANOKO_Bottom,同学,0,0,0,,姐妹百合 能磕！\N姉妹百合 いける!
+Dialogue: 0,0:11:03.83,0:11:05.85,SIKANOKO_Bottom,同学,0,0,0,,姐妹百合 能磕！\N姉妹百合 いける!
 Dialogue: 0,0:11:06.21,0:11:08.29,SIKANOKO_Bottom,鹿乃子,0,0,0,,啊 虎宝和虎馅\Nあっ こしたんとこしあん
-Dialogue: 0,0:11:08.29,0:11:10.12,SIKANOKO_Bottom,虎子,0,0,0,,唔 怪兽变多了\Nくっ けだものが増えた
-Dialogue: 0,0:11:10.12,0:11:12.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,今天也要努力鹿鹿哦\N今日もシカ活頑張ろうね
-Dialogue: 0,0:11:12.97,0:11:15.33,SIKANOKO_Bottom,虎子,0,0,0,,我说 你这次又是怎么了啊\Nいやお前今度は何があった
-Dialogue: 0,0:11:15.74,0:11:17.75,SIKANOKO_Bottom,旁白,0,0,0,,如此这般 到了放学后\Nそんなこんなで放課後
-Dialogue: 0,0:11:19.62,0:11:21.86,SIKANOKO_Bottom,馅子,0,0,0,,过了一整天都还没消掉呢\N時間が経ってもそのままなのね
-Dialogue: 0,0:11:22.18,0:11:24.08,SIKANOKO_Bottom,馅子,0,0,0,,你没有觉得哪里不舒服吗？\Nどこかおかしいところはないの?
-Dialogue: 0,0:11:24.35,0:11:26.94,SIKANOKO_Bottom,鹿乃子,0,0,0,,没呀 角也可以随便动\N全然 角もちゃんと動くし
-Dialogue: 0,0:11:26.94,0:11:29.20,SIKANOKO_Bottom,虎子,0,0,0,,一般角是不会动的好吧\N普通角は動かねぇんだよ
+Dialogue: 0,0:11:08.29,0:11:10.02,SIKANOKO_Bottom,虎子,0,0,0,,唔 野兽变多了\Nくっ けだものが増えた
+Dialogue: 0,0:11:10.02,0:11:12.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,今天也要努力鹿鹿哦\N今日もシカ活頑張ろうね
+Dialogue: 0,0:11:12.97,0:11:15.40,SIKANOKO_Bottom,虎子,0,0,0,,不是我说 你这次又是怎么了啊\Nいやお前今度は何があった
+Dialogue: 0,0:11:15.74,0:11:17.66,SIKANOKO_Bottom,旁白,0,0,0,,如此这般 到了放学后\Nそんなこんなで放課後
+Dialogue: 0,0:11:19.62,0:11:22.18,SIKANOKO_Bottom,馅子,0,0,0,,过了一整天都还没消掉呢\N時間が経ってもそのままなのね
+Dialogue: 0,0:11:22.18,0:11:24.04,SIKANOKO_Bottom,馅子,0,0,0,,你没有觉得哪里不舒服吗？\Nどこかおかしいところはないの?
+Dialogue: 0,0:11:24.35,0:11:26.94,SIKANOKO_Bottom,鹿乃子,0,0,0,,没呀 角也动得好好的\N全然 角もちゃんと動くし
+Dialogue: 0,0:11:26.94,0:11:29.32,SIKANOKO_Bottom,虎子,0,0,0,,一般角是不会动的好吧\N普通角は動かねぇんだよ
 Dialogue: 0,0:11:29.32,0:11:31.55,SIKANOKO_Bottom,虎子,0,0,0,,虽然现在吐槽这个也太晚了\Nいや ホント今更だけど
 Dialogue: 0,0:11:32.24,0:11:36.67,SIKANOKO_Bottom,虎子,0,0,0,,你是不是捡了路上的东西吃 结果得了什么奇怪的病啊\Nなんか拾い食いでもして 変な病気もらってきたんじゃないだろうな
 Dialogue: 0,0:11:36.97,0:11:41.15,SIKANOKO_Bottom,鹿乃子,0,0,0,,无礼！我还能捡什么东西 除了鹿仙贝什么也没吃过哦\N失敬な!拾い食いなんて 鹿せんべいしかしてないよ
 Dialogue: 0,0:11:41.15,0:11:42.57,SIKANOKO_Bottom,虎子,0,0,0,,那不还是吃了吗\N食ってんじゃねぇか
 Dialogue: 0,0:11:43.01,0:11:46.37,SIKANOKO_Bottom,馅子,0,0,0,,在奈良之外的地方 路上竟然会掉鹿仙贝\N奈良以外で鹿せんべいが道端に落ちているのって
 Dialogue: 0,0:11:46.37,0:11:47.65,SIKANOKO_Bottom,馅子,0,0,0,,还挺少见的呢\Nちょっとレアね
-Dialogue: 0,0:11:47.65,0:11:49.61,SIKANOKO_Bottom,马车芽,0,0,0,,马车芽知道了\N馬車芽 分かりました
-Dialogue: 0,0:11:50.00,0:11:52.76,SIKANOKO_Bottom,马车芽,0,0,0,,这个身上的斑点 我有印象\Nその体の斑点見覚えがあります
-Dialogue: 0,0:11:52.76,0:11:55.05,SIKANOKO_Bottom,马车芽,0,0,0,,这的确是一种病\Nそれは たしかに病気です
-Dialogue: 0,0:11:55.05,0:11:55.78,SIKANOKO_Bottom,,0,0,0,,\N
+Dialogue: 0,0:11:47.65,0:11:49.52,SIKANOKO_Bottom,马车芽,0,0,0,,马车芽知道了\N馬車芽 分かりました
+Dialogue: 0,0:11:50.00,0:11:52.65,SIKANOKO_Bottom,马车芽,0,0,0,,这个身上的斑点 我有印象\Nその体の斑点見覚えがあります
+Dialogue: 0,0:11:52.65,0:11:55.05,SIKANOKO_Bottom,马车芽,0,0,0,,这的确是一种病\Nそれは たしかに病気です
 Dialogue: 0,0:11:55.96,0:11:57.77,SIKANOKO_Bottom,虎子,0,0,0,,真 真的吗马车芽\Nま まじかよ馬車芽
-Dialogue: 0,0:11:58.14,0:12:01.20,SIKANOKO_Bottom,马车芽,0,0,0,,没错 鹿宝学姐得的病是\Nはい のこたん先輩の病気は
+Dialogue: 0,0:11:58.14,0:12:01.16,SIKANOKO_Bottom,马车芽,0,0,0,,没错 鹿宝学姐得的病是\Nはい のこたん先輩の病気は
 Dialogue: 0,0:12:01.41,0:12:02.46,SIKANOKO_Bottom,虎子,0,0,0,,得的病是\N病気は
 Dialogue: 0,0:12:02.66,0:12:03.56,SIKANOKO_Bottom,馅子,0,0,0,,得的病是\N病気は
 Dialogue: 0,0:12:03.92,0:12:05.09,SIKANOKO_Bottom,鹿乃子,0,0,0,,得的病是\N病気は
-Dialogue: 0,0:12:05.63,0:12:08.31,SIKANOKO_Bottom,马车芽,0,0,0,,水稻的天敌 稻瘟病！\N稲の天敵　いもち病です!
-Dialogue: 0,0:12:08.31,0:12:08.77,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病\Nです
-Dialogue: 0,0:12:08.77,0:12:09.24,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病\Nです
-Dialogue: 0,0:12:09.24,0:12:09.72,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病\Nです
-Dialogue: 0,0:12:09.72,0:12:10.16,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病\Nです
-Dialogue: 0,0:12:10.28,0:12:14.04,SIKANOKO_Bottom,旁白,0,0,0,,稻瘟病 是水稻病害的一种\Nいもち病とは 稲に発生する病気の一つである
-Dialogue: 0,0:12:14.85,0:12:18.18,SIKANOKO_Bottom,旁白,0,0,0,,是由稻瘟病原菌引起的 感染的稻子会长出斑点\Nいもち病菌に感染した稲には斑点がうかび
-Dialogue: 0,0:12:18.46,0:12:22.66,SIKANOKO_Bottom,旁白,0,0,0,,如果症状恶化下去 稻子将完全枯萎\N症状が悪化していくと ついには完全に枯れてしまう
+Dialogue: 0,0:12:05.63,0:12:08.31,SIKANOKO_Bottom,马车芽,0,0,0,,水稻的天敌 稻瘟病！\N稲の天敵 いもち病です!
+Dialogue: 0,0:12:08.31,0:12:08.67,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病！\Nです
+Dialogue: 0,0:12:08.77,0:12:09.14,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病！\Nです
+Dialogue: 0,0:12:09.24,0:12:09.88,SIKANOKO_Bottom,马车芽,0,0,0,,稻瘟病！\Nです
+Dialogue: 0,0:12:10.28,0:12:14.13,SIKANOKO_Bottom,旁白,0,0,0,,稻瘟病 是水稻病害的一种\Nいもち病とは 稲に発生する病気の一つである
+Dialogue: 0,0:12:14.85,0:12:18.46,SIKANOKO_Bottom,旁白,0,0,0,,由稻瘟病原菌引起 被感染的稻子会长出斑点\Nいもち病菌に感染した稲には斑点がうかび
+Dialogue: 0,0:12:18.46,0:12:22.51,SIKANOKO_Bottom,旁白,0,0,0,,如果症状恶化下去 稻子将完全枯萎\N症状が悪化していくと ついには完全に枯れてしまう
 Dialogue: 0,0:12:23.05,0:12:27.49,SIKANOKO_Bottom,旁白,0,0,0,,不仅会造成大米的产量锐减 更有颗粒无收的风险\N米の収穫量が激減するどころか 全滅のおそれもあるため
 Dialogue: 0,0:12:27.49,0:12:30.59,SIKANOKO_Bottom,旁白,0,0,0,,可以说是田园农家最担心的一种病害\N稲作農家が最もおそれる病気といえる
-Dialogue: 0,0:12:30.76,0:12:32.81,SIKANOKO_Bottom,虎子,0,0,0,,甚至都不是动物得的病\N動物の病気ですらねぇ
+Dialogue: 0,0:12:30.81,0:12:32.77,SIKANOKO_Bottom,虎子,0,0,0,,甚至都不是动物得的病\N動物の病気ですらねぇ
 Dialogue: 0,0:12:33.00,0:12:37.91,SIKANOKO_Bottom,马车芽,0,0,0,,绝对不会错的 马车芽看过铁腕Dash 对这种病很了解\N間違いありません 馬車芽鉄腕ダッシュ見てるからくわしいんです
-Dialogue: 0,0:12:39.60,0:12:42.64,SIKANOKO_Bottom,虎子,0,0,0,,呃 虽然铁腕Dash确实很专业\Nいや たしかにダッシュはガチだが
+Dialogue: 0,0:12:39.53,0:12:42.64,SIKANOKO_Bottom,虎子,0,0,0,,呃 虽然铁腕Dash确实很专业\Nいや たしかにダッシュはガチだが
 Dialogue: 0,0:12:42.64,0:12:46.12,SIKANOKO_Bottom,虎子,0,0,0,,不过那是另一回事 你这表情看着好来气啊\Nそれはそれとして イラッとすんだけどその顔
 Dialogue: 0,0:12:46.62,0:12:49.32,SIKANOKO_Bottom,鹿乃子,0,0,0,,原来我不是鹿 是水稻呀\Nわたし 鹿じゃなくて稲だった
 Dialogue: 0,0:12:49.59,0:12:54.44,SIKANOKO_Bottom,馅子,0,0,0,,鹿和稻 古代的日本女性经常会起这种名字呢\N鹿さんとか稲さんとか 昔の日本女性の名前によくあるわね
 Dialogue: 0,0:12:54.44,0:12:58.94,SIKANOKO_Bottom,马车芽,0,0,0,,马车芽是把鹿宝学姐当作鹿来尊敬的\N馬車芽 のこたん先輩を一人の鹿として尊敬しています
-Dialogue: 0,0:12:59.01,0:13:00.36,SIKANOKO_Bottom,马车芽,0,0,0,,不过\Nですが
-Dialogue: 0,0:13:00.36,0:13:05.20,SIKANOKO_Bottom,马车芽,0,0,0,,作为担忧日本粮食自给率低下的一员 也不能放任稻瘟病不管\N日本の食料自給率低下を憂う者として いもち病は見すごせません
-Dialogue: 0,0:13:05.64,0:13:09.56,SIKANOKO_Bottom,旁白,0,0,0,,欢迎大家观看社会派动画 鹿乃子乃子乃子虎视眈眈\N社会派アニメ しかのこのこのここしたんたんをよろしく
-Dialogue: 0,0:13:10.25,0:13:12.76,SIKANOKO_Bottom,鹿乃子,0,0,0,,你说的没错 马车芽\Nお前さんの言うとおりだ 馬車芽
-Dialogue: 0,0:13:12.99,0:13:19.23,SIKANOKO_Bottom,鹿乃子,0,0,0,,可不能眼睁睁地看着这副染了病的躯体 去祸害全国的农民百姓\N病におかされたこの体で 全国の米農家さんに迷惑をかけるわけにはいかねえ
+Dialogue: 0,0:12:58.94,0:12:59.59,SIKANOKO_Bottom,马车芽,0,0,0,,不过\Nですが
+Dialogue: 0,0:13:00.36,0:13:05.26,SIKANOKO_Bottom,马车芽,0,0,0,,作为担忧日本粮食自给率低下的一员 也不能放任稻瘟病不管\N日本の食料自給率低下を憂う者として いもち病は見すごせません
+Dialogue: 0,0:13:05.64,0:13:09.77,SIKANOKO_Bottom,旁白,0,0,0,,欢迎大家观看社会派动画 《鹿乃子乃子乃子虎视眈眈》\N社会派アニメ しかのこのこのここしたんたんをよろしく
+Dialogue: 0,0:13:10.25,0:13:12.99,SIKANOKO_Bottom,鹿乃子,0,0,0,,你说的没错 马车芽\Nお前さんの言うとおりだ 馬車芽
+Dialogue: 0,0:13:12.99,0:13:19.37,SIKANOKO_Bottom,鹿乃子,0,0,0,,可不能眼睁睁地看着这副染了病的躯体 去祸害全国的农民百姓\N病におかされたこの体で 全国の米農家さんに迷惑をかけるわけにはいかねえ
 Dialogue: 0,0:13:19.37,0:13:20.17,SIKANOKO_Bottom,虎子,0,0,0,,鹿乃子\N鹿乃子?
 Dialogue: 0,0:13:20.49,0:13:23.12,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿鹿永不死 只是凋零去\N鹿は死なず ただ消えゆくのみ
-Dialogue: 0,0:13:23.64,0:13:26.50,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝 鹿社就交给你了\Nこしたん シカ部のこと頼んだぜ
-Dialogue: 0,0:13:26.84,0:13:29.48,SIKANOKO_Bottom,虎子,0,0,0,,喂 喂 什么叫交给我了啊\Nお おい 頼むって何だよ
-Dialogue: 0,0:13:29.68,0:13:31.81,SIKANOKO_Bottom,虎子,0,0,0,,不是你创的吗这个社团\Nお前が始めたシカ部だろ
+Dialogue: 0,0:13:23.64,0:13:26.62,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝 鹿社就交给你了\Nこしたん シカ部のこと頼んだぜ
+Dialogue: 0,0:13:26.84,0:13:29.68,SIKANOKO_Bottom,虎子,0,0,0,,喂 喂 什么叫交给我了啊\Nお おい 頼むって何だよ
+Dialogue: 0,0:13:29.68,0:13:31.81,SIKANOKO_Bottom,虎子,0,0,0,,不是你创立的吗这个社团\Nお前が始めたシカ部だろ
 Dialogue: 0,0:13:32.08,0:13:33.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,别了\Nあばよ
 Dialogue: 0,0:13:33.43,0:13:34.36,SIKANOKO_Bottom,鹿乃子,0,0,0,,虎宝\Nこしたん
 Dialogue: 0,0:13:48.86,0:13:51.02,SIKANOKO_Bottom,虎子,0,0,0,,鹿 鹿乃子\Nし 鹿乃子!
-Dialogue: 0,0:13:51.02,0:13:54.88,SIKANOKO_Bottom,马车芽,0,0,0,,虎宝学姐是那种很容易受气氛影响的人呢\Nこしたん先輩って雰囲気に流されるタイプですよね
-Dialogue: 0,0:13:55.08,0:13:58.03,SIKANOKO_Bottom,馅子,0,0,0,,这是姐姐的超级优点哦\Nそこがお姉ちゃんの超いいとこなの
+Dialogue: 0,0:13:51.02,0:13:55.08,SIKANOKO_Bottom,马车芽,0,0,0,,虎宝学姐是那种很容易受气氛影响的人呢\Nこしたん先輩って雰囲気に流されるタイプですよね
+Dialogue: 0,0:13:55.08,0:13:58.03,SIKANOKO_Bottom,馅子,0,0,0,,这便是姐姐最难能可贵的地方呢\Nそこがお姉ちゃんの超いいとこなの
 Dialogue: 0,0:14:00.94,0:14:03.08,SIKANOKO_Bottom,鹿乃子,0,0,0,,角田先生 又来偷懒啦？\N角田さん またサボり?
-Dialogue: 0,0:14:03.43,0:14:06.03,SIKANOKO_Bottom,鹿乃子,0,0,0,,这可不行哦 外面好热的\Nダメだよ外は暑いからって
-Dialogue: 0,0:14:06.03,0:14:07.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,说好的野生呢？\N野生はどこに行った?
+Dialogue: 0,0:14:03.43,0:14:05.91,SIKANOKO_Bottom,鹿乃子,0,0,0,,虽然外面好热但也不能这么干哦\Nダメだよ外は暑いからって
+Dialogue: 0,0:14:05.91,0:14:07.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,说好的野生呢？\N野生はどこに行った?
 Dialogue: 0,0:14:11.56,0:14:13.12,SIKANOKO_Bottom,虎子,0,0,0,,喂 鹿乃子\Nおい 鹿乃子
 Dialogue: 0,0:14:13.48,0:14:14.95,SIKANOKO_Bottom,虎子,0,0,0,,你看角田先生的身体\N角田さんの体
 Dialogue: 0,0:14:15.59,0:14:16.75,SIKANOKO_Bottom,鹿乃子,0,0,0,,乃说什么 哦\Nのつ おっ
-Dialogue: 0,0:14:17.21,0:14:19.32,SIKANOKO_Bottom,鹿乃子,0,0,0,,我们是同款呢 角田先生\Nおそろいだね 角田さん
+Dialogue: 0,0:14:17.21,0:14:19.30,SIKANOKO_Bottom,鹿乃子,0,0,0,,我们是同款呢 角田先生\Nおそろいだね 角田さん
 Dialogue: 0,0:14:20.80,0:14:24.11,SIKANOKO_Bottom,馅子,0,0,0,,姐姐 这该不会不是生病了\Nお姉ちゃん これってもしかして病気じゃなくて
 Dialogue: 0,0:14:24.11,0:14:25.69,SIKANOKO_Bottom,馅子,0,0,0,,而是在换毛吧？\N毛の生え変わりじゃない?
-Dialogue: 0,0:14:25.69,0:14:26.47,SIKANOKO_Bottom,虎子,0,0,0,,毛？\N毛?
+Dialogue: 0,0:14:25.69,0:14:26.55,SIKANOKO_Bottom,虎子,0,0,0,,毛？\N毛?
 Dialogue: 0,0:14:30.38,0:14:34.08,SIKANOKO_Bottom,旁白,0,0,0,,鹿每年会换两次毛 分为夏毛和冬毛\N鹿は年に2回夏毛と冬毛に生えかわる
-Dialogue: 0,0:14:34.76,0:14:37.83,SIKANOKO_Bottom,旁白,0,0,0,,令人印象深刻的斑点只会在夏毛上出现\Nそして夏毛だけにある印象的な斑点は
-Dialogue: 0,0:14:37.83,0:14:39.91,SIKANOKO_Bottom,旁白,0,0,0,,被人们称作鹿纹\Nカノコ模様と呼ばれている
-Dialogue: 0,0:14:40.25,0:14:43.50,SIKANOKO_Bottom,旁白,0,0,0,,你看 那个全球知名的小鹿身上不也有吗\Nほら 世界的にも有名なあの小鹿にもあるやん
+Dialogue: 0,0:14:34.76,0:14:37.83,SIKANOKO_Bottom,旁白,0,0,0,,只有夏毛才会出现这般令人印象深刻的斑点\Nそして夏毛だけにある印象的な斑点は
+Dialogue: 0,0:14:37.83,0:14:39.69,SIKANOKO_Bottom,旁白,0,0,0,,这样的斑点被人们称作鹿斑\Nカノコ模様と呼ばれている
+Dialogue: 0,0:14:40.25,0:14:43.50,SIKANOKO_Bottom,旁白,0,0,0,,你看 那个家喻户晓的小鹿身上不也有吗\Nほら 世界的にも有名なあの小鹿にもあるやん
 Dialogue: 0,0:14:43.50,0:14:44.59,SIKANOKO_Bottom,虎子,0,0,0,,停 喂！\Nちょっ おい!
-Dialogue: 0,0:14:44.59,0:14:47.66,SIKANOKO_Bottom,虎子,0,0,0,,这是绝对不能提的领域啊！\Nそれ 一番触れちゃいけないところ!
-Dialogue: 0,0:14:47.86,0:14:50.15,SIKANOKO_Bottom,馅子,0,0,0,,已经过版权保护期了 没关系的\N著作権切れてるから大丈夫よ
+Dialogue: 0,0:14:44.59,0:14:47.66,SIKANOKO_Bottom,虎子,0,0,0,,这是碰都不能碰的领域啊！\Nそれ 一番触れちゃいけないところ!
+Dialogue: 0,0:14:47.66,0:14:50.38,SIKANOKO_Bottom,馅子,200,0,0,,已经过版权保护期了 没关系的\N著作権切れてるから大丈夫よ
 Dialogue: 0,0:14:50.38,0:14:51.02,SIKANOKO_Bottom,馅子,0,0,0,,应该\N多分
-Dialogue: 0,0:14:52.07,0:14:54.90,SIKANOKO_Bottom,鹿乃子,0,0,0,,什么啊 原来是换毛呀\Nなんだ 毛の生えかわりだったのか
-Dialogue: 0,0:14:55.02,0:14:57.17,SIKANOKO_Bottom,鹿乃子,0,0,0,,哎呀 没注意没注意\Nいや うっかりうっかり
-Dialogue: 0,0:14:57.42,0:15:01.48,SIKANOKO_Bottom,旁白,0,0,0,,补充一下 本来换成夏毛应该是4月到5月之间\Nなお 本来夏毛への生えかわりは4月から5月
+Dialogue: 0,0:14:52.07,0:14:55.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,什么啊 原来是换毛呀\Nなんだ 毛の生えかわりだったのか
+Dialogue: 0,0:14:55.02,0:14:57.08,SIKANOKO_Bottom,鹿乃子,0,0,0,,哎呀 没注意没注意\Nいや うっかりうっかり
+Dialogue: 0,0:14:57.42,0:15:01.48,SIKANOKO_Bottom,旁白,0,0,0,,补充一下 本来换夏毛的时间应该是4月到5月之间\Nなお 本来夏毛への生えかわりは4月から5月
 Dialogue: 0,0:15:01.48,0:15:05.37,SIKANOKO_Bottom,旁白,0,0,0,,不过反正我们是搞笑动画 还请大家不要深究\N所詮はギャグアニメなので 深く考えずに流してください
 Dialogue: 0,0:15:05.37,0:15:06.97,SIKANOKO_Bottom,虎子,0,0,0,,别说什么「反正」啊\N所詮とか言うな
 Dialogue: 0,0:15:07.16,0:15:10.74,SIKANOKO_Bottom,马车芽,0,0,0,,马车芽从一开始就相信着鹿宝学姐\N馬車芽は最初からのこたん先輩を信じてました
-Dialogue: 0,0:15:10.74,0:15:11.98,SIKANOKO_Bottom,虎子,0,0,0,,你这家伙\Nこいつ
+Dialogue: 0,0:15:10.74,0:15:11.60,SIKANOKO_Bottom,虎子,0,0,0,,你这家伙\Nこいつ
 Dialogue: 0,0:15:11.98,0:15:15.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,不过 怪不得昨天开始就一直在掉毛呢\Nでも どうりで昨日から抜け毛が多いはずだよ
-Dialogue: 0,0:15:15.64,0:15:17.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,你们看 这么多\Nほら見て こんなに
-Dialogue: 0,0:15:18.19,0:15:20.87,SIKANOKO_Bottom,虎子,0,0,0,,这已经不是换毛而是蜕皮了吧！\N生えかわりどころか それもはや脱皮!
+Dialogue: 0,0:15:15.64,0:15:16.98,SIKANOKO_Bottom,鹿乃子,0,0,0,,你们看 这么多\Nほら見て こんなに
+Dialogue: 0,0:15:18.19,0:15:21.06,SIKANOKO_Bottom,虎子,0,0,0,,这已经不是换毛而是蜕皮了吧！\N生えかわりどころか それもはや脱皮!
 Dialogue: 0,0:15:21.06,0:15:24.13,SIKANOKO_Bottom,鹿乃子,0,0,0,,诶 怎么看这都是毛吧\Nへえ どこからどう見ても毛でしょ
-Dialogue: 0,0:15:24.35,0:15:26.23,SIKANOKO_Bottom,虎子,0,0,0,,去 吓死人了！\Nてえ 怖いわ!
-Dialogue: 0,0:15:26.41,0:15:28.54,SIKANOKO_Bottom,鹿乃子,0,0,0,,啊 我的毛\Nあぁ　私の毛
+Dialogue: 0,0:15:24.35,0:15:26.41,SIKANOKO_Bottom,虎子,0,0,0,,去 吓死人了！\Nてえ 怖いわ!
+Dialogue: 0,0:15:26.41,0:15:28.37,SIKANOKO_Bottom,鹿乃子,0,0,0,,啊 我的毛\Nあぁ 私の毛
 Dialogue: 0,0:15:31.46,0:15:32.15,SIKANOKO_Bottom,马车芽,0,0,0,,嗯哈\Nんは
 Dialogue: 0,0:15:33.24,0:15:34.00,SIKANOKO_Bottom,虎子,0,0,0,,别穿上去啊\N着るな!
 Dialogue: 0,0:15:34.71,0:15:36.77,SIKANOKO_Bottom,马车芽,0,0,0,,通气性还挺好的\Nなかなかの通気性です
 Dialogue: 0,0:15:36.77,0:15:37.54,SIKANOKO_Bottom,虎子,0,0,0,,\N
 Dialogue: 0,0:15:37.54,0:15:40.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,好啦 衣服也已经换好了\Nさあ 衣替えも終わったことだし
-Dialogue: 0,0:15:40.22,0:15:42.53,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿社的夏天正式开始咯\Nシカ部の夏が始まるぞ
-Dialogue: 0,0:15:42.69,0:15:43.88,SIKANOKO_Bottom,鹿乃子,0,0,0,,哦！\Nオ!
+Dialogue: 0,0:15:40.22,0:15:42.69,SIKANOKO_Bottom,鹿乃子,0,0,0,,鹿社的夏天正式开始咯\Nシカ部の夏が始まるぞ
+Dialogue: 0,0:15:42.69,0:15:43.80,SIKANOKO_Bottom,鹿乃子,0,0,0,,哦！\Nオ!
 Dialogue: 0,0:15:45.09,0:15:45.52,SIKANOKO_Bottom,虎子,0,0,0,,哼\Nふっ
-Dialogue: 0,0:15:46.18,0:15:47.17,SIKANOKO_Bottom,馅子,0,0,0,,姐姐？\Nお姉ちゃん?
+Dialogue: 0,0:15:46.18,0:15:47.35,SIKANOKO_Bottom,馅子,0,0,0,,姐姐？\Nお姉ちゃん?
 Dialogue: 0,0:15:47.35,0:15:48.92,SIKANOKO_Bottom,虎子,0,0,0,,反正不管怎么样\Nいやどうせ
 Dialogue: 0,0:15:48.92,0:15:51.42,SIKANOKO_Bottom,虎子,0,0,0,,这个夏天应该都不会消停的吧\Nとんでもない夏になるんだろうな
-Dialogue: 0,0:15:51.42,0:15:52.08,SIKANOKO_Bottom,虎子,0,0,0,,是吧\Nってな
-Dialogue: 0,0:15:52.58,0:15:57.27,SIKANOKO_Bottom,旁白,0,0,0,,就这样 换上了全新装扮之后 鹿社的炎热夏天开始了\Nこうして装いも新たにし シカ部の暑い夏が始まる
+Dialogue: 0,0:15:51.42,0:15:52.31,SIKANOKO_Bottom,虎子,0,0,0,,是吧\Nってな
+Dialogue: 0,0:15:52.58,0:15:57.31,SIKANOKO_Bottom,旁白,0,0,0,,就这样 换上了全新装扮之后 鹿社的炎热夏天开始了\Nこうして装いも新たにし シカ部の暑い夏が始まる
 Dialogue: 0,0:15:57.93,0:16:00.84,SIKANOKO_Bottom,绢,0,0,0,,咦 千春 那是新买的角吗？\Nあれ 千春 それ新しいツノ?
-Dialogue: 0,0:16:01.25,0:16:05.16,SIKANOKO_Bottom,千春,0,0,0,,嗯 甜鱼上2000日元买到的 特别划算\Nうん メルカリで2000円で買えた お買い得
+Dialogue: 0,0:16:01.25,0:16:05.32,SIKANOKO_Bottom,千春,0,0,0,,嗯 煤炉上2000日元买到的 特别划算\Nうん メルカリで2000円で買えた お買い得
 Dialogue: 0,0:16:05.88,0:16:07.76,SIKANOKO_Bottom,旁白,0,0,0,,就这样 这个炎热的夏天\Nそして暑い夏は
-Dialogue: 0,0:16:08.17,0:16:10.23,SIKANOKO_Bottom,旁白,0,0,0,,没发生什么特别的事 就这样过去了\N特になんてことなく終わった
-Dialogue: 0,0:16:10.60,0:16:14.96,SIKANOKO_Bottom,虎子,0,0,0,,连第二段都没撑到的夏天 到底有什么意义啊？\NBパートが終わる前に終わる夏に 何か意味はあったのか?
-Dialogue: 0,0:16:16.31,0:16:18.11,SIKANOKO_Bottom,马车芽,0,0,0,,馅子好啊\Nあんこちゃんチース
+Dialogue: 0,0:16:08.17,0:16:10.32,SIKANOKO_Bottom,旁白,0,0,0,,没发生什么特别的事 就这样过去了\N特になんてことなく終わった
+Dialogue: 0,0:16:10.60,0:16:15.19,SIKANOKO_Bottom,虎子,0,0,0,,连B-Part都没撑过的夏天 到底有什么意义啊？\NBパートが終わる前に終わる夏に 何か意味はあったのか?
+Dialogue: 0,0:16:16.21,0:16:18.11,SIKANOKO_Bottom,马车芽,0,0,0,,馅子好啊\Nあんこちゃんチース
 Dialogue: 0,0:16:18.11,0:16:22.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,我又换毛了 新掉下来的毛就送给馅子你吧\Nまた毛が生え変わったんで 新しい抜け毛はこしあんにあげよう
-Dialogue: 0,0:16:22.46,0:16:23.74,SIKANOKO_Bottom,馅子,0,0,0,,哎呀手滑了 \Nおっと手が滑った
-Dialogue: 0,0:16:23.74,0:16:25.00,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜！\Nぬーん
-Dialogue: 0,0:16:25.00,0:16:27.39,SIKANOKO_Bottom,马车芽,0,0,0,,这样多浪费呀馅子\Nもったいないですよあんこちゃん
-Dialogue: 0,0:16:27.39,0:16:30.18,SIKANOKO_Bottom,马车芽,0,0,0,,这个穿起来很舒服的哦\Nこの着心地は実に良いものです
-Dialogue: 0,0:16:30.18,0:16:32.26,SIKANOKO_Bottom,馅子,0,0,0,,你也是 打算穿到什么时候啊？\Nあなたもいつまでそれ着てるの?
+Dialogue: 0,0:16:22.46,0:16:23.71,SIKANOKO_Bottom,馅子,0,0,0,,哎呀手滑了 \Nおっと手が滑った
+Dialogue: 0,0:16:23.71,0:16:24.71,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜！\Nぬーん
+Dialogue: 0,0:16:25.00,0:16:27.22,SIKANOKO_Bottom,马车芽,0,0,0,,这样多浪费呀馅子\Nもったいないですよあんこちゃん
+Dialogue: 0,0:16:27.22,0:16:29.97,SIKANOKO_Bottom,马车芽,0,0,0,,这个穿起来真的很舒服的\Nこの着心地は実に良いものです
+Dialogue: 0,0:16:30.18,0:16:32.35,SIKANOKO_Bottom,馅子,0,0,0,,你也是 打算穿到什么时候啊？\Nあなたもいつまでそれ着てるの?
 Dialogue: 0,0:16:33.41,0:16:34.59,SIKANOKO_Bottom,虎子,0,0,0,,掉毛吗\N抜け毛か
 Dialogue: 0,0:16:44.28,0:16:46.48,SIKANOKO_Bottom,旁白,0,0,0,,感觉再想下去就要越来越恐怖了\Nなんかいろいろ怖くなったので
 Dialogue: 0,0:16:46.48,0:16:49.80,SIKANOKO_Bottom,旁白,0,0,0,,所以虎宝放弃了思考\Nこれ以上考えることをやめたこしたんであった
-Dialogue: 0,0:16:50.36,0:16:52.97,SIKANOKO_Bottom,根子,0,0,0,,鹿社歼灭计划\Nシカ部撲滅計画について
-Dialogue: 0,0:16:53.57,0:16:56.28,SIKANOKO_Bottom,根子,0,0,0,,你们两位 报告一下进展吧\N2人とも 進捗を報告してちょうだい
+Dialogue: 0,0:16:50.36,0:16:53.12,SIKANOKO_Bottom,根子,0,0,0,,鹿社歼灭计划\Nシカ部撲滅計画について
+Dialogue: 0,0:16:53.57,0:16:56.25,SIKANOKO_Bottom,根子,0,0,0,,你们两位 报告一下进展吧\N2人とも 進捗を報告してちょうだい
 Dialogue: 0,0:16:56.86,0:16:58.53,SIKANOKO_Bottom,绢,0,0,0,,什么进展不进展的…\N進捗も何も
-Dialogue: 0,0:16:58.53,0:17:02.44,SIKANOKO_Bottom,绢,0,0,0,,我和千春没有想要歼灭鹿社呀\N私と千春は別に撲滅しようなんて思ってないんですけど
+Dialogue: 0,0:16:58.53,0:17:02.38,SIKANOKO_Bottom,绢,0,0,0,,我和千春没有想要歼灭鹿社呀\N私と千春は別に撲滅しようなんて思ってないんですけど
 Dialogue: 0,0:17:02.96,0:17:07.01,SIKANOKO_Bottom,根子,0,0,0,,哈？小狸你不是说要帮我一起的吗\Nはあ タヌキあんた私に協力するって言ったじゃない
-Dialogue: 0,0:17:07.16,0:17:09.45,SIKANOKO_Bottom,绢,0,0,0,,我什么也没说过呀\Nひと言も言ってないですよ
+Dialogue: 0,0:17:07.16,0:17:09.26,SIKANOKO_Bottom,绢,0,0,0,,我什么也没说过呀\Nひと言も言ってないですよ
 Dialogue: 0,0:17:09.45,0:17:10.64,SIKANOKO_Bottom,根子,0,0,0,,你说什么\N何ですって
 Dialogue: 0,0:17:10.64,0:17:13.09,SIKANOKO_Bottom,根子,0,0,0,,还有你们为什么已经换回冬季校服了啊\Nあとなんでもう冬服に戻ってるの
 Dialogue: 0,0:17:13.09,0:17:15.78,SIKANOKO_Bottom,根子,0,0,0,,我还没展示过穿夏季校服的样子呢\N私 夏服披露してないんだけど
-Dialogue: 0,0:17:15.78,0:17:19.46,SIKANOKO_Bottom,根子,0,0,0,,关于暑假的记忆也是一点都没有！\N夏休みも全く過ごした覚えがないんですけど!
-Dialogue: 0,0:17:19.46,0:17:20.77,SIKANOKO_Bottom,绢,0,0,0,,对不起！\Nごめんなさい!
-Dialogue: 0,0:17:20.77,0:17:26.36,SIKANOKO_Bottom,绢,0,0,0,,肯定是怪我穿短袖的时候 露出来的上臂那里软乎乎的样子太不堪入目\Nきっと 半袖のすぐから覗く私の二の腕のぷにぷに具合が見苦しいせいで
+Dialogue: 0,0:17:15.78,0:17:19.27,SIKANOKO_Bottom,根子,0,0,0,,关于暑假的记忆也是一点都没有！\N夏休みも全く過ごした覚えがないんですけど!
+Dialogue: 0,0:17:19.46,0:17:20.64,SIKANOKO_Bottom,绢,0,0,0,,对不起！\Nごめんなさい!
+Dialogue: 0,0:17:20.64,0:17:26.36,SIKANOKO_Bottom,绢,0,0,0,,肯定是怪我穿短袖的时候 露出来的上臂那里软乎乎的样子太不堪入目\Nきっと 半袖のすぐから覗く私の二の腕のぷにぷに具合が見苦しいせいで
 Dialogue: 0,0:17:26.36,0:17:29.08,SIKANOKO_Bottom,绢,0,0,0,,所以夏天才会结束的\N夏が終わってしまったんです
-Dialogue: 0,0:17:29.86,0:17:32.10,SIKANOKO_Bottom,旁白,0,0,0,,没有暑假不是BUG 是特性\N夏休みがないのは仕様です
-Dialogue: 0,0:17:32.49,0:17:33.82,SIKANOKO_Bottom,鹿乃子,0,0,0,,我可以说两句吗？\Nちょっといいかね?
-Dialogue: 0,0:17:34.28,0:17:37.00,SIKANOKO_Bottom,根子,0,0,0,,哎呀 你有事情要报告吗？\Nあら あなた何か報告があるの?
-Dialogue: 0,0:17:37.20,0:17:37.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜？\Nぬん?
-Dialogue: 0,0:17:39.08,0:17:41.18,SIKANOKO_Bottom,根子,0,0,0,,不对 为什么你会在这里啊！\Nいや 何であんたがいんのよ!
-Dialogue: 0,0:17:41.29,0:17:43.46,SIKANOKO_Bottom,根子,0,0,0,,现在是鹿社歼灭会议！\Nこれはシカ部撲滅会議なの!
-Dialogue: 0,0:17:43.46,0:17:45.25,SIKANOKO_Bottom,根子,0,0,0,,你这个鹿社的在这里干嘛！\Nシカ部のあんたがいたら!
+Dialogue: 0,0:17:29.86,0:17:32.28,SIKANOKO_Bottom,旁白,0,0,0,,没有暑假不是BUG 是特性\N夏休みがないのは仕様です
+Dialogue: 0,0:17:32.28,0:17:33.78,SIKANOKO_Bottom,鹿乃子,0,0,0,,我可以说两句吗？\Nちょっといいかね?
+Dialogue: 0,0:17:34.28,0:17:36.91,SIKANOKO_Bottom,根子,0,0,0,,哎呀 你有事情要报告吗？\Nあら あなた何か報告があるの?
+Dialogue: 0,0:17:37.20,0:17:37.79,SIKANOKO_Bottom,鹿乃子,0,0,0,,噜？\Nぬん?
+Dialogue: 0,0:17:39.08,0:17:41.18,SIKANOKO_Top,根子,0,0,0,,不对 为什么你会在这里啊！\Nいや 何であんたがいんのよ!
+Dialogue: 0,0:17:41.29,0:17:43.46,SIKANOKO_Top,根子,0,0,0,,现在是鹿社歼灭会议！\Nこれはシカ部撲滅会議なの!
+Dialogue: 0,0:17:43.46,0:17:44.92,SIKANOKO_Top,根子,0,0,0,,你这个鹿社的在这里干嘛！\Nシカ部のあんたがいたら!
 Dialogue: 0,0:17:45.25,0:17:48.17,SIKANOKO_Bottom,鹿乃子,0,0,0,,现在没空说那些事情\N今はそんなことを話し合ってる場合ではない
 Dialogue: 0,0:17:48.52,0:17:51.24,SIKANOKO_Bottom,根子,0,0,0,,鹿社的竟然会说那种话\Nシカ部の関係者がそんなこととか
-Dialogue: 0,0:17:51.24,0:17:53.61,SIKANOKO_Bottom,根子,0,0,0,,不对 虽然我也没说这话的立场\Nいや 私が言うことじゃないけど
-Dialogue: 0,0:17:53.96,0:17:56.38,SIKANOKO_Bottom,鹿乃子,0,0,0,,我作出了本世纪最大的发现\N私は世紀の大発見をした
-Dialogue: 0,0:17:57.31,0:17:58.18,SIKANOKO_Bottom,根子,0,0,0,,大发现？\N大発見?
+Dialogue: 0,0:17:51.24,0:17:53.55,SIKANOKO_Bottom,根子,0,0,0,,不对 虽然我也没说这话的立场\Nいや 私が言うことじゃないけど
+Dialogue: 0,0:17:53.96,0:17:56.38,SIKANOKO_Bottom,鹿乃子,0,0,0,,我有一个世纪大发现\N私は世紀の大発見をした
+Dialogue: 0,0:17:57.31,0:17:58.35,SIKANOKO_Bottom,根子,0,0,0,,大发现？\N大発見?
 Dialogue: 0,0:17:58.73,0:17:59.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,看这个\Nこれを見たまえ
 Dialogue: 0,0:18:02.02,0:18:02.84,SIKANOKO_Bottom,根子,0,0,0,,这是什么\N何これ
-Dialogue: 0,0:18:03.24,0:18:03.78,SIKANOKO_Bottom,鹿乃子,0,0,0,,哼\Nフン
-Dialogue: 0,0:18:04.28,0:18:05.54,SIKANOKO_Bottom,鹿乃子,0,0,0,,是槌子蛇！\Nツチノコだ!
-Dialogue: 0,0:18:05.54,0:18:07.05,SIKANOKO_Bottom,根子,0,0,0,,绝对不是！\N絶対違う!
+Dialogue: 0,0:18:03.24,0:18:03.98,SIKANOKO_Bottom,鹿乃子,0,0,0,,哼\Nフン
+Dialogue: 0,0:18:03.98,0:18:05.36,SIKANOKO_Bottom,鹿乃子,0,0,0,,是槌子蛇！\Nツチノコだ!
+Dialogue: 0,0:18:05.36,0:18:06.73,SIKANOKO_Bottom,根子,0,0,0,,绝对不是！\N絶対違う!
 Dialogue: 0,0:18:07.17,0:18:10.41,SIKANOKO_Bottom,根子,0,0,0,,什 什么啊！这个莫名其妙的球体\Nな 何なのよ!この得体の知れない球体
 Dialogue: 0,0:18:11.05,0:18:12.20,SIKANOKO_Bottom,根子,0,0,0,,喵哇\Nきゃ
 Dialogue: 0,0:18:12.20,0:18:13.79,SIKANOKO_Bottom,根子,0,0,0,,动了\N動いた
 Dialogue: 0,0:18:13.79,0:18:15.72,SIKANOKO_Bottom,根子,0,0,0,,那个触手（？）还伸长了\N触手?が伸びてるし
 Dialogue: 0,0:18:15.72,0:18:17.43,SIKANOKO_Bottom,根子,0,0,0,,一副蠢蠢欲动的样子啊\Nなんかウゴウゴしてるし
-Dialogue: 0,0:18:17.43,0:18:18.12,SIKANOKO_Bottom,根子,0,0,0,,好恶心！\Nキモ!
+Dialogue: 0,0:18:17.43,0:18:18.21,SIKANOKO_Bottom,根子,0,0,0,,好恶心！\Nキモ!
 Dialogue: 0,0:18:18.21,0:18:20.19,SIKANOKO_Bottom,绢,0,0,0,,形状很独特呢\N独特な形してますね
 Dialogue: 0,0:18:20.51,0:18:21.82,SIKANOKO_Bottom,根子,0,0,0,,生命的\N生命の
-Dialogue: 0,0:18:21.82,0:18:22.66,SIKANOKO_Bottom,根子,0,0,0,,神秘\N神秘
-Dialogue: 0,0:18:22.93,0:18:24.88,SIKANOKO_Bottom,根子,0,0,0,,诶 竟然这么冷静\Nえ 意外と冷静
-Dialogue: 0,0:18:25.09,0:18:28.42,SIKANOKO_Bottom,鹿乃子,0,0,0,,厉害吧 我在校园里挖洞的时候发现的\Nすごかろう 校庭で穴掘りしたら見つけた
-Dialogue: 0,0:18:28.49,0:18:29.82,SIKANOKO_Bottom,根子,0,0,0,,你在干嘛啊\N何してんのよ
-Dialogue: 0,0:18:29.82,0:18:32.58,SIKANOKO_Bottom,根子,0,0,0,,我们学校里还埋着这种东西吗\Nってうちの学校 こんなん埋まってんの
-Dialogue: 0,0:18:32.58,0:18:33.31,SIKANOKO_Bottom,根子,0,0,0,,吓人！\N怖っ!
+Dialogue: 0,0:18:21.82,0:18:22.93,SIKANOKO_Bottom,根子,0,0,0,,神秘\N神秘
+Dialogue: 0,0:18:22.93,0:18:24.83,SIKANOKO_Bottom,根子,0,0,0,,诶 竟然这么冷静\Nえ 意外と冷静
+Dialogue: 0,0:18:25.09,0:18:28.49,SIKANOKO_Bottom,鹿乃子,0,0,0,,厉害吧 我在校园里挖洞的时候发现的\Nすごかろう 校庭で穴掘りしたら見つけた
+Dialogue: 0,0:18:28.49,0:18:29.82,SIKANOKO_Bottom,根子,0,0,0,,你都干了什么啊\N何してんのよ
+Dialogue: 0,0:18:29.82,0:18:32.58,SIKANOKO_Bottom,根子,0,0,0,,话说我们学校里还埋着这种东西吗\Nってうちの学校 こんなん埋まってんの
+Dialogue: 0,0:18:32.58,0:18:33.47,SIKANOKO_Bottom,根子,0,0,0,,吓人！\N怖っ!
 Dialogue: 0,0:18:33.75,0:18:36.24,SIKANOKO_Bottom,根子,0,0,0,,而且槌子蛇应该是那种样子的吧？\Nそもそもツチノコって あれでしょ?
 Dialogue: 0,0:18:36.24,0:18:40.52,SIKANOKO_Bottom,根子,0,0,0,,就是那个形态难以描述的未确认生命体\N未確認生命体の あのなんとも言えないフォルムの
 Dialogue: 0,0:18:40.70,0:18:43.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,这玩意也是形态难以描述的未确认生命体呀\Nこいつもなんとも言えないフォルムだろ
-Dialogue: 0,0:18:43.14,0:18:45.52,SIKANOKO_Bottom,根子,0,0,0,,话是没错 话是没错啦！\Nそうだけど そうだけども!
+Dialogue: 0,0:18:43.14,0:18:45.60,SIKANOKO_Bottom,根子,0,0,0,,话是没错 话是没错啦！\Nそうだけど そうだけども!
 Dialogue: 0,0:18:45.82,0:18:48.61,SIKANOKO_Bottom,根子,0,0,0,,话又说回来 槌子蛇这东西本来就不存在的吧\Nそもそもツチノコって存在しないんじゃ
 Dialogue: 0,0:18:50.04,0:18:50.59,SIKANOKO_Bottom,鹿乃子,0,0,0,,嗯？\Nん?
-Dialogue: 0,0:18:50.59,0:18:53.31,SIKANOKO_Bottom,根子,0,0,0,,这次又发光了！\Nって 今度は光った!
+Dialogue: 0,0:18:50.59,0:18:52.99,SIKANOKO_Bottom,根子,0,0,0,,这次又发光了！\Nって 今度は光った!
 Dialogue: 0,0:18:53.41,0:18:55.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,快看 果然这就是槌子蛇啊！\Nこれ見ろ やっぱりツチノコだ!
-Dialogue: 0,0:18:55.94,0:18:59.92,SIKANOKO_Bottom,根子,0,0,0,,等一下 我们说的槌子蛇是一个东西吗？\N待って 私たちツチノコの共通認識できてる?
+Dialogue: 0,0:18:55.94,0:19:00.17,SIKANOKO_Bottom,根子,0,0,0,,等一下 我们说的槌子蛇是一个东西吗？\N待って 私たちツチノコの共通認識できてる?
 Dialogue: 0,0:19:00.17,0:19:02.92,SIKANOKO_Bottom,根子,0,0,0,,怎么看这东西都比槌子蛇要危险得多吧\Nどう見てもツチノコよりやばい何かでしょ
 Dialogue: 0,0:19:02.92,0:19:04.95,SIKANOKO_Bottom,根子,0,0,0,,你肯定是搞错了啊！\Nこんなん絶対違うわよ!
-Dialogue: 0,0:19:04.95,0:19:06.28,SIKANOKO_Bottom,鹿乃子,0,0,0,,哪里搞错了！\N何が違うんだ!
-Dialogue: 0,0:19:06.60,0:19:11.51,SIKANOKO_Bottom,鹿乃子,0,0,0,,根据形态和生态 仅凭主观猜想就说这绝对不是槌子蛇 是不是有点太草率了呢\Nフォルムや生態に対して 主観だけで違うと決めつけるのは早計というものでは
-Dialogue: 0,0:19:11.76,0:19:14.41,SIKANOKO_Bottom,鹿乃子,0,0,0,,而且说到底 你见过槌子蛇吗\Nそもそもお前はツチノコを見たことがあるのか
-Dialogue: 0,0:19:14.62,0:19:18.23,SIKANOKO_Bottom,鹿乃子,0,0,0,,你真的能断定这一定绝对百分之一百不是槌子蛇吗\Nこれが絶対にツチノコじゃないと本当に言い切れるのか
-Dialogue: 0,0:19:18.37,0:19:21.48,SIKANOKO_Bottom,根子,0,0,0,,不如说你为什么那么想把它认定成槌子蛇啊\N逆になんでそこまでツチノコに仕立て上げたいの
-Dialogue: 0,0:19:23.10,0:19:23.87,SIKANOKO_Bottom,鹿乃子,0,0,0,,等一下\N待てよ
+Dialogue: 0,0:19:04.95,0:19:06.25,SIKANOKO_Bottom,鹿乃子,0,0,0,,哪里搞错了！\N何が違うんだ!
+Dialogue: 0,0:19:06.60,0:19:09.78,SIKANOKO_Bottom,鹿乃子,0,0,0,,你单凭主观猜想 根据外表和习性就说这绝对不是槌子蛇\Nフォルムや生態に対して 主観だけで違うと決めつけるのは
+Dialogue: 0,0:19:09.78,0:19:11.51,SIKANOKO_Bottom,鹿乃子,0,0,0,,有点太草率了吧？\N早計というものでは
+Dialogue: 0,0:19:11.76,0:19:14.38,SIKANOKO_Bottom,鹿乃子,0,0,0,,而且说到底 你见过槌子蛇吗\Nそもそもお前はツチノコを見たことがあるのか
+Dialogue: 0,0:19:14.62,0:19:18.37,SIKANOKO_Bottom,鹿乃子,0,0,0,,你敢拍着胸脯说这绝对一定不是槌子蛇吗\Nこれが絶対にツチノコじゃないと本当に言い切れるのか
+Dialogue: 0,0:19:18.37,0:19:21.52,SIKANOKO_Bottom,根子,600,0,0,,不如说你为什么那么想把它认定成槌子蛇啊\N逆になんでそこまでツチノコに仕立て上げたいの
+Dialogue: 0,0:19:23.10,0:19:24.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,等一下\N待てよ
 Dialogue: 0,0:19:24.35,0:19:28.01,SIKANOKO_Bottom,鹿乃子,0,0,0,,槌子蛇 鹿乃子 这难道是…\Nツチノコ しかのこ これってもしかして
-Dialogue: 0,0:19:28.76,0:19:31.37,SIKANOKO_Bottom,鹿乃子,0,0,0,,蛇槌子槌子槌子鹿视眈眈\Nツチノコのこのこたんたんってこと
-Dialogue: 0,0:19:31.37,0:19:32.63,SIKANOKO_Bottom,根子,0,0,0,,说什么呢\N何の話
-Dialogue: 0,0:19:32.93,0:19:35.83,SIKANOKO_Bottom,旁白,0,0,0,,蛇槌子槌子槌子鹿视眈眈开始播出咯\Nつちのこのこのこたんたん 始まります
+Dialogue: 0,0:19:28.76,0:19:31.40,SIKANOKO_Bottom,鹿乃子,0,0,0,,蛇槌子槌子槌子鹿视眈眈\Nツチノコのこのこたんたんってこと
+Dialogue: 0,0:19:31.40,0:19:32.65,SIKANOKO_Bottom,根子,0,0,0,,说什么呢\N何の話
+Dialogue: 0,0:19:32.93,0:19:35.90,SIKANOKO_Bottom,旁白,0,0,0,,《蛇槌子槌子槌子鹿视眈眈》要开始了哟\Nつちのこのこのこたんたん 始まります
 Dialogue: 0,0:19:36.40,0:19:38.71,SIKANOKO_Bottom,绢,0,0,0,,不过 仔细一看\Nでも よくよく見てると
 Dialogue: 0,0:19:38.71,0:19:42.73,SIKANOKO_Bottom,绢,0,0,0,,它的触角 还有像陶器一样光滑的肌肤\N触角とか このすべすべの陶器のような肌とか
 Dialogue: 0,0:19:42.73,0:19:44.04,SIKANOKO_Bottom,绢,0,0,0,,还有点可爱呢\Nかわいいかも
-Dialogue: 0,0:19:44.40,0:19:48.44,SIKANOKO_Bottom,根子,0,0,0,,我还是第一次听到有人用这些词形容一个未确认生命体呢\N未確認生命体にそんな表現してるの初めて聞いたわ
+Dialogue: 0,0:19:44.40,0:19:48.42,SIKANOKO_Bottom,根子,0,0,0,,我还是第一次听到有人用这些词形容一个未确认生命体呢\N未確認生命体にそんな表現してるの初めて聞いたわ
 Dialogue: 0,0:19:48.72,0:19:49.66,SIKANOKO_Bottom,千春,0,0,0,,小槌\Nツッチー
-Dialogue: 0,0:19:49.85,0:19:53.95,SIKANOKO_Bottom,根子,0,0,0,,诶 你已经 你已经给它起好名字了吗\Nえっ 名前もう名前とかつけちゃう感じの距離感なの
+Dialogue: 0,0:19:49.85,0:19:54.05,SIKANOKO_Bottom,根子,0,0,0,,诶 你已经 你已经亲近到给它起好名字了吗\Nえっ 名前もう名前とかつけちゃう感じの距離感なの
 Dialogue: 0,0:19:54.30,0:19:57.68,SIKANOKO_Bottom,根子,0,0,0,,不过 刚才开始就好像不是很精神\Nでも さっきよりちょっと元気がないような
-Dialogue: 0,0:19:58.02,0:20:00.76,SIKANOKO_Bottom,绢,0,0,0,,刚刚发的光是想要传达什么信息吗\N光ったのは何かの意思表示なんでしょうか
-Dialogue: 0,0:20:01.08,0:20:03.46,SIKANOKO_Bottom,千春,0,0,0,,可能是肚子饿了\Nおなか すいてるのかも
+Dialogue: 0,0:19:58.02,0:20:01.08,SIKANOKO_Bottom,绢,0,0,0,,刚刚发的光是想要传达什么信息吗\N光ったのは何かの意思表示なんでしょうか
+Dialogue: 0,0:20:01.08,0:20:03.74,SIKANOKO_Bottom,千春,0,0,0,,可能是肚子饿了\Nおなか すいてるのかも
 Dialogue: 0,0:20:03.74,0:20:04.67,SIKANOKO_Bottom,鹿乃子,0,0,0,,原来如此\Nなるほど
 Dialogue: 0,0:20:04.67,0:20:05.95,SIKANOKO_Bottom,鹿乃子,0,0,0,,那给它喂食吧\N餌付けしよう
-Dialogue: 0,0:20:06.11,0:20:07.32,SIKANOKO_Bottom,根子,0,0,0,,喂食\N餌付けて
-Dialogue: 0,0:20:07.32,0:20:09.25,SIKANOKO_Bottom,根子,0,0,0,,那小…\Nそもそもツチ
+Dialogue: 0,0:20:05.95,0:20:07.32,SIKANOKO_Bottom,根子,0,0,0,,喂食\N餌付けて
+Dialogue: 0,0:20:07.32,0:20:09.25,SIKANOKO_Bottom,根子,0,0,0,,而且小槌…\Nそもそもツチ
 Dialogue: 0,0:20:09.25,0:20:11.69,SIKANOKO_Bottom,根子,0,0,0,,那家伙要吃什么 你知道吗？\Nそいつが何食べるかわかるわけ?
 Dialogue: 0,0:20:12.74,0:20:14.71,SIKANOKO_Bottom,鹿乃子,0,0,0,,当然是鹿仙贝啦\Nもちろん鹿せんべいだよ
 Dialogue: 0,0:20:14.71,0:20:16.31,SIKANOKO_Bottom,根子,0,0,0,,凭什么这么理所当然啊？\N何がもちろんなの?
-Dialogue: 0,0:20:16.74,0:20:19.12,SIKANOKO_Bottom,鹿乃子,0,0,0,,看 这是鹿仙贝哦\Nほれ 鹿せんべいだぞ
+Dialogue: 0,0:20:16.74,0:20:19.12,SIKANOKO_Bottom,鹿乃子,0,0,0,,看 这是鹿仙贝哟\Nほれ 鹿せんべいだぞ
 Dialogue: 0,0:20:19.12,0:20:20.33,SIKANOKO_Bottom,鹿乃子,0,0,0,,吃吧\Nおたべー
 Dialogue: 0,0:20:23.76,0:20:25.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,你 你小子\Nお お前
-Dialogue: 0,0:20:25.27,0:20:27.08,SIKANOKO_Bottom,鹿乃子,0,0,0,,不喜欢鹿仙贝吗\N鹿せんべい嫌いなのか
-Dialogue: 0,0:20:27.33,0:20:30.44,SIKANOKO_Bottom,鹿乃子,0,0,0,,那草呢？或者珍珠奶茶？\Nじゃあ草は?それともタピるか?
-Dialogue: 0,0:20:30.64,0:20:31.88,SIKANOKO_Bottom,鹿乃子,0,0,0,,怎么会\Nそんな
-Dialogue: 0,0:20:31.88,0:20:34.76,SIKANOKO_Bottom,鹿乃子,0,0,0,,吃 吃一口也好呀 试试吧\Nひ　一口でいいから食べてみないか
-Dialogue: 0,0:20:34.91,0:20:35.56,SIKANOKO_Bottom,鹿乃子,0,0,0,,来吧\Nなぁ
-Dialogue: 0,0:20:37.70,0:20:40.13,SIKANOKO_Bottom,根子,0,0,0,,这是在威吓？是在威吓吗？\Nそれは威嚇?威嚇なの?
-Dialogue: 0,0:20:40.13,0:20:42.96,SIKANOKO_Bottom,鹿乃子,0,0,0,,怎么会…难道说你…\Nそんな…お前もしや…
-Dialogue: 0,0:20:43.08,0:20:44.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,不是槌子蛇？\Nツチノコじゃないのか?
-Dialogue: 0,0:20:44.79,0:20:47.44,SIKANOKO_Bottom,根子,0,0,0,,我不是一直在说吗！\Nだからさっきからそう言ってるでしょうが!
-Dialogue: 0,0:20:48.17,0:20:53.09,SIKANOKO_Bottom,旁白,0,0,0,,根子的吐槽稳定输出着 让人感觉不到虎子这位吐槽役的缺席\Nこしたん不在を感じさせない根子ちゃんの安定したツッコミが乱れ飛ぶ中
+Dialogue: 0,0:20:25.27,0:20:27.33,SIKANOKO_Bottom,鹿乃子,0,0,0,,不喜欢鹿仙贝吗\N鹿せんべい嫌いなのか
+Dialogue: 0,0:20:27.33,0:20:30.54,SIKANOKO_Bottom,鹿乃子,0,0,0,,那草呢？或者珍珠奶茶？\Nじゃあ草は?それともタピるか?
+Dialogue: 0,0:20:30.54,0:20:31.67,SIKANOKO_Bottom,鹿乃子,0,0,0,,怎么会\Nそんな
+Dialogue: 0,0:20:31.67,0:20:34.91,SIKANOKO_Bottom,鹿乃子,0,0,0,,吃 吃一口也好呀 试试吧\Nひ 一口でいいから食べてみないか
+Dialogue: 0,0:20:34.91,0:20:35.54,SIKANOKO_Bottom,鹿乃子,0,0,0,,来吧\Nなぁ
+Dialogue: 0,0:20:37.70,0:20:39.80,SIKANOKO_Bottom,根子,0,0,0,,这是在发飙？是发飙了吗？\Nそれは威嚇?威嚇なの?
+Dialogue: 0,0:20:40.13,0:20:43.08,SIKANOKO_Bottom,鹿乃子,0,0,0,,怎么会…难道说你…\Nそんな…お前もしや…
+Dialogue: 0,0:20:43.08,0:20:44.79,SIKANOKO_Bottom,鹿乃子,0,0,0,,不是槌子蛇？\Nツチノコじゃないのか?
+Dialogue: 0,0:20:44.79,0:20:47.56,SIKANOKO_Bottom,根子,0,0,0,,所以我刚才不是一直在说吗！\Nだからさっきからそう言ってるでしょうが!
+Dialogue: 0,0:20:48.17,0:20:53.19,SIKANOKO_Bottom,旁白,0,0,0,,根子的吐槽稳定输出 竟让人忘却虎宝这位吐槽役的缺席\Nこしたん不在を感じさせない根子ちゃんの安定したツッコミが乱れ飛ぶ中
 Dialogue: 0,0:20:53.63,0:20:56.03,SIKANOKO_Bottom,旁白,0,0,0,,总而言之 各种各样的东西都试完之后\Nとりあえずいろいろ与えてみた結果
 Dialogue: 0,0:20:57.70,0:20:59.72,SIKANOKO_Bottom,旁白,0,0,0,,发现它挺喜欢吃粉笔的\Nチョークお気に入った模様
 Dialogue: 0,0:20:59.72,0:21:00.81,SIKANOKO_Bottom,绢,0,0,0,,多吃点哦\Nたんと食べ
@@ -460,19 +526,23 @@ Dialogue: 0,0:21:01.98,0:21:04.79,SIKANOKO_Bottom,千春,0,0,0,,小槌和鹿宝�
 Dialogue: 0,0:21:05.11,0:21:06.11,SIKANOKO_Bottom,千春,0,0,0,,珍贵影像\N貴重
 Dialogue: 0,0:21:06.76,0:21:10.94,SIKANOKO_Bottom,根子,0,0,0,,真亏你们几个能和这个来路不明莫名其妙的东西打成一片啊\Nあんたたち よくそんな得体の知れないものにかまえるわね
 Dialogue: 0,0:21:11.35,0:21:13.66,SIKANOKO_Bottom,绢,0,0,0,,熟悉了之后就和小狗小猫一样啦\N慣れちゃえば犬や猫と一緒ですよ
-Dialogue: 0,0:21:14.04,0:21:16.13,SIKANOKO_Bottom,绢,0,0,0,,学姐你也来摸摸呀\N先輩もさわってみたらいいのに
-Dialogue: 0,0:21:16.47,0:21:18.80,SIKANOKO_Bottom,根子,0,0,0,,诶 要摸这东西…\Nええ さわるったって
+Dialogue: 0,0:21:14.04,0:21:16.09,SIKANOKO_Bottom,绢,0,0,0,,学姐你也来摸摸呀\N先輩もさわってみたらいいのに
+Dialogue: 0,0:21:16.47,0:21:18.84,SIKANOKO_Bottom,根子,0,0,0,,诶 要摸这东西…\Nええ さわるったって
 Dialogue: 0,0:21:21.11,0:21:21.59,SIKANOKO_Bottom,根子,0,0,0,,诶\Nえ
 Dialogue: 0,0:21:33.40,0:21:34.84,SIKANOKO_Bottom,根子,0,0,0,,好\Nか
-Dialogue: 0,0:21:34.84,0:21:36.20,SIKANOKO_Bottom,根子,0,0,0,,好可爱！\Nかわいい!
-Dialogue: 0,0:21:38.37,0:21:39.60,SIKANOKO_Bottom,虎子,0,0,0,,不好意思 我来晚…\N遅れてごめんなさ…
-Dialogue: 0,0:21:40.54,0:21:44.28,SIKANOKO_Bottom,虎子,0,0,0,,等 哇啊 那是什么莫名其妙的生物啊\Nちょっ うわっ 何その得体の知れない生き物
-Dialogue: 0,0:21:45.27,0:21:45.80,SIKANOKO_Bottom,根子,0,0,0,,…啊\N…です
+Dialogue: 0,0:21:34.84,0:21:36.40,SIKANOKO_Bottom,根子,0,0,0,,好可爱！\Nかわいい!
+Dialogue: 0,0:21:38.24,0:21:39.53,SIKANOKO_Bottom,虎子,0,0,0,,不好意思 我来晚…\N遅れてごめんなさ…
+Dialogue: 0,0:21:40.49,0:21:44.28,SIKANOKO_Bottom,虎子,0,0,0,,等 哇啊 那是什么莫名其妙的生物啊\Nちょっ うわっ 何その得体の知れない生き物
+Dialogue: 0,0:21:45.27,0:21:45.83,SIKANOKO_Bottom,根子,0,0,0,,…啊\N…です
 Dialogue: 0,0:21:46.23,0:21:47.40,SIKANOKO_Bottom,虎子,0,0,0,,猫山田同学？\N猫山田さん?
-Dialogue: 0,0:21:48.24,0:21:49.59,SIKANOKO_Bottom,根子,0,0,0,,是槌子蛇啊！\Nツチノコです!
-Dialogue: 0,0:21:49.59,0:21:52.29,SIKANOKO_Bottom,虎子,0,0,0,,诶？绝对不是吧\Nえ?絶対違うでしょ
-Dialogue: 0,0:21:52.63,0:21:55.72,SIKANOKO_Bottom,虎子,0,0,0,,话说回来 为什么鹿乃子同学也在这里？\Nっていうか なんで鹿乃子さんまでいるの?
-Dialogue: 0,0:21:55.72,0:21:57.96,SIKANOKO_Bottom,根子,0,0,0,,这孩子由我来养大！\Nこの子は私が育てます!
+Dialogue: 0,0:21:48.12,0:21:49.45,SIKANOKO_Bottom,根子,0,0,0,,是槌子蛇啊！\Nツチノコです!
+Dialogue: 0,0:21:49.45,0:21:52.63,SIKANOKO_Bottom,虎子,0,0,0,,诶？绝对不是吧\Nえ?絶対違うでしょ
+Dialogue: 0,0:21:52.63,0:21:55.67,SIKANOKO_Bottom,虎子,0,0,0,,话说回来 为什么鹿乃子同学也在这里？\Nっていうか なんで鹿乃子さんまでいるの?
+Dialogue: 0,0:21:55.67,0:21:57.96,SIKANOKO_Bottom,根子,0,0,0,,这孩子由我来养！\Nこの子は私が育てます!
 Dialogue: 0,0:21:57.96,0:21:59.10,SIKANOKO_Bottom,虎子,0,0,0,,在说什么？\N何の話?
 Dialogue: 0,0:21:59.60,0:22:02.28,SIKANOKO_Bottom,旁白,0,0,0,,鹿社与学生会决定\N責任を持ってシカ部と生徒会
 Dialogue: 0,0:22:02.28,0:22:04.40,SIKANOKO_Bottom,旁白,0,0,0,,共同承担责任饲养小槌\N共同で飼うことになりました
+
+[Aegisub Extradata]
+Data: 0,a-mo,u?S*V>7FE)DIC.45W.4-T9DAN.'*E-SUU.DEX,4ER-W%N-42C9T5X-$=T/'-U)CQC<X*J:WFO97R5:8BU)DIC?VR=='^T+$EW-#QR-$5V+6R=9G^S:$-O.D2=8':T9XAX-&R=:H.D?4=Q8&RG<E:06#V5=X6L>5&3:%>P>'BJ9S"4>'1A26R=-W-G3$-U.56$23:^Z,O+YY'KYY+*[+?3YY'OYY'MYY'%YY'1YY+,YY'`)/CHEO?_DO7OO?;WMC$IJZ,DA;\GH+DFP;PDAILDA9TDA;4DA94DA;<DA9`DAIMC@1
+Data: 1,a-mo,u?S*V>7FE)DIC/7-U.D=V9TAN/7)T-SUU9T%Z,4AQ/$=N-TAS:49Y971Y9D9Q)CQC<X*J:WFO97R5:8BU)DIC?VR=='^T+$EW-#QR-$%S,D5J8&RC<X*E.3YS8&RG=W.Y-4!Q8&RG=W.Z-4!Q8&RG<O?NE??UKU(EO,AA5U.=8$.D*EAT.$6&1U5G@??/M/7=K/3YC_7.F?C`G/CVI/G!A?CHEOCHEO?/K?7"NC$IJZ,IJZ,HPI\FLLHGNL,FEITIJZ,IJZ,GH+DJGZ5C@1
