@@ -9,15 +9,14 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/ep6.mkv
-Video File: C:/Users/scree/Desktop/ep6.mkv
-Keyframes File: C:/Users/scree/Desktop/ep6_keyframes.txt
+Audio File: C:/Users/scree/Desktop/sino_ep6/ep6.mkv
+Video File: C:/Users/scree/Desktop/sino_ep6/ep6.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.000000
-Scroll Position: 243
-Active Line: 252
-Video Position: 648
+Video Zoom Percent: 0.875000
+Scroll Position: 142
+Active Line: 152
+Video Position: 10004
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -30,7 +29,7 @@ Style: STF,筑紫A丸 SC,50,&H00FFFFFF,&H000000FF,&H00345B85,&H00000000,-1,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code once anystyle,monolingual = false
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code once anystyle,monolingual = true
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,colors,0,0,0,code once anystyle,charactor_color = {     ["鹿乃子"] = "&H3361FF&",     ["虎子"] = "&H0094AA&",     ["馅子"] = "&HE56CB4&",     ["马车芽"] = "&H4DB477&",     ["根子"] = "&H7D5BDB&",     ["绢"] = "&HC182DC&",     ["千春"] = "&HAE6238&",} function search_for_color(input_text)     for k, v in _G.pairs(charactor_color) do         if string.find(input_text, k) then             return v         end     end     return "&H345B85&" end function name_color(color)     return colorlib.interp_xyz(0.5, "&H345B85&", color) end
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,utility,0,0,0,code once anystyle,function string:split(delimiter)     local result = {}     local from = 1     local delim_from, delim_to = string.find(self, delimiter, from, true)     while delim_from do         if (delim_from ~= 1) then             table.insert(result, string.sub(self, from, delim_from-1))         end         from = delim_to + 1         delim_from, delim_to = string.find(self, delimiter, from, true)     end     if (from <= #self) then table.insert(result, string.sub(self, from)) end     return result end
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,global settings,0,0,0,code once anystyle,_zh_jp_gap = 42.5; _zh_jp_gap_top=53.5; graphic_height_bottom = 30; graphic_height_top = 25; tc_fontname = "獅尾圓體-Bold"; if monolingual then _zh_jp_gap = 0 _zh_jp_gap_top = 0 end;
@@ -57,8 +56,7 @@ Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 0,0:01:57.01,0:02:02.02,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord5\c&HAF6237&\3c&HFEDBC7&}夏鹿祭
 Comment: 0,0:22:02.28,0:22:04.40,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
 Comment: 0,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,衷心感谢一直以来观看《鹿乃子乃子乃子虎视眈眈》的各位观众\Nいつもしかのこのこのここしたんたんをご覧の皆様まことにありがとうございます
-Dialogue: 9,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,887.5,960,1012.5,4787,5287)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345B85&}衷心感谢一直以来观看《鹿乃子乃子乃子虎视眈眈》的各位观众
-Dialogue: 8,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,930,960,1055,4787,5287)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H345B85&}いつもしかのこのこのここしたんたんをご覧の皆様まことにありがとうございます
+Dialogue: 9,0:00:00.76,0:00:06.86,SIKANOKO_Bottom,旁白,0,0,150,,{\move(960,930,960,1055,4787,5287)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345B85&}衷心感谢一直以来观看《鹿乃子乃子乃子虎视眈眈》的各位观众
 Comment: 0,0:00:06.86,0:00:10.07,SIKANOKO_Bottom,旁白,0,0,0,kara,虽然我们在鹿保团体的抗议中瑟瑟发抖\N鹿愛護団体からの抗議にビクビクする中
 Comment: 0,0:00:10.07,0:00:13.65,SIKANOKO_Bottom,旁白,0,0,0,kara,但是节目的播出还是平稳地迎来过半\N無事放送も折り返し地点を迎えました
 Comment: 0,0:00:13.65,0:00:17.62,SIKANOKO_Bottom,旁白,0,0,0,kara,本集是特别篇 在平时的日常之上\Nそこで今回は 特別編として通常の話に加え
@@ -156,69 +154,38 @@ Comment: 0,0:06:42.36,0:06:45.72,SIKANOKO_Top,鹿乃子,0,0,0,kara,打{\fscx50} 
 Comment: 0,0:06:45.95,0:06:48.97,SIKANOKO_Bottom,馅子,0,0,0,kara,2980{\fscx50} {\fscx100}日元？真的吗？\N2,980{\fscx50} {\fscx100}円？本当に？
 Comment: 0,0:06:49.32,0:06:51.72,SIKANOKO_Top,鹿乃子,0,0,0,kara,而且一次买三个可以享受全国包邮哦\Nさらに{\fscx50} {\fscx100}3{\fscx50} {\fscx100}個セットなら送料無料
 Comment: 0,0:06:52.10,0:06:57.36,SIKANOKO_Bottom,鹿乃子,0,0,0,,现在下单还赠送角角玩偶 角角美容液和角角木雕\N今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 9,0:06:52.09,0:06:56.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(960,1012.5)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.14,0:06:56.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(961.05,1011.07)\bord5.19\fscx99.82\fscy99.82\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.18,0:06:56.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(964.72,1007.23)\bord5.16\fscx99.29\fscy99.29\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.22,0:06:56.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(970.56,1001.17)\bord5.12\fscx98.44\fscy98.44\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.27,0:06:56.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(978.29,993.2)\bord5.06\fscx97.32\fscy97.32\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.31,0:06:56.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(987.62,983.58)\bord4.99\fscx95.97\fscy95.97\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.35,0:06:56.39,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(998.24,972.67)\bord4.91\fscx94.44\fscy94.44\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.39,0:06:56.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1009.86,960.74)\bord4.82\fscx92.76\fscy92.76\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.43,0:06:56.47,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1022.22,948.07)\bord4.73\fscx90.97\fscy90.97\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.47,0:06:56.52,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1035.05,934.92)\bord4.63\fscx89.12\fscy89.12\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.52,0:06:56.56,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1048.14,921.52)\bord4.54\fscx87.24\fscy87.24\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.56,0:06:56.60,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1061.28,908.07)\bord4.44\fscx85.34\fscy85.34\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.60,0:06:56.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1074.36,894.78)\bord4.34\fscx83.46\fscy83.46\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.64,0:06:56.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1087.18,881.76)\bord4.24\fscx81.62\fscy81.62\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.68,0:06:56.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1099.62,869.12)\bord4.15\fscx79.83\fscy79.83\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.72,0:06:56.77,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1111.6,856.98)\bord4.06\fscx78.11\fscy78.11\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.77,0:06:56.81,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1123,845.4)\bord3.98\fscx76.48\fscy76.48\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.81,0:06:56.85,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1133.79,834.44)\bord3.9\fscx74.93\fscy74.93\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.85,0:06:56.89,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1143.9,824.17)\bord3.82\fscx73.47\fscy73.47\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.89,0:06:56.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1153.29,814.63)\bord3.75\fscx72.13\fscy72.13\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.93,0:06:56.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1161.94,805.86)\bord3.69\fscx70.88\fscy70.88\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:56.97,0:06:57.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1169.8,797.88)\bord3.63\fscx69.75\fscy69.75\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.02,0:06:57.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1176.85,790.71)\bord3.57\fscx68.74\fscy68.74\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.06,0:06:57.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1183.08,784.4)\bord3.53\fscx67.85\fscy67.85\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.10,0:06:57.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1188.45,778.94)\bord3.49\fscx67.08\fscy67.08\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.14,0:06:57.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1192.93,774.39)\bord3.45\fscx66.43\fscy66.43\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.18,0:06:57.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1196.5,770.77)\bord3.43\fscx65.92\fscy65.92\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.22,0:06:57.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1199.11,768.12)\bord3.41\fscx65.55\fscy65.55\fn筑紫A丸 SC\3c&H345ECE&\iclip(m 739.69 702.11 l 795.17 715.82 b 797.63 733.74 797.63 761.13 796.58 774.83 l 739.69 775.18)}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.27,0:06:57.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1200.71,766.5)\bord3.4\fscx65.32\fscy65.32\fn筑紫A丸 SC\3c&H345ECE&\iclip(m 747.33 699.56 l 802.81 713.27 b 805.27 731.19 805.27 758.58 804.22 772.28 l 747.33 772.63)}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 9,0:06:57.31,0:06:57.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=1}{\1a&H00&\3a&H14&\pos(1201.27,765.93)\bord3.39\fscx65.24\fscy65.24\fn筑紫A丸 SC\3c&H345ECE&\iclip(m 750.17 698.71 l 805.65 712.42 b 808.11 730.34 808.11 757.73 807.06 771.43 l 750.17 771.78)}现在下单还赠送角角玩偶 角角美容液和角角木雕
-Dialogue: 8,0:06:52.09,0:06:56.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(960,1055)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.14,0:06:56.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(961.05,1053.5)\bord3.63\fscx69.88\fscy69.88\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.18,0:06:56.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(964.72,1049.43)\bord3.61\fscx69.5\fscy69.5\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.22,0:06:56.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(970.56,1043.01)\bord3.58\fscx68.91\fscy68.91\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.27,0:06:56.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(978.29,1034.56)\bord3.54\fscx68.13\fscy68.13\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.31,0:06:56.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(987.62,1024.37)\bord3.49\fscx67.18\fscy67.18\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.35,0:06:56.39,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(998.24,1012.81)\bord3.44\fscx66.11\fscy66.11\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.39,0:06:56.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1009.86,1000.16)\bord3.38\fscx64.93\fscy64.93\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.43,0:06:56.47,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1022.22,986.74)\bord3.31\fscx63.68\fscy63.68\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.47,0:06:56.52,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1035.05,972.8)\bord3.24\fscx62.39\fscy62.39\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.52,0:06:56.56,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1048.14,958.59)\bord3.18\fscx61.06\fscy61.06\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.56,0:06:56.60,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1061.28,944.34)\bord3.11\fscx59.74\fscy59.74\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.60,0:06:56.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1074.36,930.25)\bord3.04\fscx58.42\fscy58.42\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.64,0:06:56.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1087.18,916.45)\bord2.97\fscx57.13\fscy57.13\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.68,0:06:56.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1099.62,903.05)\bord2.91\fscx55.88\fscy55.88\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.72,0:06:56.77,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1111.6,890.17)\bord2.84\fscx54.68\fscy54.68\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.77,0:06:56.81,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1123,877.9)\bord2.78\fscx53.53\fscy53.53\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.81,0:06:56.85,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1133.79,866.29)\bord2.73\fscx52.45\fscy52.45\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.85,0:06:56.89,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1143.9,855.4)\bord2.67\fscx51.43\fscy51.43\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.89,0:06:56.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1153.29,845.29)\bord2.63\fscx50.49\fscy50.49\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.93,0:06:56.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1161.94,835.99)\bord2.58\fscx49.62\fscy49.62\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:56.97,0:06:57.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1169.8,827.52)\bord2.54\fscx48.83\fscy48.83\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.02,0:06:57.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1176.85,819.93)\bord2.5\fscx48.12\fscy48.12\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.06,0:06:57.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1183.08,813.23)\bord2.47\fscx47.49\fscy47.49\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.10,0:06:57.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1188.45,807.45)\bord2.44\fscx46.95\fscy46.95\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.14,0:06:57.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1192.93,802.62)\bord2.42\fscx46.5\fscy46.5\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.18,0:06:57.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1196.5,798.79)\bord2.4\fscx46.14\fscy46.14\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.22,0:06:57.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1199.11,795.98)\bord2.39\fscx45.88\fscy45.88\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.27,0:06:57.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1200.71,794.26)\bord2.38\fscx45.72\fscy45.72\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
-Dialogue: 8,0:06:57.31,0:06:57.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=0}{\1a&H00&\3a&H14&\pos(1201.27,793.65)\bord2.37\fscx45.67\fscy45.67\fnFOT-TsukuARdGothic Std E\3c&H345ECE&}今なら角のぬいぐるみ 角美容液 角の木彫りがついてくる
+Dialogue: 9,0:06:52.09,0:06:56.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(960,1055)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.14,0:06:56.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(961.05,1053.5)\bord5.19\fscx99.82\fscy99.82\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.18,0:06:56.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(964.72,1049.43)\bord5.16\fscx99.29\fscy99.29\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.22,0:06:56.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(970.56,1043.01)\bord5.12\fscx98.44\fscy98.44\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.27,0:06:56.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(978.29,1034.56)\bord5.06\fscx97.32\fscy97.32\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.31,0:06:56.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(987.62,1024.37)\bord4.99\fscx95.97\fscy95.97\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.35,0:06:56.39,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(998.24,1012.81)\bord4.91\fscx94.44\fscy94.44\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.39,0:06:56.43,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1009.86,1000.16)\bord4.82\fscx92.76\fscy92.76\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.43,0:06:56.47,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1022.22,986.74)\bord4.73\fscx90.97\fscy90.97\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.47,0:06:56.52,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1035.05,972.8)\bord4.63\fscx89.12\fscy89.12\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.52,0:06:56.56,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1048.14,958.59)\bord4.54\fscx87.24\fscy87.24\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.56,0:06:56.60,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1061.28,944.34)\bord4.44\fscx85.34\fscy85.34\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.60,0:06:56.64,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1074.36,930.25)\bord4.34\fscx83.46\fscy83.46\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.64,0:06:56.68,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1087.18,916.45)\bord4.24\fscx81.62\fscy81.62\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.68,0:06:56.72,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1099.62,903.05)\bord4.15\fscx79.83\fscy79.83\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.72,0:06:56.77,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1111.6,890.17)\bord4.06\fscx78.11\fscy78.11\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.77,0:06:56.81,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1123,877.9)\bord3.98\fscx76.48\fscy76.48\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.81,0:06:56.85,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1133.79,866.29)\bord3.9\fscx74.93\fscy74.93\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.85,0:06:56.89,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1143.9,855.4)\bord3.82\fscx73.47\fscy73.47\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.89,0:06:56.93,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1153.29,845.29)\bord3.75\fscx72.13\fscy72.13\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.93,0:06:56.97,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1161.94,835.99)\bord3.69\fscx70.88\fscy70.88\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:56.97,0:06:57.02,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1169.8,827.52)\bord3.63\fscx69.75\fscy69.75\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.02,0:06:57.06,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1176.85,819.93)\bord3.57\fscx68.74\fscy68.74\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.06,0:06:57.10,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1183.08,813.23)\bord3.53\fscx67.85\fscy67.85\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.10,0:06:57.14,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1188.45,807.45)\bord3.49\fscx67.08\fscy67.08\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.14,0:06:57.18,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1192.93,802.62)\bord3.45\fscx66.43\fscy66.43\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.18,0:06:57.22,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1196.5,798.79)\bord3.43\fscx65.92\fscy65.92\fn筑紫A丸 SC\3c&H345ECE&}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.22,0:06:57.27,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1199.11,795.98)\bord3.41\fscx65.55\fscy65.55\fn筑紫A丸 SC\3c&H345ECE&\iclip(m 761.55 736.97 l 796.56 736.97 b 799.56 751.83 797.49 782.24 794.26 797.79 l 761.55 796.41)}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.27,0:06:57.31,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1200.71,794.26)\bord3.4\fscx65.32\fscy65.32\fn筑紫A丸 SC\3c&H345ECE&\iclip(m 768.97 737.75 l 803.98 737.75 b 806.98 752.61 804.91 783.02 801.68 798.57 l 768.97 797.19)}现在下单还赠送角角玩偶 角角美容液和角角木雕
+Dialogue: 9,0:06:57.31,0:06:57.35,SIKANOKO_Bottom,鹿乃子,0,0,0,,{=2}{\1a&H00&\3a&H14&\pos(1201.27,793.65)\bord3.39\fscx65.24\fscy65.24\fn筑紫A丸 SC\3c&H345ECE&\iclip(m 771.32 735.8 l 806.33 735.8 b 809.33 750.66 807.26 781.07 804.03 796.62 l 771.32 795.24)}现在下单还赠送角角玩偶 角角美容液和角角木雕
 Comment: 0,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,,太赚啦\Nお得
-Dialogue: 9,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,,{\pos(1201.27,765.93)\bord3.39\fscx65.24\fscy65.24\fn筑紫A丸 SC\3c&HAB649F&}太赚啦
-Dialogue: 8,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,,{\pos(1201.27,793.65)\bord2.37\fscx45.67\fscy45.67\fnFOT-TsukuARdGothic Std E\3c&HAB649F&}お得
+Dialogue: 9,0:06:57.36,0:06:58.48,SIKANOKO_Bottom,馅子,0,0,0,,{\pos(1201.27,793.65)\bord3.39\fscx65.24\fscy65.24\fn筑紫A丸 SC\3c&HAB649F&}太赚啦
 Comment: 0,0:07:03.17,0:07:05.66,SIKANOKO_Bottom,根子,0,0,0,kara,不是 认真的吗 什么角型印章盒\Nいいや 角型印鑑ケースって
 Comment: 0,0:07:11.26,0:07:13.40,SIKANOKO_Bottom,绢,0,0,0,kara,千春 感觉你今天很开心呀\N千春 嬉しそうだね
 Comment: 0,0:07:13.40,0:07:14.39,SIKANOKO_Bottom,绢,0,0,0,kara,那是什么？\Nそれ何？
@@ -546,3 +513,4 @@ Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,import,screen/screen.ass
 [Aegisub Extradata]
 Data: 0,a-mo,u?S*V>7FE)DIC.45W.4-T9DAN.'*E-SUU.DEX,4ER-W%N-42C9T5X-$=T/'-U)CQC<X*J:WFO97R5:8BU)DIC?VR=='^T+$EW-#QR-$5V+6R=9G^S:$-O.D2=8':T9XAX-&R=:H.D?4=Q8&RG<E:06#V5=X6L>5&3:%>P>'BJ9S"4>'1A26R=-W-G3$-U.56$23:^Z,O+YY'KYY+*[+?3YY'OYY'MYY'%YY'1YY+,YY'`)/CHEO?_DO7OO?;WMC$IJZ,DA;\GH+DFP;PDAILDA9TDA;4DA94DA;<DA9`DAIMC@1
 Data: 1,a-mo,u?S*V>7FE)DIC/7-U.D=V9TAN/7)T-SUU9T%Z,4AQ/$=N-TAS:49Y971Y9D9Q)CQC<X*J:WFO97R5:8BU)DIC?VR=='^T+$EW-#QR-$%S,D5J8&RC<X*E.3YS8&RG=W.Y-4!Q8&RG=W.Z-4!Q8&RG<O?NE??UKU(EO,AA5U.=8$.D*EAT.$6&1U5G@??/M/7=K/3YC_7.F?C`G/CVI/G!A?CHEOCHEO?/K?7"NC$IJZ,IJZ,HPI\FLLHGNL,FEITIJZ,IJZ,GH+DJGZ5C@1
+Data: 2,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RQ<X-I/49Q,$%Q.45J8&RC<X*E.3YS8&RG=W.Y-4!Q8&RG=W.Z-4!Q8&RG<O?NE??UKU(EO,AA5U.=8$.D*EAT.$6&1U5G@??/M/7=K/3YC_7.F?C`G/CVI/G!A?CHEOCHEO?/K?7"NC$IJZ,IJZ,HPI\FLLHGNL,FEITIJZ,IJZ,GH+DJGZ5C,#*V>7FE)DIC9G1Y/'.B:'-N.'.E.#UU:G6E,7)R-W5N:42F9W*C.45Q.4:D)HU
