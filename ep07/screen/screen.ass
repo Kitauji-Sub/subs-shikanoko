@@ -3017,7 +3017,7 @@ Dialogue: 0,0:14:43.57,0:14:47.49,OnScreen,,0,0,0,,{\an1\fn思源黑体\b0\pos(1
 Dialogue: 0,0:14:43.57,0:14:47.41,OnScreen,,0,0,0,,{\an1\fn思源黑体\b0\pos(1590,999)}无敌…
 Dialogue: 0,0:14:43.57,0:14:47.49,OnScreen,,0,0,0,,{\an1\fn思源黑体\b0\pos(1590,811)}报警了报警了
 Dialogue: 0,0:14:48.58,0:14:51.58,OnScreen,,0,0,0,eyecatch,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(84.07,257.53)}神奈川县\N相州春日神社
-Dialogue: 0,0:14:54.33,0:14:56.71,OnScreen,,0,0,0,,{\fn思源黑体 Medium \b0\c&H76787E&\fscx350\fscy350\pos(943,817)}春燕咖啡厅
+Dialogue: 0,0:14:54.33,0:14:56.71,OnScreen,,0,0,0,,{\fn思源黑体 Medium\b0\c&H76787E&\fscx350\fscy350\pos(943,817)}春燕咖啡厅
 Dialogue: 0,0:15:10.72,0:15:17.23,OnScreen,,0,0,0,track,{=281}{\clip()\frz0\t(24,6489,\frz0)\alpha&H00&\fade(255,0,255,0,1526,4984,6510)\c&H1A242C&\fn獅尾圓體SC-Bold\fscx70\t(24,6489,\fscx70)\fscy70\t(24,6489,\fscy70)\move(1538.07,626.65,1299.11,626.49,24,6489)}早餐套餐
 Dialogue: 0,0:15:10.72,0:15:17.23,OnScreen,,0,0,0,track,{=280}{\clip()\frz0\t(24,6489,\frz0)\alpha&H00&\fade(255,0,255,0,1526,4984,6510)\c&H1A242C&\fn獅尾圓體SC-Bold\fscx50\t(24,6489,\fscx50)\fscy50\t(24,6489,\fscy50)\move(1540.26,784.89,1301.3,784.73,24,6489)}早餐套餐 Aroma Blend咖啡
 Dialogue: 0,0:15:15.72,0:15:15.77,OnScreen,,0,0,0,track,{=289=290}{\alpha&HFF&\c&H393032&\fax0.402996\fscx173\fscy200.98\frz-18.91\frx-0.1026\fry-2.3064\org(712.38,512.18)\pos(698.46,552.38)}春燕咖啡厅
