@@ -15,7 +15,7 @@ Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
 Scroll Position: 434
-Active Line: 448
+Active Line: 446
 Video Position: 31770
 
 [V4+ Styles]
@@ -475,6 +475,6 @@ Comment: 0,0:21:58.69,0:22:00.76,SIKANOKO_Bottom,马车芽,0,0,0,kara,啊 真好
 Comment: 0,0:22:01.50,0:22:02.16,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,很角\Nのつ
 Comment: 0,0:22:02.16,0:22:04.47,SIKANOKO_Bottom,虎子,0,0,0,kara,所以说你那对角也太开挂了吧\Nだからチート過ぎだってその角!
 Comment: 0,0:01:15.97,0:01:16.01,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_sc.ass
-Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_tc.ass
+Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import-shifted,../ed_sc.ass
 Comment: 0,0:22:05.05,0:22:07.05,SIKANOKO_Bottom,,0,0,0,import,insert/insert01.ass
 Comment: 0,0:22:05.05,0:22:07.05,SIKANOKO_Bottom,,0,0,0,import,screen/screen.ass
