@@ -7,6 +7,16 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/ep8.mkv
+Video File: C:/Users/scree/Desktop/ep8.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.750000
+Scroll Position: 15
+Active Line: 26
+Video Position: 28707
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Insert_CN,思源黑体 Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,85,1
@@ -28,4 +38,29 @@ Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
-Dialogue: 0,0:00:00.00,0:00:02.00,Insert_JP,,0,0,0,,
+Comment: 0,0:15:50.89,0:15:52.55,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:15:54.80,0:15:56.26,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:15:58.65,0:16:00.16,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:16:02.51,0:16:03.98,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:19:08.78,0:19:12.40,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:19:12.40,0:19:16.78,Insert_JP,,0,0,0,kara,シカ シカ
+Comment: 0,0:19:17.12,0:19:24.57,Insert_JP,,0,0,0,kara,シカ シカ
+Comment: 0,0:19:25.37,0:19:29.14,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:19:29.14,0:19:33.63,Insert_JP,,0,0,0,kara,シカ シカ
+Comment: 0,0:19:33.96,0:19:42.11,Insert_JP,,0,0,0,kara,シカ シカ
+Comment: 0,0:19:45.70,0:19:48.90,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:19:49.74,0:19:52.85,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:19:53.72,0:19:58.98,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:15:50.89,0:15:52.55,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:15:54.80,0:15:56.26,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:15:58.65,0:16:00.16,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:16:02.51,0:16:03.98,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:19:08.78,0:19:12.40,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:19:12.40,0:19:16.78,Insert_CN,,0,0,0,kara,鹿鹿 鹿鹿
+Comment: 0,0:19:17.12,0:19:24.57,Insert_CN,,0,0,0,kara,鹿鹿 鹿鹿
+Comment: 0,0:19:25.37,0:19:29.14,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:19:29.14,0:19:33.63,Insert_CN,,0,0,0,kara,鹿鹿 鹿鹿
+Comment: 0,0:19:33.96,0:19:42.11,Insert_CN,,0,0,0,kara,鹿鹿 鹿鹿
+Comment: 0,0:19:45.70,0:19:48.90,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:19:49.74,0:19:52.85,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:19:53.72,0:19:58.98,Insert_CN,,0,0,0,kara,鹿鹿
