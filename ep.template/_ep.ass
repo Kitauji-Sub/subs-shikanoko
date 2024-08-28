@@ -9,6 +9,7 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
+Active Line: 10
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -31,7 +32,7 @@ Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,code once,graphic_width = 50
 Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line notext,{\an7\1c&H345B84&\1a&H00&\3c&HF0F0F0&\3a&H00&\bord4.5\shad0\p1\fry180\fscx200\fscy200\pos(!line.left + graphic_width - 18!,!line.top!)}m 1.4 0 l 1.4 0 1 0.3 b 0 1.7 -0.4 5.6 0.6 8.9 b 1.7 12.6 5.1 17.8 11.2 21.6 l 11.9 22.1 b 16.2 24.8 20.7 27.5 27.1 27.5 b 31.8 27.5 35 26.3 35 25.1 l 35 25.1 33.1 24.4 b 32.6 24.2 32 24.1 31.4 23.9 b 31.1 23.8 30.8 23.7 30.5 23.6 l 30.5 23.6 27 21.8 25.4 19.6 b 24.9 18.7 24.5 17.9 24.2 17.3 b 23.5 15.6 23.1 14.9 21.8 14.3 l 21.8 14.3 21.5 16.1 b 21.5 16.3 21.4 16.6 21.4 16.9 b 21.1 18.9 20.2 19.4 19.5 19.5 b 16.7 19.6 14.7 12.8 14.5 12.1 l 14.5 12.1 13.6 8.2 13.5 7.4 b 13.1 4.8 12.9 4.4 12.5 4.4 b 11.7 4.4 11 4.4 11 7.6 l 11 7.6 11.2 9.8 b 11.4 11.2 11.6 12.3 10.9 13.2 l 10.9 13.2 9.4 13.8 b 6.3 13.8 4.3 5.7 4.1 4.8 b 3.2 0.9 2.7 0 1.4 0 {\p0}
 Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line,{\pos(!line.left + graphic_width!,!line.top + 5!)}
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====STF=====
-Dialogue: 0,0:00:00.00,0:00:00.00,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
+Dialogue: 0,0:00:00.00,0:00:00.00,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募翻译校对时轴，招募群: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：三千年世界　{\c&H80DDFE&}校{\r}对：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 0,0:00:00.00,0:00:00.00,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord5\c&H359CF2&\3c&H0366FE&}
