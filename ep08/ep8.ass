@@ -14,8 +14,8 @@ Video File: C:/Users/scree/Desktop/ep8.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.875000
-Scroll Position: 434
-Active Line: 446
+Scroll Position: 21
+Active Line: 15
 Video Position: 31770
 
 [V4+ Styles]
@@ -44,8 +44,8 @@ Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 0,0:02:46.02,0:02:51.03,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord5\c&HF3F2F2&\3c&H5D2AF1&}鹿鹿去也，鹿鹿来哉
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
-Comment: 0,0:00:01.57,0:00:03.83,SIKANOKO_Bottom,旁白,0,0,150,kara,12月31日\N12月31日
-Comment: 0,0:00:03.83,0:00:05.99,SIKANOKO_Bottom,旁白,0,0,150,kara,临近午夜\N時刻は0時間近
+Comment: 0,0:00:01.57,0:00:03.83,SIKANOKO_Bottom,旁白,0,0,150,kara,12{\fscx50} {\fscx100}月{\fscx50} {\fscx100}31{\fscx50} {\fscx100}日\N12{\fscx50} {\fscx100}月{\fscx50} {\fscx100}31{\fscx50} {\fscx100}日
+Comment: 0,0:00:03.83,0:00:05.99,SIKANOKO_Bottom,旁白,0,0,150,kara,临近午夜\N時刻は{\fscx50} {\fscx100}0{\fscx50} {\fscx100}時間近
 Comment: 0,0:00:10.94,0:00:13.72,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子那家伙也太慢了吧\N鹿乃子のやつ おっせぇな
 Comment: 0,0:00:14.02,0:00:18.05,SIKANOKO_Bottom,虎子,0,0,0,kara,明明是她邀请我来新年参拜 结果竟然迟到了\Nあいつ この私を初詣に誘っておいて待たせるとは
 Comment: 0,0:00:18.05,0:00:19.42,SIKANOKO_Bottom,虎子,0,0,0,kara,胆子很大嘛\Nいい度胸してんな
@@ -54,52 +54,52 @@ Comment: 0,0:00:20.63,0:00:24.12,SIKANOKO_Bottom,馅子,0,0,0,kara,竟然在新�
 Comment: 0,0:00:24.12,0:00:26.71,SIKANOKO_Bottom,马车芽,0,0,0,kara,看来会过个好年呢\Nいい一年になりそうですね
 Comment: 0,0:00:26.71,0:00:28.55,SIKANOKO_Bottom,虎子,0,0,0,kara,我可没说要和你立下誓言\N別に誓わねえから
 Comment: 0,0:00:30.46,0:00:33.82,SIKANOKO_Bottom,虎子,0,0,0,kara,算了 我们自己去参拜吧\Nしゃーね 私たちだけでお参りしてくか
-Comment: 0,0:00:36.19,0:00:36.79,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nうん?
+Comment: 0,0:00:36.19,0:00:36.79,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nうん？
 Comment: 0,0:00:39.78,0:00:43.16,SIKANOKO_Bottom,路人,0,0,0,kara,马上就到开龛时间了 我都要等不及啦\Nそろそろご開帳の時間よ 待ち遠しいわ
 Comment: 0,0:00:43.16,0:00:45.00,SIKANOKO_Bottom,路人,0,0,0,kara,毕竟一年就一次嘛\N一年に一度だものね
-Comment: 0,0:00:45.00,0:00:47.21,SIKANOKO_Bottom,虎子,0,0,0,kara,这是有什么活动吗？\Nなんかイベントでもあるのかな?
-Comment: 0,0:00:47.53,0:00:49.13,SIKANOKO_Bottom,路人,0,0,0,kara,啊 巫女大人来了\Nおっ みこさんが来た!
+Comment: 0,0:00:45.00,0:00:47.21,SIKANOKO_Bottom,虎子,0,0,0,kara,这是有什么活动吗？\Nなんかイベントでもあるのかな？
+Comment: 0,0:00:47.53,0:00:49.13,SIKANOKO_Bottom,路人,0,0,0,kara,啊 巫女大人来了\Nおっ みこさんが来た！
 Comment: 0,0:01:08.54,0:01:09.04,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:01:09.54,0:01:11.46,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子！\N鹿乃子!
+Comment: 0,0:01:09.54,0:01:11.46,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子！\N鹿乃子！
 Comment: 0,0:01:11.80,0:01:15.47,SIKANOKO_Bottom,旁白,0,0,0,kara,来新年参拜 竟发现鹿宝变成了神\N初詣に来たら のこたんが神になっていた
-Comment: 0,0:02:51.03,0:02:53.34,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 等等 鹿乃子？\Nちょっ まっ 鹿乃子?
-Comment: 0,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,你在干什么啊\Nえっ 何してんの?
+Comment: 0,0:02:51.03,0:02:53.34,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 等等 鹿乃子？\Nちょっ まっ 鹿乃子？
+Comment: 0,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,你在干什么啊\Nえっ 何してんの？
 Comment: 0,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,那就是鹿神大人吗\Nあれが鹿神様ですか
 Dialogue: 9,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,{\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H237C99&\move(960,1012.5,-240,1012.5,1293,1693)}你在干什么啊
-Dialogue: 8,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,{\move(960,1055,-240,1055,1293,1693)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H237C99&}えっ 何してんの?
+Dialogue: 8,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,{\move(960,1055,-240,1055,1293,1693)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H237C99&}えっ 何してんの？
 Dialogue: 9,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,{\move(2500,1012.5,1100,1012.5,1293,1693)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H42907E&}那就是鹿神大人吗
 Dialogue: 8,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,{\move(2500,1055,1100,1055,1293,1693)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H42907E&}あれが鹿神様ですか
 Comment: 0,0:02:57.34,0:02:59.35,SIKANOKO_Bottom,马车芽,290,0,0,kara,马车芽还是第一次见到\N馬車芽初めて見ました
 Comment: 0,0:02:59.35,0:03:00.77,SIKANOKO_Bottom,馅子,0,0,0,kara,好美的角啊\N立派な角ね
-Comment: 0,0:03:00.77,0:03:02.37,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿 鹿乃子成神了？\Nし 鹿乃子が神?
-Comment: 0,0:03:02.75,0:03:04.97,SIKANOKO_Bottom,虎子,0,0,0,kara,你们怎么还没反应过来\Nってか気付けよおめえら!
-Comment: 0,0:03:04.97,0:03:08.36,SIKANOKO_Bottom,路人,0,0,0,kara,汝是第一次来此神社吗\Nおぬし この神社は初めてかの?
-Comment: 0,0:03:08.36,0:03:08.97,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nえ?
+Comment: 0,0:03:00.77,0:03:02.37,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿 鹿乃子成神了？\Nし 鹿乃子が神？
+Comment: 0,0:03:02.75,0:03:04.97,SIKANOKO_Bottom,虎子,0,0,0,kara,你们怎么还没反应过来\Nってか気付けよおめえら！
+Comment: 0,0:03:04.97,0:03:08.36,SIKANOKO_Bottom,路人,0,0,0,kara,汝是第一次来此神社吗\Nおぬし この神社は初めてかの？
+Comment: 0,0:03:08.36,0:03:08.97,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nえ？
 Comment: 0,0:03:09.45,0:03:10.55,SIKANOKO_Bottom,虎子,0,0,0,kara,啊 是的\Nあ はい
-Comment: 0,0:03:10.80,0:03:14.69,SIKANOKO_Bottom,虎子,0,0,0,kara,啊！你就是上次那个小鹿狂热粉丝老婆婆！\Nあー!あんたはいつぞやのシカガチ勢おばあちゃん!
+Comment: 0,0:03:10.80,0:03:14.69,SIKANOKO_Bottom,虎子,0,0,0,kara,啊！你就是上次那个小鹿狂热粉丝老婆婆！\Nあー！あんたはいつぞやのシカガチ勢おばあちゃん！
 Comment: 0,0:03:14.69,0:03:18.25,SIKANOKO_Top,路人,0,0,0,kara,我就是日野的老婆婆 叫做犬养美津\N日野のババ様こと犬養ミツ
 Comment: 0,0:03:18.25,0:03:20.45,SIKANOKO_Top,路人,0,0,0,kara,在这里做宫司\Nここの宮司をしておるよ
 Comment: 0,0:03:20.45,0:03:23.56,SIKANOKO_Top,虎子,0,0,0,kara,这自我介绍 完全就是冲着常驻角色来的啊\N自己紹介 露骨にレギュラー狙ってきてる
 Comment: 0,0:03:24.04,0:03:27.28,SIKANOKO_Bottom,路人,0,0,0,kara,她是这座鹿神神社的神\N彼女はこの鹿神神社の神での
 Comment: 0,0:03:27.28,0:03:30.69,SIKANOKO_Bottom,路人,0,0,0,kara,是日野市鹿鹿繁荣的象征\N日野市の鹿繁栄の象徴なのじゃ
-Comment: 0,0:03:30.69,0:03:32.01,SIKANOKO_Bottom,虎子,0,0,0,kara,象征？\N象徴?
+Comment: 0,0:03:30.69,0:03:32.01,SIKANOKO_Bottom,虎子,0,0,0,kara,象征？\N象徴？
 Comment: 0,0:03:32.01,0:03:35.01,SIKANOKO_Bottom,虎子,0,0,0,kara,不是 日野又不是鹿群栖息地 祈求鹿鹿繁荣有什么用啊\Nって 日野で鹿の繁栄祈ってどうすんの
 Comment: 0,0:03:35.60,0:03:39.51,SIKANOKO_Bottom,虎子,0,0,0,kara,而 而且 她怎么看都只是一头普通的鹿吧\Nい いや あの子はどう見てもただの鹿ですよ
 Comment: 0,0:03:39.51,0:03:42.34,SIKANOKO_Bottom,虎子,0,0,0,kara,居然说她是神 有什么地方搞错了吧\N神様だなんて 何かの間違いじゃ
-Comment: 0,0:03:42.62,0:03:43.96,SIKANOKO_Bottom,路人,0,0,0,kara,闭嘴 小毛孩\N黙れ小僧!
-Comment: 0,0:03:43.96,0:03:45.29,SIKANOKO_Bottom,路人,0,0,0,kara,不 小姑娘\Nいや小娘!
+Comment: 0,0:03:42.62,0:03:43.96,SIKANOKO_Bottom,路人,0,0,0,kara,闭嘴 小毛孩\N黙れ小僧！
+Comment: 0,0:03:43.96,0:03:45.29,SIKANOKO_Bottom,路人,0,0,0,kara,不 小姑娘\Nいや小娘！
 Comment: 0,0:03:47.65,0:03:50.05,SIKANOKO_Bottom,路人,0,0,0,kara,那就请你拭目以待吧\Nその目で確かめるがよい
 Comment: 0,0:03:50.92,0:03:52.83,SIKANOKO_Bottom,虎子,0,0,0,kara,不是 我说 鹿乃子同学\Nちょっ ちょっと鹿乃子さん
 Comment: 0,0:03:52.83,0:03:54.42,SIKANOKO_Bottom,虎子,0,0,0,kara,你在那里干什么呢\N何してるのそんなとこで
-Comment: 0,0:03:54.76,0:03:56.42,SIKANOKO_Bottom,虎子,0,0,0,kara,快下来吧\N早く降りてきなさい!
-Comment: 0,0:03:57.61,0:04:02.11,SIKANOKO_Bottom,虎子,0,0,0,kara,那副开悟的表情是什么鬼 行了 快下来！\N何だその悟り顔 いいからとっとと降りてこい!
+Comment: 0,0:03:54.76,0:03:56.42,SIKANOKO_Bottom,虎子,0,0,0,kara,快下来吧\N早く降りてきなさい！
+Comment: 0,0:03:57.61,0:04:02.11,SIKANOKO_Bottom,虎子,0,0,0,kara,那副开悟的表情是什么鬼 行了 快下来！\N何だその悟り顔 いいからとっとと降りてこい！
 Comment: 0,0:04:02.11,0:04:03.92,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,吾非鹿乃子\N我 鹿乃子にあらず
 Comment: 0,0:04:05.32,0:04:06.76,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,吾乃鹿也\N我 鹿なり
-Comment: 0,0:04:06.76,0:04:09.77,SIKANOKO_Bottom,虎子,0,0,0,kara,这不一样吗 这时候不应该说「吾乃鹿神」吗\N一緒じゃん! そこは「鹿神なり」じゃないの
+Comment: 0,0:04:06.76,0:04:09.77,SIKANOKO_Bottom,虎子,0,0,0,kara,这不一样吗 这时候不应该说「吾乃鹿神」吗\N一緒じゃん！そこは「鹿神なり」じゃないの
 Comment: 0,0:04:11.90,0:04:13.57,SIKANOKO_Bottom,路人,0,0,0,kara,真是金玉良言啊\Nありがたいお言葉
 Comment: 0,0:04:13.95,0:04:16.61,SIKANOKO_Bottom,路人,0,0,0,kara,鹿神大人今年也会保佑日野\N今年も日野に鹿神様のご加護が
 Comment: 0,0:04:16.61,0:04:19.14,SIKANOKO_Bottom,路人,0,0,0,kara,新年伊始就有好兆头了啊\N新年早々 縁起がいいな
-Comment: 0,0:04:19.14,0:04:21.03,SIKANOKO_Bottom,虎子,0,0,0,kara,这些日野市民都被蒙在鼓里吧？\N日野市民騙されてない?
+Comment: 0,0:04:19.14,0:04:21.03,SIKANOKO_Bottom,虎子,0,0,0,kara,这些日野市民都被蒙在鼓里吧？\N日野市民騙されてない？
 Comment: 0,0:04:21.29,0:04:24.03,SIKANOKO_Bottom,马车芽,0,0,0,kara,希望今年能种成稻田\N今年こそ田んぼができますように
 Comment: 0,0:04:24.03,0:04:27.33,SIKANOKO_Bottom,馅子,0,0,0,kara,希望能和姐姐做这样那样的事\Nお姉ちゃんとあんなことやそんなことができますように
 Comment: 0,0:04:27.67,0:04:28.97,SIKANOKO_Bottom,虎子,0,0,0,kara,你们两个也这样吗\Nってお前らもか
@@ -108,19 +108,19 @@ Comment: 0,0:04:32.19,0:04:35.55,SIKANOKO_Bottom,虎子,0,0,0,kara,神和参拜�
 Comment: 0,0:04:35.55,0:04:36.96,SIKANOKO_Bottom,路人,0,0,0,kara,呵呵呵\Nフォッフォッフォッ
 Comment: 0,0:04:37.22,0:04:40.19,SIKANOKO_Bottom,路人,0,0,0,kara,小姑娘看来也对鹿神的开龛\Nお嬢さんも鹿神さまのご開帳
 Comment: 0,0:04:40.19,0:04:42.94,SIKANOKO_Bottom,路人,0,0,0,kara,十分满意呢\Nずいぶんと楽しまれたようで
-Comment: 0,0:04:42.94,0:04:45.24,SIKANOKO_Bottom,虎子,0,0,0,kara,你这是怎么看出来的啊\Nどこをどう見てそう思ったの?
-Comment: 0,0:04:45.24,0:04:48.60,SIKANOKO_Bottom,路人,0,0,0,kara,可以的话 不妨去求个神签吧\Nよければ おみくじを引いていかれては?
-Comment: 0,0:04:49.00,0:04:50.35,SIKANOKO_Bottom,虎子,0,0,0,kara,神签？\Nおみくじ?
+Comment: 0,0:04:42.94,0:04:45.24,SIKANOKO_Bottom,虎子,0,0,0,kara,你这是怎么看出来的啊\Nどこをどう見てそう思ったの？
+Comment: 0,0:04:45.24,0:04:48.60,SIKANOKO_Bottom,路人,0,0,0,kara,可以的话 不妨去求个神签吧\Nよければ おみくじを引いていかれては？
+Comment: 0,0:04:49.00,0:04:50.35,SIKANOKO_Bottom,虎子,0,0,0,kara,神签？\Nおみくじ？
 Comment: 0,0:04:50.71,0:04:55.40,SIKANOKO_Bottom,路人,0,0,0,kara,我们鹿神神社的神签就是以灵验著称的哦\Nわが鹿神神社のおみくじは当たると評判なのですよ
 Comment: 0,0:04:55.60,0:04:56.70,SIKANOKO_Bottom,虎子,0,0,0,kara,诶\Nへえ
 Comment: 0,0:04:56.70,0:04:58.09,SIKANOKO_Bottom,虎子,0,0,0,kara,既然都说到这个份上了\Nそこまで言うなら
 Comment: 0,0:05:00.03,0:05:02.37,SIKANOKO_Bottom,虎子,0,0,0,kara,要抽就抽个大吉这样的好签吧\Nどうせなら大吉とかいいやつを
-Comment: 0,0:05:02.68,0:05:03.32,SIKANOKO_Bottom,虎子,0,0,0,kara,嘿！\Nえへいっ!
-Comment: 0,0:05:04.13,0:05:05.54,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？这是\Nん?これは?
+Comment: 0,0:05:02.68,0:05:03.32,SIKANOKO_Bottom,虎子,0,0,0,kara,嘿！\Nえへいっ！
+Comment: 0,0:05:04.13,0:05:05.54,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？这是\Nん？これは？
 Comment: 0,0:05:07.33,0:05:08.68,SIKANOKO_Bottom,虎子,0,0,0,kara,这也叫运势？\N運勢とは
-Comment: 0,0:05:10.12,0:05:13.24,SIKANOKO_Bottom,虎子,0,0,0,kara,这是在说我会找回角？我可不记得丢过啊？\N角が見つかるってこと?なくした覚えもねぇが
-Comment: 0,0:05:13.91,0:05:17.52,SIKANOKO_Bottom,虎子,0,0,0,kara,这签除了鹿和角的内容就没有其他的了吗！\Nさっきから鹿と角しか出てこねえのかこのおみくじは!
-Comment: 0,0:05:17.98,0:05:19.67,SIKANOKO_Bottom,虎子,0,0,0,kara,而且写得详细过头了吧\Nあと無駄に細けぇ!
+Comment: 0,0:05:10.12,0:05:13.24,SIKANOKO_Bottom,虎子,0,0,0,kara,这是在说我会找回角？我可不记得丢过啊？\N角が見つかるってこと？なくした覚えもねぇが
+Comment: 0,0:05:13.91,0:05:17.52,SIKANOKO_Bottom,虎子,0,0,0,kara,这签除了鹿和角的内容就没有其他的了吗！\Nさっきから鹿と角しか出てこねえのかこのおみくじは！
+Comment: 0,0:05:17.98,0:05:19.67,SIKANOKO_Bottom,虎子,0,0,0,kara,而且写得详细过头了吧\Nあと無駄に細けぇ！
 Comment: 0,0:05:19.87,0:05:22.59,SIKANOKO_Bottom,路人,0,0,0,kara,今年要是能抽到大角就好了啊\N今年こそ大ツノ引けるといいな
 Comment: 0,0:05:22.59,0:05:25.25,SIKANOKO_Bottom,路人,0,0,0,kara,我只要比末角好就行了\N俺は末ツノ以上なら何でもいいや
 Comment: 0,0:05:25.64,0:05:27.49,SIKANOKO_Bottom,虎子,0,0,0,kara,我这还算是大吉了吗…\Nこれ大吉扱いなの
@@ -138,25 +138,25 @@ Comment: 0,0:05:55.40,0:05:56.69,SIKANOKO_Bottom,根子,0,0,0,kara,喵呜\Nう�
 Comment: 0,0:05:57.19,0:05:59.11,SIKANOKO_Bottom,根子,0,0,0,kara,我得赶紧去祓除厄运\N急いで厄払いしないと
 Comment: 0,0:06:04.69,0:06:06.90,SIKANOKO_Bottom,千春,0,0,0,kara,你没事吧 副会长\N大丈夫ですか 副会長
 Comment: 0,0:06:06.90,0:06:08.87,SIKANOKO_Bottom,绢,0,0,0,kara,别 别哭了\Nな 泣かないでください
-Comment: 0,0:06:08.87,0:06:11.57,SIKANOKO_Bottom,绢,0,0,0,kara,痛痛都快飞走吧\N痛いの痛いの 飛んでいけー!
-Comment: 0,0:06:11.57,0:06:14.27,SIKANOKO_Bottom,根子,0,0,0,kara,你是不是看着我个子小就拿我当笨蛋喵\Nあんた私が小さいからってバカにしてんの?
+Comment: 0,0:06:08.87,0:06:11.57,SIKANOKO_Bottom,绢,0,0,0,kara,痛痛都快飞走吧\N痛いの痛いの 飛んでいけー！
+Comment: 0,0:06:11.57,0:06:14.27,SIKANOKO_Bottom,根子,0,0,0,kara,你是不是看着我个子小就拿我当笨蛋喵\Nあんた私が小さいからってバカにしてんの？
 Comment: 0,0:06:14.83,0:06:16.80,SIKANOKO_Bottom,绢,0,0,0,kara,不不 我没那个意思\Nいや そんなことは
 Comment: 0,0:06:16.80,0:06:18.88,SIKANOKO_Bottom,千春,0,0,0,kara,行了行了 我们去把神签系起来吧\Nまあまあ おみくじ結びましょう
 Comment: 0,0:06:22.29,0:06:23.43,SIKANOKO_Bottom,虎子,0,0,0,kara,好可爱\Nかわいい
-Comment: 0,0:06:24.60,0:06:27.41,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？怎么闻起来甜甜的\Nうん?何だか甘い匂いが
+Comment: 0,0:06:24.60,0:06:27.41,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？怎么闻起来甜甜的\Nうん？何だか甘い匂いが
 Comment: 0,0:06:27.80,0:06:28.87,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,人之子者\N人の子よ
-Comment: 0,0:06:29.14,0:06:29.87,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん?
+Comment: 0,0:06:29.14,0:06:29.87,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
 Comment: 0,0:06:30.38,0:06:32.69,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,赐汝一杯也\Nそなたに一杯恵んでやろう
 Comment: 0,0:06:32.69,0:06:33.81,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,前来\N近う寄れ
 Comment: 0,0:06:34.38,0:06:35.00,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:06:35.00,0:06:37.25,SIKANOKO_Bottom,虎子,0,0,0,kara,刚好三分钟 简直就是预知未来\Nジャスト3分 もはや未来予知
+Comment: 0,0:06:35.00,0:06:37.25,SIKANOKO_Bottom,虎子,0,0,0,kara,刚好三分钟 简直就是预知未来\Nジャスト{\fscx50} {\fscx100}3{\fscx50} {\fscx100}分 もはや未来予知
 Comment: 0,0:06:37.87,0:06:39.70,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子 你这家伙\N鹿乃子 てめぇ
 Comment: 0,0:06:39.70,0:06:43.13,SIKANOKO_Bottom,虎子,0,0,0,kara,竟敢放我的鸽子 胆子很大啊\N私との約束ぶっちぎっといていい度胸じゃねえか
-Comment: 0,0:06:43.52,0:06:46.68,SIKANOKO_Bottom,虎子,0,0,0,kara,玩好神仙过家家之后 开始发甜酒了吗\N神様ごっこの次は甘酒配りか?
-Comment: 0,0:06:46.68,0:06:47.77,SIKANOKO_Bottom,虎子,0,0,0,kara,啊？\Nん?
+Comment: 0,0:06:43.52,0:06:46.68,SIKANOKO_Bottom,虎子,0,0,0,kara,玩好神仙过家家之后 开始发甜酒了吗\N神様ごっこの次は甘酒配りか？
+Comment: 0,0:06:46.68,0:06:47.77,SIKANOKO_Bottom,虎子,0,0,0,kara,啊？\Nん？
 Comment: 0,0:06:47.77,0:06:48.39,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,非也\N否
 Comment: 0,0:06:49.01,0:06:50.31,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,此乃角汁也\Nツノ汁である
-Comment: 0,0:06:50.31,0:06:51.15,SIKANOKO_Bottom,虎子,0,0,0,kara,啥？\N何?
+Comment: 0,0:06:50.31,0:06:51.15,SIKANOKO_Bottom,虎子,0,0,0,kara,啥？\N何？
 Comment: 0,0:06:51.15,0:06:52.16,SIKANOKO_Bottom,虎子,0,0,0,kara,角汁？\Nツノ汁って
 Comment: 0,0:06:52.69,0:06:54.22,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,角之汁也\Nツノの汁である
 Comment: 0,0:06:54.22,0:06:57.19,SIKANOKO_Bottom,虎子,0,0,0,kara,简直无效说明啊 我绝对不会想喝的\N説明になってないし 絶対飲みたくない
@@ -169,18 +169,18 @@ Comment: 0,0:07:11.22,0:07:12.29,SIKANOKO_Bottom,虎子,0,0,0,kara,瞎说的吧\
 Comment: 0,0:07:12.64,0:07:15.02,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿神大人亲自化作汤汁\Nシカ神様自ら出汁となり
 Comment: 0,0:07:15.02,0:07:18.61,SIKANOKO_Bottom,旁白,0,0,0,kara,整整三天三夜不睡 在此神社地下制成的\N三日三晩寝ずにこの神社の地下で作られている
 Comment: 0,0:07:18.61,0:07:20.80,SIKANOKO_Bottom,旁白,0,0,0,kara,十分珍贵的饮品\N大変ありがたい飲み物である
-Comment: 0,0:07:21.35,0:07:24.92,SIKANOKO_Bottom,虎子,0,0,0,kara,什么意思 就是说这是用这家伙熬出来的汤汁？\Nどういうこと こいつ煮出して作った汁ってこと?
-Comment: 0,0:07:25.14,0:07:26.77,SIKANOKO_Bottom,虎子,0,0,0,kara,这种东西怎么能喝啊\Nんなもん飲めるか!
-Comment: 0,0:07:28.32,0:07:28.93,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nえ?
+Comment: 0,0:07:21.35,0:07:24.92,SIKANOKO_Bottom,虎子,0,0,0,kara,什么意思 就是说这是用这家伙熬出来的汤汁？\Nどういうこと こいつ煮出して作った汁ってこと？
+Comment: 0,0:07:25.14,0:07:26.77,SIKANOKO_Bottom,虎子,0,0,0,kara,这种东西怎么能喝啊\Nんなもん飲めるか！
+Comment: 0,0:07:28.32,0:07:28.93,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nえ？
 Comment: 0,0:07:29.26,0:07:32.71,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿神大人 时间要到了\N鹿神様 そろそろお時間です
 Comment: 0,0:07:32.71,0:07:33.19,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:07:33.51,0:07:34.68,SIKANOKO_Bottom,虎子,0,0,0,kara,什么时间？\Nお時間?
+Comment: 0,0:07:33.51,0:07:34.68,SIKANOKO_Bottom,虎子,0,0,0,kara,什么时间？\Nお時間？
 Comment: 0,0:07:37.71,0:07:41.07,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密多鹿鹿\Nハンヤホンヤラフンヤシカシカ
 Comment: 0,0:07:41.37,0:07:45.00,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密多鹿鹿\Nハンヤホンヤラフンヤシカシカ
 Comment: 0,0:07:45.28,0:07:48.82,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密多鹿鹿\Nハンヤホンヤラフンヤシカシカ
 Comment: 0,0:07:46.03,0:07:48.11,SIKANOKO_Bottom,虎子,0,0,0,kara,这是什么迷之仪式\N何 この謎儀式
-Comment: 0,0:07:48.11,0:07:51.72,SIKANOKO_Bottom,虎子,0,0,0,kara,说起来焚祭烧的不都是去年的驱妖箭吗\Nそもそもお焚き上げって去年の破魔矢とか燃やすもんじゃないの?
-Comment: 0,0:07:51.72,0:07:53.70,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么要烧角啊\Nなんで角燃やしてんの?
+Comment: 0,0:07:48.11,0:07:51.72,SIKANOKO_Bottom,虎子,0,0,0,kara,说起来焚祭烧的不都是去年的驱妖箭吗\Nそもそもお焚き上げって去年の破魔矢とか燃やすもんじゃないの？
+Comment: 0,0:07:51.72,0:07:53.70,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么要烧角啊\Nなんで角燃やしてんの？
 Comment: 0,0:07:54.01,0:07:56.71,SIKANOKO_Bottom,路人,0,0,0,kara,今年焚祭气势很足呢\N今年のお焚き上げは気合いが入ってるね
 Comment: 0,0:07:56.71,0:07:58.29,SIKANOKO_Bottom,虎子,0,0,0,kara,这个每年都做吗\N毎年やってんのこれ
 Comment: 0,0:07:58.54,0:08:00.87,SIKANOKO_Bottom,路人,0,0,0,kara,感觉会比之前更灵验\Nいつも以上に御利益ありそう
@@ -192,7 +192,7 @@ Comment: 0,0:08:10.06,0:08:13.26,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密�
 Comment: 0,0:08:12.43,0:08:13.26,SIKANOKO_Bottom,虎子,0,0,0,kara,突然好大的风\N急に風が
 Comment: 0,0:08:13.72,0:08:14.77,SIKANOKO_Bottom,路人,0,0,0,kara,啊 快看\Nあっ見て
 Comment: 0,0:08:15.09,0:08:17.17,SIKANOKO_Bottom,路人,0,0,0,kara,鹿神大人开始发光了\Nシカ神様が光り始めたわ
-Comment: 0,0:08:17.17,0:08:18.02,SIKANOKO_Bottom,虎子,0,0,0,kara,为啥啊\Nなぜ?
+Comment: 0,0:08:17.17,0:08:18.02,SIKANOKO_Bottom,虎子,0,0,0,kara,为啥啊\Nなぜ？
 Comment: 0,0:08:18.02,0:08:21.72,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密多鹿鹿\Nハンヤホンヤラフンヤシカシカ
 Comment: 0,0:08:21.96,0:08:25.66,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密多鹿鹿\Nハンヤホンヤラフンヤシカシカ
 Comment: 0,0:08:25.85,0:08:29.76,SIKANOKO_Top,路人,0,0,0,kara,般若波罗密多鹿鹿\Nハンヤホンヤラフンヤシカシカ
@@ -202,22 +202,22 @@ Comment: 0,0:08:36.60,0:08:37.02,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nの�
 Comment: 0,0:08:37.12,0:08:37.41,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nのつ
 Comment: 0,0:08:37.60,0:08:38.03,SIKANOKO_Top,鹿乃子,0,0,0,kara,噜\Nのつ
 Comment: 0,0:08:43.66,0:08:46.45,SIKANOKO_Bottom,路人,0,0,0,kara,吾等感激不尽啊\Nありがたいや
-Comment: 0,0:08:46.45,0:08:47.84,SIKANOKO_Bottom,虎子,0,0,0,kara,不是 有什么好感激的\Nいや どこが?
+Comment: 0,0:08:46.45,0:08:47.84,SIKANOKO_Bottom,虎子,0,0,0,kara,不是 有什么好感激的\Nいや どこが？
 Comment: 0,0:08:50.93,0:08:52.71,SIKANOKO_Bottom,馅子,0,0,0,kara,还是很有趣的呢\N結構面白かったわね
 Comment: 0,0:08:52.71,0:08:56.76,SIKANOKO_Bottom,马车芽,0,0,0,kara,今年也会有好事发生 对吧 虎宝学姐\N今年もいいことありそうです ねえ こしたん先輩
 Comment: 0,0:08:57.65,0:09:00.96,SIKANOKO_Bottom,虎子,0,0,0,kara,啊 正月一开始就这么累\Nあ 正月早々どッと疲れた
 Comment: 0,0:09:00.96,0:09:02.81,SIKANOKO_Bottom,虎子,0,0,0,kara,赶紧回去暖暖身子吧\Nとっとと帰って温まろう
 Comment: 0,0:09:03.50,0:09:05.08,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,啊 虎宝\Nあっ こしたん
-Comment: 0,0:09:05.08,0:09:05.69,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん?
+Comment: 0,0:09:05.08,0:09:05.69,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
 Comment: 0,0:09:05.69,0:09:07.41,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,久等了\Nお待たせー
 Comment: 0,0:09:07.41,0:09:08.19,SIKANOKO_Bottom,虎子,0,0,0,kara,噜 噜\Nぬんぬん
 Comment: 0,0:09:08.44,0:09:10.77,SIKANOKO_Bottom,马车芽,0,0,0,kara,啊 是鹿宝学姐\Nあ のこたん先輩
 Comment: 0,0:09:10.77,0:09:13.74,SIKANOKO_Bottom,虎子,0,0,0,kara,你这家伙 让人等你这么久不说\Nテメェ 散々人を待たせたあげく
 Comment: 0,0:09:13.74,0:09:16.43,SIKANOKO_Bottom,虎子,0,0,0,kara,还自说自话地去扮鹿神 搞焚祭\Nシカ神だお焚き上げだ好き勝手しやがって
-Comment: 0,0:09:16.43,0:09:18.10,SIKANOKO_Bottom,虎子,0,0,0,kara,我要回去了！\N私はもう帰るからな!
+Comment: 0,0:09:16.43,0:09:18.10,SIKANOKO_Bottom,虎子,0,0,0,kara,我要回去了！\N私はもう帰るからな！
 Comment: 0,0:09:18.10,0:09:19.71,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜 那是什么\Nぬん 何それ
 Comment: 0,0:09:19.89,0:09:21.92,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我才刚来呢\N私今来たとこだよ
-Comment: 0,0:09:21.92,0:09:22.83,SIKANOKO_Bottom,虎子,0,0,0,kara,哈？\Nはあ?
+Comment: 0,0:09:21.92,0:09:22.83,SIKANOKO_Bottom,虎子,0,0,0,kara,哈？\Nはあ？
 Comment: 0,0:09:23.13,0:09:25.42,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,不过让你们久等了 不好意思\Nでも待たせちゃったならごめんね
 Comment: 0,0:09:25.42,0:09:26.59,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你们一定很冷吧\N寒かったよね
 Comment: 0,0:09:26.88,0:09:29.37,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,喝喝这个暖下身子如何\Nよかったらこれ飲んであったまって
@@ -235,14 +235,14 @@ Comment: 0,0:10:03.66,0:10:05.81,SIKANOKO_Bottom,虎子,0,0,0,kara,哇 出现了
 Comment: 0,0:10:07.45,0:10:12.82,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,今年也请大家多多关照鹿乃子乃子乃子虎视眈眈\N本年も しかのこのこのここしたんたんを どうぞよろしくお願いいたします
 Comment: 0,0:10:13.07,0:10:15.01,SIKANOKO_Bottom,虎子,0,0,0,kara,请 请多关照\Nよ よろしくお願いします
 Comment: 0,0:10:15.24,0:10:16.80,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,那么 来吧\Nそれじゃ はい
-Comment: 0,0:10:16.80,0:10:17.76,SIKANOKO_Bottom,虎子,0,0,0,kara,来什么啊\Nはいって何?
+Comment: 0,0:10:16.80,0:10:17.76,SIKANOKO_Bottom,虎子,0,0,0,kara,来什么啊\Nはいって何？
 Comment: 0,0:10:18.56,0:10:20.52,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,给我压岁钱\Nお年玉 ちょうだい
-Comment: 0,0:10:20.91,0:10:22.60,SIKANOKO_Bottom,虎子,0,0,0,kara,是神就不要问人类要钱啊\N神様が金をせびるな!
+Comment: 0,0:10:20.91,0:10:22.60,SIKANOKO_Bottom,虎子,0,0,0,kara,是神就不要问人类要钱啊\N神様が金をせびるな！
 Comment: 0,0:10:24.21,0:10:27.63,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,那么正月笑话就说这些吧\Nなんてお正月ジョークはこれくらいにして
 Comment: 0,0:10:34.12,0:10:34.74,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
 Comment: 0,0:10:35.34,0:10:37.53,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,接下来进入正片\Nそれじゃあ本編いってみよう
 Comment: 0,0:10:37.53,0:10:40.24,SIKANOKO_Bottom,虎子,0,0,0,kara,这是什么乱七八糟的新年贺词\N何この雑な新年挨拶
-Comment: 0,0:10:45.51,0:10:47.50,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,诸位 可准备妥当？\Nみなさん ようござんすか?
+Comment: 0,0:10:45.51,0:10:47.50,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,诸位 可准备妥当？\Nみなさん ようござんすか？
 Comment: 0,0:10:50.04,0:10:53.24,SIKANOKO_Bottom,旁白,0,0,0,kara,说起正月一景 那便是桌游\N正月の風物詩といえば ボードゲーム
 Comment: 0,0:10:53.76,0:10:56.94,SIKANOKO_Bottom,旁白,0,0,0,kara,在古今中外众多游戏中\N古今東西数多く存在するゲームの中でも
 Comment: 0,0:10:56.94,0:11:00.66,SIKANOKO_Bottom,旁白,0,0,0,kara,也能脱颖而出 人气碾压的游戏\N圧倒的人気を誇るゲームがあることをご存じだろうか
@@ -254,45 +254,45 @@ Comment: 0,0:11:13.56,0:11:16.25,SIKANOKO_Bottom,虎子,0,0,0,kara,虽然只是�
 Comment: 0,0:11:16.64,0:11:21.29,SIKANOKO_Bottom,虎子,0,0,0,kara,让我来告诉你们 和我一决胜负意味着什么吧\N教えてやるよ 私に勝負を挑むってのがどういうことか
 Comment: 0,0:11:25.24,0:11:28.80,SIKANOKO_Bottom,馅子,0,0,0,kara,既然要分胜负 那就该赌上些什么\N勝負って言うからには 何か賭けてくれるのよね
 Comment: 0,0:11:29.21,0:11:31.56,SIKANOKO_Bottom,馅子,0,0,0,kara,人生 贞操 性命\N人生 貞操 命
-Comment: 0,0:11:31.56,0:11:33.74,SIKANOKO_Bottom,馅子,0,0,0,kara,啊 真是让人兴奋~\Nああ ゾクゾクしてきた
+Comment: 0,0:11:31.56,0:11:33.74,SIKANOKO_Bottom,馅子,0,0,0,kara,啊 真是让人兴奋～\Nああ ゾクゾクしてきた
 Comment: 0,0:11:36.80,0:11:37.97,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,可笑\N笑止
 Comment: 0,0:11:37.97,0:11:40.78,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,从刚才你们就像凡人一样叽叽喳喳\Nさっきから人間ごときがごちゃごちゃと
 Comment: 0,0:11:41.16,0:11:42.31,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,就让你们见识下\Nシカの本気
 Comment: 0,0:11:43.75,0:11:45.31,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿的真本事吧\N見せてあげるよ
-Comment: 0,0:11:47.29,0:11:51.82,SIKANOKO_Bottom,旁白,0,0,0,kara,第一届紧张刺激日野南高中鹿社鹿生游戏大赛\N第1回チキチキ日野南高校シカ部シカ生ゲーム大会
+Comment: 0,0:11:47.29,0:11:51.82,SIKANOKO_Bottom,旁白,0,0,0,kara,第一届紧张刺激日野南高中鹿社鹿生游戏大赛\N第{\fscx50} {\fscx100}1{\fscx50} {\fscx100}回チキチキ日野南高校シカ部シカ生ゲーム大会
 Comment: 0,0:11:52.11,0:11:54.35,SIKANOKO_Bottom,旁白,0,0,0,kara,拉开了战斗的序幕\N戦いの火蓋が切られた
 Comment: 0,0:11:54.57,0:11:55.82,SIKANOKO_Bottom,马车芽,0,0,0,kara,开始\Nスタート
 Comment: 0,0:11:56.30,0:11:58.35,SIKANOKO_Bottom,馅子,0,0,0,kara,那么从我开始\Nそれじゃあ最初は私から
-Comment: 0,0:11:58.68,0:11:59.20,SIKANOKO_Bottom,馅子,0,0,0,kara,嘿\Nえいっ!
-Comment: 0,0:12:02.60,0:12:03.91,SIKANOKO_Bottom,馅子,0,0,0,kara,先前进4格\Nまずは4マスね
-Comment: 0,0:12:04.46,0:12:07.59,SIKANOKO_Bottom,馅子,0,0,0,kara,一 二 三 四\N1　2　3　4っと
-Comment: 0,0:12:08.00,0:12:09.46,SIKANOKO_Bottom,馅子,0,0,0,kara,诶 怎么了\Nえっ なになに?
+Comment: 0,0:11:58.68,0:11:59.20,SIKANOKO_Bottom,馅子,0,0,0,kara,嘿\Nえいっ！
+Comment: 0,0:12:02.60,0:12:03.91,SIKANOKO_Bottom,馅子,0,0,0,kara,先前进{\fscx50} {\fscx100}4{\fscx50} {\fscx100}格\Nまずは{\fscx50} {\fscx100}4{\fscx50} {\fscx100}マスね
+Comment: 0,0:12:04.46,0:12:07.59,SIKANOKO_Bottom,馅子,0,0,0,kara,一 二 三 四\N1　2　3　4{\fscx50} {\fscx100}っと
+Comment: 0,0:12:08.00,0:12:09.46,SIKANOKO_Bottom,馅子,0,0,0,kara,诶 怎么了\Nえっ なになに？
 Comment: 0,0:12:09.76,0:12:12.69,SIKANOKO_Bottom,老师,0,0,0,kara,啊 是刚出生的小鹿啊\Nあっ 生まれたばっかりの鹿さんね
 Comment: 0,0:12:12.69,0:12:15.09,SIKANOKO_Bottom,老师,0,0,0,kara,给 这是祝贺礼品\Nはい これ お祝いよ
-Comment: 0,0:12:15.50,0:12:19.22,SIKANOKO_Bottom,旁白,0,0,0,kara,和饲养员的关系变好 获得3捆鹿仙贝\N飼育員さんと仲良くなる 鹿せんべいを3枚もらう
+Comment: 0,0:12:15.50,0:12:19.22,SIKANOKO_Bottom,旁白,0,0,0,kara,和饲养员的关系变好 获得{\fscx50} {\fscx100}3{\fscx50} {\fscx100}捆鹿仙贝\N飼育員さんと仲良くなる 鹿せんべいを{\fscx50} {\fscx100}3{\fscx50} {\fscx100}枚もらう
 Comment: 0,0:12:19.73,0:12:22.97,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿生游戏的货币不是钱 而是鹿仙贝\Nシカ生ゲームの通貨はお金ではなく鹿せんべい
 Comment: 0,0:12:23.48,0:12:28.11,SIKANOKO_Bottom,旁白,0,0,0,kara,游戏结束时持有最多鹿仙贝的人获胜\Nゲーム終了時 鹿せんべいをもっとも多く持っていた者が勝ちである
 Comment: 0,0:12:28.11,0:12:29.94,SIKANOKO_Bottom,馅子,0,0,0,kara,哎呀 真是个好兆头\Nあら 幸先いいわね
 Comment: 0,0:12:29.94,0:12:30.99,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,真好啊\Nいいな
 Comment: 0,0:12:31.25,0:12:32.69,SIKANOKO_Bottom,旁白,0,0,0,kara,虎宝的回合\Nこしたんのターン
-Comment: 0,0:12:32.69,0:12:35.04,SIKANOKO_Bottom,虎子,0,0,0,kara,好 下一个是我\Nよっしゃ 次はわたしだな!
-Comment: 0,0:12:36.62,0:12:37.99,SIKANOKO_Bottom,虎子,0,0,0,kara,哦 是9啊\Nおっ 9だ
-Comment: 0,0:12:38.22,0:12:40.94,SIKANOKO_Bottom,虎子,0,0,0,kara,赶紧向前冲 抢先到达终点吧\Nとっとと先進んで ゴールしてやるぜ!
-Comment: 0,0:12:41.64,0:12:42.24,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん?
-Comment: 0,0:12:42.24,0:12:45.60,SIKANOKO_Bottom,路人,0,0,0,kara,某些鹿好像仗着自己年轻一点就狂妄得不行啊？\Nあんた ちょっと若いからって生意気じゃない?
-Comment: 0,0:12:45.60,0:12:48.00,SIKANOKO_Bottom,路人,0,0,0,kara,你当这岛是谁的地盘啊\Nここだれの島だと思ってんの?
+Comment: 0,0:12:32.69,0:12:35.04,SIKANOKO_Bottom,虎子,0,0,0,kara,好 下一个是我\Nよっしゃ 次はわたしだな！
+Comment: 0,0:12:36.62,0:12:37.99,SIKANOKO_Bottom,虎子,0,0,0,kara,哦 是{\fscx50} {\fscx100}9{\fscx50} {\fscx100}啊\Nおっ 9{\fscx50} {\fscx100}だ
+Comment: 0,0:12:38.22,0:12:40.94,SIKANOKO_Bottom,虎子,0,0,0,kara,赶紧向前冲 抢先到达终点吧\Nとっとと先進んで ゴールしてやるぜ！
+Comment: 0,0:12:41.64,0:12:42.24,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
+Comment: 0,0:12:42.24,0:12:45.60,SIKANOKO_Bottom,路人,0,0,0,kara,某些鹿好像仗着自己年轻一点就狂妄得不行啊？\Nあんた ちょっと若いからって生意気じゃない？
+Comment: 0,0:12:45.60,0:12:48.00,SIKANOKO_Bottom,路人,0,0,0,kara,你当这岛是谁的地盘啊\Nここだれの島だと思ってんの？
 Comment: 0,0:12:48.00,0:12:50.75,SIKANOKO_Bottom,路人,0,0,0,kara,别以为你能平平安安地待在这\Nただでここにいられると思わないことねえ
-Comment: 0,0:12:51.15,0:12:51.88,SIKANOKO_Bottom,虎子,0,0,0,kara,诶？\Nえ?
-Comment: 0,0:12:52.57,0:12:57.71,SIKANOKO_Bottom,旁白,0,0,0,kara,被动物园里的鹿前辈欺负敲诈 鹿仙贝减少30捆\N動物園の先輩鹿にいびられ 鹿せんべいをたかられ　30枚渡す
-Comment: 0,0:12:57.71,0:12:59.45,SIKANOKO_Bottom,路人,0,0,0,kara,把所有钱都交出来\N有り金全部よこしな!
-Comment: 0,0:12:59.73,0:13:02.01,SIKANOKO_Bottom,虎子,0,0,0,kara,才刚开始就这么无情吗\N初っ端なからシビアすぎない?
+Comment: 0,0:12:51.15,0:12:51.88,SIKANOKO_Bottom,虎子,0,0,0,kara,诶？\Nえ？
+Comment: 0,0:12:52.57,0:12:57.71,SIKANOKO_Bottom,旁白,0,0,0,kara,被动物园里的鹿前辈欺负敲诈 鹿仙贝减少{\fscx50} {\fscx100}30{\fscx50} {\fscx100}捆\N動物園の先輩鹿にいびられ 鹿せんべいをたかられ　30{\fscx50} {\fscx100}枚渡す
+Comment: 0,0:12:57.71,0:12:59.45,SIKANOKO_Bottom,路人,0,0,0,kara,把所有钱都交出来\N有り金全部よこしな！
+Comment: 0,0:12:59.73,0:13:02.01,SIKANOKO_Bottom,虎子,0,0,0,kara,才刚开始就这么无情吗\N初っ端なからシビアすぎない？
 Comment: 0,0:13:02.31,0:13:05.97,SIKANOKO_Bottom,虎子,0,0,0,kara,话说 就算让我交我也没有啊 还没获得过鹿仙贝呢\Nって よこすも何もまだ鹿せんべい持ってないんだけど
 Comment: 0,0:13:05.97,0:13:07.79,SIKANOKO_Bottom,路人,0,0,0,kara,小姑娘 往这看\Nお嬢ちゃんお嬢ちゃん
-Comment: 0,0:13:07.79,0:13:08.56,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん?
+Comment: 0,0:13:07.79,0:13:08.56,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
 Comment: 0,0:13:09.99,0:13:11.11,SIKANOKO_Bottom,路人,0,0,0,kara,来吧\Nさあ
 Comment: 0,0:13:12.09,0:13:14.60,SIKANOKO_Bottom,路人,0,0,0,kara,感谢惠顾 哈哈哈\N毎度あり ワッホッホッ
 Comment: 0,0:13:14.60,0:13:17.97,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿仙贝不足的时候 可以找动物园贷款\N鹿せんべいが足りない時は 動物園が貸してくれる
-Comment: 0,0:13:17.97,0:13:20.00,SIKANOKO_Bottom,旁白,0,0,0,kara,利息是50%\N金利は50%だ
+Comment: 0,0:13:17.97,0:13:20.00,SIKANOKO_Bottom,旁白,0,0,0,kara,利息是{\fscx50} {\fscx100}50%\N金利は{\fscx50} {\fscx100}50%{\fscx50} {\fscx100}だ
 Comment: 0,0:13:20.00,0:13:23.57,SIKANOKO_Bottom,虎子,0,0,0,kara,动物园和鹿前辈绝对是一伙的\N動物園と先輩シカ 絶対グルじゃん
 Comment: 0,0:13:23.57,0:13:26.95,SIKANOKO_Bottom,馅子,0,0,0,kara,虽说是食草动物 但也遵循弱肉强食的规则呢\N草食動物とはいえ 弱肉強食なのね
 Comment: 0,0:13:27.34,0:13:28.57,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜 噜 噜\Nぬん ぬん ぬん
@@ -301,14 +301,14 @@ Comment: 0,0:13:30.42,0:13:31.08,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん�
 Comment: 0,0:13:31.36,0:13:34.10,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿生游戏中 比起尽快走到终点\Nシカ生ゲームは早くゴールすることより
 Comment: 0,0:13:34.10,0:13:37.34,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,更重要的是如何增加鹿仙贝的数量\Nいかに鹿せんべいの枚数を増やすかが肝
 Comment: 0,0:13:37.51,0:13:39.80,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,也就是说 即使多花时间\Nすなわち 時間がかかっても
-Comment: 0,0:13:39.80,0:13:44.53,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,也要尽可能走能多获得鹿仙贝的格子 这才是正解\Nなるべく鹿せんべいがもらえるマスを狙っていくのが正解なのだ!ー
+Comment: 0,0:13:39.80,0:13:44.53,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,也要尽可能走能多获得鹿仙贝的格子 这才是正解\Nなるべく鹿せんべいがもらえるマスを狙っていくのが正解なのだ！ー
 Comment: 0,0:13:44.53,0:13:45.99,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿宝的回合\Nのこたんのターン
 Comment: 0,0:13:45.99,0:13:49.65,SIKANOKO_Bottom,旁白,0,0,0,kara,逃出动物园 误闯住宅区而迷路\N動物園を脱走 住宅街に迷い込んでしまい
-Comment: 0,0:13:50.90,0:13:54.17,SIKANOKO_Bottom,旁白,0,0,0,kara,回过神来的时候已经挂在电线杆上了 休息一回合\N気付いたら電線にぶら下がっていた 1回休み
+Comment: 0,0:13:50.90,0:13:54.17,SIKANOKO_Bottom,旁白,0,0,0,kara,回过神来的时候已经挂在电线杆上了 休息一回合\N気付いたら電線にぶら下がっていた 1{\fscx50} {\fscx100}回休み
 Comment: 0,0:13:54.54,0:13:55.11,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:13:55.45,0:13:56.19,SIKANOKO_Bottom,虎子,0,0,0,kara,什么既视感\N既視感!
+Comment: 0,0:13:55.45,0:13:56.19,SIKANOKO_Bottom,虎子,0,0,0,kara,什么既视感\N既視感！
 Comment: 0,0:13:56.53,0:14:00.19,SIKANOKO_Bottom,旁白,0,0,0,kara,而且在挂着的时候被秃鹰和鬣狗袭击\Nさらにぶら下がっている間にハゲタカとハイエナに襲われ
-Comment: 0,0:14:00.19,0:14:02.60,SIKANOKO_Bottom,旁白,0,0,0,kara,失去50捆鹿仙贝\N鹿せんべいを50枚失う
+Comment: 0,0:14:00.19,0:14:02.60,SIKANOKO_Bottom,旁白,0,0,0,kara,失去{\fscx50} {\fscx100}50{\fscx50} {\fscx100}捆鹿仙贝\N鹿せんべいを{\fscx50} {\fscx100}50{\fscx50} {\fscx100}枚失う
 Comment: 0,0:14:02.60,0:14:03.82,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,呜噜噜\Nじびえーん
 Comment: 0,0:14:04.02,0:14:06.70,SIKANOKO_Bottom,虎子,0,0,0,kara,有时游戏比现实还残酷\N時として 現実よりも厳しい
 Comment: 0,0:14:07.04,0:14:08.78,SIKANOKO_Bottom,旁白,0,0,0,kara,又来到了馅子的回合\N再びあんこのターン
@@ -318,19 +318,19 @@ Comment: 0,0:14:15.27,0:14:16.71,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,别害怕\
 Comment: 0,0:14:16.71,0:14:18.90,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,扑进我的怀里吧\N僕の胸に飛び込んでおいで
 Comment: 0,0:14:18.90,0:14:20.96,SIKANOKO_Bottom,虎子,0,0,0,kara,但我还是处女\Nでも私処女だから
 Comment: 0,0:14:21.53,0:14:22.12,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:14:22.12,0:14:22.90,SIKANOKO_Bottom,虎子,0,0,0,kara,啊~\Nああ
+Comment: 0,0:14:22.12,0:14:22.90,SIKANOKO_Bottom,虎子,0,0,0,kara,啊～\Nああ
 Comment: 0,0:14:24.02,0:14:27.22,SIKANOKO_Top,旁白,0,0,0,kara,喜欢的鹿和另一只母鹿交配\N好意を寄せていた鹿が別の雌鹿と交尾
-Comment: 0,0:14:27.22,0:14:29.60,SIKANOKO_Top,旁白,0,0,0,kara,受到打击而卧床不起 休息一回合\Nショックで寝込む 1回休み
+Comment: 0,0:14:27.22,0:14:29.60,SIKANOKO_Top,旁白,0,0,0,kara,受到打击而卧床不起 休息一回合\Nショックで寝込む 1{\fscx50} {\fscx100}回休み
 Comment: 0,0:14:29.88,0:14:30.65,SIKANOKO_Bottom,馅子,0,0,0,kara,哎呀哎呀\Nあらあら
 Comment: 0,0:14:30.65,0:14:33.27,SIKANOKO_Bottom,虎子,0,0,0,kara,等 等等 这个画面恶意满满啊\Nちょちょっとこの絵面悪意ない？
 Comment: 0,0:14:33.69,0:14:37.24,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我打工的地方之前也有这种事哦\N私のバイト先でもこの間あったよこういうこと
 Comment: 0,0:14:37.24,0:14:39.16,SIKANOKO_Bottom,虎子,0,0,0,kara,真的吗 这不是肥皂剧剧情吗\Nえっマジ 昼ドラじゃん
 Comment: 0,0:14:39.16,0:14:41.36,SIKANOKO_Bottom,馅子,0,0,0,kara,当鹿也不容易啊\N鹿にもいろいろあるのね
 Comment: 0,0:14:43.11,0:14:46.83,SIKANOKO_Bottom,馅子,0,0,0,kara,不过受点打击就卧床不起 是不是爱得不够深呢\Nでも ショックで寝込むなんて 愛が足りないんじゃないかしら
-Comment: 0,0:14:47.13,0:14:48.32,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你的意思是？\Nといいますと?
-Comment: 0,0:14:48.89,0:14:52.37,SIKANOKO_Bottom,馅子,0,0,0,kara,是我的话就不会休息 而是先把对方OO 接着XX之后\N私なら休まず相手をムキムキしてペシペシした後に
+Comment: 0,0:14:47.13,0:14:48.32,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你的意思是？\Nといいますと？
+Comment: 0,0:14:48.89,0:14:52.37,SIKANOKO_Bottom,馅子,0,0,0,kara,是我的话就不会休息 而是先把对方{\fscx50} {\fscx100}OO 接着{\fscx50} {\fscx100}XX{\fscx50} {\fscx100}之后\N私なら休まず相手をムキムキしてペシペシした後に
 Comment: 0,0:14:52.37,0:14:55.80,SIKANOKO_Bottom,馅子,0,0,0,kara,再对她♂♂ 最后把她弄得♀♀\Nふにふにして最終的にはメムメムにするけど
-Comment: 0,0:14:55.80,0:14:58.38,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐我能当没听见吗\Nお姉ちゃん聞かなかったことにしていい?
+Comment: 0,0:14:55.80,0:14:58.38,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐我能当没听见吗\Nお姉ちゃん聞かなかったことにしていい？
 Comment: 0,0:14:58.58,0:15:00.09,SIKANOKO_Bottom,旁白,0,0,0,kara,虎宝的回合\Nこしたんのターン
 Comment: 0,0:15:00.09,0:15:01.67,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 接下来是\Nえっと次は
 Comment: 0,0:15:01.96,0:15:03.66,SIKANOKO_Bottom,旁白,0,0,0,kara,成长期突然到来\N急な成長期到来
@@ -347,39 +347,39 @@ Comment: 0,0:15:36.44,0:15:37.60,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬ�
 Comment: 0,0:15:37.60,0:15:38.75,SIKANOKO_Bottom,旁白,0,0,0,kara,休息一回合\N一回休み
 Comment: 0,0:15:40.46,0:15:42.88,SIKANOKO_Bottom,马车芽,0,0,0,kara,米饭煮好了\Nお米が立ってます
 Comment: 0,0:15:43.84,0:15:45.51,SIKANOKO_Bottom,旁白,0,0,0,kara,随后 游戏继续\Nそしてゲームは進み
-Comment: 0,0:15:47.89,0:15:48.51,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん?
-Comment: 0,0:15:48.82,0:15:50.89,SIKANOKO_Bottom,虎子,0,0,0,kara,选择鹿生？\Nシカ生の選択?
+Comment: 0,0:15:47.89,0:15:48.51,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
+Comment: 0,0:15:48.82,0:15:50.89,SIKANOKO_Bottom,虎子,0,0,0,kara,选择鹿生？\Nシカ生の選択？
 Comment: 0,0:15:52.60,0:15:56.44,SIKANOKO_Bottom,旁白,0,0,0,kara,是选择离开动物园独自生活 经受鹿世间的惊涛骇浪\N動物園を出て一人立ち 世間の荒波に揉まれながら
 Comment: 0,0:15:56.44,0:15:59.56,SIKANOKO_Bottom,旁白,0,0,0,kara,度过鹿生 波澜壮阔的鹿生路线\Nシカ生を送る 激動のシカ生コース
 Comment: 0,0:16:00.34,0:16:04.04,SIKANOKO_Bottom,旁白,0,0,0,kara,还是就这样留在动物园 没有重大转机和提升\Nかたやそのまま動物園に残り 大きな転機も昇進もなく
 Comment: 0,0:16:04.04,0:16:08.08,SIKANOKO_Bottom,旁白,0,0,0,kara,每天过着一尘不变的鹿生 选择安稳太平的鹿生路线\N毎日変わり映えのないシカ生を送る 安定のシカ生コース
-Comment: 0,0:16:08.53,0:16:10.65,SIKANOKO_Bottom,旁白,0,0,0,kara,你会如何做出选择\N君はどちらを選択する?
+Comment: 0,0:16:08.53,0:16:10.65,SIKANOKO_Bottom,旁白,0,0,0,kara,你会如何做出选择\N君はどちらを選択する？
 Comment: 0,0:16:11.18,0:16:12.24,SIKANOKO_Bottom,虎子,0,0,0,kara,简直就是人生啊\N人生じゃん
 Comment: 0,0:16:12.50,0:16:14.92,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,顺便一提 波澜壮阔的鹿生路线\Nちなみに激動のシカ生コースは
-Comment: 0,0:16:14.92,0:16:18.44,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,好像有山 海 城市 三种前进方向\N山 海 都会の3種類に進めるらしい
+Comment: 0,0:16:14.92,0:16:18.44,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,好像有山 海 城市 三种前进方向\N山 海 都会の{\fscx50} {\fscx100}3{\fscx50} {\fscx100}種類に進めるらしい
 Comment: 0,0:16:18.44,0:16:19.60,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nうーん
 Comment: 0,0:16:19.60,0:16:23.30,SIKANOKO_Bottom,馅子,0,0,0,kara,那我选择波澜壮阔的鹿生路线 去山里吧\Nじゃあ わたしは激動のシカ生コースで山に行こうかしら
 Comment: 0,0:16:23.74,0:16:28.61,SIKANOKO_Bottom,馅子,0,0,0,kara,去掌控那座山 把那里所有原住鹿的鹿仙贝都抢来好了\N山を掌握して 住むすべての鹿から鹿せんべいを巻き上げてやろうかな
-Comment: 0,0:16:28.61,0:16:31.67,SIKANOKO_Bottom,虎子,0,0,0,kara,你比我更有当不良少女的天分啊\Nお前 わたしよりヤンキーの素質ない?
+Comment: 0,0:16:28.61,0:16:31.67,SIKANOKO_Bottom,虎子,0,0,0,kara,你比我更有当不良少女的天分啊\Nお前 わたしよりヤンキーの素質ない？
 Comment: 0,0:16:32.03,0:16:34.62,SIKANOKO_Bottom,虎子,0,0,0,kara,那我就前进到城市\Nそれじゃあわたしは都会に進むかな
 Comment: 0,0:16:34.62,0:16:36.84,SIKANOKO_Bottom,虎子,0,0,0,kara,我会不断提升自己\N順調にキャリアアップしていくぜ
-Comment: 0,0:16:37.22,0:16:38.06,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子呢\N鹿乃子は?
+Comment: 0,0:16:37.22,0:16:38.06,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子呢\N鹿乃子は？
 Comment: 0,0:16:38.25,0:16:41.82,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,在遥远的国度 有人需要我\N遠くの国に わたしを求めてるやつがいる
 Comment: 0,0:16:41.82,0:16:43.10,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我能感觉到\Nそう感じるんだ
 Comment: 0,0:16:43.10,0:16:44.72,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,是海吧 是海呢\N海か 海ね
-Comment: 0,0:16:50.82,0:16:53.06,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,日野市的黎明即将到来\N日野市の夜明けは近いぬん!
-Comment: 0,0:16:54.09,0:16:54.58,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nぬん?
-Comment: 0,0:16:56.24,0:16:58.54,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我角!!\Nのーーーーつ
+Comment: 0,0:16:50.82,0:16:53.06,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,日野市的黎明即将到来\N日野市の夜明けは近いぬん！
+Comment: 0,0:16:54.09,0:16:54.58,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nぬん？
+Comment: 0,0:16:56.24,0:16:58.54,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我角！！\Nのーーーーつ
 Comment: 0,0:17:03.96,0:17:06.02,SIKANOKO_Bottom,旁白,0,0,0,kara,漂洋过海的鹿宝\N海を渡ったのこたんは
 Comment: 0,0:17:07.01,0:17:09.13,SIKANOKO_Bottom,旁白,0,0,0,kara,漂到了阿拉斯加\Nアラスカに漂着していた
-Comment: 0,0:17:09.13,0:17:10.47,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么是阿拉斯加？\Nなんでアラスカ?
+Comment: 0,0:17:09.13,0:17:10.47,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么是阿拉斯加？\Nなんでアラスカ？
 Comment: 0,0:17:10.62,0:17:12.04,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜冷冷冷冷\Nぬんんんん
-Comment: 0,0:17:12.93,0:17:13.54,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nぬん?
-Comment: 0,0:17:14.39,0:17:16.61,SIKANOKO_Bottom,旁白,0,0,0,kara,哎呀 鹿宝的样子…\Nおや?のこたんの様子が…
+Comment: 0,0:17:12.93,0:17:13.54,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nぬん？
+Comment: 0,0:17:14.39,0:17:16.61,SIKANOKO_Bottom,旁白,0,0,0,kara,哎呀 鹿宝的样子…\Nおや？のこたんの様子が…
 Comment: 0,0:17:20.24,0:17:21.20,SIKANOKO_Bottom,旁白,0,0,0,kara,恭喜\Nおめでとう
-Comment: 0,0:17:21.20,0:17:23.76,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿宝进化为驼鹿\Nのこたんはヘラジカに進化した!
+Comment: 0,0:17:21.20,0:17:23.76,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿宝进化为驼鹿\Nのこたんはヘラジカに進化した！
 Comment: 0,0:17:23.76,0:17:24.47,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:17:24.47,0:17:25.61,SIKANOKO_Bottom,虎子,0,0,0,kara,这是什么原理？\Nどういう原理?
+Comment: 0,0:17:24.47,0:17:25.61,SIKANOKO_Bottom,虎子,0,0,0,kara,这是什么原理？\Nどういう原理？
 Comment: 0,0:17:26.05,0:17:26.94,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
 Comment: 0,0:17:26.94,0:17:29.50,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,这真是波澜壮阔的鹿生啊\N確かにこれは激動のシカ生だわ
 Comment: 0,0:17:29.96,0:17:31.41,SIKANOKO_Bottom,虎子,0,0,0,kara,就连现实里也进化了\Nリアルまで進化してる
@@ -387,22 +387,22 @@ Comment: 0,0:17:32.70,0:17:36.44,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我进化�
 Comment: 0,0:17:36.93,0:17:38.37,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,能获得鹿仙贝奖励\N鹿せんべいボーナスがもらえ
 Comment: 0,0:17:38.37,0:17:39.58,SIKANOKO_Bottom,旁白,0,0,0,kara,那倒没有哦\N特に何もない
 Comment: 0,0:17:40.86,0:17:43.85,SIKANOKO_Bottom,馅子,0,0,0,kara,哎呀 就算是现役小鹿也没什么大不了的嘛\Nあら 現役シカなのに大したことないわね
-Comment: 0,0:17:43.85,0:17:46.57,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,什么嘛 那虎馅你又怎么样了嘛\N何よ!そういうこしあんはどうなのさ!
+Comment: 0,0:17:43.85,0:17:46.57,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,什么嘛 那虎馅你又怎么样了嘛\N何よ！そういうこしあんはどうなのさ！
 Comment: 0,0:17:48.45,0:17:52.59,SIKANOKO_Bottom,旁白,0,0,0,kara,顺利镇压那座山 把动物们都置于她的统治下\N順調に山を制圧し 動物たちを支配下に置く
-Comment: 0,0:17:52.95,0:17:57.35,SIKANOKO_Bottom,旁白,0,0,0,kara,以保护费的名义 每天要求上交10捆鹿仙贝\Nショバ代と称して 1日10枚の鹿せんべいを上納させる
+Comment: 0,0:17:52.95,0:17:57.35,SIKANOKO_Bottom,旁白,0,0,0,kara,以保护费的名义 每天要求上交{\fscx50} {\fscx100}10{\fscx50} {\fscx100}捆鹿仙贝\Nショバ代と称して 1{\fscx50} {\fscx100}日{\fscx50} {\fscx100}10{\fscx50} {\fscx100}枚の鹿せんべいを上納させる
 Comment: 0,0:17:57.68,0:18:00.68,SIKANOKO_Top,馅子,0,0,0,kara,违抗我的动物会受到相应的惩罚\N逆らう者にはそれ相応の罰が
 Comment: 0,0:18:00.68,0:18:01.85,SIKANOKO_Top,虎子,0,0,0,kara,这不就是恐怖政治吗\N恐怖政治か
 Comment: 0,0:18:02.30,0:18:04.19,SIKANOKO_Bottom,馅子,0,0,0,kara,我已经鹿仙贝自由了哦\N鹿せんべい食べ放題よ
 Comment: 0,0:18:04.19,0:18:05.15,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,太狡猾了\Nずるい
 Comment: 0,0:18:05.15,0:18:07.48,SIKANOKO_Bottom,虎子,0,0,0,kara,呵 馅子你还差得远呢\Nはっ あんこもまだまだだな
-Comment: 0,0:18:07.96,0:18:08.98,SIKANOKO_Bottom,馅子,0,0,0,kara,什么意思\Nどういうこと?
+Comment: 0,0:18:07.96,0:18:08.98,SIKANOKO_Bottom,馅子,0,0,0,kara,什么意思\Nどういうこと？
 Comment: 0,0:18:13.86,0:18:15.99,SIKANOKO_Bottom,路人,0,0,0,kara,请看这边\Nこっち 目線ください
 Comment: 0,0:18:15.99,0:18:16.84,SIKANOKO_Bottom,虎子,0,0,0,kara,好的\Nはい
 Comment: 0,0:18:20.06,0:18:23.35,SIKANOKO_Bottom,路人,0,0,0,kara,没错就这样 不错 很好\Nそうそう いいね いいよ
 Comment: 0,0:18:28.45,0:18:30.68,SIKANOKO_Bottom,旁白,0,0,0,kara,因知名摄影师拍摄的照片爆火\N有名写真家が撮った写真がバズり
 Comment: 0,0:18:30.68,0:18:32.65,SIKANOKO_Bottom,旁白,0,0,0,kara,成为了奈良公园的偶像\N奈良公園のアイドルとなる
 Comment: 0,0:18:32.65,0:18:35.03,SIKANOKO_Bottom,旁白,0,0,0,kara,来看虎宝的游客越来越多\N観光客がこしたん目当てでどんどん増え
-Comment: 0,0:18:35.03,0:18:38.20,SIKANOKO_Bottom,旁白,0,0,0,kara,前进一格就能获得100捆鹿仙贝\N1マス進むごとに 100枚の鹿せんべいをもらう
+Comment: 0,0:18:35.03,0:18:38.20,SIKANOKO_Bottom,旁白,0,0,0,kara,前进一格就能获得{\fscx50} {\fscx100}100{\fscx50} {\fscx100}捆鹿仙贝\N1{\fscx50} {\fscx100}マス進むごとに 100{\fscx50} {\fscx100}枚の鹿せんべいをもらう
 Comment: 0,0:18:38.76,0:18:40.93,SIKANOKO_Bottom,虎子,0,0,0,kara,那点小钱在我虎视眼里\Nこちとらそんな端金
 Comment: 0,0:18:40.93,0:18:43.12,SIKANOKO_Bottom,虎子,0,0,0,kara,根本就不算钱嘛\Nぜんぜん目じゃねえんだわ
 Comment: 0,0:18:44.10,0:18:48.67,SIKANOKO_Bottom,虎子,0,0,0,kara,我要榨干游客身上所有的钱 然后光荣退场\N観光客から巻き上げられるだけ巻き上げて 勝ち逃げしてやるわ
@@ -415,47 +415,47 @@ Comment: 0,0:18:57.29,0:19:00.33,SIKANOKO_Bottom,虎子,0,0,0,kara,烦死了 只
 Comment: 0,0:19:00.33,0:19:03.16,SIKANOKO_Bottom,旁白,0,0,0,kara,其实虎宝并非毫无兴趣\N実はちょっとまんざらでもないこしたんであった
 Comment: 0,0:19:05.91,0:19:07.33,SIKANOKO_Bottom,旁白,0,0,0,kara,鹿宝的回合\Nのこたんのターン
 Comment: 0,0:19:11.02,0:19:12.92,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,那么 轮到老朽的回合了\Nさて わしの番じゃ
-Comment: 0,0:19:12.92,0:19:14.92,SIKANOKO_Bottom,虎子,0,0,0,kara,怎么感觉人设都变了\Nなんかキャラ変わってない?
-Comment: 0,0:19:14.92,0:19:16.07,SIKANOKO_Bottom,旁白,0,0,0,kara,发生意外！\Nトラブル発生!
-Comment: 0,0:19:16.21,0:19:16.78,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nぬん?
+Comment: 0,0:19:12.92,0:19:14.92,SIKANOKO_Bottom,虎子,0,0,0,kara,怎么感觉人设都变了\Nなんかキャラ変わってない？
+Comment: 0,0:19:14.92,0:19:16.07,SIKANOKO_Bottom,旁白,0,0,0,kara,发生意外！\Nトラブル発生！
+Comment: 0,0:19:16.21,0:19:16.78,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nぬん？
 Comment: 0,0:19:17.35,0:19:21.93,SIKANOKO_Bottom,旁白,0,0,0,kara,出现一头超级凶暴的灰熊 鹿宝迎来穷途末路的危机\N超凶暴グリズリー出現 のこたん絶体絶命のピンチ
 Comment: 0,0:19:22.22,0:19:27.06,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜 老朽我长出这对角就是为了今天这一天吧\Nぬん ワシにこのツノが生えたのは今日この日のためだったのだな
 Comment: 0,0:19:34.36,0:19:35.49,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我角\Nのつ
 Comment: 0,0:19:45.69,0:19:50.01,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,从此阿拉斯加 不 美国迎来了和平\Nこれでアラスカに いやアメリカに平和が訪れました
 Comment: 0,0:19:50.53,0:19:52.63,SIKANOKO_Bottom,虎子,0,0,0,kara,灰熊 你到底怎么了\Nお前に何があったグリズリー
 Comment: 0,0:19:52.95,0:19:55.67,SIKANOKO_Bottom,旁白,0,0,0,kara,美国总统 美国国民\Nアメリカ大統領 アメリカ国民
-Comment: 0,0:19:55.67,0:20:00.97,SIKANOKO_Bottom,旁白,0,0,0,kara,美国居住的动物为表达感谢拿出了5000万捆鹿仙贝\Nアメリカに住まう動物たちから 感謝のしるしに鹿せんべいを5000万枚もらう
+Comment: 0,0:19:55.67,0:20:00.97,SIKANOKO_Bottom,旁白,0,0,0,kara,美国居住的动物为表达感谢拿出了{\fscx50} {\fscx100}5000{\fscx50} {\fscx100}万捆鹿仙贝\Nアメリカに住まう動物たちから 感謝のしるしに鹿せんべいを{\fscx50} {\fscx100}5000{\fscx50} {\fscx100}万枚もらう
 Comment: 0,0:20:01.47,0:20:03.71,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,愿鹿角与你同在\N角とともにあらんことを
 Comment: 0,0:20:03.71,0:20:04.19,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nぬん
-Comment: 0,0:20:04.19,0:20:06.14,SIKANOKO_Bottom,虎子,0,0,0,kara,那对角开挂了吧\Nそのツノチートすぎない?
+Comment: 0,0:20:04.19,0:20:06.14,SIKANOKO_Bottom,虎子,0,0,0,kara,那对角开挂了吧\Nそのツノチートすぎない？
 Comment: 0,0:20:06.48,0:20:08.65,SIKANOKO_Bottom,马车芽,0,0,0,kara,揉成一团 我揉我揉\N丸めてまるまる
 Comment: 0,0:20:09.18,0:20:11.02,SIKANOKO_Bottom,旁白,0,0,0,kara,就这样游戏继续\Nそしてゲームは進み
 Comment: 0,0:20:11.46,0:20:12.77,SIKANOKO_Bottom,虎子,0,0,0,kara,呵呵呵\Nフッフッフッ
-Comment: 0,0:20:12.77,0:20:17.11,SIKANOKO_Bottom,虎子,0,0,0,kara,你们想要赢我 还早了100年\Nお前らが私に勝とうなんざ 100年早かったなぁ
+Comment: 0,0:20:12.77,0:20:17.11,SIKANOKO_Bottom,虎子,0,0,0,kara,你们想要赢我 还早了{\fscx50} {\fscx100}100{\fscx50} {\fscx100}年\Nお前らが私に勝とうなんざ 100{\fscx50} {\fscx100}年早かったなぁ
 Comment: 0,0:20:17.11,0:20:19.66,SIKANOKO_Bottom,虎子,0,0,0,kara,你们还在磨磨唧唧的时候\Nお前らがちんたらやってるうちに
-Comment: 0,0:20:19.66,0:20:21.88,SIKANOKO_Bottom,虎子,0,0,0,kara,我已经年收2000亿捆\Nこちとら年収2000億枚
-Comment: 0,0:20:21.88,0:20:27.96,SIKANOKO_Bottom,虎子,0,0,0,kara,进化为总资产超1兆6000亿的超级精英鹿偶像了\N総資産1兆6000億枚超えの超エリートアイドルシカに進化してんだわ!
+Comment: 0,0:20:19.66,0:20:21.88,SIKANOKO_Bottom,虎子,0,0,0,kara,我已经年收{\fscx50} {\fscx100}2000{\fscx50} {\fscx100}亿捆\Nこちとら年収{\fscx50} {\fscx100}2000{\fscx50} {\fscx100}億枚
+Comment: 0,0:20:21.88,0:20:27.96,SIKANOKO_Bottom,虎子,0,0,0,kara,进化为总资产超{\fscx50} {\fscx100}1{\fscx50} {\fscx100}兆{\fscx50} {\fscx100}6000{\fscx50} {\fscx100}亿的超级精英鹿偶像了\N総資産{\fscx50} {\fscx100}1{\fscx50} {\fscx100}兆{\fscx50} {\fscx100}6000{\fscx50} {\fscx100}億枚超えの超エリートアイドルシカに進化してんだわ！
 Comment: 0,0:20:28.06,0:20:29.50,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,啊 什么时候\Nくっ いつの間に
 Comment: 0,0:20:29.50,0:20:31.00,SIKANOKO_Bottom,馅子,0,0,0,kara,不愧是姐姐\Nさすがお姉ちゃん
-Comment: 0,0:20:31.23,0:20:34.05,SIKANOKO_Bottom,虎子,0,0,0,kara,保持现状一口气冲到终点吧\Nこのまま一気にゴールまで駆け抜けるぜ!
-Comment: 0,0:20:35.03,0:20:36.35,SIKANOKO_Bottom,虎子,0,0,0,kara,大家辛苦了\Nお疲れさまです!
-Comment: 0,0:20:36.56,0:20:39.35,SIKANOKO_Bottom,虎子,0,0,0,kara,今天是拍新作的写真集对吧\N今日は新作写真集の撮影ですよね?
-Comment: 0,0:20:39.58,0:20:41.64,SIKANOKO_Bottom,绢,0,600,0,kara,不 不 不好意思\Nくう ごごごめんなさい!
-Comment: 0,0:20:41.64,0:20:44.52,SIKANOKO_Bottom,绢,0,600,0,kara,我什么都不知道\N私は何も知りませんから!
-Comment: 0,0:20:44.01,0:20:44.52,SIKANOKO_Bottom,虎子,600,0,0,kara,诶？\Nん?
+Comment: 0,0:20:31.23,0:20:34.05,SIKANOKO_Bottom,虎子,0,0,0,kara,保持现状一口气冲到终点吧\Nこのまま一気にゴールまで駆け抜けるぜ！
+Comment: 0,0:20:35.03,0:20:36.35,SIKANOKO_Bottom,虎子,0,0,0,kara,大家辛苦了\Nお疲れさまです！
+Comment: 0,0:20:36.56,0:20:39.35,SIKANOKO_Bottom,虎子,0,0,0,kara,今天是拍新作的写真集对吧\N今日は新作写真集の撮影ですよね？
+Comment: 0,0:20:39.58,0:20:41.64,SIKANOKO_Bottom,绢,0,600,0,kara,不 不 不好意思\Nくう ごごごめんなさい！
+Comment: 0,0:20:41.64,0:20:44.52,SIKANOKO_Bottom,绢,0,600,0,kara,我什么都不知道\N私は何も知りませんから！
+Comment: 0,0:20:44.01,0:20:44.52,SIKANOKO_Bottom,虎子,600,0,0,kara,诶？\Nん？
 Comment: 0,0:20:45.16,0:20:47.68,SIKANOKO_Bottom,千春,0,0,0,kara,那个 我听说\Nあの 私聞いたんですけど
 Comment: 0,0:20:48.67,0:20:49.96,SIKANOKO_Bottom,千春,0,0,0,kara,虎视小姐\Nこしさんは
 Comment: 0,0:20:49.96,0:20:51.69,SIKANOKO_Bottom,千春,0,0,0,kara,其实不是鹿\N実はシカじゃなくて
-Comment: 0,0:20:55.16,0:20:56.88,SIKANOKO_Bottom,虎子,0,0,0,kara,诶 这是什么\Nええ 何これ!
+Comment: 0,0:20:55.16,0:20:56.88,SIKANOKO_Bottom,虎子,0,0,0,kara,诶 这是什么\Nええ 何これ！
 Comment: 0,0:20:56.88,0:20:58.39,SIKANOKO_Bottom,根子,0,0,0,kara,丑闻曝光\Nスキャンダル発覚
 Comment: 0,0:20:58.39,0:21:02.04,SIKANOKO_Bottom,根子,0,0,0,kara,人气偶像其实不是鹿 而是水豚喵\N人気アイドルは実はシカではなくカピバラだったニャ
-Comment: 0,0:21:03.28,0:21:04.95,SIKANOKO_Bottom,虎子,0,0,0,kara,还有这种事吗？\Nそんなことある?
+Comment: 0,0:21:03.28,0:21:04.95,SIKANOKO_Bottom,虎子,0,0,0,kara,还有这种事吗？\Nそんなことある？
 Comment: 0,0:21:05.29,0:21:07.28,SIKANOKO_Bottom,旁白,0,0,0,kara,由于天价的赔偿费\N多額の賠償が発生
 Comment: 0,0:21:07.28,0:21:09.00,SIKANOKO_Bottom,旁白,0,0,0,kara,失去全部财产\N全財産を失う
 Comment: 0,0:21:09.00,0:21:09.61,SIKANOKO_Bottom,虎子,0,0,0,kara,诶？\Nえっ
 Comment: 0,0:21:11.69,0:21:13.79,SIKANOKO_Bottom,虎子,0,0,0,kara,坏了 输啦\Nゔがー 負けた
-Comment: 0,0:21:14.18,0:21:16.24,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,好耶 赢啦\Nやった!優勝!
-Comment: 0,0:21:16.24,0:21:19.37,SIKANOKO_Bottom,虎子,0,0,0,kara,就是最后 如果没有最后一格的话\N最後!最後の1マスがなければ!
+Comment: 0,0:21:14.18,0:21:16.24,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,好耶 赢啦\Nやった！優勝！
+Comment: 0,0:21:16.24,0:21:19.37,SIKANOKO_Bottom,虎子,0,0,0,kara,就是最后 如果没有最后一格的话\N最後！最後の{\fscx50} {\fscx100}1{\fscx50} {\fscx100}マスがなければ！
 Comment: 0,0:21:19.37,0:21:21.26,SIKANOKO_Bottom,馅子,0,0,0,kara,还是打不赢美国啊\Nアメリカには勝てなかったわ
 Comment: 0,0:21:23.08,0:21:25.26,SIKANOKO_Bottom,虎子,0,0,0,kara,不过 没想到玩得这么尽兴\Nまあ 思いの外盛り上がったな
 Comment: 0,0:21:25.73,0:21:27.27,SIKANOKO_Bottom,虎子,0,0,0,kara,还是挺有趣的\Nそこそこ楽しかったし
@@ -463,17 +463,17 @@ Comment: 0,0:21:29.89,0:21:31.97,SIKANOKO_Bottom,虎子,0,0,0,kara,话说回来 
 Comment: 0,0:21:31.97,0:21:33.38,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,有鹿仙贝哦\N鹿せんべいあるよ
 Comment: 0,0:21:33.38,0:21:34.96,SIKANOKO_Bottom,虎子,0,0,0,kara,不要 那个有点\Nいや それはちょっと
 Comment: 0,0:21:34.96,0:21:38.36,SIKANOKO_Bottom,馅子,0,0,0,kara,这么说 马车芽不是在做年糕吗\Nそういえば 馬車芽がおもちの準備をしてたんじゃ
-Comment: 0,0:21:41.22,0:21:42.09,SIKANOKO_Bottom,虎子,0,0,0,kara,马车芽？\N馬車芽?
+Comment: 0,0:21:41.22,0:21:42.09,SIKANOKO_Bottom,虎子,0,0,0,kara,马车芽？\N馬車芽？
 Comment: 0,0:21:42.09,0:21:43.19,SIKANOKO_Bottom,馅子,0,0,0,kara,嗯嗯\Nふむふむ
 Comment: 0,0:21:43.19,0:21:46.20,SIKANOKO_Bottom,馅子,0,0,0,kara,偷吃年糕 结果喉咙噎住了吧\Nおもちをつまみ食いしたら喉に詰まらせたのね
-Comment: 0,0:21:46.20,0:21:47.24,SIKANOKO_Bottom,虎子,0,0,0,kara,说得太冷静了吧\Nって悠長か!
-Comment: 0,0:21:47.62,0:21:49.52,SIKANOKO_Bottom,虎子,0,0,0,kara,快吐出来啊 吐出来啊\N早く吐き出せ ほら!
+Comment: 0,0:21:46.20,0:21:47.24,SIKANOKO_Bottom,虎子,0,0,0,kara,说得太冷静了吧\Nって悠長か！
+Comment: 0,0:21:47.62,0:21:49.52,SIKANOKO_Bottom,虎子,0,0,0,kara,快吐出来啊 吐出来啊\N早く吐き出せ ほら！
 Comment: 0,0:21:50.04,0:21:51.39,SIKANOKO_Bottom,马车芽,0,0,0,kara,好浪费\Nもったいない
-Comment: 0,0:21:51.39,0:21:52.97,SIKANOKO_Bottom,虎子,0,0,0,kara,现在是说这个的时候吗\N言うとる場合か!
+Comment: 0,0:21:51.39,0:21:52.97,SIKANOKO_Bottom,虎子,0,0,0,kara,现在是说这个的时候吗\N言うとる場合か！
 Comment: 0,0:21:55.74,0:21:57.16,SIKANOKO_Bottom,马车芽,0,0,0,kara,我吃我吃\Nアムアム
 Comment: 0,0:21:58.69,0:22:00.76,SIKANOKO_Bottom,马车芽,0,0,0,kara,啊 真好吃\Nあ おいしかった
 Comment: 0,0:22:01.50,0:22:02.16,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,很角\Nのつ
-Comment: 0,0:22:02.16,0:22:04.47,SIKANOKO_Bottom,虎子,0,0,0,kara,所以说你那对角也太开挂了吧\Nだからチート過ぎだってその角!
+Comment: 0,0:22:02.16,0:22:04.47,SIKANOKO_Bottom,虎子,0,0,0,kara,所以说你那对角也太开挂了吧\Nだからチート過ぎだってその角！
 Comment: 0,0:01:15.97,0:01:16.01,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_sc.ass
 Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import-shifted,../ed_sc.ass
 Comment: 0,0:22:05.05,0:22:07.05,SIKANOKO_Bottom,,0,0,0,import,insert/insert01.ass
