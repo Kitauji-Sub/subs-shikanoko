@@ -8,14 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/ep8.mkv
-Video File: C:/Users/scree/Desktop/ep8.mkv
+Audio File: C:/Users/scree/Desktop/sino_ep8/ep8.mkv
+Video File: C:/Users/scree/Desktop/sino_ep8/ep8.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 1.125000
-Scroll Position: 2357
-Active Line: 2365
-Video Position: 30227
+Video Zoom Percent: 0.750000
+Scroll Position: 1858
+Active Line: 1873
+Video Position: 14249
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -23,9 +23,7 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
+Dialogue: 0,0:00:00.48,0:00:05.49,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
 Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
 Dialogue: 0,0:00:10.49,0:00:10.53,OnScreen,,0,0,0,,{=8=30}{\alpha&H00&\c&H4D191D&\fscx230.78\fscy242.75\frz8.18\frx0.6809\fry0.5058\org(106.75,1277.38)\pos(1176.68,263.92)}鹿乃子同学
 Dialogue: 0,0:00:10.53,0:00:10.57,OnScreen,,0,0,0,,{=8=30}{\alpha&H00&\c&H4D191D&\fscx230.78\fscy242.75\frz8.18\frx0.6809\fry0.5058\org(106.75,1269.99)\pos(1176.68,256.53)}鹿乃子同学
@@ -1898,8 +1896,8 @@ Dialogue: 0,0:09:53.32,0:09:53.36,OnScreen,14229,0,0,0,,{=145}{\alpha&H00&\an9\f
 Dialogue: 0,0:09:53.36,0:09:53.40,OnScreen,14229,0,0,0,,{=145}{\alpha&H00&\an9\fn@悠哉字体\c&H18060F&\3c&H9D9CBE&\bord4.98\fscx124.4\fscy124.4\frz274.7\pos(1584.43,896.83)}马车芽
 Dialogue: 0,0:09:53.40,0:09:53.44,OnScreen,14229,0,0,0,,{=145}{\alpha&H00&\an9\fn@悠哉字体\c&H18060F&\3c&H9D9CBE&\bord4.99\fscx124.7\fscy124.7\frz274.7\pos(1585.71,897.42)}马车芽
 Dialogue: 0,0:09:53.44,0:09:53.48,OnScreen,14229,0,0,0,,{=145}{\alpha&H00&\an9\fn@悠哉字体\c&H18060F&\3c&H9D9CBE&\bord5\fscx125\fscy125\frz274.7\pos(1587,898)}马车芽
-Dialogue: 0,0:09:53.49,0:09:56.99,OnScreen,eyecatch,0,0,0,,
-Dialogue: 0,0:09:56.99,0:10:00.50,OnScreen,eyecatch,0,0,0,,
+Dialogue: 0,0:09:53.49,0:09:56.99,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}神奈川县 大山阿夫利神社
+Dialogue: 0,0:09:56.99,0:10:00.50,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,285)}神奈川县 大山阿夫利神社
 Dialogue: 3,0:11:10.44,0:11:10.48,OnScreen,,0,0,0,,{=163=185}{\alpha&H00&\fscx123.17\fscy123.19\frz-6.86\frx2.5432\fry-0.0374\org(1242.2,1104.98)\pos(1146.21,1141.27)\bord2.3\3c&HF5F6F8&\1c&HF7FDFE&}鹿生游戏\N豪华版
 Dialogue: 3,0:11:10.48,0:11:10.52,OnScreen,,0,0,0,,{=163=185}{\alpha&H00&\fscx122.78\fscy122.81\frz-6.86\frx2.5432\fry-0.0374\org(1241.32,1103.22)\pos(1145.62,1139.4)\bord2.29\3c&HE2E6EA&\1c&HE8F9FC&}鹿生游戏\N豪华版
 Dialogue: 3,0:11:10.52,0:11:10.56,OnScreen,,0,0,0,,{=163=185}{\alpha&H00&\fscx122.4\fscy122.42\frz-6.86\frx2.5432\fry-0.0374\org(1240.44,1101.47)\pos(1145.04,1137.54)\bord2.29\3c&HCFD5DC&\1c&HD8F5FB&}鹿生游戏\N豪华版
