@@ -29,7 +29,7 @@ Style: STF,筑紫A丸 SC,50,&H00FFFFFF,&H000000FF,&H00345B85,&H00000000,-1,0,0,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code once anystyle,monolingual = false
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code once anystyle,monolingual = true
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,colors,0,0,0,code once anystyle,charactor_color = {     ["鹿乃子"] = "&H3361FF&",     ["虎子"] = "&H0094AA&",     ["馅子"] = "&HE56CB4&",     ["马车芽"] = "&H4DB477&",     ["根子"] = "&H7D5BDB&",     ["绢"] = "&HC182DC&",     ["千春"] = "&HAE6238&",} function search_for_color(input_text)     for k, v in _G.pairs(charactor_color) do         if string.find(input_text, k) then             return v         end     end     return "&H345B85&" end function name_color(color)     return colorlib.interp_xyz(0.5, "&H345B85&", color) end
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,utility,0,0,0,code once anystyle,function string:split(delimiter)     local result = {}     local from = 1     local delim_from, delim_to = string.find(self, delimiter, from, true)     while delim_from do         if (delim_from ~= 1) then             table.insert(result, string.sub(self, from, delim_from-1))         end         from = delim_to + 1         delim_from, delim_to = string.find(self, delimiter, from, true)     end     if (from <= #self) then table.insert(result, string.sub(self, from)) end     return result end
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,global settings,0,0,0,code once anystyle,_zh_jp_gap = 42.5; _zh_jp_gap_top=53.5; graphic_height_bottom = 30; graphic_height_top = 25; tc_fontname = "獅尾圓體-Bold"; if monolingual then _zh_jp_gap = 0 _zh_jp_gap_top = 0 end;
@@ -65,10 +65,8 @@ Comment: 0,0:01:11.80,0:01:15.47,SIKANOKO_Bottom,旁白,0,0,0,kara,来新年参�
 Comment: 0,0:02:51.03,0:02:53.34,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 等等 鹿乃子？\Nちょっ まっ 鹿乃子？
 Comment: 0,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,你在干什么啊\Nえっ 何してんの？
 Comment: 0,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,那就是鹿神大人吗\Nあれが鹿神様ですか
-Dialogue: 9,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,{\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H237C99&\move(960,1012.5,-240,1012.5,1293,1693)}你在干什么啊
-Dialogue: 8,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,{\move(960,1055,-240,1055,1293,1693)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H237C99&}えっ 何してんの？
-Dialogue: 9,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,{\move(2500,1012.5,1100,1012.5,1293,1693)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H42907E&}那就是鹿神大人吗
-Dialogue: 8,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,{\move(2500,1055,1100,1055,1293,1693)\bord3.64\fscx70\fscy70\fnFOT-TsukuARdGothic Std E\3c&H42907E&}あれが鹿神様ですか
+Dialogue: 9,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,虎子,0,0,0,,{\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H237C99&\move(960,1055,-240,1055,1293,1693)}你在干什么啊
+Dialogue: 9,0:02:53.34,0:02:57.34,SIKANOKO_Bottom,马车芽,0,0,0,,{\move(2500,1055,1100,1055,1293,1693)\bord5.2\fscx100\fscy100\fn筑紫A丸 SC\3c&H42907E&}那就是鹿神大人吗
 Comment: 0,0:02:57.34,0:02:59.35,SIKANOKO_Bottom,马车芽,290,0,0,kara,马车芽还是第一次见到\N馬車芽初めて見ました
 Comment: 0,0:02:59.35,0:03:00.77,SIKANOKO_Bottom,馅子,0,0,0,kara,好美的角啊\N立派な角ね
 Comment: 0,0:03:00.77,0:03:02.37,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿 鹿乃子成神了？\Nし 鹿乃子が神？
