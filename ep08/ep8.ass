@@ -9,14 +9,14 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/ep8.mkv
-Video File: C:/Users/scree/Desktop/ep8.mkv
+Audio File: C:/Users/scree/Desktop/sino_ep8/ep8.mkv
+Video File: C:/Users/scree/Desktop/sino_ep8/ep8.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 21
-Active Line: 15
-Video Position: 31770
+Video Zoom Percent: 0.250000
+Scroll Position: 408
+Active Line: 444
+Video Position: 31701
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -210,7 +210,7 @@ Comment: 0,0:09:00.96,0:09:02.81,SIKANOKO_Bottom,虎子,0,0,0,kara,赶紧回去�
 Comment: 0,0:09:03.50,0:09:05.08,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,啊 虎宝\Nあっ こしたん
 Comment: 0,0:09:05.08,0:09:05.69,SIKANOKO_Bottom,虎子,0,0,0,kara,嗯？\Nん？
 Comment: 0,0:09:05.69,0:09:07.41,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,久等了\Nお待たせー
-Comment: 0,0:09:07.41,0:09:08.19,SIKANOKO_Bottom,虎子,0,0,0,kara,噜 噜\Nぬんぬん
+Comment: 0,0:09:07.41,0:09:08.19,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜 噜\Nぬんぬん
 Comment: 0,0:09:08.44,0:09:10.77,SIKANOKO_Bottom,马车芽,0,0,0,kara,啊 是鹿宝学姐\Nあ のこたん先輩
 Comment: 0,0:09:10.77,0:09:13.74,SIKANOKO_Bottom,虎子,0,0,0,kara,你这家伙 让人等你这么久不说\Nテメェ 散々人を待たせたあげく
 Comment: 0,0:09:13.74,0:09:16.43,SIKANOKO_Bottom,虎子,0,0,0,kara,还自说自话地去扮鹿神 搞焚祭\Nシカ神だお焚き上げだ好き勝手しやがって
@@ -330,7 +330,7 @@ Comment: 0,0:14:43.11,0:14:46.83,SIKANOKO_Bottom,馅子,0,0,0,kara,不过受点�
 Comment: 0,0:14:47.13,0:14:48.32,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你的意思是？\Nといいますと？
 Comment: 0,0:14:48.89,0:14:52.37,SIKANOKO_Bottom,馅子,0,0,0,kara,是我的话就不会休息 而是先把对方{\fscx50} {\fscx100}OO 接着{\fscx50} {\fscx100}XX{\fscx50} {\fscx100}之后\N私なら休まず相手をムキムキしてペシペシした後に
 Comment: 0,0:14:52.37,0:14:55.80,SIKANOKO_Bottom,馅子,0,0,0,kara,再对她♂♂ 最后把她弄得♀♀\Nふにふにして最終的にはメムメムにするけど
-Comment: 0,0:14:55.80,0:14:58.38,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐我能当没听见吗\Nお姉ちゃん聞かなかったことにしていい？
+Comment: 0,0:14:55.80,0:14:58.38,SIKANOKO_Bottom,虎子,0,0,0,kara,姐姐我能当没听见吗\Nお姉ちゃん聞かなかったことにしていい？
 Comment: 0,0:14:58.58,0:15:00.09,SIKANOKO_Bottom,旁白,0,0,0,kara,虎宝的回合\Nこしたんのターン
 Comment: 0,0:15:00.09,0:15:01.67,SIKANOKO_Bottom,虎子,0,0,0,kara,呃 接下来是\Nえっと次は
 Comment: 0,0:15:01.96,0:15:03.66,SIKANOKO_Bottom,旁白,0,0,0,kara,成长期突然到来\N急な成長期到来
