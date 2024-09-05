@@ -1,0 +1,47 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Active Line: 4
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:00.49,0:00:05.50,Signs_BText,Sign,0,0,0,,{\fad(503,493)\pos(320,282)}This is a work of fiction. The names of the people, places, and organizations\Nare fictitious and in no way related to any real person or entity.
+Dialogue: 0,0:00:05.35,0:00:15.36,Signs,Sign,0,0,0,,{\fad(864,1)\fs14\bord1\fnArial Black\c&H231C12&\3c&H2C50C3&\pos(489.715,176.857)}Deer Club\N{\fs8}Seeking New Club Members
+Dialogue: 0,0:00:17.87,0:00:25.37,Signs,Sign,0,0,0,,{\fs14\bord1\fnArial Black\c&H231C12&\3c&H2C50C3&\pos(489.715,176.857)}Deer Club\N{\fs8}Seeking New Club Members
+Dialogue: 0,0:00:34.38,0:00:37.64,Signs,Sign,0,0,0,,{\fs16\bord1\fnArial Black\c&H231C12&\3c&H2C50C3&\pos(410.286,68.857)}Deer Club\N{\fs10}Seeking New Club Members
+Dialogue: 0,0:00:55.45,0:00:58.78,Signs,Sign,0,0,0,,{\fad(564,1)\fs16\bord2\fnTimes New Roman\c&H402529&\3c&H97685F&\pos(554.857,121.428)}Deer Crackers
+Dialogue: 0,0:02:51.02,0:02:56.03,Signs,Sign,0,0,0,,{\fs36\bord1.5\fnArial Black\c&HFB7BFB&\3c&H8DFBCF&\pos(318.5,118.5)}Blame It on the Spring
+Dialogue: 0,0:05:43.40,0:05:45.40,Signs,Sign,0,0,0,,{\bord2\fs20\fnTimes New Roman\c&H050011&\3c&H110F80&\pos(492,225.429)}Student Council
+Dialogue: 0,0:06:41.77,0:06:43.59,Signs,Sign,0,0,0,,{\fad(173,1)\fs25\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(313.714,172.286)}Deer Club\N{\fs15}Seeking New Club Members
+Dialogue: 0,0:07:50.82,0:07:52.53,Signs,Sign,0,0,0,,{\fs18\bord2\fnArial Black\c&H131216&\3c&H1140A4&\pos(349.142,132.858)}Deer Club\N{\fs10}Seeking New Club Members
+Dialogue: 0,0:07:54.03,0:07:55.53,Signs,Sign,0,0,0,,{\fs26\fsp6\bord4\fnArial Black\c&H070E72&\3c&H399D4E&\frz1.756\fax-0.05\pos(330.643,174.643)}Hi{\c&H266CE9&\3c&HAAB8F0&}no {\c&H4BC7D8&\3c&H399D4E&}Z{\c&HA67F2B&\3c&HAAB8F0&}o{\c&H6C0F32&\3c&H399D4E&}o
+Dialogue: 0,0:09:29.79,0:09:33.80,Signs,Sign,0,0,0,,{\bord2\fnArial Black\c&H0607F8&\3c&HFFF5DD&}Hino Veterinary Hospital {\alpha&HFF&\t(1071,2156,\alpha&H00&)}for Doggies and Kitties
+Dialogue: 0,0:10:04.54,0:10:08.04,Signs_BText,Sign,0,0,0,,{\an7\fs24\pos(22.215,105.786)}Izu Peninsula\NHachijo-jima
+Dialogue: 0,0:10:08.04,0:10:11.54,Signs_BText,Sign,0,0,0,,{\an7\fs24\pos(22.786,112.643)}Hachijo-jima\NReeves's muntjacs
+Dialogue: 0,0:10:11.54,0:10:13.55,Signs,Sign,0,0,0,,{\fs16\bord2\fnArial Black\c&H1B1537&\3c&H2457BC&\pos(409.714,68.286)}Deer Club\N{\fs10}Seeking New Club Members
+Dialogue: 0,0:10:20.43,0:10:26.93,Signs,Sign,0,0,0,,{\an9\fnTimes New Roman\fs22\c&H250A86&\3c&H58B4DE&\bord2\pos(361.428,93.858)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:11:03.47,0:11:05.47,Signs,Sign,0,0,0,,{\fs9\c&H313340&\3c&HFAFBFF&\bord2\fay-0.12\move(507.428,102.572,485.714,126.572,26,1986)}Flower Arrangement Club
+Dialogue: 0,0:11:05.47,0:11:07.47,Signs,Sign,0,0,0,,{\bord3\c&H1F1F1F&\3c&HF8F8F8&\fay-0.28\pos(321.715,118.571)}Flower Arrangement Club
+Dialogue: 0,0:17:02.29,0:17:04.29,Signs_BText,Sign,0,0,0,,{\fs26\bord2\pos(321.714,124.286)}The Next Day
+Dialogue: 0,0:17:02.29,0:17:04.29,Signs,Sign,0,0,0,,{\fs16\bord2\fnArial Black\c&H3D2525&\3c&H2559AB&\pos(409.714,58.571)}Deer Club\N{\fs10}Seeking New Club Members
+Dialogue: 0,0:17:15.30,0:17:18.30,Signs_BText,Sign,0,0,0,,{\an7\fs24\pos(18.79,160)}\NA very cute\NReeves's muntjac\Nfrom Hachijo-jima
+Dialogue: 0,0:17:46.96,0:17:54.96,Signs,Sign,0,0,0,,{\an9\fnTimes New Roman\fs16\c&H250A86&\3c&H58B4DE&\bord2\pos(355.714,70.429)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:19:02.53,0:19:07.79,Signs,Sign,0,0,0,,{\fs25\bord2\fnArial Black\c&H2A1E16&\3c&H2249AA&\pos(490.286,173.429)}Deer Club\N{\fs15}Seeking New Club Members
+Dialogue: 0,0:20:13.69,0:20:17.32,Signs,Sign,0,0,0,,{\fs25\bord2\fnArial Black\c&H2A1E16&\3c&H407FC9&\pos(490.286,173.429)}Deer Club\N{\fs15}Seeking New Club Members
+Dialogue: 0,0:21:50.03,0:21:59.77,Signs,Sign,0,0,0,,{\fs18\bord2\fnArial Black\c&H32282D&\3c&H2A55AB&\move(324.571,98,324.571,324.286,28,9705)}Deer Club\N{\fs10}Seeking New Club Members
+Dialogue: 0,0:00:00.00,0:00:05.00,OnScreen,,0,0,0,,
