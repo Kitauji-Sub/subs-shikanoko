@@ -7,6 +7,16 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 09 (1080p) [2168E2F9].mkv
+Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 09 (1080p) [2168E2F9].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Scroll Position: 6
+Active Line: 14
+Video Position: 16038
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Insert_CN,思源黑体 Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,85,1
@@ -25,7 +35,80 @@ Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line anystyle,generate_li
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,code line anystyle,tag_table = GetTags(orgline.text)
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char actor everyone anystyle noblank,
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone anystyle noblank,{\3c&H345B85&}
-Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
+Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",32*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
-Dialogue: 0,0:00:00.00,0:00:02.00,Insert_JP,,0,0,0,,
+Comment: 0,0:11:02.68,0:11:04.06,Insert_JP,,0,0,0,kara,しかのこ とことこ
+Comment: 0,0:11:04.06,0:11:05.34,Insert_JP,,0,0,0,kara,あらわる のこのこ
+Comment: 0,0:11:05.34,0:11:06.69,Insert_JP,,0,0,0,kara,つのつの ぴょこぴょこ
+Comment: 0,0:11:06.69,0:11:08.01,Insert_JP,,0,0,0,kara,見た目は おにゃのこ？
+Comment: 0,0:11:08.01,0:11:10.62,Insert_JP,,0,0,0,kara,近頃ウワサのなかなかキワモノ
+Comment: 0,0:11:10.62,0:11:11.88,Insert_JP,,0,0,0,kara,お手並みいかほど
+Comment: 0,0:11:11.88,0:11:13.18,Insert_JP,,0,0,0,kara,へなちょこ
+Comment: 0,0:11:13.18,0:11:15.81,Insert_JP,,0,0,0,kara,スゴクムカシカラ ジャパンニセイソク
+Comment: 0,0:11:15.81,0:11:18.50,Insert_JP,,0,0,0,kara,シカせんべいなら無限にください
+Comment: 0,0:11:18.50,0:11:19.72,Insert_JP,,0,0,0,kara,トナカイはなかま
+Comment: 0,0:11:19.72,0:11:21.08,Insert_JP,,0,0,0,kara,カモシカはウシ科
+Comment: 0,0:11:21.08,0:11:23.76,Insert_JP,,0,0,0,kara,でもでもまとめて偶蹄目
+Comment: 0,0:11:23.76,0:11:27.78,Insert_JP,,0,0,0,kara,ぬんのステップで踊ろう
+Comment: 0,0:11:29.11,0:11:31.53,Insert_JP,,0,0,0,kara,夜が明けるまで
+Comment: 0,0:11:31.60,0:11:32.40,Insert_JP,,0,0,0,kara,（わん・つー・すりー）
+Comment: 0,0:11:32.40,0:11:35.42,Insert_JP,,0,0,0,kara,なんどだって反芻して ぬぬぬん
+Comment: 0,0:11:35.42,0:11:38.44,Insert_JP,,0,0,0,kara,予測 不可能 シカ色デイズ
+Comment: 0,0:11:38.44,0:11:40.61,Insert_JP,,0,0,0,kara,アバンギャルドでオーライ
+Comment: 0,0:11:40.61,0:11:42.92,Insert_JP,,0,0,0,kara,カオス増し増し↑↑
+Comment: 0,0:11:42.92,0:11:45.82,Insert_JP,,0,0,0,kara,いつの間にクセになって ぬぬぬん
+Comment: 0,0:11:45.82,0:11:48.92,Insert_JP,,0,0,0,kara,ハチャでメチャなシカ色デイズ
+Comment: 1,0:11:48.92,0:11:51.08,Insert_JP,,0,0,0,kara,破天荒 ばっちCome on!
+Comment: 0,0:11:51.08,0:11:53.89,Insert_JP,,0,0,0,kara,何でもアリ ルールなんてナシ
+Comment: 0,0:11:53.89,0:11:56.35,Insert_JP,,0,0,0,kara,君の笑顔で元気満タン
+Comment: 0,0:11:56.35,0:11:59.10,Insert_JP,,0,0,0,kara,もしかして運命のま、ま、My Deer！？
+Comment: 0,0:11:59.10,0:12:01.57,Insert_JP,,0,0,0,kara,こころのどこかで虎視眈々
+Comment: 0,0:12:01.57,0:12:04.35,Insert_JP,,0,0,0,kara,君とならいつまでも
+Comment: 0,0:12:04.35,0:12:06.68,Insert_JP,,0,0,0,kara,しかのこのこのここしたんたん
+Comment: 0,0:12:06.88,0:12:09.24,Insert_JP,,0,0,0,kara,しかのこのこのここしたんたん
+Comment: 0,0:11:02.68,0:11:04.06,Insert_CN,,0,0,0,kara,小鹿乃子 一跳一跳
+Comment: 0,0:11:04.06,0:11:05.34,Insert_CN,,0,0,0,kara,漫不经心 突然出现
+Comment: 0,0:11:05.34,0:11:06.69,Insert_CN,,0,0,0,kara,鹿角鹿角 一蹦一蹦
+Comment: 0,0:11:06.69,0:11:08.01,Insert_CN,,0,0,0,kara,看上去是个女孩子？
+Comment: 0,0:11:08.01,0:11:10.62,Insert_CN,,0,0,0,kara,最近大家口口相传 话题中心风云人物
+Comment: 0,0:11:10.62,0:11:11.88,Insert_CN,,0,0,0,kara,你的本事究竟如何
+Comment: 0,0:11:11.88,0:11:13.18,Insert_CN,,0,0,0,kara,超级废柴
+Comment: 0,0:11:13.18,0:11:15.81,Insert_CN,,0,0,0,kara,很久很久以前开始就能够在日本看见
+Comment: 0,0:11:15.81,0:11:18.50,Insert_CN,,0,0,0,kara,有鹿仙贝的话请为我无限提供
+Comment: 0,0:11:18.50,0:11:19.72,Insert_CN,,0,0,0,kara,驯鹿它们是？好伙伴
+Comment: 0,0:11:19.72,0:11:21.08,Insert_CN,,0,0,0,kara,羚羊它们是？牛科的
+Comment: 0,0:11:21.08,0:11:23.76,Insert_CN,,0,0,0,kara,不过它们全部都是偶蹄目
+Comment: 0,0:11:23.76,0:11:27.78,Insert_CN,,0,0,0,kara,一起来跳鹿鹿舞步吧
+Comment: 0,0:11:29.11,0:11:31.53,Insert_CN,,0,0,0,kara,直到明天太阳升起
+Comment: 0,0:11:31.60,0:11:32.40,Insert_CN,,0,0,0,kara,一 二 三
+Comment: 0,0:11:32.40,0:11:35.42,Insert_CN,,0,0,0,kara,让人无数次反复回味 噜噜噜
+Comment: 0,0:11:35.42,0:11:38.44,Insert_CN,,0,0,0,kara,是无法 预测的 鹿色时光啊
+Comment: 0,0:11:38.44,0:11:40.61,Insert_CN,,0,0,0,kara,保持 前卫派的风格
+Comment: 0,0:11:40.61,0:11:42.92,Insert_CN,,0,0,0,kara,让混乱超级加倍
+Comment: 0,0:11:42.92,0:11:45.82,Insert_CN,,0,0,0,kara,不知不觉中 已习以为常 噜噜噜
+Comment: 0,0:11:45.82,0:11:48.92,Insert_CN,,0,0,0,kara,荒唐又 胡闹的 鹿色时光啊
+Comment: 1,0:11:48.92,0:11:51.08,Insert_CN,,0,0,0,kara,破天荒全都来吧
+Comment: 0,0:11:51.08,0:11:53.89,Insert_CN,,0,0,0,kara,一切有可能 打破所有的规则
+Comment: 0,0:11:53.89,0:11:56.35,Insert_CN,,0,0,0,kara,你的笑容总能让我充满活力
+Comment: 0,0:11:56.35,0:11:59.10,Insert_CN,,0,0,0,kara,也许是命中注定的My My My Deer
+Comment: 0,0:11:59.10,0:12:01.57,Insert_CN,,0,0,0,kara,内心中的某个地方虎视眈眈
+Comment: 0,0:12:01.57,0:12:04.35,Insert_CN,,0,0,0,kara,与你在一起 就能到永远
+Comment: 0,0:12:04.35,0:12:06.68,Insert_CN,,0,0,0,kara,鹿乃子乃子乃子虎视眈眈
+Comment: 0,0:12:06.88,0:12:09.24,Insert_CN,,0,0,0,kara,鹿乃子乃子乃子虎视眈眈
+Comment: 0,0:13:14.91,0:13:17.80,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:13:18.44,0:13:21.81,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:13:22.58,0:13:27.95,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:17:44.50,0:17:46.04,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:17:48.14,0:17:49.80,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:21:48.91,0:21:52.11,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:21:52.80,0:21:56.25,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:21:57.01,0:22:02.28,Insert_JP,,0,0,0,kara,シカ
+Comment: 0,0:13:14.91,0:13:17.80,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:13:18.44,0:13:21.81,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:13:22.58,0:13:27.95,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:17:44.50,0:17:46.04,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:17:48.14,0:17:49.80,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:21:48.91,0:21:52.11,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:21:52.80,0:21:56.25,Insert_CN,,0,0,0,kara,鹿鹿
+Comment: 0,0:21:57.01,0:22:02.28,Insert_CN,,0,0,0,kara,鹿鹿
