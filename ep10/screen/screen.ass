@@ -8,7 +8,13 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Active Line: 4
+Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 10 (1080p) [D15F371A].mkv
+Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 10 (1080p) [D15F371A].mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 1.000000
+Active Line: 5
+Video Position: 13787
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -16,32 +22,102 @@ Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
-Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 0,0:00:00.49,0:00:05.50,Signs_BText,Sign,0,0,0,,{\fad(503,493)\pos(320,282)}This is a work of fiction. The names of the people, places, and organizations\Nare fictitious and in no way related to any real person or entity.
-Dialogue: 0,0:00:05.35,0:00:15.36,Signs,Sign,0,0,0,,{\fad(864,1)\fs14\bord1\fnArial Black\c&H231C12&\3c&H2C50C3&\pos(489.715,176.857)}Deer Club\N{\fs8}Seeking New Club Members
-Dialogue: 0,0:00:17.87,0:00:25.37,Signs,Sign,0,0,0,,{\fs14\bord1\fnArial Black\c&H231C12&\3c&H2C50C3&\pos(489.715,176.857)}Deer Club\N{\fs8}Seeking New Club Members
-Dialogue: 0,0:00:34.38,0:00:37.64,Signs,Sign,0,0,0,,{\fs16\bord1\fnArial Black\c&H231C12&\3c&H2C50C3&\pos(410.286,68.857)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:00:55.45,0:00:58.78,Signs,Sign,0,0,0,,{\fad(564,1)\fs16\bord2\fnTimes New Roman\c&H402529&\3c&H97685F&\pos(554.857,121.428)}Deer Crackers
-Dialogue: 0,0:02:51.02,0:02:56.03,Signs,Sign,0,0,0,,{\fs36\bord1.5\fnArial Black\c&HFB7BFB&\3c&H8DFBCF&\pos(318.5,118.5)}Blame It on the Spring
-Dialogue: 0,0:05:43.40,0:05:45.40,Signs,Sign,0,0,0,,{\bord2\fs20\fnTimes New Roman\c&H050011&\3c&H110F80&\pos(492,225.429)}Student Council
-Dialogue: 0,0:06:41.77,0:06:43.59,Signs,Sign,0,0,0,,{\fad(173,1)\fs25\bord2\fnArial Black\c&H32282D&\3c&H3B77BB&\pos(313.714,172.286)}Deer Club\N{\fs15}Seeking New Club Members
-Dialogue: 0,0:07:50.82,0:07:52.53,Signs,Sign,0,0,0,,{\fs18\bord2\fnArial Black\c&H131216&\3c&H1140A4&\pos(349.142,132.858)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:07:54.03,0:07:55.53,Signs,Sign,0,0,0,,{\fs26\fsp6\bord4\fnArial Black\c&H070E72&\3c&H399D4E&\frz1.756\fax-0.05\pos(330.643,174.643)}Hi{\c&H266CE9&\3c&HAAB8F0&}no {\c&H4BC7D8&\3c&H399D4E&}Z{\c&HA67F2B&\3c&HAAB8F0&}o{\c&H6C0F32&\3c&H399D4E&}o
-Dialogue: 0,0:09:29.79,0:09:33.80,Signs,Sign,0,0,0,,{\bord2\fnArial Black\c&H0607F8&\3c&HFFF5DD&}Hino Veterinary Hospital {\alpha&HFF&\t(1071,2156,\alpha&H00&)}for Doggies and Kitties
-Dialogue: 0,0:10:04.54,0:10:08.04,Signs_BText,Sign,0,0,0,,{\an7\fs24\pos(22.215,105.786)}Izu Peninsula\NHachijo-jima
-Dialogue: 0,0:10:08.04,0:10:11.54,Signs_BText,Sign,0,0,0,,{\an7\fs24\pos(22.786,112.643)}Hachijo-jima\NReeves's muntjacs
-Dialogue: 0,0:10:11.54,0:10:13.55,Signs,Sign,0,0,0,,{\fs16\bord2\fnArial Black\c&H1B1537&\3c&H2457BC&\pos(409.714,68.286)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:10:20.43,0:10:26.93,Signs,Sign,0,0,0,,{\an9\fnTimes New Roman\fs22\c&H250A86&\3c&H58B4DE&\bord2\pos(361.428,93.858)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:11:03.47,0:11:05.47,Signs,Sign,0,0,0,,{\fs9\c&H313340&\3c&HFAFBFF&\bord2\fay-0.12\move(507.428,102.572,485.714,126.572,26,1986)}Flower Arrangement Club
-Dialogue: 0,0:11:05.47,0:11:07.47,Signs,Sign,0,0,0,,{\bord3\c&H1F1F1F&\3c&HF8F8F8&\fay-0.28\pos(321.715,118.571)}Flower Arrangement Club
-Dialogue: 0,0:17:02.29,0:17:04.29,Signs_BText,Sign,0,0,0,,{\fs26\bord2\pos(321.714,124.286)}The Next Day
-Dialogue: 0,0:17:02.29,0:17:04.29,Signs,Sign,0,0,0,,{\fs16\bord2\fnArial Black\c&H3D2525&\3c&H2559AB&\pos(409.714,58.571)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:17:15.30,0:17:18.30,Signs_BText,Sign,0,0,0,,{\an7\fs24\pos(18.79,160)}\NA very cute\NReeves's muntjac\Nfrom Hachijo-jima
-Dialogue: 0,0:17:46.96,0:17:54.96,Signs,Sign,0,0,0,,{\an9\fnTimes New Roman\fs16\c&H250A86&\3c&H58B4DE&\bord2\pos(355.714,70.429)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r {\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
-Dialogue: 0,0:19:02.53,0:19:07.79,Signs,Sign,0,0,0,,{\fs25\bord2\fnArial Black\c&H2A1E16&\3c&H2249AA&\pos(490.286,173.429)}Deer Club\N{\fs15}Seeking New Club Members
-Dialogue: 0,0:20:13.69,0:20:17.32,Signs,Sign,0,0,0,,{\fs25\bord2\fnArial Black\c&H2A1E16&\3c&H407FC9&\pos(490.286,173.429)}Deer Club\N{\fs15}Seeking New Club Members
-Dialogue: 0,0:21:50.03,0:21:59.77,Signs,Sign,0,0,0,,{\fs18\bord2\fnArial Black\c&H32282D&\3c&H2A55AB&\move(324.571,98,324.571,324.286,28,9705)}Deer Club\N{\fs10}Seeking New Club Members
-Dialogue: 0,0:00:00.00,0:00:05.00,OnScreen,,0,0,0,,
+Dialogue: 0,0:00:00.48,0:00:05.49,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:10:04.54,0:10:08.05,OnScreen,,0,0,0,eyecatch,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(56.83,297)}伊豆诸岛 八丈岛
+Dialogue: 0,0:10:08.05,0:10:11.55,OnScreen,,0,0,0,eyecatch,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(62,319.28)}八丈岛的麂
+Dialogue: 0,0:17:15.31,0:17:18.31,OnScreen,,0,0,0,eyecatch,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(51.14,455.73)}非常可爱的\N八丈岛的麂
+Dialogue: 0,0:07:24.01,0:07:33.27,OnScreen,,0,0,0,,{=3}{\fax-0.315221\fscx78.91\fscy68.05\frz20.7467\frx-5.4707\fry8.6204\org(1015.63,912.7)\pos(1020.6,926.31)\b0\fn思源黑体 Medium\3c&HD78622&\bord2}角油
+Dialogue: 0,0:09:29.79,0:09:30.75,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.58,2120.26)}日野市猫狗动物医院
+Dialogue: 0,0:09:30.75,0:09:30.84,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2120.26)}日野市猫狗动物医院
+Dialogue: 0,0:09:30.84,0:09:30.88,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2117.38)}日野市猫狗动物医院
+Dialogue: 0,0:09:30.88,0:09:30.92,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2108.77)}日野市猫狗动物医院
+Dialogue: 0,0:09:30.92,0:09:30.96,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2094.77)}日野市猫狗动物医院
+Dialogue: 0,0:09:30.96,0:09:31.00,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2075.62)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.00,0:09:31.05,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2051.56)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.05,0:09:31.09,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,2022.84)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.09,0:09:31.13,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1989.72)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.13,0:09:31.17,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1952.43)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.17,0:09:31.21,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1911.23)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.21,0:09:31.25,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1866.41)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.25,0:09:31.30,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1818.16)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.30,0:09:31.34,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1766.8)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.34,0:09:31.38,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1712.53)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.38,0:09:31.42,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1655.61)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.42,0:09:31.46,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1596.31)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.46,0:09:31.50,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1534.87)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.50,0:09:31.55,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.58,1471.53)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.55,0:09:31.59,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.58,1406.57)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.59,0:09:31.63,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1340.2)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.63,0:09:31.67,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1272.72)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.67,0:09:31.71,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1204.36)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.71,0:09:31.75,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1135.36)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.75,0:09:31.80,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,1065.98)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.80,0:09:31.84,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,996.49)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.84,0:09:31.88,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,927.11)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.88,0:09:31.92,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,858.11)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.92,0:09:31.96,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,789.74)}日野市猫狗动物医院
+Dialogue: 0,0:09:31.96,0:09:32.01,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,722.25)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.01,0:09:32.05,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,655.9)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.05,0:09:32.09,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,590.93)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.09,0:09:32.13,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,527.6)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.13,0:09:32.17,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,466.15)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.17,0:09:32.21,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,406.85)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.21,0:09:32.26,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,349.94)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.26,0:09:32.30,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,295.66)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.30,0:09:32.34,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,244.28)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.34,0:09:32.38,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,196.05)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.38,0:09:32.42,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,151.23)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.42,0:09:32.46,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,110.05)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.46,0:09:32.51,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,72.76)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.51,0:09:32.55,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,39.64)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.55,0:09:32.59,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,10.92)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.59,0:09:32.63,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-13.14)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.63,0:09:32.67,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-32.3)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.67,0:09:32.71,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.59,-46.3)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.71,0:09:32.76,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-54.9)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.76,0:09:32.92,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.79)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.92,0:09:32.96,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.8)}日野市猫狗动物医院
+Dialogue: 0,0:09:32.96,0:09:33.05,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.79)}日野市猫狗动物医院
+Dialogue: 0,0:09:33.05,0:09:33.09,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.8)}日野市猫狗动物医院
+Dialogue: 0,0:09:33.09,0:09:33.63,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.79)}日野市猫狗动物医院
+Dialogue: 0,0:09:33.63,0:09:33.72,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.8)}日野市猫狗动物医院
+Dialogue: 0,0:09:33.72,0:09:33.76,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.79)}日野市猫狗动物医院
+Dialogue: 0,0:09:33.76,0:09:33.80,OnScreen,Sign,0,0,0,,{=6}{\alpha&H00&\fn@獅尾圓體SC-Bold\b0\frz270\an8\c&H006EFE&\fscx400\fscy400\fsp10\pos(909.6,-57.8)}日野市猫狗动物医院
+Dialogue: 1,0:11:05.47,0:11:07.47,OnScreen,Sign,0,0,0,,{=17}{\fnMiSans\b0\c&H1E1E1F&\fax-0.316054\fscx1383.83\fscy1540.28\frz15.8699\frx-0.0137\fry-0.9960\org(1005.71,537.38)\pos(1093.18,845.44)}花道部
+Dialogue: 0,0:11:05.47,0:11:07.47,OnScreen,Sign,0,0,0,,{=17}{\an7\pos(0,0)\p1\clip(m 407 460 l 1647 86 1655 630 431 964)\c&HFBF9FA&}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:15:52.72,0:15:52.76,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.93,-24.01)}鹿宝
+Dialogue: 0,0:15:52.76,0:15:52.80,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.92,-18.51)}鹿宝
+Dialogue: 0,0:15:52.80,0:15:52.84,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.93,-13.27)}鹿宝
+Dialogue: 0,0:15:52.84,0:15:52.89,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.93,-8.28)}鹿宝
+Dialogue: 0,0:15:52.89,0:15:52.93,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.93,-3.51)}鹿宝
+Dialogue: 0,0:15:52.93,0:15:52.97,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.92,0.99)}鹿宝
+Dialogue: 0,0:15:52.97,0:15:53.01,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.89,5.29)}鹿宝
+Dialogue: 0,0:15:53.01,0:15:53.05,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.9,9.12)}鹿宝
+Dialogue: 0,0:15:53.05,0:15:53.09,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.9,12.65)}鹿宝
+Dialogue: 0,0:15:53.09,0:15:53.14,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.88,15.93)}鹿宝
+Dialogue: 0,0:15:53.14,0:15:53.18,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.9,18.63)}鹿宝
+Dialogue: 0,0:15:53.18,0:15:53.22,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.89,20.98)}鹿宝
+Dialogue: 0,0:15:53.22,0:15:53.26,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.89,22.97)}鹿宝
+Dialogue: 0,0:15:53.26,0:15:53.30,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.88,24.4)}鹿宝
+Dialogue: 0,0:15:53.30,0:15:53.34,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.89,25.25)}鹿宝
+Dialogue: 0,0:15:53.34,0:15:58.60,OnScreen,,0,0,0,,{=18}{\fscy100\fscx100\alpha&H00&\fn@MiSans\frz270\c&H504341&\pos(807.89,25.58)}鹿宝
+Dialogue: 0,0:17:02.29,0:17:04.30,OnScreen,Sign,0,0,0,,{\fn思源黑体 Medium\b0\fscx250\fscy250\pos(960,750)\c&H1B2131&\3c&HF5F5F8&\bord5}第二天
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e871.66;925.40#7C1048.34;865.44#7C1048.34;945.44#7C937.84;945.44
+Data: 1,_aegi_perspective_ambient_plane,e871.66;925.40#7C1048.34;865.44#7C1048.34;945.44#7C874.00;981.26
+Data: 2,_aegi_perspective_ambient_plane,e871.66;925.40#7C1104.40;840.52#7C1048.34;945.44#7C874.00;981.26
+Data: 3,_aegi_perspective_ambient_plane,e871.66;925.40#7C1104.40;840.52#7C1102.84;893.27#7C874.00;981.26
+Data: 6,a-mo,u?S*P=GFH;7ZB<&2F?(1C/C*\8&RG<E$HD98FM,\FH*0JKZ241SV#<WRE8&RC-&R=:H*[-D=Q8&RB<DB=8'-G3$!Q.E6'23:=8':T9XAU-$"=8':T9XEU-$"=8':T=$%Q8&RQ<X-I/4!Z,D9M,45X,DAJ@?;8J?G(DO7YAO?-K_?,F_7+K/?*K?7-O_G:IC)M)H6V;71C/C)U.G-V.DBF-CUT/4>E,42G9G)N94:D-#US-T%T979U.D1X.'5C@1
+Data: 7,_aegi_perspective_ambient_plane,e698.12;382.00#7C1135.88;480.00#7C1135.88;560.00#7C970.12;560.00
+Data: 8,_aegi_perspective_ambient_plane,e698.12;382.00#7C1135.88;480.00#7C1135.88;560.00#7C382.12;1000.00
+Data: 9,_aegi_perspective_ambient_plane,e378.12;444.00#7C1135.88;480.00#7C1135.88;560.00#7C382.12;1000.00
+Data: 10,_aegi_perspective_ambient_plane,e378.12;444.00#7C1135.88;480.00#7C1349.88;718.00#7C382.12;1000.00
+Data: 11,_aegi_perspective_ambient_plane,e378.12;444.00#7C1681.88;50.00#7C1349.88;718.00#7C382.12;1000.00
+Data: 12,_aegi_perspective_ambient_plane,e378.12;444.00#7C1681.88;50.00#7C1681.88;652.00#7C382.12;1000.00
+Data: 13,_aegi_perspective_ambient_plane,e378.12;444.00#7C1681.88;50.00#7C1680.76;652.22#7C382.12;1000.00
+Data: 14,_aegi_perspective_ambient_plane,e378.12;444.00#7C1680.87;50.81#7C1680.76;652.22#7C382.12;1000.00
+Data: 15,_aegi_perspective_ambient_plane,e380.25;441.24#7C1680.87;50.80#7C1680.76;652.22#7C382.12;1000.00
+Data: 16,_aegi_perspective_ambient_plane,e380.25;441.24#7C1680.87;50.81#7C1680.75;652.22#7C380.68;1000.41
+Data: 17,_aegi_perspective_ambient_plane,e380.25;441.24#7C1680.86;50.81#7C1680.75;652.22#7C380.69;1000.41
+Data: 18,a-mo,e{"originalText"#3A"{\\fn@MiSans\\frz270\\c&H504341&\\pos(808#2C25)}#E9#B9#BF#E5#AE#9D"#2C"uuid"#3A"61b7bf0f-54fb-4b8a-8cf1-4d6091cb107b"}
