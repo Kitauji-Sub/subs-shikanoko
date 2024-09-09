@@ -14,7 +14,8 @@ Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan -
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Active Line: 11
+Scroll Position: 384
+Active Line: 405
 Video Position: 3597
 
 [V4+ Styles]
@@ -433,4 +434,4 @@ Dialogue: 0,0:22:02.63,0:22:04.32,SIKANOKO_Bottom,虎子,0,0,0,kara,可恶啊\N�
 Comment: 0,0:01:00.04,0:01:00.08,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_sc.ass
 Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import-shifted,../ed_sc.ass
 Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import,screen/screen.ass
-Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import-shifted,insert/insert01.ass
+Comment: 0,0:22:05.01,0:22:05.05,SIKANOKO_Bottom,,0,0,0,import,insert/insert01.ass
