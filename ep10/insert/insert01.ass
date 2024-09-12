@@ -14,8 +14,8 @@ Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
 Scroll Position: 6
-Active Line: 27
-Video Position: 13385
+Active Line: 24
+Video Position: 6377
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -38,6 +38,9 @@ Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
+Dialogue: 0,0:03:19.48,0:03:22.77,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:03:23.36,0:03:26.99,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:03:27.52,0:03:32.94,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:04:25.97,0:04:29.31,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:04:29.64,0:04:33.24,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:04:33.74,0:04:39.04,Insert_JP,,0,0,0,kara,シカ
@@ -45,6 +48,9 @@ Dialogue: 0,0:09:06.82,0:09:08.24,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:09:10.52,0:09:12.13,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:09:14.41,0:09:15.90,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:09:18.23,0:09:19.69,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:04:25.97,0:04:29.31,Insert_CN,,0,0,0,kara,鹿鹿
+Dialogue: 0,0:04:29.64,0:04:33.24,Insert_CN,,0,0,0,kara,鹿鹿
+Dialogue: 0,0:04:33.74,0:04:39.04,Insert_CN,,0,0,0,kara,鹿鹿
 Dialogue: 0,0:04:25.97,0:04:29.31,Insert_CN,,0,0,0,kara,鹿鹿
 Dialogue: 0,0:04:29.64,0:04:33.24,Insert_CN,,0,0,0,kara,鹿鹿
 Dialogue: 0,0:04:33.74,0:04:39.04,Insert_CN,,0,0,0,kara,鹿鹿
