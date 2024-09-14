@@ -1,0 +1,65 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Active Line: 4
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch1,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,217.15)}金华山 黄金山神社
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(83.42,300)}金华山\N三陆复兴\N国立公园
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:00:00.27,0:00:05.25,Signs_BText,Sign,0,0,0,,{\fad(503,493)\pos(320,282)}This is a work of fiction. The names of the people, places, and organizations\Nare fictitious and in no way related to any real person or entity.
+Dialogue: 0,0:03:39.67,0:03:41.15,Signs_BText,Sign,0,0,0,,{\fs30\pos(320,32)}10 Minutes Later
+Dialogue: 0,0:04:24.05,0:04:24.11,Signs_BText,Sign,0,0,0,,{\fnArial Black\fs26\pos(130,0)}Number 12
+Dialogue: 0,0:04:24.36,0:04:24.70,Signs_BText,Sign,0,0,0,,{\fnArial Black\fs26\pos(130,0)}Number 12
+Dialogue: 0,0:04:26.30,0:04:31.18,Signs,SFX,0,0,0,,{\fad(1,535)\bord2.5\fnArial Black\c&H1E1F34&\3c&HF0F2F0&\pos(320,180)}Psssssszzzzzzzzz
+Dialogue: 0,0:05:10.45,0:05:13.95,Signs_BText,Sign,0,0,0,,{\an7\fs18\pos(20,142)}Hokkaido\NNotsuke Peninsula\NShiretoko Mountain Range
+Dialogue: 0,0:05:13.95,0:05:17.46,Signs_BText,Sign,0,0,0,,{\an7\fs18\pos(20,123)}Hokkaido\NNotsuke Peninsula\NMount Rausu
+Dialogue: 0,0:05:24.47,0:05:26.84,Signs,Sign,0,0,0,,{\fs32\fsp1\t(\fsp2)\pos(320,120)}MY DEER FRIEND NOKOTAN
+Dialogue: 0,0:08:29.61,0:08:31.61,Signs,Sign,0,0,0,,{\fs40\pos(320,94)\fsp1}RUNNING BEGINS
+Dialogue: 0,0:09:15.00,0:09:17.16,Signs,Sign,0,0,0,,{\pos(320,220)\fs20\bord1.5}Clueless Yet Again\N{\fs24}Nekoyamada Neko-san (3rd-Year)
+Dialogue: 0,0:09:58.76,0:10:00.70,Signs,Sign,0,0,0,,{\fad(213,1)\fs40\fnComic Sans MS\pos(306,242)\c&H212830&\3c&HFFFFFF&\bord1.5}UNEXPECTED VISITORS
+Dialogue: 0,0:10:36.82,0:10:38.32,Signs,Sign,0,0,0,,{\fs40\fsp1\pos(330,75)}RUN
+Dialogue: 0,0:10:39.84,0:10:41.07,Signs,Sign,0,0,0,,{\fs40\fsp1\frz10\pos(293,83)}RUN
+Dialogue: 0,0:10:42.57,0:10:43.58,Signs,Sign,0,0,0,,{\fs40\fsp1\frz160\pos(295.5,288.5)}RUN
+Dialogue: 0,0:10:48.46,0:10:50.21,Signs,Sign,0,0,0,,{\fs40\pos(320,94)\fsp1}THE PURSUER
+Dialogue: 0,0:11:03.60,0:11:05.60,Signs,Sign,0,0,0,,{\fs32\pos(320,106)\fsp1}THE PURSUED
+Dialogue: 0,0:11:05.60,0:11:07.10,Signs,Sign,0,0,0,,{\fnArial Black\c&H010003&\frz348.3\fax0.2\pos(349,93)}Principal's Office
+Dialogue: 0,0:11:08.10,0:11:10.64,Signs,Sign,0,0,0,,{\bord2\fnTimes New Roman\fs12\c&H3A3E4D&\3c&H90AEB2&\pos(254,88)}Every Miller Draws Water to His Own Mill
+Dialogue: 0,0:11:49.02,0:11:52.52,Signs,Sign,0,0,0,,{\bord2\fnTimes New Roman\fs12\c&H3A3E4D&\3c&H90AEB2&\pos(254,88)}Every Miller Draws Water to His Own Mill
+Dialogue: 0,0:13:15.64,0:13:18.15,Signs,Sign,0,0,0,,{\fs32\fsp1\pos(320,69)}NOKOTAN'S IN DIRE STRAITS
+Dialogue: 0,0:14:10.80,0:14:12.80,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}This is my rifle.
+Dialogue: 0,0:14:14.93,0:14:19.43,Signs,Kumatori/Subs,0,0,0,,{\pos(320,220)}There are many like it, but this one is mine.
+Dialogue: 0,0:14:19.69,0:14:24.44,Signs,Kumatori/Subs,0,0,0,,{\pos(320,228)}My rifle is my best friend. It is my life.
+Dialogue: 0,0:14:26.28,0:14:28.44,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}I must master it as
+Dialogue: 0,0:14:28.44,0:14:30.78,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}I must master my life.
+Dialogue: 0,0:14:32.45,0:14:33.58,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}My rifle
+Dialogue: 0,0:14:33.58,0:14:37.75,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}and myself are the defenders of my country.
+Dialogue: 0,0:14:38.29,0:14:41.65,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}We are the masters of our enemy.
+Dialogue: 0,0:14:41.92,0:14:45.30,Signs,Kumatori/Subs,0,0,0,,{\pos(320,258)}We are the saviors of my life.
+Dialogue: 0,0:15:41.02,0:15:47.38,Signs,Sign,0,0,0,,{\fs20\fnTimes New Roman\c&H0C111C&\3c&HFFFFFF&\bord2\pos(340,160)}Friendship
+Dialogue: 0,0:15:41.89,0:15:47.38,Signs,Sign,0,0,0,,{\fs20\fnTimes New Roman\c&H0C111C&\3c&HFFFFFF&\bord2\pos(564,160)}Effort
+Dialogue: 0,0:15:42.64,0:15:47.38,Signs,Sign,0,0,0,,{\fs20\fnTimes New Roman\c&H0C111C&\3c&HFFFFFF&\bord2\pos(91.5,160)}Victory
+Dialogue: 0,0:16:10.32,0:16:19.20,Signs,Sign,0,0,0,,{\fs22\b0\fnTimes New Roman\pos(321,134)}When carrying or transporting a firearm,\N\N\N\Nsaid firearm must be placed in a container.
+Dialogue: 0,0:16:10.32,0:16:19.20,Signs,Sign,0,0,0,,{\fs20\b0\fnTimes New Roman\pos(320,248)}(Excerpt from the Firearm and Sword Possession Control Law)
+Dialogue: 0,0:16:27.71,0:16:30.71,Signs_BText,Sign,0,0,0,,{\an7\fs18\pos(39,118)}Hokkaido\NNemuro Strait\NStream
+Dialogue: 0,0:16:48.98,0:16:53.24,Signs,Sign,0,0,0,,{\an9\fnTimes New Roman\fs20\c&H250A86&\3c&H58B4DE&\bord2\pos(629,147)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r\N{\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:16:49.50,0:16:51.11,Signs_BText,Sign,0,0,0,,{\fad(1,184)\fs40\bord2\pos(320,65)}One Hour Ago
+Dialogue: 0,0:17:06.12,0:17:12.21,Signs,Sign,0,0,0,,{\fad(1,221)\an9\fnTimes New Roman\fs20\c&H250A86&\3c&H58B4DE&\bord2\pos(153.5,162)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r\N{\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:17:20.31,0:17:27.40,Signs,Sign,0,0,0,,{\an9\fnTimes New Roman\fs20\c&H250A86&\3c&H58B4DE&\bord2\pos(451.5,86.5)}D{\3c&HF9FBFF&}e{\3c&H58B4DE&}e{\3c&HF9FBFF&}r\N{\3c&H58B4DE&}C{\3c&HF9FBFF&}r{\3c&H58B4DE&}a{\3c&HF9FBFF&}c{\3c&H58B4DE&}k{\3c&HF9FBFF&}e{\3c&H58B4DE&}r{\3c&HF9FBFF&}s
+Dialogue: 0,0:18:57.46,0:18:58.82,Signs,Sign,0,0,0,,{\fs30\bord1\fnTimes New Roman\c&H2A64D6&\pos(490,230.5)}NB: Nokotan
+Dialogue: 0,0:20:57.58,0:20:58.29,Signs,Sign,0,0,0,,{\fs30\fad(1,325)\fnArial Black\bord2\c&H97544F&\3c&HFFFEFE&\pos(412,190)}Rip
+Dialogue: 0,0:21:06.32,0:21:09.55,Signs,Sign,0,0,0,,{\fs12\bord1\fnArial Black\c&H32282D&\3c&H2967C7&\move(341,200.5,341,334,28,3198)}Deer Club\N{\fs8}Seeking New Club Members
+Dialogue: 0,0:00:00.00,0:00:05.00,OnScreen,,0,0,0,,
