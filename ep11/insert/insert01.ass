@@ -7,6 +7,15 @@ YCbCr Matrix: TV.709
 PlayResX: 1920
 PlayResY: 1080
 
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/ep11.mkv
+Video File: C:/Users/scree/Desktop/ep11.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.500000
+Active Line: 19
+Video Position: 19829
+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Insert_CN,思源黑体 Heavy,52,&H00F0F0F0,&H000000FF,&H004A4A4A,&H00000000,0,0,0,0,100,100,1.1,0,1,0.6,0,7,30,30,85,1
@@ -28,4 +37,9 @@ Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,template char noactor everyone
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle,!retime("line",64*char.ci,32*char.ci)!{\an9\fade(200,200)\blur3\pos(!orgline.left + char.right!,!orgline.top!)}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char actor everyone anystyle noblank,{\3c!line_colors[char.ci]!\bord!line_borders[char.ci]!!AutoTagsList(600,0,AddTags(line_colors, "3c"),char.ci)!}
 Comment: 0,0:00:00.00,0:00:00.00,Insert_JP,,0,0,0,mixin char anystyle noblank,{!AutoTagsList(300,0,AddTags(line_borders, "bord"),char.ci)!}
-Dialogue: 0,0:00:00.00,0:00:02.00,Insert_JP,,0,0,0,,
+Dialogue: 0,0:13:39.41,0:13:41.05,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:13:43.14,0:13:44.81,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:13:47.00,0:13:48.45,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:13:39.41,0:13:41.05,Insert_CN,,0,0,0,kara,鹿鹿
+Dialogue: 0,0:13:43.14,0:13:44.81,Insert_CN,,0,0,0,kara,鹿鹿
+Dialogue: 0,0:13:47.00,0:13:48.45,Insert_CN,,0,0,0,kara,鹿鹿
