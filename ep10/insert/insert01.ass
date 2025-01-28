@@ -8,14 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 10 (1080p) [D15F371A].mkv
-Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 10 (1080p) [D15F371A].mkv
+Audio File: C:/Users/scree/Desktop/shika/ep10.mkv
+Video File: C:/Users/scree/Desktop/shika/ep10.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.750000
-Scroll Position: 6
-Active Line: 24
-Video Position: 6377
+Video Zoom Percent: 0.500000
+Scroll Position: 16
+Active Line: 26
+Video Position: 4976
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -48,6 +48,9 @@ Dialogue: 0,0:09:06.82,0:09:08.24,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:09:10.52,0:09:12.13,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:09:14.41,0:09:15.90,Insert_JP,,0,0,0,kara,シカ
 Dialogue: 0,0:09:18.23,0:09:19.69,Insert_JP,,0,0,0,kara,シカ
+Dialogue: 0,0:03:19.48,0:03:22.77,Insert_CN,,0,0,0,kara,鹿鹿
+Dialogue: 0,0:03:23.36,0:03:26.99,Insert_CN,,0,0,0,kara,鹿鹿
+Dialogue: 0,0:03:27.52,0:03:32.94,Insert_CN,,0,0,0,kara,鹿鹿
 Dialogue: 0,0:04:25.97,0:04:29.31,Insert_CN,,0,0,0,kara,鹿鹿
 Dialogue: 0,0:04:29.64,0:04:33.24,Insert_CN,,0,0,0,kara,鹿鹿
 Dialogue: 0,0:04:33.74,0:04:39.04,Insert_CN,,0,0,0,kara,鹿鹿
