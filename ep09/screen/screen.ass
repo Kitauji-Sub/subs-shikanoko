@@ -8,14 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 09 (1080p) [2168E2F9].mkv
-Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 09 (1080p) [2168E2F9].mkv
+Audio File: C:/Users/scree/Desktop/shika/ep9.mkv
+Video File: C:/Users/scree/Desktop/shika/ep9.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 475
-Active Line: 494
-Video Position: 29621
+Video Zoom Percent: 0.625000
+Scroll Position: 532
+Active Line: 521
+Video Position: 29568
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -80,12 +80,12 @@ Dialogue: 0,0:05:32.77,0:05:32.81,OnScreen,,0,0,0,,{=1}{\frz0\alpha&H00&\fn悠�
 Dialogue: 0,0:05:32.81,0:05:32.85,OnScreen,,0,0,0,,{=1}{\frz0\alpha&H00&\fn悠哉字体\c&HC59DF9&\fscx199.96\fscy199.96\pos(918.92,1582.55)}我们是\N小鹿队
 Dialogue: 0,0:05:32.85,0:05:32.89,OnScreen,,0,0,0,,{=1}{\frz0\alpha&H00&\fn悠哉字体\c&HC59DF9&\fscx199.96\fscy199.96\pos(918.92,1582.57)}我们是\N小鹿队
 Dialogue: 0,0:05:32.89,0:05:32.97,OnScreen,,0,0,0,,{=1}{\frz0\alpha&H00&\fn悠哉字体\c&HC59DF9&\fscx199.96\fscy199.96\pos(918.91,1582.57)}我们是\N小鹿队
-Dialogue: 1,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\an7\pos(34,42)\fn思源黑体 Medium\b0\c&H182830&\fscx120\fscy120}100m赛跑班级对抗赛\N\N{\fscx100\fscy100}■开始时的播报\N下一场比赛是“100m赛跑班级对抗赛”。\N下面介绍出场选手。\N·红队 2年1班 戍井同学\N　…\N·白队 2年2班 龟山同学\N　…\N（报参赛名单上的姓名）\N请参赛者做好准备。\N\N==比赛开始==\N…
+Dialogue: 1,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\an7\pos(34,42)\fn思源黑体 Medium\b0\c&H182830&\fscx120\fscy120}100米短跑班级对抗赛\N\N{\fscx100\fscy100}■开场前的介绍词\N下一场比赛是“100米短跑班级对抗赛”。\N下面介绍出场选手。\N·红队 高二1班 戌井同学\N　…\N·白队 高二2班 龟山同学\N　…\N（读出所有参赛者姓名）\N请各位参赛者做好准备。\N\N==比赛开始==\N宣布个人排名\N\N发表班级排名
 Dialogue: 1,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\fn悠哉字体\frz9.354\c&H8E78BD&\fscx130\fscy130\pos(601,149)}重要！！！
 Dialogue: 1,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\fn悠哉字体\c&H8E78BD&\fscx170\fscy170\pos(623,221)}追加！
 Dialogue: 1,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\fn悠哉字体\c&H8E78BD&\fscx150\fscy150\pos(539,305)}小鹿队
 Dialogue: 1,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\fn悠哉字体\c&H8E78BD&\fscx150\fscy150\pos(535,365)}鹿宝
-Dialogue: 0,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\an7\p1\pos(12,26)\c&HDCE1E3&\3c&H3F4C60&\bord3\3a&H80&}m 0 0 l 720 0 720 570 0 570 0 0{\p0}
+Dialogue: 0,0:05:56.67,0:05:59.55,OnScreen,,0,0,0,,{\fad(250,0)\an7\p1\pos(12,26)\c&HDCE1E3&\3c&H3F4C60&\bord3\3a&H80&}m 0 0 l 720 0 720 640 0 640 0 0{\p0}
 Dialogue: 0,0:05:59.54,0:05:59.58,OnScreen,,0,0,0,,{=11}{\alpha&H00&\an8\c&H2D2932&\fn@仓耳周珂正大榜书\frz270\b0\fscx200\fscy200\3c&H4028C3&\bord0\pos(569.78,470.22)}红队最强！
 Dialogue: 0,0:05:59.58,0:05:59.63,OnScreen,,0,0,0,,{=11}{\alpha&H00&\an8\c&H2D2932&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.02\fscy200.02\3c&H4028C3&\bord0\pos(569.75,472.19)}红队最强！
 Dialogue: 0,0:05:59.63,0:05:59.67,OnScreen,,0,0,0,,{=11}{\alpha&H00&\an8\c&H2D2932&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.02\fscy200.02\3c&H4028C3&\bord0\pos(569.81,474.21)}红队最强！
@@ -188,58 +188,58 @@ Dialogue: 0,0:06:01.67,0:06:01.71,OnScreen,,0,0,0,,{=10}{\alpha&H00&\an8\c&HDEAE
 Dialogue: 0,0:06:01.71,0:06:01.75,OnScreen,,0,0,0,,{=10}{\alpha&H00&\an8\c&HDEAE67&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&HF2F0F0&\bord4.94\pos(534.87,590.14)}白队必胜
 Dialogue: 0,0:06:01.75,0:06:01.79,OnScreen,,0,0,0,,{=10}{\alpha&H00&\an8\c&HDEAE67&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&HF2F0F0&\bord4.94\pos(534.86,590.15)}白队必胜
 Dialogue: 0,0:06:01.79,0:06:02.30,OnScreen,,0,0,0,,{=10}{\alpha&H00&\an8\c&HDEAE67&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&HF2F0F0&\bord4.94\pos(534.88,590.15)}白队必胜
-Dialogue: 0,0:05:59.54,0:05:59.58,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200\fscy200\3c&H2CA7E9&\bord4\pos(1112.01,525.32)}小鹿队赢！
-Dialogue: 0,0:05:59.58,0:05:59.63,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.02\fscy200.02\3c&H2CA7E9&\bord4\pos(1112.02,527.3)}小鹿队赢！
-Dialogue: 0,0:05:59.63,0:05:59.67,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.02\fscy200.02\3c&H2CA7E9&\bord4\pos(1112.11,529.22)}小鹿队赢！
-Dialogue: 0,0:05:59.67,0:05:59.71,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.04\fscy200.04\3c&H2CA7E9&\bord4\pos(1112.12,531.18)}小鹿队赢！
-Dialogue: 0,0:05:59.71,0:05:59.75,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.04\b0\fscx199.99\fscy199.99\3c&H2CA7E9&\bord4\pos(1112.32,532.92)}小鹿队赢！
-Dialogue: 0,0:05:59.75,0:05:59.79,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.04\b0\fscx199.99\fscy199.99\3c&H2CA7E9&\bord4\pos(1112.27,534.88)}小鹿队赢！
-Dialogue: 0,0:05:59.79,0:05:59.83,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.03\fscy200.03\3c&H2CA7E9&\bord4\pos(1112.15,536.98)}小鹿队赢！
-Dialogue: 0,0:05:59.83,0:05:59.88,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.03\b0\fscx200.03\fscy200.03\3c&H2CA7E9&\bord4\pos(1112.24,538.87)}小鹿队赢！
-Dialogue: 0,0:05:59.88,0:05:59.92,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx200.1\fscy200.1\3c&H2CA7E9&\bord4\pos(1112.03,541.06)}小鹿队赢！
-Dialogue: 0,0:05:59.92,0:05:59.96,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.1\fscy200.1\3c&H2CA7E9&\bord4\pos(1112.09,542.96)}小鹿队赢！
-Dialogue: 0,0:05:59.96,0:06:00.00,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx200.14\fscy200.14\3c&H2CA7E9&\bord4\pos(1111.91,545.07)}小鹿队赢！
-Dialogue: 0,0:06:00.00,0:06:00.04,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.08\fscy200.08\3c&H2CA7E9&\bord4\pos(1112.06,546.78)}小鹿队赢！
-Dialogue: 0,0:06:00.04,0:06:00.08,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx200.09\fscy200.09\3c&H2CA7E9&\bord4\pos(1111.96,548.75)}小鹿队赢！
-Dialogue: 0,0:06:00.08,0:06:00.13,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx200.11\fscy200.11\3c&H2CA7E9&\bord4\pos(1111.91,550.73)}小鹿队赢！
-Dialogue: 0,0:06:00.13,0:06:00.17,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.06\fscy200.06\3c&H2CA7E9&\bord4\pos(1112.06,552.43)}小鹿队赢！
-Dialogue: 0,0:06:00.17,0:06:00.21,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.05\fscy200.05\3c&H2CA7E9&\bord4\pos(1112.04,554.32)}小鹿队赢！
-Dialogue: 0,0:06:00.21,0:06:00.25,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.02\b0\fscx200.01\fscy200.01\3c&H2CA7E9&\bord4\pos(1112.16,556.04)}小鹿队赢！
-Dialogue: 0,0:06:00.25,0:06:00.29,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.03\fscy200.03\3c&H2CA7E9&\bord4\pos(1112.07,558.02)}小鹿队赢！
-Dialogue: 0,0:06:00.29,0:06:00.34,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.02\b0\fscx199.96\fscy199.96\3c&H2CA7E9&\bord4\pos(1112.08,559.72)}小鹿队赢！
-Dialogue: 0,0:06:00.34,0:06:00.38,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.98\fscy199.98\3c&H2CA7E9&\bord4\pos(1111.91,561.73)}小鹿队赢！
-Dialogue: 0,0:06:00.38,0:06:00.42,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.98\fscy199.98\3c&H2CA7E9&\bord4\pos(1111.93,563.58)}小鹿队赢！
-Dialogue: 0,0:06:00.42,0:06:00.46,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.95\b0\fscx200.01\fscy200.01\3c&H2CA7E9&\bord4\pos(1111.67,565.64)}小鹿队赢！
-Dialogue: 0,0:06:00.46,0:06:00.50,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx200\fscy200\3c&H2CA7E9&\bord4\pos(1111.94,567.32)}小鹿队赢！
-Dialogue: 0,0:06:00.50,0:06:00.54,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx200.01\fscy200.01\3c&H2CA7E9&\bord4\pos(1111.97,569.16)}小鹿队赢！
-Dialogue: 0,0:06:00.54,0:06:00.59,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.03\b0\fscx199.9\fscy199.9\3c&H2CA7E9&\bord4\pos(1112.1,570.62)}小鹿队赢！
-Dialogue: 0,0:06:00.59,0:06:00.63,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.02\b0\fscx199.92\fscy199.92\3c&H2CA7E9&\bord4\pos(1112.04,572.49)}小鹿队赢！
-Dialogue: 0,0:06:00.63,0:06:00.67,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.99\fscy199.99\3c&H2CA7E9&\bord4\pos(1111.9,574.47)}小鹿队赢！
-Dialogue: 0,0:06:00.67,0:06:00.71,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx199.94\fscy199.94\3c&H2CA7E9&\bord4\pos(1111.99,576.01)}小鹿队赢！
-Dialogue: 0,0:06:00.71,0:06:00.75,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx199.95\fscy199.95\3c&H2CA7E9&\bord4\pos(1112.05,577.65)}小鹿队赢！
-Dialogue: 0,0:06:00.75,0:06:00.79,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.98\fscy199.98\3c&H2CA7E9&\bord4\pos(1111.91,579.32)}小鹿队赢！
-Dialogue: 0,0:06:00.79,0:06:00.84,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx209.72\fscy209.72\3c&H2CA7E9&\bord4.19\pos(1061.57,601.19)}小鹿队赢！
-Dialogue: 0,0:06:00.84,0:06:00.88,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx220.19\fscy220.19\3c&H2CA7E9&\bord4.4\pos(1007.22,619.99)}小鹿队赢！
-Dialogue: 0,0:06:00.88,0:06:00.92,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx230.69\fscy230.69\3c&H2CA7E9&\bord4.61\pos(952.8,637.69)}小鹿队赢！
-Dialogue: 0,0:06:00.92,0:06:00.96,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx239.63\fscy239.63\3c&H2CA7E9&\bord4.79\pos(906.24,652.51)}小鹿队赢！
-Dialogue: 0,0:06:00.96,0:06:01.00,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx245.23\fscy245.23\3c&H2CA7E9&\bord4.9\pos(877.2,662.01)}小鹿队赢！
-Dialogue: 0,0:06:01.00,0:06:01.04,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.47,664.88)}小鹿队赢！
-Dialogue: 0,0:06:01.04,0:06:01.09,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.46,664.88)}小鹿队赢！
-Dialogue: 0,0:06:01.09,0:06:01.13,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.45,664.89)}小鹿队赢！
-Dialogue: 0,0:06:01.13,0:06:01.17,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.44,664.9)}小鹿队赢！
-Dialogue: 0,0:06:01.17,0:06:01.21,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.89\fscy246.89\3c&H2CA7E9&\bord4.94\pos(868.41,664.93)}小鹿队赢！
-Dialogue: 0,0:06:01.21,0:06:01.25,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.92)}小鹿队赢！
-Dialogue: 0,0:06:01.25,0:06:01.29,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.43,664.9)}小鹿队赢！
-Dialogue: 0,0:06:01.29,0:06:01.42,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.91)}小鹿队赢！
-Dialogue: 0,0:06:01.42,0:06:01.54,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.43,664.9)}小鹿队赢！
-Dialogue: 0,0:06:01.54,0:06:01.59,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.41,664.92)}小鹿队赢！
-Dialogue: 0,0:06:01.59,0:06:01.63,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.91)}小鹿队赢！
-Dialogue: 0,0:06:01.63,0:06:01.67,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.43,664.9)}小鹿队赢！
-Dialogue: 0,0:06:01.67,0:06:01.71,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.44,664.9)}小鹿队赢！
-Dialogue: 0,0:06:01.71,0:06:01.75,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.41,664.92)}小鹿队赢！
-Dialogue: 0,0:06:01.75,0:06:01.79,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.4,664.93)}小鹿队赢！
-Dialogue: 0,0:06:01.79,0:06:01.84,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.41,664.91)}小鹿队赢！
-Dialogue: 0,0:06:01.84,0:06:02.30,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.91)}小鹿队赢！
+Dialogue: 0,0:05:59.54,0:05:59.58,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200\fscy200\3c&H2CA7E9&\bord4\pos(1112.01,525.32)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.58,0:05:59.63,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.02\fscy200.02\3c&H2CA7E9&\bord4\pos(1112.02,527.3)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.63,0:05:59.67,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.02\fscy200.02\3c&H2CA7E9&\bord4\pos(1112.11,529.22)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.67,0:05:59.71,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.04\fscy200.04\3c&H2CA7E9&\bord4\pos(1112.12,531.18)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.71,0:05:59.75,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.04\b0\fscx199.99\fscy199.99\3c&H2CA7E9&\bord4\pos(1112.32,532.92)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.75,0:05:59.79,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.04\b0\fscx199.99\fscy199.99\3c&H2CA7E9&\bord4\pos(1112.27,534.88)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.79,0:05:59.83,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx200.03\fscy200.03\3c&H2CA7E9&\bord4\pos(1112.15,536.98)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.83,0:05:59.88,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.03\b0\fscx200.03\fscy200.03\3c&H2CA7E9&\bord4\pos(1112.24,538.87)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.88,0:05:59.92,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx200.1\fscy200.1\3c&H2CA7E9&\bord4\pos(1112.03,541.06)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.92,0:05:59.96,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.1\fscy200.1\3c&H2CA7E9&\bord4\pos(1112.09,542.96)}小鹿队要赢噜！
+Dialogue: 0,0:05:59.96,0:06:00.00,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx200.14\fscy200.14\3c&H2CA7E9&\bord4\pos(1111.91,545.07)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.00,0:06:00.04,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.08\fscy200.08\3c&H2CA7E9&\bord4\pos(1112.06,546.78)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.04,0:06:00.08,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx200.09\fscy200.09\3c&H2CA7E9&\bord4\pos(1111.96,548.75)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.08,0:06:00.13,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx200.11\fscy200.11\3c&H2CA7E9&\bord4\pos(1111.91,550.73)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.13,0:06:00.17,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.06\fscy200.06\3c&H2CA7E9&\bord4\pos(1112.06,552.43)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.17,0:06:00.21,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.05\fscy200.05\3c&H2CA7E9&\bord4\pos(1112.04,554.32)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.21,0:06:00.25,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.02\b0\fscx200.01\fscy200.01\3c&H2CA7E9&\bord4\pos(1112.16,556.04)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.25,0:06:00.29,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx200.03\fscy200.03\3c&H2CA7E9&\bord4\pos(1112.07,558.02)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.29,0:06:00.34,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.02\b0\fscx199.96\fscy199.96\3c&H2CA7E9&\bord4\pos(1112.08,559.72)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.34,0:06:00.38,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.98\fscy199.98\3c&H2CA7E9&\bord4\pos(1111.91,561.73)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.38,0:06:00.42,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.98\fscy199.98\3c&H2CA7E9&\bord4\pos(1111.93,563.58)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.42,0:06:00.46,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.95\b0\fscx200.01\fscy200.01\3c&H2CA7E9&\bord4\pos(1111.67,565.64)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.46,0:06:00.50,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx200\fscy200\3c&H2CA7E9&\bord4\pos(1111.94,567.32)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.50,0:06:00.54,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx200.01\fscy200.01\3c&H2CA7E9&\bord4\pos(1111.97,569.16)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.54,0:06:00.59,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.03\b0\fscx199.9\fscy199.9\3c&H2CA7E9&\bord4\pos(1112.1,570.62)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.59,0:06:00.63,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.02\b0\fscx199.92\fscy199.92\3c&H2CA7E9&\bord4\pos(1112.04,572.49)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.63,0:06:00.67,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.99\fscy199.99\3c&H2CA7E9&\bord4\pos(1111.9,574.47)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.67,0:06:00.71,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270\b0\fscx199.94\fscy199.94\3c&H2CA7E9&\bord4\pos(1111.99,576.01)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.71,0:06:00.75,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz270.01\b0\fscx199.95\fscy199.95\3c&H2CA7E9&\bord4\pos(1112.05,577.65)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.75,0:06:00.79,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx199.98\fscy199.98\3c&H2CA7E9&\bord4\pos(1111.91,579.32)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.79,0:06:00.84,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx209.72\fscy209.72\3c&H2CA7E9&\bord4.19\pos(1061.57,601.19)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.84,0:06:00.88,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx220.19\fscy220.19\3c&H2CA7E9&\bord4.4\pos(1007.22,619.99)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.88,0:06:00.92,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.99\b0\fscx230.69\fscy230.69\3c&H2CA7E9&\bord4.61\pos(952.8,637.69)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.92,0:06:00.96,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx239.63\fscy239.63\3c&H2CA7E9&\bord4.79\pos(906.24,652.51)}小鹿队要赢噜！
+Dialogue: 0,0:06:00.96,0:06:01.00,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx245.23\fscy245.23\3c&H2CA7E9&\bord4.9\pos(877.2,662.01)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.00,0:06:01.04,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.47,664.88)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.04,0:06:01.09,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.46,664.88)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.09,0:06:01.13,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.98\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.45,664.89)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.13,0:06:01.17,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.44,664.9)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.17,0:06:01.21,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.89\fscy246.89\3c&H2CA7E9&\bord4.94\pos(868.41,664.93)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.21,0:06:01.25,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.92)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.25,0:06:01.29,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.43,664.9)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.29,0:06:01.42,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.91)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.42,0:06:01.54,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.43,664.9)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.54,0:06:01.59,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.41,664.92)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.59,0:06:01.63,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.91)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.63,0:06:01.67,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.43,664.9)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.67,0:06:01.71,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.44,664.9)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.71,0:06:01.75,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.41,664.92)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.75,0:06:01.79,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.4,664.93)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.79,0:06:01.84,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.41,664.91)}小鹿队要赢噜！
+Dialogue: 0,0:06:01.84,0:06:02.30,OnScreen,,0,0,0,,{=9}{\alpha&H00&\an8\c&H1C60B2&\fn@仓耳周珂正大榜书\frz269.97\b0\fscx246.88\fscy246.88\3c&H2CA7E9&\bord4.94\pos(868.42,664.91)}小鹿队要赢噜！
 Dialogue: 0,0:10:08.34,0:10:13.47,OnScreen,14708,0,0,0,,{=13}{\clip()\fscx100\t(18,5107,\fscx100)\fscy100\t(18,5107,\fscy100)\frz0\t(18,5107,\frz0)\alpha&H00&\an7\move(1026.72,-43.06,1026.67,111.11,18,5107)\b0\blur1.3}※ 烤肉套餐
 Dialogue: 0,0:12:43.95,0:12:43.99,OnScreen,,0,0,0,,{=14}{\fscx92.74\fscy92.74\frz0\alpha&H00&\b0\an7\pos(1169.04,-84.26)}※ 四舍五入
 Dialogue: 0,0:12:43.99,0:12:44.03,OnScreen,,0,0,0,,{=14}{\fscx93.68\fscy93.68\frz0\alpha&H00&\b0\an7\pos(1161.77,-67.65)}※ 四舍五入
@@ -467,28 +467,28 @@ Dialogue: 0,0:19:26.60,0:19:26.65,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fsc
 Dialogue: 0,0:19:26.65,0:19:26.69,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,215.9)}学生会解散
 Dialogue: 0,0:19:26.69,0:19:26.73,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,28.42)}学生会解散
 Dialogue: 0,0:19:26.73,0:19:26.77,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,-159.06)}学生会解散
-Dialogue: 0,0:19:26.31,0:19:26.35,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,1265)}学生会长失格
-Dialogue: 0,0:19:26.35,0:19:26.40,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,1083)}学生会长失格
-Dialogue: 0,0:19:26.40,0:19:26.44,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,881.62)}学生会长失格
-Dialogue: 0,0:19:26.44,0:19:26.48,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,718.55)}学生会长失格
-Dialogue: 0,0:19:26.48,0:19:26.52,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,597.56)}学生会长失格
-Dialogue: 0,0:19:26.52,0:19:27.31,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,546.4)}学生会长失格
-Dialogue: 0,0:19:27.31,0:19:27.36,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,496)}学生会长失格
-Dialogue: 0,0:19:27.36,0:19:27.40,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,376.8)}学生会长失格
-Dialogue: 0,0:19:27.40,0:19:27.44,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,215.9)}学生会长失格
-Dialogue: 0,0:19:27.44,0:19:27.48,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,28.42)}学生会长失格
-Dialogue: 0,0:19:27.48,0:19:27.52,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,-159.06)}学生会长失格
-Dialogue: 0,0:19:26.81,0:19:26.86,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,1265)}优等生的陨落
-Dialogue: 0,0:19:26.86,0:19:26.90,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,1083)}优等生的陨落
-Dialogue: 0,0:19:26.90,0:19:26.94,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,881.62)}优等生的陨落
-Dialogue: 0,0:19:26.94,0:19:26.98,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,718.55)}优等生的陨落
-Dialogue: 0,0:19:26.98,0:19:27.02,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,597.56)}优等生的陨落
-Dialogue: 0,0:19:27.02,0:19:27.81,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,546.4)}优等生的陨落
-Dialogue: 0,0:19:27.81,0:19:27.86,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,496)}优等生的陨落
-Dialogue: 0,0:19:27.86,0:19:27.90,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,376.8)}优等生的陨落
-Dialogue: 0,0:19:27.90,0:19:27.94,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,215.9)}优等生的陨落
-Dialogue: 0,0:19:27.94,0:19:27.98,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,28.42)}优等生的陨落
-Dialogue: 0,0:19:27.98,0:19:28.02,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,-159.06)}优等生的陨落
+Dialogue: 0,0:19:26.31,0:19:26.35,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,1265)}无能废柴会长
+Dialogue: 0,0:19:26.35,0:19:26.40,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,1083)}无能废柴会长
+Dialogue: 0,0:19:26.40,0:19:26.44,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,881.62)}无能废柴会长
+Dialogue: 0,0:19:26.44,0:19:26.48,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,718.55)}无能废柴会长
+Dialogue: 0,0:19:26.48,0:19:26.52,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,597.56)}无能废柴会长
+Dialogue: 0,0:19:26.52,0:19:27.31,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,546.4)}无能废柴会长
+Dialogue: 0,0:19:27.31,0:19:27.36,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,496)}无能废柴会长
+Dialogue: 0,0:19:27.36,0:19:27.40,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,376.8)}无能废柴会长
+Dialogue: 0,0:19:27.40,0:19:27.44,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,215.9)}无能废柴会长
+Dialogue: 0,0:19:27.44,0:19:27.48,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,28.42)}无能废柴会长
+Dialogue: 0,0:19:27.48,0:19:27.52,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,-159.06)}无能废柴会长
+Dialogue: 0,0:19:26.81,0:19:26.86,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,1265)}优等生的形象崩塌
+Dialogue: 0,0:19:26.86,0:19:26.90,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,1083)}优等生的形象崩塌
+Dialogue: 0,0:19:26.90,0:19:26.94,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,881.62)}优等生的形象崩塌
+Dialogue: 0,0:19:26.94,0:19:26.98,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,718.55)}优等生的形象崩塌
+Dialogue: 0,0:19:26.98,0:19:27.02,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,597.56)}优等生的形象崩塌
+Dialogue: 0,0:19:27.02,0:19:27.81,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,546.4)}优等生的形象崩塌
+Dialogue: 0,0:19:27.81,0:19:27.86,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,496)}优等生的形象崩塌
+Dialogue: 0,0:19:27.86,0:19:27.90,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,376.8)}优等生的形象崩塌
+Dialogue: 0,0:19:27.90,0:19:27.94,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,215.9)}优等生的形象崩塌
+Dialogue: 0,0:19:27.94,0:19:27.98,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,28.42)}优等生的形象崩塌
+Dialogue: 0,0:19:27.98,0:19:28.02,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an8\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(280,-159.06)}优等生的形象崩塌
 Dialogue: 0,0:19:27.56,0:19:27.61,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,1265)}流落街头
 Dialogue: 0,0:19:27.61,0:19:27.65,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,1083)}流落街头
 Dialogue: 0,0:19:27.65,0:19:27.69,OnScreen,,0,0,0,,{\fn@MiSans\b0\frz270\an2\fscx200\fscy200\c&H272D38&\3c&HF2F2F1&\bord4\fsp10\pos(1615,881.62)}流落街头

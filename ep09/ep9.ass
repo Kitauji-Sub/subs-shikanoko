@@ -9,14 +9,13 @@ PlayResY: 1080
 
 [Aegisub Project Garbage]
 Last Style Storage: Default
-Audio File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 09 (1080p) [2168E2F9].mkv
-Video File: C:/Users/scree/Desktop/[SubsPlease] Shikanoko Nokonoko Koshitantan - 09 (1080p) [2168E2F9].mkv
+Audio File: C:/Users/scree/Desktop/shika/ep9.mkv
+Video File: C:/Users/scree/Desktop/shika/ep9.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.750000
-Scroll Position: 388
 Active Line: 16
-Video Position: 3597
+Video Position: 252
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -45,7 +44,7 @@ Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 1,0:02:30.00,0:02:35.01,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord2\c&H2C2CCC&\3c&HFFFFFF&}好好地把这个体育节过完！
 Dialogue: 0,0:02:30.00,0:02:35.01,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord4\c&H2C2CCC&\3c&H2C2CCC&}好好地把这个体育节过完！
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
-Dialogue: 0,0:00:10.51,0:00:11.66,SIKANOKO_Bottom,马车芽,0,0,0,kara,嗯哈\Nんは
+Dialogue: 0,0:00:10.51,0:00:11.66,SIKANOKO_Bottom,马车芽,0,0,150,kara,嗯哈\Nんは
 Dialogue: 0,0:00:14.52,0:00:15.54,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,哎呀\Nいや
 Dialogue: 0,0:00:15.54,0:00:16.64,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,春天到了呢\N春だねぇ
 Dialogue: 0,0:00:19.20,0:00:22.54,SIKANOKO_Bottom,虎子,0,0,0,kara,这已经是我们高三的第二个春天了吗\Nもう三年生になって 二回目の春か
