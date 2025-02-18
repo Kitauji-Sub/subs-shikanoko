@@ -14,9 +14,8 @@ Video File: C:/Users/scree/Desktop/shika/ep11.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 296
-Active Line: 304
-Video Position: 33878
+Active Line: 12
+Video Position: 9015
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -41,6 +40,7 @@ Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line,{\pos(!line.left + gr
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====STF=====
 Dialogue: 0,0:02:03.10,0:02:04.98,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募翻译校对时轴，招募群: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：三千年世界　{\c&H80DDFE&}校{\r}对：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
+Dialogue: 0,0:06:15.98,0:06:22.20,note,,0,0,0,kara,这里的マタギ特指日本东北地区及北海道等地\N使用传统方法进行捕猎的猎人，他们有着独特的文化与山岳信仰。
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
 Dialogue: 0,0:00:00.00,0:00:00.00,TITLE,TITLE,0,0,0,,{\pos(960,690)\fscx200\fscy200\bord5\c&H359CF2&\3c&H0366FE&}
 Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====

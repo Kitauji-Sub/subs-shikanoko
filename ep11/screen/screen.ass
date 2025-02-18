@@ -14,7 +14,7 @@ Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 1.000000
 Scroll Position: 18
-Active Line: 29
+Active Line: 40
 Video Position: 17000
 
 [V4+ Styles]
@@ -63,9 +63,9 @@ Comment: 0,0:14:32.45,0:14:33.58,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}My
 Comment: 0,0:14:33.58,0:14:37.75,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}and myself are the defenders of my country.
 Comment: 0,0:14:38.29,0:14:41.65,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}We are the masters of our enemy.
 Comment: 0,0:14:41.92,0:14:45.30,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}We are the saviors of my life.
-Dialogue: 1,0:16:10.32,0:16:19.21,OnScreen,,0,0,0,,{\fn思源宋体 Medium\b0\an5\pos(960,590)\fscx200\fscy200}携带或运输枪支等物品时，\N\N\N必须将该枪支等物品放入容器中。\N\N\N节选自《銃砲刀剣類所持等取締法》
+Dialogue: 1,0:16:10.32,0:16:19.21,OnScreen,,0,0,0,,{\fn思源宋体 Medium\b0\an5\pos(960,590)\fscx200\fscy200}携带或运输枪支等物品时，\N\N\N必须将该枪支等物品放入容器中。\N\N\N节选自《枪炮刀剑类持有等取缔法》
 Comment: 0,0:16:10.32,0:16:19.20,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&H0B0A0B&\clip(227.43,288,1697.14,834.29)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 0,0:16:27.72,0:16:30.72,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(117.7,336.57)}北海道 根室海峡\N水流
+Dialogue: 0,0:16:27.72,0:16:30.72,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(117.7,336.57)}北海道 根室海峡\N浮冰
 Dialogue: 0,0:16:49.49,0:16:51.11,OnScreen,,0,0,0,,{\an5\fn思源黑体 Medium\b0\fscx300\fscy300\pos(960,245)\c&H171F2E&\3c&HF7F7F5&\bord4.5}一小时前
 Dialogue: 0,0:18:57.45,0:18:58.83,OnScreen,Sign,0,0,0,,{\fn思源黑体 Heavy\b0\c&H226FEB&\3c&HF7F9FB&\bord4\fscx150\fscy150\pos(1674.4,784.03)}注：这是鹿宝
 
