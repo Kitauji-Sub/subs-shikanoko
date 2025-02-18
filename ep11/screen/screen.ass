@@ -8,14 +8,14 @@ PlayResX: 1920
 PlayResY: 1080
 
 [Aegisub Project Garbage]
-Audio File: C:/Users/scree/Desktop/ep11.mkv
-Video File: C:/Users/scree/Desktop/ep11.mkv
+Audio File: C:/Users/scree/Desktop/shika/ep11.mkv
+Video File: C:/Users/scree/Desktop/shika/ep11.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.875000
-Scroll Position: 30
-Active Line: 43
-Video Position: 27272
+Video Zoom Percent: 1.000000
+Scroll Position: 18
+Active Line: 29
+Video Position: 17000
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -37,11 +37,12 @@ Dialogue: 0,0:05:10.46,0:05:13.96,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\
 Dialogue: 0,0:05:13.96,0:05:17.46,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(55.99,329.71)}北海道 野付半岛\N罗臼岳
 Dialogue: 0,0:05:20.01,0:05:22.22,OnScreen,,0,0,0,,{\fad(727,0)\an5\org(960,540)\move(960,320,960,315)}{\fscx100\fscy100\t(\fscx105\fscy105)}漫　画　原　作　者\N{\fscx200\fscy200\t(\fscx210\fscy210)}おしおしお\N巨献
 Dialogue: 0,0:05:24.47,0:05:26.84,OnScreen,Sign,0,0,0,,{\an5\move(960,625,960,630)\fscx200\fscy200\t(\fscx210\fscy210)}鹿乃子乃子乃子虎视眈眈
-Dialogue: 0,0:05:35.36,0:05:40.36,OnScreen,,0,0,0,,{\an5\pos(960,680)\fscx250\fscy250}猎人与猎物
-Dialogue: 0,0:08:29.61,0:08:31.62,OnScreen,Sign,0,0,0,,{\an5\pos(960,750)\fscx300\fscy300}逃杀开始
-Dialogue: 0,0:09:14.99,0:09:17.16,OnScreen,Sign,0,0,0,,{\fn思源黑体 Medium\b0\pos(960,800)\fscx150\fscy150\3c&H1D202E&\bord4.5\c&HF4F3F4&}还完全不知道发生了什么的
+Dialogue: 0,0:05:35.36,0:05:40.36,OnScreen,,0,0,0,,{\an5\pos(960,680)\fscx250\fscy250}校园追猎
+Dialogue: 0,0:08:29.61,0:08:31.62,OnScreen,Sign,0,0,0,,{\an5\pos(960,750)\fscx300\fscy300}逃跑开始
+Dialogue: 0,0:09:14.99,0:09:17.16,OnScreen,Sign,0,0,0,,{\fn思源黑体 Medium\b0\pos(960,800)\fscx150\fscy150\3c&H1D202E&\bord4.5\c&HF4F3F4&}完全不知道发生了什么的
 Dialogue: 0,0:09:14.99,0:09:17.16,OnScreen,Sign,0,0,0,,{\fn思源黑体 Medium\b0\pos(960,1070)\fscx150\fscy150\3c&H1D202E&\bord4.5\c&HF4F3F4&}猫山田 根子同学（高三）
-Dialogue: 0,0:09:58.76,0:10:00.70,OnScreen,Sign,0,0,0,,{\fad(200,0)\fn獅尾圓體SC-Black\b0\fscx150\fscy150\c&H171F2D&\3c&HF3F4F3&\bord5\move(960,905,960,865,0,570)}意料之外的人物
+Dialogue: 0,0:09:22.37,0:09:25.04,OnScreen,,0,0,0,,{\an9}鹿用追踪\N已锁定\N仅限鹿\N\N编号　NOKO NOKO\N123-138 鹿 噜\N\N运行检查 你角 乃好
+Dialogue: 0,0:09:58.76,0:10:00.70,OnScreen,Sign,0,0,0,,{\fad(200,0)\fn獅尾圓體SC-Black\b0\fscx150\fscy150\c&H171F2D&\3c&HF3F4F3&\bord5\move(960,905,960,865,0,570)}意料之外的角色
 Dialogue: 0,0:10:36.82,0:10:38.33,OnScreen,Sign,0,0,0,,{\an5\pos(960,750)\fscx300\fscy300}逃跑
 Dialogue: 0,0:10:39.83,0:10:41.08,OnScreen,Sign,0,0,0,,{\an5\fscx300\fscy300\frz10\pos(1052.57,748.57)}逃跑
 Dialogue: 0,0:10:42.58,0:10:43.58,OnScreen,Sign,0,0,0,,{\an5\fscx300\fscy300\frz160\pos(1080,305.14)}逃跑
@@ -50,8 +51,8 @@ Dialogue: 0,0:11:03.60,0:11:05.60,OnScreen,Sign,0,0,0,,{\an5\pos(960,750)\fscx30
 Dialogue: 2,0:11:05.60,0:11:07.10,OnScreen,Sign,0,0,0,,{=8}{\fn思源黑体 Medium\b0\c&H000000&\fax0.197094\fscx1095.71\fscy1163.76\frz-10.5056\frx-0.0079\fry2.1553\org(1062.88,498.82)\pos(1019.68,731.57)}校长室
 Dialogue: 0,0:11:05.60,0:11:07.10,OnScreen,Sign,0,0,0,,{=8}{\an7\pos(0,0)\p1\clip(m 757.83 250.75 l 1546.28 425.15 1564.57 765.71 499.43 601.14 502.34 294.19)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
 Dialogue: 1,0:11:05.60,0:11:07.10,OnScreen,Sign,0,0,0,,{=8}{\an7\pos(0,0)\p1\c&HFAF9FA&\clip(m 490.29 210.29 l 650.29 210.29 680.06 264.86 501 298.08)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
-Dialogue: 0,0:11:08.11,0:11:10.65,OnScreen,Sign,0,0,0,,{\fn仓耳周珂正大榜书\b0\c&H424647&\3c&H8CAFB3&\bord2.5\pos(781.95,171.96)}田人外流不水肥
-Dialogue: 0,0:11:49.02,0:11:52.52,OnScreen,Sign,0,0,0,,{\fn仓耳周珂正大榜书\b0\c&H424647&\3c&H8CAFB3&\bord2.5\pos(786.26,177.64)}田人外流不水肥
+Dialogue: 0,0:11:08.11,0:11:10.65,OnScreen,Sign,0,0,0,,{\fn仓耳周珂正大榜书\b0\c&H424647&\3c&H8CAFB3&\bord2.5\pos(781.95,171.96)}损人利己
+Dialogue: 0,0:11:49.02,0:11:52.52,OnScreen,Sign,0,0,0,,{\fn仓耳周珂正大榜书\b0\c&H424647&\3c&H8CAFB3&\bord2.5\pos(786.26,177.64)}损人利己
 Dialogue: 0,0:13:15.65,0:13:18.15,OnScreen,Sign,0,0,0,,{\an5\pos(960,850)\fscx300\fscy300}鹿宝\N危在旦夕
 Comment: 0,0:14:10.80,0:14:12.80,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}This is my rifle.
 Comment: 0,0:14:14.93,0:14:19.43,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,220)}There are many like it, but this one is mine.
@@ -62,8 +63,8 @@ Comment: 0,0:14:32.45,0:14:33.58,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}My
 Comment: 0,0:14:33.58,0:14:37.75,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}and myself are the defenders of my country.
 Comment: 0,0:14:38.29,0:14:41.65,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}We are the masters of our enemy.
 Comment: 0,0:14:41.92,0:14:45.30,OnScreen,Kumatori/Subs,0,0,0,,{\pos(320,258)}We are the saviors of my life.
-Dialogue: 1,0:16:10.32,0:16:19.21,OnScreen,,0,0,0,,{\fn思源宋体 Medium\b0\an5\pos(960,510)\fscx220\fscy220}携带或运输枪支等物品时，\N\N\N必须将该枪支等物品放入容器中。\N\N\N节选自《銃砲刀剣類所持等取締法》
-Dialogue: 0,0:16:10.32,0:16:19.20,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&H0B0A0B&\clip(227.43,288,1697.14,834.29)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:16:10.32,0:16:19.21,OnScreen,,0,0,0,,{\fn思源宋体 Medium\b0\an5\pos(960,590)\fscx200\fscy200}携带或运输枪支等物品时，\N\N\N必须将该枪支等物品放入容器中。\N\N\N节选自《銃砲刀剣類所持等取締法》
+Comment: 0,0:16:10.32,0:16:19.20,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\c&H0B0A0B&\clip(227.43,288,1697.14,834.29)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
 Dialogue: 0,0:16:27.72,0:16:30.72,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(117.7,336.57)}北海道 根室海峡\N水流
 Dialogue: 0,0:16:49.49,0:16:51.11,OnScreen,,0,0,0,,{\an5\fn思源黑体 Medium\b0\fscx300\fscy300\pos(960,245)\c&H171F2E&\3c&HF7F7F5&\bord4.5}一小时前
 Dialogue: 0,0:18:57.45,0:18:58.83,OnScreen,Sign,0,0,0,,{\fn思源黑体 Heavy\b0\c&H226FEB&\3c&HF7F9FB&\bord4\fscx150\fscy150\pos(1674.4,784.03)}注：这是鹿宝
