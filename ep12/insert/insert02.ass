@@ -1,0 +1,47 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: C:/Users/scree/Desktop/shika/ep12.mkv
+Video File: C:/Users/scree/Desktop/shika/ep12.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.875000
+Active Line: 5
+Video Position: 21540
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Insert_karaoke,獅尾圓體SC-Bold,90,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,1.1,0,1,5,3,8,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:18:06.98,0:18:08.98,Insert_karaoke,,0,0,0,code line,s_start, s_end = ln.line.buffers(0,0)
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,template line,!relayer(3)!{\clip(!line.left - 8!,0,!line.right + 8!,1080)\t(!s_start!,!s_end!,\clip(!line.right + 8!,0,!line.right+line.width + 16!,1080))}
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,template line,!relayer(2)!{\3c&HFFFFFF&\4c&HFFFFFF&\c&H14C1FD&\bord5\shad3}
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,mixin line layer 2 noactor no-out,{\fad(0,520)\t(!line.duration-520!,!line.duration!,\shad0)}
+Comment: 0,0:18:08.98,0:18:10.98,Insert_karaoke,,0,0,0,mixin line layer 3 noactor no-out,!retime("line",0,-520)!
+Comment: 0,0:13:46.47,0:13:50.73,Insert_karaoke,no-out,0,0,0,kara,{\fad(189,3192)}被社团养废了身体
+Comment: 0,0:13:50.73,0:13:54.86,Insert_karaoke,no-out,0,0,0,kara,{\fad(225,3186)}被社团宠坏了毅力
+Comment: 0,0:13:54.86,0:13:56.86,Insert_karaoke,no-out,0,0,0,kara,{\fad(183,1642)}习惯了社团的驯养
+Comment: 0,0:13:56.86,0:13:59.11,Insert_karaoke,no-out,0,0,0,kara,{\fad(185,1394)}彻底成为了宠物
+Comment: 0,0:13:59.11,0:14:03.24,Insert_karaoke,no-out,0,0,0,kara,{\fad(187,3398)}现在就将这烂掉的身体推倒重建
+Comment: 0,0:14:07.66,0:14:11.58,Insert_karaoke,no-out,0,0,0,kara,{\fad(187,3107)}面对前来挑战的强敌
+Comment: 0,0:14:11.58,0:14:15.83,Insert_karaoke,no-out,0,0,0,kara,{\fad(396,3357)}抚平内心的巨大恐惧
+Comment: 0,0:14:15.83,0:14:20.34,Insert_karaoke,no-out,0,0,0,kara,{\fad(317,3362)}尽管也有许多事让你疲惫
+Comment: 0,0:14:20.34,0:14:23.68,Insert_karaoke,no-out,0,0,0,kara,{\fad(103,2981)}尽管也有许多事让你心碎
+Comment: 0,0:14:23.68,0:14:24.76,Insert_karaoke,no-out,0,0,0,kara,{\fad(183,975)}但是
+Comment: 0,0:14:24.76,0:14:28.64,Insert_karaoke,no-out,0,0,0,kara,{\fad(187,3733)}你并不是孤军奋战
+Comment: 0,0:14:28.64,0:14:31.89,Insert_karaoke,no-out,0,0,0,kara,{\fad(562,2272)}穿过地狱般的特训
+Comment: 0,0:14:31.89,0:14:39.82,Insert_karaoke,no-out,0,0,0,kara,{\fad(106,7030)}去将早已丢失的灵魂带回
+Comment: 0,0:14:39.82,0:14:44.07,Insert_karaoke,no-out,0,0,0,kara,{\fad(476,3854)}你是一头野生的鹿啊
+Comment: 0,0:14:44.07,0:14:48.33,Insert_karaoke,no-out,0,0,0,kara,{\fad(439,3859)}你是一头野生的鹿啊
+Comment: 0,0:14:48.33,0:14:53.04,Insert_karaoke,no-out,0,0,0,kara,{\fad(391,3519)}你就是日本第一的
+Comment: 0,0:14:53.04,0:14:56.08,Insert_karaoke,no-out,0,0,0,kara,{\fad(394,1896)}害兽啊

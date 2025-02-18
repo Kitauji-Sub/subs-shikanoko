@@ -1,0 +1,420 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Last Style Storage: Default
+Audio File: C:/Users/scree/Desktop/shika/ep12.mkv
+Video File: C:/Users/scree/Desktop/shika/ep12.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.625000
+Active Line: 10
+Video Position: 3068
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: SIKANOKO_Bottom,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H14345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,2,10,10,25,1
+Style: note,筑紫A丸 SC,50,&H00F0F0F0,&H000000FF,&H00345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,4,0,7,50,10,70,1
+Style: LLM,思源黑体,65,&H0071EAC9,&H000000FF,&H002F2F2F,&H00000000,-1,0,0,0,100,100,1.1,0,1,3,0,1,50,10,160,1
+Style: SIKANOKO_Top,筑紫A丸 SC,70,&H00F0F0F0,&H000000FF,&H14345B85,&H00000000,-1,0,0,0,100,100,1.1,0,1,5.2,0,8,10,10,15,1
+Style: TITLE,獅尾圓體SC-Black,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: STF,筑紫A丸 SC,50,&H00FFFFFF,&H000000FF,&H00345B85,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code once anystyle,monolingual = false
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,colors,0,0,0,code once anystyle,charactor_color = {     ["鹿乃子"] = "&H3361FF&",     ["虎子"] = "&H0094AA&",     ["馅子"] = "&HE56CB4&",     ["马车芽"] = "&H4DB477&",     ["根子"] = "&H7D5BDB&",     ["绢"] = "&HC182DC&",     ["千春"] = "&HAE6238&",} function search_for_color(input_text)     for k, v in _G.pairs(charactor_color) do         if string.find(input_text, k) then             return v         end     end     return "&H345B85&" end function name_color(color)     return colorlib.interp_xyz(0.5, "&H345B85&", color) end
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,utility,0,0,0,code once anystyle,function string:split(delimiter)     local result = {}     local from = 1     local delim_from, delim_to = string.find(self, delimiter, from, true)     while delim_from do         if (delim_from ~= 1) then             table.insert(result, string.sub(self, from, delim_from-1))         end         from = delim_to + 1         delim_from, delim_to = string.find(self, delimiter, from, true)     end     if (from <= #self) then table.insert(result, string.sub(self, from)) end     return result end
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,global settings,0,0,0,code once anystyle,_zh_jp_gap = 42.5; _zh_jp_gap_top=53.5; graphic_height_bottom = 30; graphic_height_top = 25; tc_fontname = "獅尾圓體-Bold"; if monolingual then _zh_jp_gap = 0 _zh_jp_gap_top = 0 end;
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,code line anystyle,start_time = orgline.start_time end_time = orgline.end_time align = orgline.styleref.align line_text = orgline.text_stripped:split("\\N")  line_text_tags = orgline.text:split("\\N") line_width = _G.aegisub.text_extents(orgline.styleref, line_text[1] and line_text[1] or "") line_left = (meta.res_x - orgline.eff_margin_l - orgline.eff_margin_r - line_width) / 2 + orgline.eff_margin_l zh_jp_gap = line_text[2] and _zh_jp_gap or 0 zh_jp_gap_top = line_text[2] and _zh_jp_gap_top or 0
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,text,0,0,0,template line style SIKANOKO_Top notext,!maxloop("zhjp",2)!!relayer(10-loopctx.state.zhjp)!!(zh_jp_gap == 0 and loopctx.state.zhjp == 2) and skip() or ""!{\pos(!line.center!,!line.styleref.align == 2 and (loopctx.state.zhjp == 1 and line.bottom - zh_jp_gap or line.bottom) or (loopctx.state.zhjp == 1 and line.top + zh_jp_gap_top or line.top)!)\bord!loopctx.state.zhjp == 1 and 5.2 or 3.64!\fscx!loopctx.state.zhjp == 1 and 100 or 70!\fscy!loopctx.state.zhjp == 1 and 100 or 70!\fn!loopctx.state.zhjp == 1 and line.styleref.fontname or "FOT-TsukuARdGothic Std E"!\3c!name_color(search_for_color(line.actor))!}!loopctx.state.zhjp == 1 and line_text_tags[loopctx.state.zhjp] or line_text[loopctx.state.zhjp]!
+Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,code once,graphic_width = 50
+Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line notext,{\an7\1c&H345B84&\1a&H00&\3c&HF0F0F0&\3a&H00&\bord4.5\shad0\p1\fry180\fscx200\fscy200\pos(!line.left + graphic_width - 18!,!line.top!)}m 1.4 0 l 1.4 0 1 0.3 b 0 1.7 -0.4 5.6 0.6 8.9 b 1.7 12.6 5.1 17.8 11.2 21.6 l 11.9 22.1 b 16.2 24.8 20.7 27.5 27.1 27.5 b 31.8 27.5 35 26.3 35 25.1 l 35 25.1 33.1 24.4 b 32.6 24.2 32 24.1 31.4 23.9 b 31.1 23.8 30.8 23.7 30.5 23.6 l 30.5 23.6 27 21.8 25.4 19.6 b 24.9 18.7 24.5 17.9 24.2 17.3 b 23.5 15.6 23.1 14.9 21.8 14.3 l 21.8 14.3 21.5 16.1 b 21.5 16.3 21.4 16.6 21.4 16.9 b 21.1 18.9 20.2 19.4 19.5 19.5 b 16.7 19.6 14.7 12.8 14.5 12.1 l 14.5 12.1 13.6 8.2 13.5 7.4 b 13.1 4.8 12.9 4.4 12.5 4.4 b 11.7 4.4 11 4.4 11 7.6 l 11 7.6 11.2 9.8 b 11.4 11.2 11.6 12.3 10.9 13.2 l 10.9 13.2 9.4 13.8 b 6.3 13.8 4.3 5.7 4.1 4.8 b 3.2 0.9 2.7 0 1.4 0 {\p0}
+Comment: 0,0:00:00.00,0:00:00.00,note,,0,0,0,template line,{\pos(!line.left + graphic_width!,!line.top + 5!)}
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====STF=====
+Dialogue: 0,0:02:06.11,0:02:07.98,STF,,0,0,0,,{\c&H3361FF&}本{\r}字幕由{\c&H80DDFE&}北{\c&H7C5EFE&}宇{\c&H31CAA9&}治{\r}字幕组制作\N{\c&H3361FF&}交{\r}流: 837916838  {\c\c&H31CAA9&}招{\r}募翻译校对时轴，招募群: 232487445  {\c&HFC9CB3&}T{\r}G: @KitaUji  {\c&H80DDFE&}欢{\r}迎加入\N{\c&H31CAA9&}翻{\r}译：三千年世界　{\c&H80DDFE&}校{\r}对：御崎辉　{\c&HFC9CB3&}后{\r}期：Scrpr
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====NOTE=====
+Dialogue: 0,0:15:27.13,0:15:32.00,note,,0,0,0,kara,指公元710年元明天皇将首都由藤原京迁至平城京（现奈良市）一事。
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TITLE=====
+Dialogue: 0,0:02:07.98,0:02:12.99,TITLE,TITLE,0,0,0,,{\pos(960,880)\fscx200\fscy200\bord5\c&H359BF2&\3c&H0066FD&}永别了鹿宝!?\N永远的鹿社
+Comment: 0,0:00:00.00,0:00:00.00,SIKANOKO_Bottom,,0,0,0,,=====TEXT=====
+Dialogue: 0,0:00:10.89,0:00:11.74,SIKANOKO_Bottom,熊取,0,0,0,kara,怎么会\N馬鹿な…
+Dialogue: 0,0:00:12.69,0:00:13.72,SIKANOKO_Bottom,熊取,0,0,0,kara,为什么…\Nなぜ…
+Dialogue: 0,0:00:16.33,0:00:18.00,SIKANOKO_Bottom,熊取,0,0,0,kara,原来是这样…\Nそういうことか…
+Dialogue: 0,0:00:18.00,0:00:22.77,SIKANOKO_Bottom,熊取,0,0,0,kara,鹿穴团队出动了 鹿乃子乃子\N鹿の穴が動き出したぞ 鹿乃子のこ
+Dialogue: 0,0:00:23.10,0:00:27.13,SIKANOKO_Bottom,旁白,0,0,0,kara,传说猎人 熊取宗一郎的预感没错\N伝説のマタギ 熊取宗一郎の予感は正しかった
+Dialogue: 1,0:00:27.57,0:00:31.38,SIKANOKO_Bottom,旁白,0,0,0,kara,没有人知道 鹿鹿们的命运指向日野市\N人知れず 鹿の因縁は日野市に集約
+Dialogue: 0,0:00:33.59,0:00:37.09,SIKANOKO_Bottom,旁白,0,0,0,kara,马上 日野市将掀起巨大的鹿鹿风暴\N今 巨大な鹿嵐が吹き荒れる
+Dialogue: 0,0:02:13.20,0:02:15.61,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,什 什么\Nな 何だって
+Dialogue: 0,0:02:16.77,0:02:18.37,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,不好了 虎宝\N大変だよこしたん
+Dialogue: 1,0:02:18.37,0:02:22.83,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,熊取先生发私信给我说 鹿穴的刺客正在前往日野市\N熊取さんから鹿の穴の刺客が日野市に向かってるっていうDMが!
+Dialogue: 0,0:02:22.83,0:02:24.04,SIKANOKO_Bottom,虎子,0,0,0,kara,等等\N待てぃ!
+Dialogue: 0,0:02:24.04,0:02:26.25,SIKANOKO_Bottom,虎子,0,0,0,kara,你说的话槽点满满啊\N突っ込みどころが満載なんだけど
+Dialogue: 0,0:02:26.72,0:02:27.83,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐？\Nお姉ちゃん?
+Dialogue: 0,0:02:29.49,0:02:32.63,SIKANOKO_Bottom,马车芽,0,0,0,kara,你说的鹿乃子 是谁啊\N鹿乃子って 誰ですか?
+Dialogue: 0,0:02:33.31,0:02:33.93,SIKANOKO_Bottom,虎子,0,0,0,kara,啥？\Nえっ?
+Dialogue: 0,0:02:34.63,0:02:39.29,SIKANOKO_Bottom,虎子,0,0,0,kara,上一集最后彩蛋里的那种像要完结一样的严肃的氛围跑哪里去了啊\N前回ラストの最終回直前っぽいシリアスな引きはどこ行った
+Dialogue: 0,0:02:39.29,0:02:41.29,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,那种小事不重要啦\N些細なことはどうでもいいよ!
+Dialogue: 0,0:02:41.29,0:02:43.01,SIKANOKO_Bottom,虎子,0,0,0,kara,那算小事？\N些細なこと!?
+Dialogue: 0,0:02:43.01,0:02:44.36,SIKANOKO_Bottom,旁白,0,0,0,kara,那就是小事\N些細なことです
+Dialogue: 0,0:02:44.36,0:02:46.57,SIKANOKO_Bottom,馅子,0,0,0,kara,鹿穴啊\N鹿の穴か
+Dialogue: 0,0:02:46.57,0:02:48.39,SIKANOKO_Bottom,虎子,0,0,0,kara,你知道吗 馅子\N知っているのか あんこ
+Dialogue: 0,0:02:49.21,0:02:52.23,SIKANOKO_Bottom,馅子,0,0,0,kara,人们会创造出吉祥物 让它们成为当地的信仰\Nご当地信仰を目的に生み出されたゆるキャラ
+Dialogue: 0,0:02:52.67,0:02:57.36,SIKANOKO_Bottom,馅子,0,0,0,kara,在那之中 有个专门培养鹿系吉祥物的秘密部门\Nその中で シカ系ゆるキャラ養成に特化した秘密機関
+Dialogue: 0,0:02:57.36,0:02:59.65,SIKANOKO_Bottom,馅子,0,0,0,kara,那就是 鹿穴\Nそれが 鹿の穴
+Dialogue: 0,0:02:59.65,0:03:02.16,SIKANOKO_Bottom,虎子,0,0,0,kara,为什么会突然出现一个秘密部门啊\N何この急に出てきた秘密機関
+Dialogue: 0,0:03:02.16,0:03:04.12,SIKANOKO_Bottom,旁白,0,0,0,kara,这是动画最后一集常有的事\Nアニメ最終回あるある
+Dialogue: 0,0:03:04.49,0:03:07.48,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,其实 我就是从那里培养出来的\N実は私は そこの出身なんだ
+Dialogue: 0,0:03:07.48,0:03:10.09,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,但是 因为训练太麻烦…\Nでも 途中で訓練が面倒くさ…
+Dialogue: 0,0:03:10.09,0:03:12.00,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,反正就是有些原因 所以中途逃出来了\Nわけあって脱走してきたんだよ!
+Dialogue: 0,0:03:12.35,0:03:15.00,SIKANOKO_Bottom,虎子,0,0,0,kara,怎么又出现一个谜之设定啊\N何その更に出てきた謎設定
+Dialogue: 0,0:03:15.00,0:03:17.13,SIKANOKO_Bottom,旁白,0,0,0,kara,这也是动画最后一集常有的事\Nこれもアニメ最終回あるある
+Dialogue: 0,0:03:17.42,0:03:20.63,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,动画播出之后 我的位置就暴露给他们了\Nアニメが放送されたことで 居場所がバレたんだ
+Dialogue: 0,0:03:20.63,0:03:24.76,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,然后他们就派出了刺客 要把我这个叛徒带回去\N裏切り者の私を連れ戻すため 刺客が放たれたんだよ!
+Dialogue: 0,0:03:25.37,0:03:29.27,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,所以 吉祥物会来抓你？\Nふん ゆるキャラがお前を狙って?
+Dialogue: 0,0:03:29.27,0:03:33.48,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我说啊 那种大人物怎么会跑来我们这种小动画…\Nあのな そんな方々がこんなアニメに来てくれるわけ…
+Dialogue: 0,0:03:35.98,0:03:38.91,SIKANOKO_Bottom,虎子,0,0,0,kara,真来了啊\N来てくれた!
+Dialogue: 0,0:03:39.21,0:03:40.53,SIKANOKO_Bottom,馅子,0,0,0,kara,你就是小啾\Nあなたはキュンちゃん
+Dialogue: 0,0:03:41.57,0:03:44.38,SIKANOKO_Bottom,馅子,0,0,0,kara,小啾在北海道的大雪山里长大\N北海道の大雪山で育ったキュンちゃんは
+Dialogue: 0,0:03:44.38,0:03:46.78,SIKANOKO_Bottom,馅子,0,0,0,kara,虽然胆小怕事 但是好奇心旺盛\N小心者ながらも好奇心旺盛
+Dialogue: 0,0:03:47.11,0:03:49.91,SIKANOKO_Bottom,馅子,0,0,0,kara,为了了解世间万物 它离开了雪山\Nいろいろなものを知るために山を降りると
+Dialogue: 0,0:03:49.91,0:03:53.99,SIKANOKO_Bottom,馅子,0,0,0,kara,下山后凭借着自己的可爱 成为了传递北海道魅力的吉祥物\Nその愛らしさで北海道の魅力を伝えるゆるキャラになったの
+Dialogue: 0,0:03:55.35,0:03:57.54,SIKANOKO_Bottom,馅子,0,0,0,kara,真没想到能在日野遇到你\Nまさか日野市で会えるなんて
+Dialogue: 0,0:03:57.54,0:04:00.09,SIKANOKO_Bottom,虎子,0,0,0,kara,你怎么会知道那么多\Nお前なんで異常にくわしいの
+Dialogue: 0,0:04:00.09,0:04:04.02,SIKANOKO_Bottom,马车芽,0,0,0,kara,说起北海道 那里也产日本特级稻米…\N北海道といえば 日本でもトップクラスのお米のさ
+Dialogue: 0,0:04:04.02,0:04:05.22,SIKANOKO_Bottom,虎子,0,0,0,kara,你给我闭嘴\Nお前は黙ってろ
+Dialogue: 0,0:04:05.70,0:04:09.52,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,小啾 我再也不回鹿穴了\Nキュンちゃん 私はもう 鹿の穴には戻らない
+Dialogue: 0,0:04:09.52,0:04:12.63,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,因为我现在是鹿社的鹿乃子乃子啊\Nだって私は シカ部の鹿乃子のこだから
+Dialogue: 0,0:04:13.61,0:04:17.23,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我要赌上鹿的自由 和你一决胜负 小啾\Nシカの自由をかけて 勝負だよキュンちゃん
+Dialogue: 0,0:04:19.53,0:04:21.76,SIKANOKO_Bottom,馅子,0,0,0,kara,它好像觉得有人陪它玩 还挺开心的呢\N遊んでくれてうれしいみたいね
+Dialogue: 0,0:04:21.76,0:04:24.99,SIKANOKO_Bottom,马车芽,0,0,0,kara,马车芽去看看水田的情况\N馬車芽 田んぼの様子見てきます
+Dialogue: 0,0:04:25.39,0:04:29.76,SIKANOKO_Bottom,老师,0,0,0,kara,鹿宝VS小啾的舞王争夺战 即将开始\NのこたんVSキュンちゃん ダンス王決定戦!
+Dialogue: 0,0:04:31.28,0:04:33.27,SIKANOKO_Bottom,虎子,0,0,0,kara,这不就是第二集的场景嘛\N2話のセットだ!
+Dialogue: 0,0:04:33.27,0:04:35.61,SIKANOKO_Bottom,虎子,0,0,0,kara,还有 为什么比赛跳舞啊\Nてか なんでダンス対決?
+Dialogue: 0,0:04:35.61,0:04:37.79,SIKANOKO_Bottom,虎子,0,0,0,kara,而且 为什么我也在这里啊\Nあと なんで私までここにいんの?
+Dialogue: 0,0:04:38.21,0:04:42.92,SIKANOKO_Bottom,老师,0,0,0,kara,鹿宝和小啾同时开始跳舞 跳得好的人获胜\Nのこたんとキュンちゃんが同時にダンスし 上手なほうが勝ちです
+Dialogue: 0,0:04:42.92,0:04:44.80,SIKANOKO_Bottom,老师,0,0,0,kara,此外 如果鹿宝输了\Nなお のこたんが負けたら
+Dialogue: 0,0:04:45.13,0:04:47.42,SIKANOKO_Bottom,老师,0,0,0,kara,就会被强制送回鹿穴\N鹿の穴に強制送還
+Dialogue: 0,0:04:47.42,0:04:49.93,SIKANOKO_Bottom,老师,0,0,0,kara,赢了的话就能拿到够吃一年的鹿仙贝\N勝ったら鹿せんべい1年分です!
+Dialogue: 0,0:04:49.93,0:04:51.02,SIKANOKO_Bottom,虎子,0,0,0,kara,又是这种设定\Nまたかよ
+Dialogue: 0,0:04:51.35,0:04:53.27,SIKANOKO_Bottom,老师,0,0,0,kara,本场比赛的裁判是\Nそして審査員は
+Dialogue: 0,0:04:53.76,0:04:55.52,SIKANOKO_Bottom,老师,0,0,0,kara,角田先生\N角田さんです
+Dialogue: 0,0:04:55.52,0:04:57.76,SIKANOKO_Bottom,虎子,0,0,0,kara,这也太乱来了吧\Nもうめちゃくちゃだな!
+Dialogue: 0,0:04:57.76,0:05:01.53,SIKANOKO_Bottom,旁白,0,0,0,kara,虎宝已经在体育节暴露本性 现在吐槽已经无所顾忌了\N体育祭で本性バレしたので 突っ込みに遠慮のないこしたん
+Dialogue: 0,0:05:02.33,0:05:04.65,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子 能赢吗\N鹿乃子 勝てるのか?
+Dialogue: 0,0:05:04.65,0:05:08.66,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,包赢的呀 我可是鹿穴里的传奇舞者\N任せて 鹿の穴の伝説のダンサーとは私のこと
+Dialogue: 0,0:05:09.23,0:05:13.29,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我也很想看看小啾你的技术增进了多少\Nキュンちゃんがどれだけツノに磨きをかけたか 楽しみだよ
+Dialogue: 0,0:05:13.61,0:05:15.13,SIKANOKO_Bottom,老师,0,0,0,kara,预备\Nそれでは
+Dialogue: 0,0:05:15.13,0:05:16.96,SIKANOKO_Bottom,老师,0,0,0,kara,跳舞 开始！\Nダンス スタート!
+Dialogue: 0,0:05:30.43,0:05:32.38,SIKANOKO_Bottom,同学,0,0,0,kara,小啾！\Nキュンちゃん!
+Dialogue: 0,0:05:32.38,0:05:33.91,SIKANOKO_Bottom,虎子,0,0,0,kara,小啾也太灵活了\Nキレッキレだキュンちゃん!
+Dialogue: 0,0:05:33.91,0:05:35.81,SIKANOKO_Bottom,虎子,0,0,0,kara,可爱到人心里了啊\Nかわいすぎて胸が痛い!
+Dialogue: 0,0:05:36.23,0:05:38.56,SIKANOKO_Bottom,旁白,0,0,0,kara,顺带一提 这时的熊取宗一郎也\Nちなみに 熊取総一郎も
+Dialogue: 0,0:05:39.39,0:05:40.56,SIKANOKO_Bottom,熊取,0,0,0,kara,好可爱\N可愛い
+Dialogue: 0,0:05:41.06,0:05:42.64,SIKANOKO_Bottom,虎子,0,0,0,kara,相比之下\Nそれに引き換え
+Dialogue: 0,0:05:42.64,0:05:44.93,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,跳得不赖啊 小啾\Nまあまあやるね キュンちゃん
+Dialogue: 0,0:05:45.84,0:05:48.32,SIKANOKO_Bottom,虎子,0,0,0,kara,你的厚脸皮也是传说级的啊\N面の皮の厚さは伝説級だな
+Dialogue: 0,0:05:48.67,0:05:51.42,SIKANOKO_Bottom,老师,0,0,0,kara,接下来有请评委打分\Nそれでは審査員 お願いします
+Dialogue: 0,0:05:52.58,0:05:54.70,SIKANOKO_Bottom,老师,0,0,0,kara,胜者是 小啾\N勝者 キュンちゃん!
+Dialogue: 0,0:05:58.80,0:06:00.96,SIKANOKO_Bottom,虎子,0,0,0,kara,不是 你凭什么认为自己能赢啊\Nいやなぜ勝てると思ったよ
+Dialogue: 0,0:06:01.40,0:06:04.21,SIKANOKO_Bottom,虎子,0,0,0,kara,还有 原来角田先生真的在认真打分啊\Nあと角田さん ちゃんと審査するんだ
+Dialogue: 0,0:06:04.21,0:06:05.73,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,角田你小子\Nおのれ角田!
+Dialogue: 0,0:06:05.73,0:06:07.68,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,就是因为你 我才讨厌畜生鹿鹿啊\Nこれだからシカ畜生は!
+Dialogue: 0,0:06:07.68,0:06:10.22,SIKANOKO_Bottom,虎子,0,0,0,kara,你怎么还否定上鹿了啊\Nお前がシカ否定すんのかよ!
+Dialogue: 0,0:06:12.42,0:06:14.60,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我讨厌鹿穴！\N鹿の穴なんて嫌!
+Dialogue: 0,0:06:14.88,0:06:19.10,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我要永远呆在鹿社 在鹿社的照料下无忧无虑地生活\N私はずっとシカ部でお世話されて 楽して生きていくな!
+Dialogue: 0,0:06:19.10,0:06:21.34,SIKANOKO_Bottom,虎子,0,0,0,kara,渣鹿发言啊这是\N最低だこいつ
+Dialogue: 0,0:06:21.34,0:06:23.77,SIKANOKO_Bottom,虎子,0,0,0,kara,比赛输了那就没办法了啊\N負けた以上仕方ないのか
+Dialogue: 0,0:06:24.77,0:06:28.89,SIKANOKO_Bottom,老师,0,0,0,kara,没有鹿的鹿社就只好解散了吧\N鹿がいないシカ部の存続は認められないかな
+Dialogue: 0,0:06:28.89,0:06:31.41,SIKANOKO_Bottom,老师,0,0,0,kara,对了 经费也要归还哦\Nあっ 部費は返還してね
+Dialogue: 0,0:06:32.60,0:06:35.08,SIKANOKO_Bottom,虎子,0,0,0,kara,胜负还没有分出来呢\Nまだ勝負は決まってねえ!
+Dialogue: 0,0:06:35.08,0:06:37.59,SIKANOKO_Bottom,虎子,0,0,0,kara,如果你们无论如何都要带她走的话\Nどうしても連れて行くというなら
+Dialogue: 0,0:06:37.59,0:06:39.79,SIKANOKO_Bottom,虎子,0,0,0,kara,先赢过我 小啾\N私が相手だ キュンちゃん!
+Dialogue: 0,0:06:41.25,0:06:43.88,SIKANOKO_Bottom,同学,0,0,0,kara,虎视同学居然这么保护鹿宝\Nこしさん そこまでのこたんを
+Dialogue: 0,0:06:44.10,0:06:46.92,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝 为了我挺身而出\Nこしたん 私のために
+Dialogue: 0,0:06:46.92,0:06:48.13,SIKANOKO_Bottom,旁白,0,0,0,kara,并非为了你\N違います
+Dialogue: 0,0:06:48.13,0:06:50.85,SIKANOKO_Bottom,老师,0,0,0,kara,第二回合紧急开始\N急遽二戦目が決まりました
+Dialogue: 0,0:06:50.85,0:06:54.14,SIKANOKO_Bottom,老师,0,0,0,kara,参与对战的舞者是 鹿社的社长虎视虎子\N踊るのはシカ部部長 虎視虎子
+Dialogue: 0,0:06:54.45,0:06:56.64,SIKANOKO_Bottom,虎子,0,0,0,kara,只能硬着头皮上了\Nやるしか ねー!
+Dialogue: 0,0:06:56.64,0:06:58.58,SIKANOKO_Bottom,老师,0,0,0,kara,跳舞 开始！\Nダンススタート!
+Dialogue: 0,0:07:14.19,0:07:17.66,SIKANOKO_Bottom,虎子,0,0,0,kara,真没想到 参加鹿展的经验竟然在这时候派上用场了\Nこんなところで シカコレの経験が役に立つなんて
+Dialogue: 0,0:07:18.01,0:07:20.04,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐 跳得太棒了\Nすてき お姉ちゃん
+Dialogue: 0,0:07:20.31,0:07:22.97,SIKANOKO_Bottom,老师,0,0,0,kara,接下来 评判请评分\Nさあ審査員 お願いします
+Dialogue: 0,0:07:24.29,0:07:26.67,SIKANOKO_Bottom,老师,0,0,0,kara,哎呀 居然是平手\Nおっと 引き分けです
+Dialogue: 0,0:07:26.89,0:07:28.93,SIKANOKO_Bottom,老师,0,0,0,kara,这样的话\Nさあこの場合は?
+Dialogue: 0,0:07:30.75,0:07:32.68,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,角还是不够灵活啊\Nツノのキレが甘い
+Dialogue: 0,0:07:33.68,0:07:35.58,SIKANOKO_Bottom,虎子,0,0,0,kara,要我把你那对角拔起来吗\Nそのツノ引っこ抜いたのか!
+Dialogue: 0,0:07:35.58,0:07:40.35,SIKANOKO_Bottom,老师,0,0,0,kara,总之 目前鹿宝不用被强制送回了\Nまあ とりあえずのこたんの強制送還はなしってことで
+Dialogue: 0,0:07:42.31,0:07:44.65,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你变强了 小啾\N強くなったな キュンちゃん
+Dialogue: 0,0:07:45.48,0:07:47.73,SIKANOKO_Bottom,虎子,0,0,0,kara,你可是输得体无完肤啊\N完膚なきまでにお前の負けだよ
+Dialogue: 0,0:07:47.73,0:07:50.65,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,为了祝贺你的成长 给你这个\N君の成長を祝してこれを
+Dialogue: 0,0:07:50.65,0:07:54.05,SIKANOKO_Bottom,馅子,0,0,0,kara,小啾可是兔子 能吃鹿仙贝吗\Nキュンちゃんはウサギよ 鹿せんべいは大丈夫なの?
+Dialogue: 0,0:07:55.68,0:08:00.47,SIKANOKO_Bottom,馅子,0,0,0,kara,小啾是虾夷鸣兔 其特征是圆圆的耳朵和圆溜的眼睛\Nキュンちゃんは 丸い耳と円らな瞳が特徴のエゾナキウサギ
+Dialogue: 0,0:08:00.47,0:08:05.59,SIKANOKO_Bottom,馅子,0,0,0,kara,因为温顺且胆小怕事 平时一直戴着虾夷鹿的头饰\N大人しく小心者なので 普段はエゾシカの被り物を身につけているの
+Dialogue: 0,0:08:05.59,0:08:11.92,SIKANOKO_Bottom,馅子,0,0,0,kara,但是因为好奇心 有时应该也会戴一些不同的头饰\Nでも 好奇心は旺盛だから 時にはそれ以外の被り物も身につけたりするみたい
+Dialogue: 0,0:08:13.00,0:08:15.93,SIKANOKO_Bottom,虎子,0,0,0,kara,明明不是鹿 怎么是鹿穴的人啊\N鹿じゃない 鹿の穴なのに
+Dialogue: 0,0:08:16.39,0:08:19.09,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,啊 真是酣畅淋漓啊\Nあぁ いい汗かいたな
+Dialogue: 0,0:08:19.09,0:08:20.68,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿到底是什么生物啊\Nシカとは一体
+Dialogue: 0,0:08:21.53,0:08:23.06,SIKANOKO_Bottom,近丸,0,0,0,kara,鹿宝\Nのこたん
+Dialogue: 0,0:08:23.42,0:08:25.99,SIKANOKO_Bottom,小花,0,0,0,kara,接下来和我们玩吧\N次は私たちと遊ぶハム
+Dialogue: 0,0:08:25.99,0:08:27.60,SIKANOKO_Bottom,虎子,0,0,0,kara,怎么又来了\Nってまた来た
+Dialogue: 0,0:08:27.60,0:08:29.94,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,下一批刺客这就来了吗\Nくっ もう次の刺客が
+Dialogue: 0,0:08:29.94,0:08:32.19,SIKANOKO_Bottom,馅子,0,0,0,kara,这次是近丸君和小花\N近丸くんと花ちゃん
+Dialogue: 0,0:08:33.24,0:08:35.81,SIKANOKO_Bottom,馅子,0,0,0,kara,他们是长崎县小值贺町的吉祥物\N長崎県小値賀町のゆるキャラで
+Dialogue: 0,0:08:35.81,0:08:38.64,SIKANOKO_Bottom,馅子,0,0,0,kara,为了拉近人们和小值贺町的距离\Nみんなと小値賀町の関係が近まるように
+Dialogue: 0,0:08:38.64,0:08:44.50,SIKANOKO_Bottom,馅子,0,0,0,kara,这对男女吉祥物组合努力让小值贺岛上的市民们绽放出如花般的笑容\N花のような笑顔を小値賀の島いっぱいに咲かせて頑張る 男の子と女の子
+Dialogue: 0,0:08:45.58,0:08:46.87,SIKANOKO_Bottom,近丸,0,0,0,kara,你好呀\Nこんにちか
+Dialogue: 0,0:08:46.87,0:08:49.10,SIKANOKO_Bottom,虎子,0,0,0,kara,你们好 你们真有礼貌\Nあは どうもご丁寧に
+Dialogue: 0,0:08:49.96,0:08:51.48,SIKANOKO_Bottom,馅子,0,0,0,kara,顺带一提 这两位是\Nちなみにこの子たちは
+Dialogue: 0,0:08:51.48,0:08:55.06,SIKANOKO_Bottom,馅子,0,0,0,kara,穿着九州鹿形象玩偶服的孩子\N九州鹿をモチーフにした着ぐるみを着た子どもなのよ
+Dialogue: 0,0:08:55.06,0:08:56.59,SIKANOKO_Bottom,虎子,0,0,0,kara,他们也不是鹿吗\Nまた鹿じゃないの?
+Dialogue: 0,0:08:56.95,0:09:01.45,SIKANOKO_Bottom,老师,0,0,0,kara,由于来了新的刺客 接下来将进行二对二搭档对决\Nでは新たな刺客を迎え 2対2のコンビ対決!
+Dialogue: 0,0:09:01.45,0:09:03.73,SIKANOKO_Bottom,老师,0,0,0,kara,默契大挑战！\N以心伝心ゲーム!
+Dialogue: 0,0:09:05.28,0:09:08.66,SIKANOKO_Bottom,老师,0,0,0,kara,双方要在不说话的情况下 猜出对方在想什么\Nお互い何も言わずに 何を考えてるのか当てて
+Dialogue: 0,0:09:08.66,0:09:11.23,SIKANOKO_Bottom,老师,0,0,0,kara,比比哪对搭档更有爱\Nそのコンビ愛を競います!
+Dialogue: 0,0:09:11.69,0:09:13.50,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,一起加油吧 虎宝\N頑張ろうね こしたん
+Dialogue: 0,0:09:13.50,0:09:16.04,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,让他们看看我们的深厚情谊\N私たちの絆を見せつけてやろう!
+Dialogue: 0,0:09:16.04,0:09:18.49,SIKANOKO_Bottom,虎子,0,0,0,kara,事已至此只能奉陪到底了\Nこうなやもう何でもこいや!
+Dialogue: 0,0:09:18.49,0:09:23.16,SIKANOKO_Bottom,老师,0,0,0,kara,那么 请你们猜猜对方在想什么吧\Nでは早速 お互いが何を考えてるか 当ててください
+Dialogue: 0,0:09:23.16,0:09:25.25,SIKANOKO_Bottom,老师,0,0,0,kara,预备… 开始！\Nレディー ゴー!
+Dialogue: 0,0:09:25.92,0:09:28.88,SIKANOKO_Bottom,近丸,0,0,0,kara,小值贺町是由漂浮在九州西侧海域中\N小値賀町は九州の西の海に浮かぶ
+Dialogue: 0,0:09:28.88,0:09:31.97,SIKANOKO_Bottom,近丸,0,0,0,kara,大大小小各个岛屿组成的小镇\N大小の島で形成されている町チカ
+Dialogue: 0,0:09:31.97,0:09:36.26,SIKANOKO_Bottom,近丸,0,0,0,kara,主要产业是渔业 农业和旅游业\N主な産業は漁業 農業 観光業チカ
+Dialogue: 0,0:09:36.26,0:09:40.25,SIKANOKO_Bottom,小花,0,0,0,kara,拥有被评为世界遗产的野崎岛村落遗迹\N世界遺産に選ばれた野崎島の集落跡や
+Dialogue: 0,0:09:40.25,0:09:43.69,SIKANOKO_Bottom,小花,0,0,0,kara,还有峥嵘的自然环境 和许多值得一玩的地方\N豊な自然など 見どころもいっぱいハナ
+Dialogue: 0,0:09:43.69,0:09:46.14,SIKANOKO_Bottom,近丸,0,700,0,kara,她是这样想的\Nって 考えてるチカ
+Dialogue: 0,0:09:43.69,0:09:46.14,SIKANOKO_Bottom,小花,700,0,0,kara,他是这样想的\Nって 考えてるハナ
+Dialogue: 0,0:09:46.14,0:09:47.64,SIKANOKO_Bottom,老师,0,0,0,kara,回答正确\N正解
+Dialogue: 0,0:09:47.64,0:09:50.01,SIKANOKO_Bottom,虎子,0,0,0,kara,等等 这不就是旅游介绍嘛\Nいや これただの観光案内では?
+Dialogue: 0,0:09:50.01,0:09:52.40,SIKANOKO_Bottom,虎子,0,0,0,kara,还有 老师你明显在偏袒他们吧\Nつか 明らかな忖度ですよね
+Dialogue: 0,0:09:52.40,0:09:54.79,SIKANOKO_Bottom,老师,0,0,0,kara,老师我什么都不知道哦\N先生は何も知らないわ
+Dialogue: 0,0:09:54.79,0:09:58.41,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,居然能完全猜对 不愧是他们\N完全正解とは さすがだね
+Dialogue: 0,0:09:58.86,0:10:01.67,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝 到我们上场了\Nこしたん 次は私たちの番だよ
+Dialogue: 0,0:10:01.67,0:10:03.18,SIKANOKO_Bottom,虎子,0,0,0,kara,好… 好\Nお おう
+Dialogue: 0,0:10:04.67,0:10:06.41,SIKANOKO_Bottom,老师,0,0,0,kara,预备… 开始！\Nレディー ゴー!
+Dialogue: 0,0:10:12.84,0:10:14.76,SIKANOKO_Bottom,老师,0,0,0,kara,那么 请给出那么的答案\Nそれでは お答えください!
+Dialogue: 0,0:10:14.76,0:10:15.42,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我先来\Nはい
+Dialogue: 0,0:10:15.67,0:10:17.79,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我爱你 鹿宝\Nアイラブユー のこたん
+Dialogue: 0,0:10:17.79,0:10:22.19,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,这是我花了3个月工资特地给你买的\Nこれ 君のために用意した 給料3ヶ月分の
+Dialogue: 0,0:10:22.19,0:10:23.10,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿角\Nツノ
+Dialogue: 0,0:10:23.46,0:10:26.02,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,羞羞 虎宝别这样啦\Nもう こしたんってば!
+Dialogue: 0,0:10:27.82,0:10:29.19,SIKANOKO_Bottom,馅子,0,0,0,kara,回答错误！\N不正解
+Dialogue: 0,0:10:29.64,0:10:33.77,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐心里时刻想着的只能是我\Nお姉ちゃんがいつも考えてるのは 私のことに決まってるもの
+Dialogue: 0,0:10:34.23,0:10:37.82,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,不 其实是我 虎宝 到你回答了\Nいや 私のことだよ こしたん 答えて
+Dialogue: 0,0:10:38.16,0:10:41.53,SIKANOKO_Bottom,虎子,0,0,0,kara,完全猜不出来呀\Nうーん まったくわからん!
+Dialogue: 0,0:10:41.53,0:10:43.12,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝 你好过分\Nこしたんひどいよ!
+Dialogue: 0,0:10:43.12,0:10:45.66,SIKANOKO_Bottom,虎子,0,0,0,kara,鬼知道啊 我又没有超能力\Nわかるか 超能力者じゃあるまいし!
+Dialogue: 0,0:10:45.66,0:10:48.94,SIKANOKO_Bottom,老师,0,0,0,kara,难道说 虎宝选择不回答 这样一来…\Nこれは無回答?ということは?
+Dialogue: 0,0:10:48.94,0:10:51.89,SIKANOKO_Bottom,老师,0,0,0,kara,胜者是 近丸君和小花\N近丸くんと花ちゃんの勝利!
+Dialogue: 0,0:10:51.89,0:10:53.21,SIKANOKO_Bottom,近丸 & 小花,0,0,0,kara,太好了\Nやったー!
+Dialogue: 0,0:10:53.21,0:10:56.21,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,呜哇 我不想走啊\Nうわ 行きたくない!
+Dialogue: 0,0:10:56.21,0:10:58.65,SIKANOKO_Bottom,根子,0,0,0,kara,需要我们帮忙吗\N私たちの助けが必要かしら?
+Dialogue: 0,0:10:58.65,0:11:00.15,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,你是鹿山田鹿\Nお前は鹿山田シカ
+Dialogue: 0,0:11:00.15,0:11:01.51,SIKANOKO_Bottom,根子,0,0,0,kara,是猫山田根子啦\N猫山田ねこよ!
+Dialogue: 0,0:11:01.51,0:11:03.39,SIKANOKO_Bottom,虎子,0,0,0,kara,猫山田同学怎么也来了\Nどうして猫山田さんが?
+Dialogue: 0,0:11:03.39,0:11:06.88,SIKANOKO_Bottom,根子,0,0,0,kara,作为学生会成员当然要保护学生的安全\N生徒会として生徒を守るのは当然のこと
+Dialogue: 0,0:11:06.88,0:11:09.09,SIKANOKO_Bottom,根子,0,0,0,kara,才不是为了会长你呢\N別に会長のためじゃないです
+Dialogue: 0,0:11:09.45,0:11:12.58,SIKANOKO_Bottom,旁白,0,0,0,kara,原本一心想着让鹿社解散的根子回心转意\N本来ならシカ部廃部大歓迎のネコちゃんだけど
+Dialogue: 0,0:11:12.58,0:11:14.90,SIKANOKO_Bottom,旁白,0,0,0,kara,毕竟也是最后一集了嘛\Nアニメも最終回とあって
+Dialogue: 0,0:11:15.83,0:11:17.44,SIKANOKO_Bottom,旁白,0,0,0,kara,其实早就在等着出场了\Nずっとスタンバってました
+Dialogue: 0,0:11:17.44,0:11:19.24,SIKANOKO_Bottom,根子,0,0,0,kara,旁白你不要多嘴\N余計なナレーションすんな
+Dialogue: 0,0:11:19.50,0:11:21.80,SIKANOKO_Bottom,近丸,0,0,0,kara,这几位姐姐也要一起玩吗\Nお姉ちゃんたちも遊ぶチカ?
+Dialogue: 0,0:11:21.80,0:11:24.29,SIKANOKO_Bottom,根子,0,0,0,kara,当然 就让我们来助他们一臂之力吧\Nうん 胸を貸してあげるわ
+Dialogue: 0,0:11:24.29,0:11:26.92,SIKANOKO_Bottom,根子,0,0,0,kara,默契说的就是我们学生会\N以心伝心といえば私たち生徒会
+Dialogue: 0,0:11:26.92,0:11:29.91,SIKANOKO_Bottom,根子,0,0,0,kara,即使什么都不说我们也心意相通\N何も言わなくても心から分かり合えるわ!
+Dialogue: 0,0:11:30.46,0:11:32.46,SIKANOKO_Bottom,千春,0,0,0,kara,那么 绢 我们俩搭档\Nじゃあ絹 2人組
+Dialogue: 0,0:11:32.92,0:11:35.67,SIKANOKO_Bottom,千春,0,0,0,kara,绝不会让你们带走鹿宝学姐的\Nのこたん先輩は つれていかせない
+Dialogue: 0,0:11:35.92,0:11:40.30,SIKANOKO_Bottom,绢,0,0,0,kara,千春居然愿意和我这种人搭档 为了她我豁出去了\Nもう私なんかと組んでくれる千春のために命を捨てないと
+Dialogue: 0,0:11:42.32,0:11:42.97,SIKANOKO_Bottom,虎子,0,0,0,kara,我懂的\N分かるよ
+Dialogue: 0,0:11:43.30,0:11:44.18,SIKANOKO_Bottom,根子,0,0,0,kara,别这样\Nやめて
+Dialogue: 0,0:11:44.49,0:11:49.06,SIKANOKO_Bottom,老师,0,0,0,kara,既然定好了新的对手 第二场比赛 开始\Nでは新たな対戦相手も決まり 第2戦のスタートです
+Dialogue: 0,0:11:52.86,0:11:54.62,SIKANOKO_Bottom,近丸,0,0,0,kara,啊 已经到时间了啊\Nあっもう時間チカ
+Dialogue: 0,0:11:54.62,0:11:58.58,SIKANOKO_Bottom,近丸,0,0,0,kara,今天是住在小值贺町的植村怜央小朋友的生日\N今日は小値賀町在住植村怜央君の誕生日チカ
+Dialogue: 0,0:11:58.58,0:12:00.46,SIKANOKO_Bottom,小花,0,0,0,kara,要回去帮他庆生\Nお祝いに帰るハナ
+Dialogue: 0,0:12:00.46,0:12:01.07,SIKANOKO_Bottom,虎子,0,0,0,kara,什么\Nえ？
+Dialogue: 0,0:12:01.44,0:12:03.07,SIKANOKO_Bottom,馅子,0,0,0,kara,啊 确实\Nおお そうだった
+Dialogue: 0,0:12:03.49,0:12:05.81,SIKANOKO_Bottom,馅子,0,0,0,kara,在小值贺町 近丸君和小花他们\N小値賀町では 子どもの誕生日
+Dialogue: 0,0:12:05.81,0:12:08.37,SIKANOKO_Bottom,馅子,0,0,0,kara,会在小孩过生日的时候去他们家里庆生\N近丸くんと花ちゃんがお祝いに来るの
+Dialogue: 0,0:12:08.72,0:12:10.50,SIKANOKO_Bottom,近丸,0,500,0,kara,拜拜\Nバイバイチカ
+Dialogue: 0,0:12:08.76,0:12:10.50,SIKANOKO_Bottom,小花,500,0,0,kara,拜啦\Nバイバイハナ
+Dialogue: 0,0:12:10.98,0:12:13.21,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,各位 我们赢了\N勝ったよ みんな
+Dialogue: 0,0:12:13.21,0:12:15.54,SIKANOKO_Bottom,虎子,0,0,0,kara,你赢了个啥啊\Nいやお前負けっぱなしだろ
+Dialogue: 0,0:12:15.54,0:12:17.37,SIKANOKO_Bottom,马车芽,0,0,0,kara,真是一场苦战啊\N辛い戦いでした
+Dialogue: 0,0:12:17.37,0:12:20.03,SIKANOKO_Bottom,虎子,0,0,0,kara,你是真的根本什么都没做吧\Nお前に至ってはマジ何もしてないよな
+Dialogue: 0,0:12:20.03,0:12:21.30,SIKANOKO_Bottom,马车芽,0,0,0,kara,啊 这个\Nお これ
+Dialogue: 0,0:12:21.84,0:12:25.18,SIKANOKO_Bottom,马车芽,0,0,0,kara,一个脸色不太好的大叔给我的\N顔色の悪いおじさんから預かりました
+Dialogue: 0,0:12:29.47,0:12:31.81,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,难道说… 他要来了吗\Nまさか やつが来るのか?
+Dialogue: 0,0:12:32.26,0:12:34.63,SIKANOKO_Bottom,虎子,0,0,0,kara,啊 还有人要来？\Nはあ また来んの?
+Dialogue: 0,0:12:34.63,0:12:36.24,SIKANOKO_Bottom,馅子,0,0,0,kara,让我看看这次是谁\N今度は誰なの?
+Dialogue: 0,0:12:37.44,0:12:39.20,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,下个周末\N次の休みに
+Dialogue: 0,0:12:39.20,0:12:41.74,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,在这里 日野市\Nこの 日野市に
+Dialogue: 0,0:12:41.74,0:12:44.82,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,将会迎来鹿穴最强刺客\N鹿の穴 最強の刺客
+Dialogue: 0,0:12:44.82,0:12:46.91,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,迁都君\Nせんとくんが!
+Dialogue: 0,0:12:50.09,0:12:53.71,SIKANOKO_Bottom,全体,0,0,0,kara,什 什么\Nな なんだって
+Dialogue: 0,0:12:53.96,0:12:57.46,SIKANOKO_Bottom,旁白,0,0,0,kara,现在 鹿社迎来了史上难度最高的战斗\N今 シカ部最大の戦いが始まる
+Dialogue: 0,0:13:05.42,0:13:06.47,SIKANOKO_Bottom,虎子,0,0,0,kara,给鹿宝\Nのこたんへ
+Dialogue: 0,0:13:06.79,0:13:09.29,SIKANOKO_Bottom,虎子,0,0,0,kara,下个周末我要去找你玩\N次の休みに遊びに行くよ
+Dialogue: 0,0:13:09.29,0:13:12.37,SIKANOKO_Bottom,虎子,0,0,0,kara,我在日野市市民体育馆等你\N日野市立市民体育館で待ってる
+Dialogue: 0,0:13:12.37,0:13:13.48,SIKANOKO_Bottom,虎子,0,0,0,kara,By 迁都\NBy せんと
+Dialogue: 0,0:13:13.87,0:13:15.98,SIKANOKO_Bottom,虎子,0,0,0,kara,毫无疑问 这就是挑战信\Nまごうことなき果たし状!
+Dialogue: 0,0:13:15.98,0:13:18.10,SIKANOKO_Bottom,马车芽,0,0,0,kara,就是字面意思过来玩玩吧\N文字通り遊びでは?
+Dialogue: 0,0:13:20.41,0:13:23.59,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,无…无论要比什么 我都会轻松击退他的\Nどどどんな勝負でも簡単に撃退してみせるよ!
+Dialogue: 0,0:13:23.59,0:13:26.53,SIKANOKO_Bottom,虎子,0,0,0,kara,冷静点 而且你目前还没赢过吧\N落ち着け それにもうお前全敗してるだろ
+Dialogue: 0,0:13:26.53,0:13:28.58,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,放 放马过来\Nさっこーい!
+Dialogue: 0,0:13:28.58,0:13:30.58,SIKANOKO_Bottom,虎子,0,0,0,kara,这突然的猫拳是怎么回事啊\N何だそのネコパンチは
+Dialogue: 0,0:13:31.94,0:13:34.99,SIKANOKO_Bottom,虎子,0,0,0,kara,特训！现在就开始特训！\N特訓だ 今から特訓だ
+Dialogue: 0,0:13:34.99,0:13:35.92,SIKANOKO_Bottom,虎子,0,0,0,kara,给我过来\Nこい!
+Dialogue: 0,0:13:37.03,0:13:42.34,SIKANOKO_Bottom,馅子,0,0,0,kara,啊 姐姐进入少年漫画的热血模式了呢\Nはあ お姉ちゃんの少年マンガスイッチが入ってしまったわね
+Dialogue: 0,0:14:56.50,0:14:59.96,SIKANOKO_Bottom,主持人,0,0,0,kara,各位 这一天终于到来了\Nさあ いよいよこの日がやってまいりました
+Dialogue: 0,0:14:59.96,0:15:02.36,SIKANOKO_Bottom,主持人,0,0,0,kara,日野的野鹿 鹿乃子乃子对战\N日野のあらじか鹿乃子のこvs
+Dialogue: 0,0:15:02.36,0:15:05.47,SIKANOKO_Bottom,主持人,0,0,0,kara,奈良县官方吉祥物迁都君\N奈良県公式マスコットキャラクターせんと君の
+Dialogue: 0,0:15:05.47,0:15:08.29,SIKANOKO_Bottom,主持人,0,0,0,kara,鹿系吉祥物巅峰对决\N鹿系ゆるキャラ頂上対決
+Dialogue: 0,0:15:08.29,0:15:11.23,SIKANOKO_Bottom,主持人,0,0,0,kara,我们邀请到了研究鹿穴的权威人士\N解説には鹿の穴研究の第一人者
+Dialogue: 0,0:15:11.23,0:15:14.03,SIKANOKO_Bottom,主持人,0,0,0,kara,缪拉约翰老师前来解说\Nミュラージョンさんにお越しいただいております
+Dialogue: 0,0:15:14.03,0:15:15.85,SIKANOKO_Bottom,路人M,0,0,0,kara,大家好 我是缪拉\Nどうも ミュラーです
+Dialogue: 0,0:15:16.57,0:15:21.61,SIKANOKO_Bottom,主持人,0,0,0,kara,听说为了这次战斗 鹿宝经历了一个星期的特训\Nのこたんは今回の戦いのために1週間相当な特訓をしてきたようですが?
+Dialogue: 0,0:15:21.61,0:15:23.61,SIKANOKO_Bottom,主持人,0,0,0,kara,缪拉老师 您怎么看\Nミュラーさん いかがでしょうか?
+Dialogue: 0,0:15:23.61,0:15:26.36,SIKANOKO_Bottom,路人M,0,0,0,kara,迁都君训练了1300年\Nせんと君は 1300年です
+Dialogue: 0,0:15:27.13,0:15:32.00,SIKANOKO_Bottom,主持人,0,0,0,kara,您是说由于迁都君是纪念平城迁都1300周年设计的吉祥物\Nせんと君は平城遷都1300年祭に生まれたマスコットキャラクターだから
+Dialogue: 0,0:15:32.00,0:15:33.66,SIKANOKO_Bottom,主持人,0,0,0,kara,所以更有分量吗\N重みが違うと?
+Dialogue: 0,0:15:33.66,0:15:35.28,SIKANOKO_Bottom,路人M,0,0,0,kara,没错\Nその通りです
+Dialogue: 0,0:15:35.28,0:15:38.62,SIKANOKO_Bottom,主持人,0,0,0,kara,接下来会是怎样的一场战斗呢 让我们拭目以待\Nこれはどういう戦いになるか 楽しみですね
+Dialogue: 0,0:15:39.26,0:15:41.34,SIKANOKO_Bottom,主持人,0,0,0,kara,接下来 有请参赛选手入场\Nさあ 選手入場です
+Dialogue: 0,0:15:41.34,0:15:44.88,SIKANOKO_Bottom,主持人,0,0,0,kara,让我们欢迎 日野南高中高三B班的\Nまずは 日野南高校3年B組
+Dialogue: 0,0:15:44.88,0:15:47.29,SIKANOKO_Bottom,主持人,0,0,0,kara,鹿乃子乃子\N鹿乃子のこ!
+Dialogue: 0,0:15:58.13,0:15:59.51,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,乃们好\Nのーつ!
+Dialogue: 0,0:15:59.89,0:16:02.89,SIKANOKO_Bottom,主持人,0,0,0,kara,接下来 有请迁都君入场\Nそして せんと君の入場です
+Dialogue: 0,0:16:04.42,0:16:05.90,SIKANOKO_Bottom,同学,0,0,0,kara,迁都君！\Nせんとくん!
+Dialogue: 0,0:16:07.41,0:16:08.90,SIKANOKO_Bottom,同学,0,0,0,kara,迁都君！\Nせんとくん!
+Dialogue: 0,0:16:11.03,0:16:13.12,SIKANOKO_Bottom,同学,0,0,0,kara,迁都君！\Nせんとくん!
+Dialogue: 0,0:16:25.17,0:16:28.11,SIKANOKO_Bottom,歌,0,0,0,kara,迁都君肯定知道\Nせんとくんなら知っている
+Dialogue: 0,0:16:28.11,0:16:31.11,SIKANOKO_Bottom,歌,0,0,0,kara,迁都君肯定知道\Nせんとくんなら知っている
+Dialogue: 0,0:16:31.11,0:16:34.30,SIKANOKO_Bottom,歌,0,0,0,kara,迁都君肯定知道\Nせんとくんなら知っている
+Dialogue: 0,0:16:34.30,0:16:39.06,SIKANOKO_Bottom,歌,0,0,0,kara,通向未来吧\N未来へ繋ごう
+Dialogue: 0,0:16:39.06,0:16:41.31,SIKANOKO_Bottom,歌,0,0,0,kara,平城京\N平城京
+Dialogue: 0,0:16:50.25,0:16:53.37,SIKANOKO_Bottom,歌,0,0,0,kara,迁都君！\Nせんとくん!
+Dialogue: 1,0:16:53.37,0:16:56.93,SIKANOKO_Bottom,马车芽,0,0,0,kara,感觉入场气氛就差了一大截呢\Nなんか入場の盛り上がりは負けましたね
+Dialogue: 1,0:16:56.93,0:16:58.98,SIKANOKO_Bottom,馅子,0,0,0,kara,不愧是闻名全国的吉祥物\Nさすが全国区ゆるキャラ
+Dialogue: 1,0:16:58.98,0:17:01.37,SIKANOKO_Bottom,虎子,0,0,0,kara,只 只要赢了比赛就行\Nし 試合に勝てばいいんだよ!
+Dialogue: 0,0:17:01.75,0:17:03.00,SIKANOKO_Bottom,善治,0,0,0,kara,请两位选手到中间来\N両者こちらへ
+Dialogue: 0,0:17:03.24,0:17:05.60,SIKANOKO_Bottom,善治,0,0,0,kara,等等 为什么是我当裁判\Nって なんで私がレフリーなの?
+Dialogue: 0,0:17:05.60,0:17:08.25,SIKANOKO_Bottom,旁白,0,0,0,kara,都到大结局了 当然要动员上所有人\N最終回だから総動員です
+Dialogue: 0,0:17:08.25,0:17:11.79,SIKANOKO_Bottom,善治,0,0,0,kara,呃 比赛时不可以使用武器\Nえー 武器を使った攻撃は反則です
+Dialogue: 0,0:17:11.79,0:17:12.51,SIKANOKO_Bottom,善治,0,0,0,kara,就这一条规则\N以上
+Dialogue: 0,0:17:12.51,0:17:16.01,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,让你见识下我特训的成果 迁都君！\N特訓の成果を見せてあげるよ せんと君!
+Dialogue: 0,0:17:16.27,0:17:18.76,SIKANOKO_Bottom,主持人,0,0,0,kara,接下来是 万众瞩目的第一回合\Nさあ 注目の第一ラウンドです!
+Dialogue: 0,0:17:19.73,0:17:21.89,SIKANOKO_Bottom,虎子,0,0,0,kara,上啊 鹿乃子\N行け 鹿乃子!
+Dialogue: 0,0:17:25.73,0:17:29.61,SIKANOKO_Bottom,路人M,0,0,0,kara,喔 迁都君是用日本国技 相扑的动作啊\Nおお せんとくんは日本の国技 相撲スタイルですね
+Dialogue: 0,0:17:29.85,0:17:31.27,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,狂妄的家伙\Nしゃらくせえ！
+Dialogue: 0,0:17:36.94,0:17:39.45,SIKANOKO_Bottom,主持人,0,0,0,kara,迁都君正处于完全防守的姿态\Nせんとくん防戦一方
+Dialogue: 0,0:17:39.45,0:17:42.45,SIKANOKO_Bottom,虎子,0,0,0,kara,很好 一鼓作气 鹿乃子\Nいいぞ その調子だ 鹿乃子!
+Dialogue: 0,0:17:42.45,0:17:44.20,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,看我迅速结束战斗\Nさっさと終わらせてよ
+Dialogue: 0,0:18:04.74,0:18:06.26,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子！\Nああ 鹿乃子
+Dialogue: 0,0:18:06.26,0:18:08.77,SIKANOKO_Bottom,馅子,0,0,0,kara,姐姐 比赛才刚开始呢\Nお姉ちゃんまだ始まったばかり
+Dialogue: 0,0:18:08.77,0:18:12.11,SIKANOKO_Bottom,马车芽,0,0,0,kara,拿种水稻比喻的话 这才刚给稻田灌完水呢\N米作りでいえば 田んぼに水を張ったばかりです
+Dialogue: 0,0:18:13.87,0:18:15.65,SIKANOKO_Bottom,主持人,0,0,0,kara,回合结束钟声敲响\Nここでゴング
+Dialogue: 0,0:18:15.65,0:18:18.76,SIKANOKO_Bottom,主持人,0,0,0,kara,第一回合是迁都君的压倒性胜利\Nせんと君が圧倒する第一ラウンドでした
+Dialogue: 0,0:18:18.76,0:18:20.12,SIKANOKO_Bottom,路人M,0,0,0,kara,果真名不虚传\Nさすがです
+Dialogue: 0,0:18:20.12,0:18:21.92,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,眼冒金星了\Nはらほろひ…
+Dialogue: 0,0:18:21.92,0:18:23.99,SIKANOKO_Bottom,虎子,0,0,0,kara,你还好吗 鹿乃子\N大丈夫か 鹿乃子
+Dialogue: 0,0:18:23.99,0:18:28.48,SIKANOKO_Bottom,虎子,0,0,0,kara,你已经尽力了 只是 敌人太强了\Nお前はよくやったよ だが 敵は強大すぎた
+Dialogue: 0,0:18:28.99,0:18:29.86,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝\Nこしたん
+Dialogue: 0,0:18:30.74,0:18:33.50,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,请你一定不要扔毛巾给我\N絶対にタオルは投げないでほしい
+Dialogue: 0,0:18:34.61,0:18:35.59,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我\N私は
+Dialogue: 0,0:18:35.92,0:18:37.85,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我绝对会赢的\N私は絶対に勝つ
+Dialogue: 0,0:18:38.70,0:18:39.70,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,相信我\N信じて
+Dialogue: 0,0:18:41.04,0:18:42.28,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子\N鹿乃子
+Dialogue: 0,0:18:46.04,0:18:48.50,SIKANOKO_Bottom,主持人,0,0,0,kara,好 第二回合 开始\Nさあ　第二ラウンドです
+Dialogue: 0,0:18:59.59,0:19:00.53,SIKANOKO_Bottom,虎子,0,0,0,kara,鹿乃子？\N鹿乃子?
+Dialogue: 0,0:19:00.67,0:19:02.60,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿嘻嘻嘻嘻…\Nしかかかか
+Dialogue: 0,0:19:02.60,0:19:05.88,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,来一场无视规则的鹿斗吧\Nさあ ルール無用なシカファイトといこうか!
+Dialogue: 0,0:19:05.88,0:19:08.04,SIKANOKO_Bottom,虎子,0,0,0,kara,我就不该蠢到相信你\N信じた私が馬鹿だった!
+Dialogue: 0,0:19:08.30,0:19:10.50,SIKANOKO_Bottom,主持人,0,0,0,kara,啊 这可是犯规哦\Nああ これは反則です!
+Dialogue: 0,0:19:10.50,0:19:12.81,SIKANOKO_Bottom,路人M,0,0,0,kara,这个女高中生真厉害\Nすごいな この女子高生
+Dialogue: 0,0:19:13.14,0:19:15.42,SIKANOKO_Bottom,路人M,0,0,0,kara,竟然抛弃了自己是鹿的身份认同\Nシカのアイデンティティ 捨てちゃったよ
+Dialogue: 0,0:19:17.56,0:19:20.05,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,只要能赢就行 能赢就行\N勝ちゃいいんだよ 勝ちゃ
+Dialogue: 0,0:19:20.05,0:19:23.76,SIKANOKO_Bottom,虎子,0,0,0,kara,你干脆输掉算了 犯规只会丢我们鹿社的脸\Nもう負けていい!反則なんてシカ部の恥だ!
+Dialogue: 0,0:19:23.76,0:19:25.62,SIKANOKO_Bottom,路人M,0,0,0,kara,但是 这样战斗也挺不错吧\Nでも そこがいいんじゃない?
+Dialogue: 0,0:19:25.62,0:19:26.81,SIKANOKO_Bottom,虎子,0,0,0,kara,诶？可以吗？\Nえ?いいの?
+Dialogue: 0,0:19:26.81,0:19:30.85,SIKANOKO_Bottom,主持人,0,0,0,kara,没想到 权威人士竟然允许了犯规\Nああ 第一任者 まさかの反則容認だ!
+Dialogue: 0,0:19:40.32,0:19:41.79,SIKANOKO_Bottom,虎子,0,0,0,kara,是时候投降了吧\Nもう打ち止めだろう
+Dialogue: 0,0:19:41.79,0:19:43.74,SIKANOKO_Bottom,虎子,0,0,0,kara,你已经撑到了最后一回合了\N最終ラウンドまで頑張った
+Dialogue: 0,0:19:44.16,0:19:46.49,SIKANOKO_Bottom,虎子,0,0,0,kara,这股不服输的拼劲还是值得表扬的\N負けん気だけは認めてやるよ
+Dialogue: 0,0:19:46.71,0:19:47.79,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝\Nこしたん
+Dialogue: 0,0:19:47.79,0:19:50.37,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我决不会让鹿社解散的\Nシカ部は 絶対廃部にしない
+Dialogue: 0,0:19:50.86,0:19:52.12,SIKANOKO_Bottom,虎子,0,0,0,kara,你啊\Nお前
+Dialogue: 0,0:19:52.48,0:19:55.26,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,认识你之后  认识大家之后\Nこしたんと出会い　みんなと出会い
+Dialogue: 0,0:19:55.26,0:19:57.13,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我 我\N私は 私は
+Dialogue: 0,0:19:57.48,0:19:59.40,SIKANOKO_Bottom,虎子,0,0,0,kara,就算给我看走马灯\N走馬灯を見ても
+Dialogue: 0,0:19:59.40,0:20:04.64,SIKANOKO_Bottom,虎子,0,0,0,kara,让我觉得幸好身边有你的事也…虽然倒也不是没有…\Nお前が来てよかったことってあったって 思わんでもないが
+Dialogue: 0,0:20:05.17,0:20:06.97,SIKANOKO_Bottom,虎子,0,0,0,kara,总之上吧 鹿乃子\N行け 鹿乃子!
+Dialogue: 0,0:20:06.97,0:20:09.02,SIKANOKO_Bottom,虎子,0,0,0,kara,不 鹿宝\Nいや のこたん
+Dialogue: 0,0:20:09.02,0:20:11.77,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝！\Nこしたーん
+Dialogue: 0,0:20:12.59,0:20:14.77,SIKANOKO_Bottom,主持人,0,0,0,kara,让我们进入 最终回合\Nさあ 最終ラウンドです
+Dialogue: 0,0:20:15.12,0:20:18.02,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿拳 最终绝招\Nシカ拳 最終奥義!
+Dialogue: 0,0:20:18.02,0:20:19.86,SIKANOKO_Bottom,虎子,0,0,0,kara,最终绝招？\N最終奥義?
+Dialogue: 0,0:20:19.86,0:20:21.15,SIKANOKO_Bottom,虎子,0,0,0,kara,难道是断己相…\Nまさか 断己相…
+Dialogue: 0,0:20:21.15,0:20:23.41,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿蜻蜓\Nシカコプタ
+Dialogue: 0,0:20:23.41,0:20:25.37,SIKANOKO_Bottom,虎子,0,0,0,kara,这算哪门子最终绝招啊\N何その最終奥義!
+Dialogue: 0,0:20:26.00,0:20:26.91,SIKANOKO_Bottom,虎子,0,0,0,kara,飞起来了？\N飛んだ？
+Dialogue: 0,0:20:26.91,0:20:30.47,SIKANOKO_Bottom,虎子,0,0,0,kara,啊  所以你第一集挂在电线上就是因为这个？\Nあ 一話で電柱に引っ掛かってたのって
+Dialogue: 0,0:20:30.47,0:20:32.78,SIKANOKO_Bottom,马车芽,0,0,0,kara,没想到在这里回收伏笔\Nまさかの伏線回収
+Dialogue: 0,0:20:32.78,0:20:35.43,SIKANOKO_Bottom,馅子,0,0,0,kara,因为是大结局 所以想做什么就做什么了\N最終回だからやりたい放題ね
+Dialogue: 0,0:20:37.67,0:20:42.28,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,哪怕是迁都君 也一样拿空中攻击没辙吧\N空からの攻撃は いくらせんとくんでも 手も足も出ない
+Dialogue: 0,0:20:42.28,0:20:43.68,SIKANOKO_Bottom,虎子,0,0,0,kara,是鹿角炸弹\Nツノ爆弾だ!
+Dialogue: 0,0:20:43.68,0:20:44.18,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,吃我一角\N食らえ
+Dialogue: 0,0:20:52.31,0:20:54.29,SIKANOKO_Bottom,虎子,0,0,0,kara,喂 住手啊 鹿乃子\Nおい やめろ鹿乃子
+Dialogue: 0,0:20:54.29,0:20:55.71,SIKANOKO_Bottom,虎子,0,0,0,kara,你这实在是做得太过火…\Nいくら何でもやりす…
+Dialogue: 0,0:20:57.44,0:20:59.86,SIKANOKO_Bottom,主持人,0,0,0,kara,真 真是意想不到的发展\Nと とんでもない展開に
+Dialogue: 0,0:20:59.86,0:21:00.27,SIKANOKO_Bottom,主持人,0,0,0,kara,啊\Nあっ
+Dialogue: 0,0:21:02.07,0:21:02.98,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,吃我一角！\Nのつ
+Dialogue: 0,0:21:04.57,0:21:05.45,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,吃我一角！\Nのつ
+Dialogue: 0,0:21:07.13,0:21:07.95,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,吃我一角！\Nのつ
+Dialogue: 0,0:21:12.94,0:21:15.00,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿嘻嘻嘻嘻\Nしかかかかか
+Dialogue: 0,0:21:15.00,0:21:17.16,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿嘻嘻嘻嘻\Nしかかかかか
+Dialogue: 0,0:21:17.16,0:21:19.86,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,鹿嘻嘻嘻嘻\Nしかかかかか
+Dialogue: 0,0:21:27.08,0:21:27.75,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜？\Nヌン
+Dialogue: 0,0:21:37.49,0:21:39.65,SIKANOKO_Bottom,主持人,0,0,0,kara,比赛结束！\N試合終了!
+Dialogue: 0,0:21:39.65,0:21:41.32,SIKANOKO_Bottom,主持人,0,0,0,kara,胜者是迁都君\N勝者せんとくん!
+Dialogue: 0,0:21:44.90,0:21:46.72,SIKANOKO_Bottom,虎子,0,0,0,kara,你啊\Nお前な
+Dialogue: 0,0:21:47.12,0:21:49.45,SIKANOKO_Bottom,虎子,0,0,0,kara,不过 已经努力了\Nでもまあ 頑張ったな
+Dialogue: 0,0:21:49.45,0:21:50.70,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝\Nこしたん
+Dialogue: 0,0:21:51.01,0:21:52.95,SIKANOKO_Bottom,主持人,0,0,0,kara,接下来是 胜者专访\Nさあ 勝者インタビューです
+Dialogue: 0,0:21:53.18,0:21:56.28,SIKANOKO_Bottom,路人M,0,0,0,kara,啊对了 迁都君是不会说话的吉祥物\Nああ せんとくんは喋らないゆるキャラですよ
+Dialogue: 0,0:21:56.66,0:21:59.91,SIKANOKO_Bottom,主持人,0,0,0,kara,所以 就改为输者专访吧\Nというわけで 代わりに敗者インタビューです
+Dialogue: 0,0:21:59.91,0:22:01.04,SIKANOKO_Bottom,虎子,0,0,0,kara,真的假的\Nマジかよ
+Dialogue: 0,0:22:02.57,0:22:08.18,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,各位 我今天来到这里 只想着胜利\N皆さん 私は今日ここに来た時 勝つことしか考えていなかった
+Dialogue: 0,0:22:08.65,0:22:12.56,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,只想着逃离鹿穴\N鹿の穴から逃げることしか考えていなかった
+Dialogue: 0,0:22:13.20,0:22:18.47,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,但是 和迁都君交手后 我改变主意了\Nしかし せんとくんと戦う中で 大きな心の変化が現れました
+Dialogue: 0,0:22:19.47,0:22:21.69,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,这场比赛的输赢并不重要\N勝ち負けなどどうでもいい!
+Dialogue: 0,0:22:21.69,0:22:25.62,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,在这场战斗中拼尽全力才更为可贵\Nこの戦いで全力を出し切ったことこそ尊いぞ
+Dialogue: 0,0:22:26.19,0:22:30.37,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,因此 我想说 我和迁都君都是胜者\Nよって 私もせんと君も 共に勝者であると!
+Dialogue: 0,0:22:30.37,0:22:31.66,SIKANOKO_Bottom,虎子,0,0,0,kara,等等\Nちょっと待て!
+Dialogue: 0,0:22:31.66,0:22:33.87,SIKANOKO_Bottom,虎子,0,0,0,kara,你犯了那么多规还…\Nお前 散々反則しといて何を!
+Dialogue: 0,0:22:35.02,0:22:37.76,SIKANOKO_Bottom,路人M,0,0,0,kara,太令人感动了 两位都是胜者\N感動した 二人とも優勝!
+Dialogue: 0,0:22:37.76,0:22:40.70,SIKANOKO_Bottom,虎子,0,0,0,kara,缪拉先生 你脑子里在想什么啊\Nミュラーさん あんたどうかしてるよ!
+Dialogue: 0,0:22:41.62,0:22:43.42,SIKANOKO_Bottom,虎子,0,0,0,kara,迁都君也太心胸宽广了\Nせんとくんも心広すぎ!
+Dialogue: 0,0:22:50.91,0:22:51.82,SIKANOKO_Bottom,角田,0,0,0,kara,说得好\Nのつ
+Dialogue: 0,0:22:52.68,0:22:56.61,SIKANOKO_Bottom,虎子,0,0,0,kara,诶 大家为什么会被这种破演讲感动\Nええ?何皆こんな演説で感動してんの?
+Dialogue: 0,0:22:56.61,0:23:00.46,SIKANOKO_Bottom,馅子,0,0,0,kara,算了 也挺好 鹿社也因此免于解散\Nまあ いいんじゃない?これでシカ部の廃部も免れて
+Dialogue: 0,0:23:00.46,0:23:03.94,SIKANOKO_Bottom,马车芽,0,0,0,kara,马车芽也能名正言顺地继续种水稻了\N馬車芽も晴れて稲作を続けられます
+Dialogue: 0,0:23:03.94,0:23:05.29,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,虎宝\Nこしたん
+Dialogue: 0,0:23:05.80,0:23:07.67,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,我如约获胜了\N約束通り勝ったよ
+Dialogue: 0,0:23:07.67,0:23:09.70,SIKANOKO_Bottom,虎子,0,0,0,kara,你说赢了就赢了吧\Nもうどうにでもしてくれ
+Dialogue: 0,0:23:09.70,0:23:12.70,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,今后也有劳你照顾我了\Nこれからも世話 頼むね
+Dialogue: 0,0:23:12.70,0:23:14.83,SIKANOKO_Bottom,虎子,0,0,0,kara,好 好吧\Nも もう
+Dialogue: 0,0:23:15.26,0:23:17.70,SIKANOKO_Bottom,虎子,0,0,0,kara,事已至此也只好这样了\Nこうなったからにはしゃーねえな
+Dialogue: 0,0:23:20.48,0:23:21.17,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nヌン
+Dialogue: 0,0:23:28.30,0:23:31.41,SIKANOKO_Bottom,鹿乃子,0,0,0,kara,噜\Nヌン
+Dialogue: 0,0:23:19.37,0:23:29.72,SIKANOKO_Top,同学,0,0,0,kara,鹿宝！\Nのこたん
+Comment: 0,0:00:38.02,0:00:38.06,SIKANOKO_Bottom,,0,0,0,import-shifted,../op_sc.ass
+Comment: 0,0:00:38.02,0:00:38.06,SIKANOKO_Bottom,,0,0,0,import,insert/insert01.ass
+Comment: 0,0:00:38.02,0:00:38.06,SIKANOKO_Bottom,,0,0,0,import,insert/insert02.ass
+Comment: 0,0:00:38.02,0:00:38.06,SIKANOKO_Bottom,,0,0,0,import,insert/insert03.ass
+Comment: 0,0:00:38.02,0:00:38.06,SIKANOKO_Bottom,,0,0,0,import,screen/screen.ass

@@ -1,0 +1,164 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+
+[Aegisub Project Garbage]
+Audio File: C:/Users/scree/Desktop/shika/ep12.mkv
+Video File: C:/Users/scree/Desktop/shika/ep12.mkv
+Video AR Mode: 4
+Video AR Value: 1.777778
+Video Zoom Percent: 0.875000
+Scroll Position: 83
+Active Line: 105
+Video Position: 28199
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OnScreen,思源黑体,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:05.53,OnScreen,,0,0,0,,{\fad(522,522)\fn獅尾圓體SC-Black\b0\fscx80\fscy80\c&H020202&\3c&HFFFFFF&\bord3.5}本故事纯属虚构。作品中出现的人名、地名及团体名等均与现实没有任何关系。
+Dialogue: 0,0:12:57.46,0:13:01.11,OnScreen,eyecatch,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(113,334)}鹿儿岛\N雾岛\N韩国峰
+Dialogue: 0,0:13:01.11,0:13:04.47,OnScreen,eyecatch2,0,0,0,,{\an7\fn思源黑体\b0\c&H0B0B0B&\3c&HFFFFFF&\bord2\fscx170\fscy170\pos(113,334)}鹿儿岛\N雾岛杜鹃\N鹿之原
+Dialogue: 0,0:00:00.00,0:00:00.00,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 1,0:02:17.99,0:02:20.82,OnScreen,,0,0,0,,{=11}{\c&H636363&\an7\fn思源黑体\b0\fscx159.61\fscy159.21\frz0.0380\frx-0.1648\fry0.0152\org(554.01,536.53)\pos(604.62,284.96)}致鹿宝小姐：\N\N\N上周有劳了。我是熊取。\N北海道天气严寒。\N\N前几天，我在大雪山遇到了一个刺\N客，想来许是要去暗杀你的。\N应该是『鹿穴』为了抹杀你，召集\N了日本全国的刺客。\N衷心祈愿你平安无事。\N\N\N\N熊取宗一郎
+Dialogue: 0,0:02:17.99,0:02:20.82,OnScreen,,0,0,0,,{\an7\pos(0,0)\p1\clip(585.33,261.33,1289.33,1040)}m 0 0 l 1920 0 1920 1080 0 1080 0 0{\p0}
+Dialogue: 0,0:04:35.04,0:04:35.08,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1217.41,482.74)\pos(1208.26,509.6)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.08,0:04:35.12,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1227.76,488.94)\pos(1218.61,515.8)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.12,0:04:35.17,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1238.12,495.15)\pos(1228.97,522.01)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.17,0:04:35.21,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1248.48,501.36)\pos(1239.33,528.22)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.21,0:04:35.25,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1258.83,507.57)\pos(1249.68,534.43)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.25,0:04:35.29,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1269.17,513.77)\pos(1260.02,540.63)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.29,0:04:35.33,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1279.54,519.98)\pos(1270.39,546.84)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.33,0:04:35.37,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1289.89,526.17)\pos(1280.74,553.03)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.37,0:04:35.42,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1300.25,532.39)\pos(1291.1,559.25)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.42,0:04:35.46,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1310.62,538.61)\pos(1301.47,565.47)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.46,0:04:35.50,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1320.97,544.81)\pos(1311.82,571.67)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.50,0:04:35.54,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1331.36,551.03)\pos(1322.21,577.89)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.54,0:04:35.58,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1341.68,557.21)\pos(1332.53,584.07)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.58,0:04:35.63,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1352.04,563.43)\pos(1342.89,590.29)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.63,0:04:35.67,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1362.41,569.65)\pos(1353.26,596.51)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.67,0:04:35.71,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1372.77,575.86)\pos(1363.62,602.72)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.71,0:04:35.75,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1383.1,582.06)\pos(1373.95,608.92)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.75,0:04:35.79,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1393.46,588.26)\pos(1384.31,615.12)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.79,0:04:35.83,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1403.83,594.47)\pos(1394.68,621.33)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.83,0:04:35.88,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1414.19,600.67)\pos(1405.04,627.53)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.88,0:04:35.92,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1424.56,606.89)\pos(1415.41,633.75)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.92,0:04:35.96,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1434.92,613.11)\pos(1425.77,639.97)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:35.96,0:04:36.00,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1445.26,619.3)\pos(1436.11,646.16)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.00,0:04:36.04,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1455.61,625.5)\pos(1446.46,652.36)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.04,0:04:36.08,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1465.95,631.71)\pos(1456.8,658.57)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.08,0:04:36.13,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1476.33,637.92)\pos(1467.18,664.78)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.13,0:04:36.17,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1486.69,644.13)\pos(1477.54,670.99)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.17,0:04:36.21,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1497.05,650.34)\pos(1487.9,677.2)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.21,0:04:36.25,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1507.41,656.55)\pos(1498.26,683.41)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.25,0:04:36.29,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1517.77,662.77)\pos(1508.62,689.63)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.29,0:04:36.33,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1528.12,668.96)\pos(1518.97,695.82)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.33,0:04:36.38,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1538.48,675.17)\pos(1529.33,702.03)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.38,0:04:36.42,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1548.82,681.36)\pos(1539.67,708.22)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.42,0:04:36.46,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1559.19,687.59)\pos(1550.04,714.45)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.46,0:04:36.50,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1569.54,693.79)\pos(1560.39,720.65)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.50,0:04:36.54,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1579.9,699.98)\pos(1570.75,726.84)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.54,0:04:36.58,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1590.26,706.2)\pos(1581.11,733.06)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.58,0:04:36.63,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1600.61,712.4)\pos(1591.46,739.26)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.63,0:04:36.67,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1610.97,718.62)\pos(1601.82,745.48)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.67,0:04:36.71,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1621.31,724.81)\pos(1612.16,751.67)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.71,0:04:36.75,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1631.68,731.03)\pos(1622.53,757.89)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.75,0:04:36.79,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1642.03,737.24)\pos(1632.88,764.1)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.79,0:04:36.83,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1652.39,743.45)\pos(1643.24,770.31)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.83,0:04:36.88,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1662.75,749.65)\pos(1653.6,776.51)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.88,0:04:36.92,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1673.1,755.86)\pos(1663.95,782.72)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.92,0:04:36.96,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1683.46,762.06)\pos(1674.31,788.92)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:36.96,0:04:37.00,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1693.82,768.28)\pos(1684.67,795.14)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.00,0:04:37.04,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1704.18,774.48)\pos(1695.03,801.34)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.04,0:04:37.08,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1714.53,780.69)\pos(1705.38,807.55)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.08,0:04:37.13,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1724.89,786.9)\pos(1715.74,813.76)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.13,0:04:37.17,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1735.25,793.1)\pos(1726.1,819.96)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.17,0:04:37.21,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1745.6,799.31)\pos(1736.45,826.17)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.21,0:04:37.25,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1755.97,805.52)\pos(1746.82,832.38)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.25,0:04:37.29,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1766.32,811.72)\pos(1757.17,838.58)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.29,0:04:37.34,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1776.68,817.93)\pos(1767.53,844.79)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.34,0:04:37.38,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1787.04,824.15)\pos(1777.89,851.01)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.38,0:04:37.42,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1797.4,830.35)\pos(1788.25,857.21)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.42,0:04:37.46,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1807.75,836.56)\pos(1798.6,863.42)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.46,0:04:37.50,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1818.11,842.77)\pos(1808.96,869.63)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.50,0:04:37.54,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1828.47,848.97)\pos(1819.32,875.83)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.54,0:04:37.59,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1838.82,855.18)\pos(1829.67,882.04)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.59,0:04:37.63,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1849.18,861.38)\pos(1840.03,888.24)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.63,0:04:37.67,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1859.54,867.58)\pos(1850.39,894.44)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.67,0:04:37.71,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1869.9,873.81)\pos(1860.75,900.67)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.71,0:04:37.75,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1880.25,880.01)\pos(1871.1,906.87)\fn思源黑体\b0}制作人
+Dialogue: 0,0:04:37.75,0:04:37.79,OnScreen,track,0,0,0,,{=20=29}{\alpha&H00&\c&H192030&\fax0.244028\fscx187.46\fscy134.29\frz-10.76\frx1.2607\fry4.3298\org(1890.6,886.2)\pos(1881.45,913.06)\fn思源黑体\b0}制作人
+Dialogue: 0,0:05:28.93,0:05:30.43,OnScreen,,0,0,0,,{\fscx200\fscy200\fn思源黑体 Medium\b0\pos(1220,1031.33)\c&H222937&\3c&HFCF6ED&\bord3}编舞 Lucky池田
+Dialogue: 0,0:06:10.47,0:06:12.10,OnScreen,,0,0,0,,{\c&H1A2231&\3c&HF6F6F6&\bord3\fscx150\fscy150\fn思源黑体 Medium\b0\pos(960,908)\fad(200,0)}『鹿穴』的工作人员
+Dialogue: 0,0:07:23.06,0:07:24.29,OnScreen,,0,0,0,,{\fscx240\fscy320\pos(960,320)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:26.67,0:07:28.71,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx240\fscy320\pos(960,320)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.71,0:07:28.76,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx239.85\fscy319.8\pos(957.5,322.27)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.76,0:07:28.80,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx239.41\fscy319.21\pos(950.16,328.9)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.80,0:07:28.84,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx238.7\fscy318.27\pos(938.23,339.71)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.84,0:07:28.88,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx237.73\fscy316.97\pos(922.03,354.38)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.88,0:07:28.92,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx236.54\fscy315.38\pos(901.8,372.64)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.92,0:07:28.96,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx235.11\fscy313.49\pos(877.95,394.23)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:28.96,0:07:29.01,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx233.5\fscy311.34\pos(850.76,418.81)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.01,0:07:29.05,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx231.72\fscy308.96\pos(820.58,446.08)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.05,0:07:29.09,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx229.77\fscy306.36\pos(787.77,475.76)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.09,0:07:29.13,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx227.68\fscy303.58\pos(752.64,507.52)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.13,0:07:29.17,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx225.48\fscy300.64\pos(715.53,541.08)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.17,0:07:29.22,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx223.19\fscy297.58\pos(676.74,576.12)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.22,0:07:29.26,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx220.8\fscy294.4\pos(636.6,612.43)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.26,0:07:29.30,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx218.35\fscy291.13\pos(595.39,649.7)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.30,0:07:29.34,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx215.85\fscy287.81\pos(553.35,687.7)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.34,0:07:29.38,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx213.33\fscy284.44\pos(510.77,726.21)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.38,0:07:29.42,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx210.78\fscy281.04\pos(467.86,765.01)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.42,0:07:29.47,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx208.23\fscy277.64\pos(424.85,803.9)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.47,0:07:29.51,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx205.68\fscy274.24\pos(381.94,842.7)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.51,0:07:29.55,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx203.15\fscy270.87\pos(339.32,881.23)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.55,0:07:29.59,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx200.65\fscy267.53\pos(297.12,919.38)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.59,0:07:29.63,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx198.18\fscy264.23\pos(255.53,957)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.63,0:07:29.67,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx195.75\fscy261\pos(214.66,993.94)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.67,0:07:29.72,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx193.37\fscy257.83\pos(174.67,1030.11)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.72,0:07:29.76,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx191.06\fscy254.74\pos(135.62,1065.42)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.76,0:07:29.80,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx188.8\fscy251.73\pos(97.63,1099.77)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:29.80,0:07:29.84,OnScreen,track,0,0,0,,{=30}{\frz0\alpha&H00&\fscx186.61\fscy248.81\pos(60.8,1133.09)\c&H18202F&\fn思源黑体\b1}平手
+Dialogue: 0,0:07:32.68,0:07:33.68,OnScreen,,0,0,0,,{=28}{\c&H18202F&\fn思源黑体\b1\fax-0.059929\fscx286.91\fscy332.80\frz0.0464\frx-0.5436\fry0.0333\org(945.46,276.71)\pos(948.9,343.27)}辛辣
+Dialogue: 0,0:13:42.34,0:13:45.93,OnScreen,,0,0,0,,{\an8\fn仓耳周珂正大榜书\pos(960,585)\fscx255\fscy255\c&H000000&\b0\3c&H75CDD9&\bord7\blur6}「野生的鹿」
+Dialogue: 0,0:19:36.13,0:19:38.13,OnScreen,,0,0,0,,{\c&H1B2233&\3c&HF3F4FA&\bord3\fscx200\fscy200\fn思源黑体 Medium\b0\pos(970,1070)}贿赂失败
+
+[Aegisub Extradata]
+Data: 0,_aegi_perspective_ambient_plane,e568.47;55.80#7C1597.18;-24.00#7C1597.18;1128.00#7C271.18;1128.00
+Data: 1,_aegi_perspective_ambient_plane,e568.47;55.80#7C1310.90;50.29#7C1597.18;1128.00#7C271.18;1128.00
+Data: 2,_aegi_perspective_ambient_plane,e568.47;55.80#7C1310.01;55.05#7C1597.18;1127.99#7C271.17;1128.00
+Data: 3,_aegi_perspective_ambient_plane,e568.47;55.52#7C1310.02;55.05#7C1597.18;1127.99#7C271.17;1127.99
+Data: 4,_aegi_perspective_ambient_plane,e568.75;55.24#7C1310.02;55.05#7C1597.18;1127.99#7C271.17;1128.00
+Data: 5,_aegi_perspective_ambient_plane,e568.47;55.24#7C1310.02;55.05#7C1597.18;1127.99#7C271.17;1128.00
+Data: 6,_aegi_perspective_ambient_plane,e568.47;55.24#7C1310.02;55.05#7C1597.18;1127.99#7C572.23;246.17
+Data: 7,_aegi_perspective_ambient_plane,e568.47;55.24#7C1309.93;55.05#7C1308.38;246.14#7C572.23;246.18
+Data: 8,_aegi_perspective_ambient_plane,e568.47;55.24#7C1309.92;55.05#7C1308.65;242.11#7C572.23;246.18
+Data: 9,_aegi_perspective_ambient_plane,e568.47;55.24#7C1309.92;55.05#7C1308.65;242.11#7C568.47;242.42
+Data: 10,_aegi_perspective_ambient_plane,e568.53;55.24#7C1309.64;55.05#7C1308.47;242.11#7C568.63;242.42
+Data: 11,_aegi_perspective_ambient_plane,e568.53;55.24#7C1309.65;55.05#7C1308.48;242.11#7C568.63;242.42
+Data: 12,_aegi_perspective_ambient_plane,e563.79;307.67#7C1070.88;449.00#7C1070.88;529.00#7C905.12;529.00
+Data: 13,_aegi_perspective_ambient_plane,e563.79;307.67#7C1070.88;449.00#7C1070.88;529.00#7C601.12;563.67
+Data: 14,_aegi_perspective_ambient_plane,e563.79;307.67#7C1070.88;449.00#7C1241.54;617.00#7C601.12;563.67
+Data: 15,_aegi_perspective_ambient_plane,e563.79;307.67#7C1396.21;473.00#7C1241.54;617.00#7C601.12;563.67
+Data: 16,_aegi_perspective_ambient_plane,e563.79;307.67#7C1396.20;473.00#7C1428.86;682.57#7C601.13;563.67
+Data: 17,_aegi_perspective_ambient_plane,e563.79;307.67#7C1395.35;473.29#7C1428.86;682.57#7C601.12;563.67
+Data: 18,_aegi_perspective_ambient_plane,e568.06;307.14#7C1395.35;473.29#7C1428.86;682.57#7C601.13;563.67
+Data: 19,_aegi_perspective_ambient_plane,e568.06;307.14#7C1395.35;473.29#7C1428.86;682.57#7C597.98;556.24
+Data: 20,_aegi_perspective_ambient_plane,e568.06;307.14#7C1395.35;473.29#7C1426.53;682.28#7C597.98;556.24
+Data: 21,_aegi_perspective_ambient_plane,e445.69;205.71#7C1092.60;128.00#7C1092.60;384.00#7C827.40;384.00
+Data: 22,_aegi_perspective_ambient_plane,e445.69;205.71#7C1092.60;128.00#7C1092.60;384.00#7C427.40;822.86
+Data: 23,_aegi_perspective_ambient_plane,e445.69;205.71#7C1092.60;128.00#7C1403.46;818.29#7C427.40;822.86
+Data: 24,_aegi_perspective_ambient_plane,e445.69;205.71#7C1442.31;201.14#7C1403.46;818.29#7C427.40;822.86
+Data: 25,_aegi_perspective_ambient_plane,e445.69;205.71#7C1443.78;204.55#7C1403.46;818.29#7C427.40;822.86
+Data: 26,_aegi_perspective_ambient_plane,e445.69;205.71#7C1443.78;204.55#7C1403.23;820.84#7C427.40;822.86
+Data: 27,_aegi_perspective_ambient_plane,e445.69;205.71#7C1443.78;204.55#7C1403.23;820.84#7C423.68;822.61
+Data: 28,_aegi_perspective_ambient_plane,e445.54;205.62#7C1443.61;204.94#7C1403.09;820.75#7C423.55;822.52
+Data: 29,a-mo,e{"uuid"#3A"39fd6ce7-e67a-4346-8871-7ce4ab278827"#2C"originalText"#3A"{\\c&H192030&\\fax0.244028\\fscx187.46\\fscy134.29\\frz-10.7612\\frx1.2607\\fry4.3298\\org(1217.41#2C482.74)\\pos(1208.26#2C509.6)\\fn#E6#80#9D#E6#BA#90#E9#BB#91#E4#BD#93\\b0}#E5#88#B6#E4#BD#9C#E4#BA#BA"}
+Data: 30,a-mo,e{"uuid"#3A"188363e4-4804-4db6-9c9b-2ebe7cda43d5"#2C"originalText"#3A"{\\fscx240\\fscy320\\pos(960#2C320)\\c&H18202F&\\fn#E6#80#9D#E6#BA#90#E9#BB#91#E4#BD#93\\b1}#E5#B9#B3#E6#89#8B"}
